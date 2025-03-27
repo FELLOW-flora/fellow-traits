@@ -1,0 +1,20 @@
+Package: fellow-traits
+Title: Research compendium for extracting trait values from a list of species
+Version: 0.0.1
+Authors@R: c(
+    person(given   = "Romain",
+           family  = "Frelat",
+           role    = c("aut"),
+           email   = "rom.frelat@gmail.com",
+           comment = c(ORCID = "0000-0002-8631-4398")))
+Description: 
+URL: https://github.com/FELLOW-flora/fellow-traits
+BugReports: https://github.com/FELLOW-flora/fellow-traits/issues
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+LazyDataCompression: xz
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Depends: 
+    R (>= 3.5.0)
