@@ -1,3 +1,13 @@
+# Get trait information from https://floraveg.eu/
+# input: 
+#    species list in species_list_taxo.csv
+#    trait databases in data/raw-data/traits
+# output: so far only percentage of coverage
+
+# if the script is not run from make.R, need to load home made functions (clean_taxo())
+devtools::load_all()
+# or source(here::here("R", "clean_taxo.R"))
+
 # Load species list with taxonomy
 taxolist <- read.csv(here::here("data", "derived-data","species_list_taxo.csv"))
 # if we want to select only species
@@ -40,7 +50,7 @@ m5 <- match(taxolist$accepted_taxref, tichy$taxa2)
 m6 <- match(taxolist$accepted_gbif, tichy$taxa2)
 m_tichy <- ifelse(!is.na(m1), m1, ifelse(!is.na(m2),m2, m3))
 m_tichy <- ifelse(!is.na(m_tichy), m_tichy, ifelse(!is.na(m4),m4, ifelse(!is.na(m5), m5, m6)))
-prop.table(table(!is.na(m_tichy))) #88%
+prop.table(table(!is.na(m_tichy))) #87%
 
 
 

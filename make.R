@@ -31,6 +31,6 @@ source(here::here("analyses", "01_get_specieslist.R"))
 source(here::here("analyses", "02_clean_taxo.R"))
 
 # 3 Get traits
-source(here::here("analyses", "03_get_traits.R"))
+source(here::here("analyses", "03a_get_traits_floraveg.R"))
 # so far only percentage of species covered by trait database are computed
 # trait extraction to be defined ...

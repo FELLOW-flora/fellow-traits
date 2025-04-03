@@ -33,21 +33,23 @@ taxref <- read.table(here::here("data", "raw-data", "TAXREF_v18_2025", "TAXREFv1
 taxref$clean_name <- clean_taxo(taxref$LB_NOM)
 
 mtr <- match(tolower(spclean), tolower(taxref$clean_name))
+# for synonyms, make sure to get the accepted information
+msyn <- match(taxref$NOM_VALIDE[mtr], taxref$NOM_COMPLET)
 
 df <- data.frame(
     original_taxa = spclean,
-    accepted_taxref = taxref$LB_NOM[mtr],
-    taxref_key = taxref$CD_REF[mtr],
-    taxref_rank = taxref$RANG[mtr],
-    taxref_full_name = taxref$NOM_COMPLET[mtr],
-    taxref_phylum = taxref$CLASSE[mtr],
-    taxref_order = taxref$ORDRE[mtr],
-    taxref_family = taxref$FAMILLE[mtr],
-    taxref_status = "EXACT",
-    G1_INPN= taxref$GROUP1_INPN[mtr],
-    G2_INPN= taxref$GROUP2_INPN[mtr],
-    G3_INPN= taxref$GROUP3_INPN[mtr],
-    habitat = taxref$HABITAT[mtr]
+    accepted_taxref = taxref$LB_NOM[msyn],
+    taxref_key = taxref$CD_REF[msyn],
+    taxref_rank = taxref$RANG[msyn],
+    taxref_full_name = taxref$NOM_COMPLET[msyn],
+    taxref_class = taxref$CLASSE[msyn],
+    taxref_order = taxref$ORDRE[msyn],
+    taxref_family = taxref$FAMILLE[msyn],
+    taxref_status = ifelse(msyn==mtr, "EXACT_ACCEPTED", "EXACT_SYNONYM"),
+    G1_INPN= taxref$GROUP1_INPN[msyn],
+    G2_INPN= taxref$GROUP2_INPN[msyn],
+    G3_INPN= taxref$GROUP3_INPN[msyn],
+    habitat = taxref$HABITAT[msyn]
 )
 
 # remove non-matching element
@@ -75,21 +77,23 @@ fuzzy_verified <- read.csv(here::here("data", "derived-data", "checked_fuzzy_tax
 fuzzy_verified <- fuzzy_verified[fuzzy_verified$original_taxa %in% no_taxref,]
 
 fuzzy_mtr <- match(fuzzy_verified$accepted_taxref, taxref$LB_NOM)
+# for synonyms, make sure to get the accepted information
+fuzzy_syn <- match(taxref$NOM_VALIDE[fuzzy_mtr], taxref$NOM_COMPLET)
 
 fuzzy_df <- data.frame(
     original_taxa = fuzzy_verified$original_taxa,
-    accepted_taxref = taxref$LB_NOM[fuzzy_mtr],
-    taxref_key = taxref$CD_REF[fuzzy_mtr],
-    taxref_rank = taxref$RANG[fuzzy_mtr],
-    taxref_full_name = taxref$NOM_COMPLET[fuzzy_mtr],
-    taxref_phylum = taxref$CLASSE[fuzzy_mtr],
-    taxref_order = taxref$ORDRE[fuzzy_mtr],
-    taxref_family = taxref$FAMILLE[fuzzy_mtr],
-    taxref_status = "FUZZY",
-    G1_INPN= taxref$GROUP1_INPN[fuzzy_mtr],
-    G2_INPN= taxref$GROUP2_INPN[fuzzy_mtr],
-    G3_INPN= taxref$GROUP3_INPN[fuzzy_mtr],
-    habitat = taxref$HABITAT[fuzzy_mtr]
+    accepted_taxref = taxref$LB_NOM[fuzzy_syn],
+    taxref_key = taxref$CD_REF[fuzzy_syn],
+    taxref_rank = taxref$RANG[fuzzy_syn],
+    taxref_full_name = taxref$NOM_COMPLET[fuzzy_syn],
+    taxref_class = taxref$CLASSE[fuzzy_syn],
+    taxref_order = taxref$ORDRE[fuzzy_syn],
+    taxref_family = taxref$FAMILLE[fuzzy_syn],
+    taxref_status = ifelse(fuzzy_syn==fuzzy_mtr, "FUZZY_ACCEPTED", "FUZZY_SYNONYM"),
+    G1_INPN= taxref$GROUP1_INPN[fuzzy_syn],
+    G2_INPN= taxref$GROUP2_INPN[fuzzy_syn],
+    G3_INPN= taxref$GROUP3_INPN[fuzzy_syn],
+    habitat = taxref$HABITAT[fuzzy_syn]
 )
 fuzzy_df <- fuzzy_df[!is.na(fuzzy_df$accepted_taxref),]
 
@@ -142,6 +146,8 @@ full_df <- cbind(full_df, gbif_df)
 # focus on taxa not found in TaxRef
 miss <- spclean[!spclean %in%full_df$original_taxa]
 print(paste("Taxa not found in Taxref:", length(miss))) #11 only!
+
+addgbif <- rgbif::name_backbone_checklist(miss, strict = TRUE)
 # strict = TRUE else weird match
 table(addgbif$status, addgbif$matchType, useNA="ifany") # 2 not found
 
@@ -189,13 +195,16 @@ gbif_add[addgbif$matchType=="HIGHERRANK",] <- data.frame(
 
 # check back in TaxRef
 madd <- match(tolower(gbif_add$accepted_gbif), tolower(taxref$clean_name))
+# check if synonyms are needed : no
+# maddsyn <- match(taxref$NOM_VALIDE[madd], taxref$NOM_COMPLET)
+# table(madd==maddsyn)
 taxref_add <- data.frame(
     original_taxa = miss,
     accepted_taxref = taxref$LB_NOM[madd],
     taxref_key = taxref$CD_REF[madd],
     taxref_rank = taxref$RANG[madd],
     taxref_full_name = taxref$NOM_COMPLET[madd],
-    taxref_phylum = taxref$CLASSE[madd],
+    taxref_class = taxref$CLASSE[madd],
     taxref_order = taxref$ORDRE[madd],
     taxref_family = taxref$FAMILLE[madd],
     taxref_status = ifelse(is.na(madd),"NOT FOUND", "EXACT_GBIF"),
@@ -213,7 +222,7 @@ all_df <- all_df[order(all_df$original_taxa),]
 write.csv(all_df, here::here("data", "derived-data","species_list_taxo.csv"), row.names=FALSE)
 
 # make a sublist of taxa to be checked
-tbc <- all_df[!(all_df$taxref_status%in%"EXACT"&all_df$gbif_status%in%"EXACT_ACCEPTED"),] #262 taxa
+tbc <- all_df[!(all_df$taxref_status%in%c("EXACT_ACCEPTED","EXACT_SYNONYM") & all_df$gbif_status%in%"EXACT_ACCEPTED"),] #262 taxa
 write.csv(tbc, here::here("data", "derived-data","species_tobechecked.csv"), row.names=FALSE)
 # sp[match(tbc$original_taxa[tbc$taxref_status=="NOT FOUND"], sp$taxa),-2]
 
