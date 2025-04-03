@@ -1,5 +1,8 @@
 # Load species list with taxonomy
-taxolist <- read.csv(here::here("data", "derived-data","species_list_taxo.csv"), )
+taxolist <- read.csv(here::here("data", "derived-data","species_list_taxo.csv"))
+# if we want to select only species
+# taxolist <- taxolist[taxolist$gbif_rank=="SPECIES",]
+
 # set the folder with traits data
 traitfolder <- here::here("data", "raw-data", "traits")
 
@@ -18,7 +21,7 @@ m1 <- match(taxolist$original_taxa, modolo$taxa)
 m2 <- match(taxolist$accepted_taxref, modolo$taxa)
 m3 <- match(taxolist$accepted_gbif, modolo$taxa)
 m_modolo <- ifelse(!is.na(m1), m1, ifelse(!is.na(m2),m2, m3))
-prop.table(table(!is.na(m_modolo))) #69%
+prop.table(table(!is.na(m_modolo))) #70%
 
 
 
@@ -37,7 +40,7 @@ m5 <- match(taxolist$accepted_taxref, tichy$taxa2)
 m6 <- match(taxolist$accepted_gbif, tichy$taxa2)
 m_tichy <- ifelse(!is.na(m1), m1, ifelse(!is.na(m2),m2, m3))
 m_tichy <- ifelse(!is.na(m_tichy), m_tichy, ifelse(!is.na(m4),m4, ifelse(!is.na(m5), m5, m6)))
-prop.table(table(!is.na(m_tichy))) #87%
+prop.table(table(!is.na(m_tichy))) #88%
 
 
 
