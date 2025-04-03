@@ -30,7 +30,9 @@ print(paste("Number of unique taxa:", length(spclean))) #1361
 # much faster and more reliable to use the full database locally
 # https://inpn.mnhn.fr/telechargement/referentielEspece/taxref/18.0/menu
 taxref <- read.table(here::here("data", "raw-data", "TAXREF_v18_2025", "TAXREFv18.txt"), sep="\t", header = TRUE)
-mtr <- match(tolower(spclean), tolower(clean_taxo(taxref$LB_NOM)))
+taxref$clean_name <- clean_taxo(taxref$LB_NOM)
+
+mtr <- match(tolower(spclean), tolower(taxref$clean_name))
 
 df <- data.frame(
     original_taxa = spclean,
@@ -57,7 +59,7 @@ print(paste("Taxa with no exact match in Taxref:", length(no_taxref))) #52 only!
 
 # try fuzzy match with stringdist package and Jaro-Winkler distance
 fuzzy_mtr <- stringdist::amatch(
-    tolower(no_taxref), tolower(clean_taxo(taxref$LB_NOM)),
+    tolower(no_taxref), tolower(taxref$clean_name),
     maxDist=0.2, method="jw", p=0.005)
 
 # essential step by hand : check fuzzy match
@@ -140,8 +142,6 @@ full_df <- cbind(full_df, gbif_df)
 # focus on taxa not found in TaxRef
 miss <- spclean[!spclean %in%full_df$original_taxa]
 print(paste("Taxa not found in Taxref:", length(miss))) #11 only!
-
-addgbif <- rgbif::name_backbone_checklist(miss, strict = TRUE)
 # strict = TRUE else weird match
 table(addgbif$status, addgbif$matchType, useNA="ifany") # 2 not found
 
@@ -170,8 +170,25 @@ gbif_add[addgbif$synonym,] <- data.frame(
     gbif_status = "SYNONYM"
 )
 
+# replace value for the higher rank
+# check issue with higher rank (only one here)
+hrank <- rgbif::name_backbone(name = addgbif$verbatim_name[addgbif$matchType=="HIGHERRANK"], verbose=TRUE)
+# Vicia ciliatula is synonym of Vicia ciliatula or Vicia lutea; lutea seems better
+validkey <- hrank$acceptedUsageKey[hrank$scientificName == "Vicia ciliata Schur"]
+synhrbif <- rgbif::name_usage(key=validkey)
+gbif_add[addgbif$matchType=="HIGHERRANK",] <- data.frame(
+    accepted_gbif = synhrbif$data$canonicalName,
+    gbif_key = synhrbif$data$key,
+    gbif_rank = synhrbif$data$rank,
+    gbif_full_name = synhrbif$data$scientificName,
+    gbif_phylum = synhrbif$data$phylum,
+    gbif_order = synhrbif$data$order,
+    gbif_family = synhrbif$data$family,
+    gbif_status = "SYNONYM"
+)
+
 # check back in TaxRef
-madd <- match(tolower(gbif_add$accepted_gbif), tolower(clean_taxo(taxref$LB_NOM)))
+madd <- match(tolower(gbif_add$accepted_gbif), tolower(taxref$clean_name))
 taxref_add <- data.frame(
     original_taxa = miss,
     accepted_taxref = taxref$LB_NOM[madd],
@@ -199,3 +216,4 @@ write.csv(all_df, here::here("data", "derived-data","species_list_taxo.csv"), ro
 tbc <- all_df[!(all_df$taxref_status%in%"EXACT"&all_df$gbif_status%in%"EXACT_ACCEPTED"),] #262 taxa
 write.csv(tbc, here::here("data", "derived-data","species_tobechecked.csv"), row.names=FALSE)
 # sp[match(tbc$original_taxa[tbc$taxref_status=="NOT FOUND"], sp$taxa),-2]
+
