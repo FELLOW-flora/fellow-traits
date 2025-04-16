@@ -9,3 +9,10 @@ analyses/test*.R
 # taxref can be downloaded from https://inpn.mnhn.fr/docs-web/docs/download/454260
 # https://inpn.mnhn.fr/telechargement/referentielEspece/taxref/18.0/menu
 data/raw-data/TAXREF_v18_2025
+
+# private datasets
+data/raw-data/traits/private
+data/raw-data/traits/LEDA
+
+# air
+air.toml

@@ -30,7 +30,12 @@ source(here::here("analyses", "01_get_specieslist.R"))
 # 2 Clean taxo with TaxRef and GBIF
 source(here::here("analyses", "02_clean_taxo.R"))
 
-# 3 Get traits
+# 3 Get traits (one script per type of database)
+# FloraVeg.eu
 source(here::here("analyses", "03a_get_traits_floraveg.R"))
-# so far only percentage of species covered by trait database are computed
-# trait extraction to be defined ...
+# baseflor
+source(here::here("analyses", "03b_get_traits_baseflor.R"))
+# private databases
+source(here::here("analyses", "03c_get_traits_privatedb.R"))
+# BIEN
+source(here::here("analyses", "03d_get_BIEN.R"))

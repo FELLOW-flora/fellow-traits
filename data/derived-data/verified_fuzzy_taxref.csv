@@ -1,10 +1,10 @@
 ﻿original_taxa,accepted_taxref,sdist
 Helleborus purpurascens,NA,NA
 Linaria amethystea,NA,NA
-Aspaacut,NA,NA
-Podospermum picroides,NA,NA
+Aspaacut,Asparagus acutifolius,NA
+Podospermum picroides,Urospermum picroides,NA
 Fumaria rostellata,NA,NA
-Dicotyledonae,Dicotylidae,0.154082000000000
+Dicotyledonae,NA,NA
 Silena gallica,Silene gallica,0.153462000000000
 Agrimonia agrimonoides,NA,NA
 Doricnium pethapillum,Dorycnium pentaphyllum,0.148532000000000
@@ -54,4 +54,6 @@ Cynoglosum officinale,Cynoglossum officinale,0.0311110000000000
 Epibolium angustifolium,Epilobium angustifolium,0.0292000000000000
 Rumex thyrsiflorus,Rumex thyrsiflorus,0.0181480000000000
 Viola reichenbachiana,Viola reichenbachiana,0.0155560000000000
+,,
+,,
 

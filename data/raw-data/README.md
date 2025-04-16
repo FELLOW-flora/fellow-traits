@@ -20,4 +20,4 @@ So far, there are five databases downloaded from [FloraVeg.EU](https://floraveg.
 - [Seed dispersal distance classes and dispersal modes](https://files.ibot.cas.cz/cevs/downloads/floraveg/Lososova_et_al_2023_Dispersal_version2_2024-06-14.xlsx) ([Lososová et al. 2023](https://doi.org/10.1111/geb.13712), version 2.0, 2024-06-17)
 - [Parasitism and mycoheterotrophy](https://files.ibot.cas.cz/cevs/downloads/floraveg/Tesitel-et-al-Parasitism-mycotrophy.xlsx) (Těšitel et al. 2024)
 
-
+For more information about trait databases, see the database sheet from the Excel file traits/Metatraits.xlsx

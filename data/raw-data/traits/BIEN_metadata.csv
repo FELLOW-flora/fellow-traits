@@ -1,0 +1,57 @@
+﻿trait_name,n_species,interesting
+fruit type,NA,0
+inflorescence length,NA,0
+leaf compoundness,NA,0
+Leaf lamina fracture toughness,NA,0
+leaf relative growth rate,NA,0
+maximum fruit length,NA,0
+maximum leaf length,NA,0
+maximum leaf width,NA,0
+minimum fruit length,NA,0
+minimum leaf length,NA,0
+minimum leaf width,NA,0
+minimum whole plant height,NA,0
+plant fruiting duration,NA,0
+seed length,NA,0
+stem relative growth rate,NA,0
+whole plant growth form,860,1
+whole plant growth form diversity,782,1
+whole plant woodiness,748,1
+seed mass,717,1
+whole plant height,700,1
+plant flowering begin,675,1
+leaf area per leaf dry mass,630,1
+leaf area,601,1
+leaf dry mass per leaf fresh mass,566,1
+leaf dry mass,542,1
+maximum whole plant height,245,1
+leaf nitrogen content per leaf dry mass,166,1
+flower color,120,1
+leaf carbon content per leaf nitrogen content,110,1
+leaf thickness,102,1
+leaf photosynthetic rate per leaf area,98,1
+leaf photosynthetic rate per leaf dry mass,87,1
+leaf nitrogen content per leaf area,77,1
+leaf phosphorus content per leaf dry mass,62,1
+whole plant vegetative phenology,59,1
+leaf carbon content per leaf dry mass,47,1
+stem dry mass,46,1
+leaf stomatal conductance for H2O per leaf area,43,0
+maximum whole plant longevity,43,1
+leaf fresh mass,42,0
+root dry mass,41,1
+stem wood density,38,0
+vessel lumen area,24,0
+vessel number,24,0
+diameter at breast height (1.3 m),21,0
+longest whole plant longevity,21,1
+whole plant dispersal syndrome,17,1
+flower pollination syndrome,16,1
+whole plant sexual system,16,1
+plant flowering duration,15,1
+whole plant primary juvenile period length,12,1
+leaf life span,8,0
+leaf phosphorus content per leaf area,7,1
+leaf stomatal conductance per leaf area,1,0
+,,
+

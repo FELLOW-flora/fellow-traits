@@ -17,11 +17,11 @@ LazyDataCompression: xz
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
 Depends: 
-    R (>= 3.5.0)
+    R (>= 3.5.0),
+    BIEN
 Imports: 
     devtools,
     here,
     readxl,
     remotes,
-    rgbif,
-    stringdist
+    rgbif
