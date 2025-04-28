@@ -332,3 +332,8 @@ write.csv(syn_df, file = "data/derived-data/species_known_synonyms.csv", row.nam
 # table(is.na(mtr))
 # # for synonyms, make sure to get the accepted information
 # msyn <- match(taxref$NOM_VALIDE[mtr], taxref$NOM_COMPLET)
+
+# add World Flora database 
+# wfo <- read.table(here::here("data", "raw-data", "WFO_Backbone_v.2023.12", "classfication.csv"), 
+#                   sep="\t", header = TRUE, fill = TRUE)
+# str(wfo)

@@ -10,6 +10,17 @@ analyses/test*.R
 # https://inpn.mnhn.fr/telechargement/referentielEspece/taxref/18.0/menu
 data/raw-data/TAXREF_v18_2025
 
+# WorldFlora can be dowloaded at:
+# https://www.worldfloraonline.org/downloadData
+data/raw-data/WFO_Backbone_v.2023.12
+
+data/raw-data/GrassBase
+# regional database
+## mediterranean
+data/raw-data/traits/BROT2.0 
+## alpine
+data/raw-data/traits/Garcia-Gutterez_2018
+
 # private datasets
 data/raw-data/traits/private
 data/raw-data/traits/LEDA

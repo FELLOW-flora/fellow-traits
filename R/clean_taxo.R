@@ -18,11 +18,14 @@ clean_taxo <- function(x){
   x <- gsub(" complex", "", x)
   x <- gsub(" sp$", "", x)
   x <- gsub(" cf$", "", x)
+  x <- gsub(" f$", "", x)
   x <- gsub(" gpe$", "", x)
   x <- gsub(" sp$", "", x)
   x <- gsub(" spp$", "", x)
   x <- gsub(" agg$", "", x)
+  x <- gsub(" sstr$", "", x)
   x <- gsub(" spp ", "", x)
+  x <- gsub(" ssp ", "", x)
   x <- gsub(" subsp ", " ", x)
   x <- gsub(" var ", " ", x)
   x <- gsub(" sl$", "", x)
@@ -75,4 +78,27 @@ rm_ref <- function(x){
   and <- grepl("^ex$", x)
 
   return(paste(x[!(up|num|pun|and)], collapse = " "))   
+}
+
+#' Clean species list
+#' 
+#' @description
+#' Harmonize taxonomic names with `clean_taxo()` and iterate multiple time if needed.
+#'
+#' @param x a vector of `characters` with the latin names of taxa
+#' @param iter a logical element indicating whether the cleaning should be repeated
+#'
+#' @returns A vector of `characters` with the homogenized names
+#' 
+#' @export
+clean_species_list <- function(x, iter=TRUE){
+  if(iter){
+    clean_x <- x
+    while(any(clean_taxo(clean_x)!=clean_x)){
+      clean_x <- clean_taxo(clean_x)
+    }
+  } else {
+    clean_x <- clean_taxo(x)
+  }
+  return(clean_x)
 }
