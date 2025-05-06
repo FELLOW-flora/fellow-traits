@@ -7,7 +7,7 @@
 #    traits in traits/baseflor.xlsx
 #    metadata in traits/Metatraits.xlsx
 # output: traitE_dcube.csv
-
+# issue , as decimal ...
 # 0. Load packages, data, set parameters ----------------------
 # if the script is not run from make.R, need to load home made functions (e.g. clean_taxo())
 devtools::load_all()
@@ -43,6 +43,7 @@ dcube <- read.csv(
     "D3_ScienceDirect_files",
     "1-s2.0-S1433831913000218-mmc1.txt"
   ),
+  dec = ",",
   sep = ";",
   encoding = "latin1"
 )
