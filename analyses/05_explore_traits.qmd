@@ -1,0 +1,128 @@
+---
+title: "Exploration of trait dataset"
+format:
+  html:
+    code-fold: true
+    embed-resources: true
+---
+
+
+The objective of this document is to:
+- visually explore the trait database
+- understand trait coverage
+- identify data gaps
+- check for possible inconsistencies
+
+```{r load}
+#| warning: false
+#| echo: false
+
+devtools::load_all()
+library(DT)
+library(crosstalk)
+library(plotly)
+
+# Load species list with taxonomy
+traits <- read.csv(
+  here::here("data", "derived-data", "merged_traits.csv")
+)
+```
+
+
+## Description of trait databases
+
+```{r nabase}
+# summary of NAs
+num_na <- apply(is.na(traits), 2, sum)
+
+db_na <- num_na[grep("original", names(num_na))]
+names(db_na) <- gsub("original_taxa_", "", names(db_na))
+# database with best match
+par(mar = c(4, 8, 1, 1))
+barplot(
+  sort(db_na),
+  horiz = TRUE,
+  las = 1,
+  xlab = "Number of missing species"
+)
+```
+
+
+```{r natraits}
+# summary of NAs
+real_traits <- !grepl("original", names(traits)) &
+  names(traits) != "accepted_taxa"
+
+trait_na <- apply(is.na(traits[, real_traits]), 2, sum)
+
+# database with best match
+par(mar = c(4, 8, 1, 1))
+barplot(
+  sort(trait_na),
+  horiz = TRUE,
+  las = 1,
+  xlab = "Number of missing species"
+)
+```
+
+
+```{r naspecies}
+# species with lowest completness
+sp_na <- apply(is.na(traits[, real_traits]), 1, sum)
+names(sp_na) <- traits$accepted_taxa
+
+boxplot(sp_na, ylab = "Number of missing traits")
+hist(sp_na, xlab = "Number of missing traits", ylab = "Number of species")
+```
+
+
+```{r naheatmap}
+mat_na <- !is.na(traits[, real_traits])
+mat_na <- apply(mat_na, 2, as.numeric)
+row.names(mat_na) <- traits$accepted_taxa
+# heatmap(mat_na, scale = "none")
+
+mat_na <- mat_na[order(sp_na), order(trait_na)]
+plot_ly(
+  x = colnames(mat_na),
+  y = rownames(mat_na),
+  z = mat_na,
+  type = "heatmap"
+) %>%
+  layout(margin = list(l = 120))
+```
+
+
+## Comparison
+
+### SLA
+There are three sources of information for Specific leaf area (SLA) : Hodgson et al. 2023 (in mm2/mg), GIFT (in cm2/g) and BIEN (in m2/kg = mm2/mg).
+```{r sla}
+# names(traits)[grep("SLA", names(traits))]
+sla <- data.frame(
+  "Hodgson" = traits$SLA.mm2.mg.1_Hodgson_2023,
+  "GIFT" = traits$SLA.mean.cm2.g.1_GIFT / 10,
+  "BIEN" = traits$leaf.area.per.leaf.dry.mass.m2.kg.1_BIEN
+)
+
+pairs(sla, lower.panel = panel.smooth, upper.panel = panel.cor)
+```
+
+
+### Plant height
+There are four sources of information for plant height.
+
+```{r height}
+# names(traits)[grep("Height", names(traits))]
+# all in mm2/mg
+
+height <- data.frame(
+  "spvignes" = traits$Plant_Height_SPVignes,
+  "lososova" = traits$Plant.height_m_Lososova_2023,
+  "BIEN" = traits$whole.plant.height.m_BIEN,
+  "GIFT" = traits$Plant.height.mean.m_GIFT
+)
+
+pairs(height, lower.panel = panel.smooth, upper.panel = panel.cor)
+
+```

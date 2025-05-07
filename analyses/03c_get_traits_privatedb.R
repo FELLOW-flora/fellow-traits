@@ -97,8 +97,16 @@ newlab <- paste(
   sep = "_"
 )
 
+vignes$`Plant Height` <- suppressWarnings(as.numeric(vignes$`Plant Height`))
 t2 <- vignes[m_vignes, keepT]
 names(t2) <- newlab
+
+# check that numeric traits are numeric
+metanum <- !is.na(meta$units[meta$database %in% "SPVignes"])
+datanum <- unlist(lapply(t2[, -1], is.numeric))
+if (any(metanum != datanum)) {
+  print(names(datanum)[metanum != datanum])
+}
 
 
 # 3. traits from the AT_VINEDIVERS ------------
@@ -148,7 +156,3 @@ write.csv(
   file = here::here("data", "derived-data", "traitC_privatedb.csv"),
   row.names = FALSE
 )
-# missing traits
-apply(is.na(out), 2, sum)
-table(apply(is.na(out), 1, sum))
-View(out)

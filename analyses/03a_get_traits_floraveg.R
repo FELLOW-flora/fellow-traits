@@ -24,7 +24,7 @@ synonyms <- read.csv(here::here(
 ))
 
 # set the folder with traits data
-traitfolder <- here::here("data", "raw-data", "traits")
+traitfolder <- here::here("data", "raw-data", "traits", "FloraVeg")
 
 # load metadata of traits (which define which traits are kept)
 meta <- readxl::read_xlsx(here::here(
@@ -120,6 +120,10 @@ m3 <- match(taxolist$accepted_gbif, lososova$taxa)
 m_lososova <- ifelse(!is.na(m1), m1, ifelse(!is.na(m2), m2, m3))
 prop.table(table(!is.na(m_lososova))) #86%
 
+lososova$`Plant height (m)` <- suppressWarnings(as.numeric(
+  lososova$`Plant height (m)`
+))
+
 keepT <- c("Taxon", meta$original.name[meta$database %in% "Lososova_2023"])
 newlab <- paste(
   c("original_taxa", meta$new.name[meta$database %in% "Lososova_2023"]),
@@ -130,6 +134,13 @@ newlab <- paste(
 t3 <- lososova[m_lososova, keepT]
 names(t3) <- newlab
 
+# check that numeric traits are numeric
+# metanum <- !is.na(meta$units[meta$database %in% "Lososova_2023"])
+metanum <- meta$type[meta$database %in% "Lososova_2023"] == "numeric"
+datanum <- unlist(lapply(t3[, -1], is.numeric))
+if (any(metanum != datanum)) {
+  print(names(datanum)[metanum != datanum])
+}
 
 # 4. life form from Dfevojan -----------------
 dfevojan <- readxl::read_xlsx(here::here(
