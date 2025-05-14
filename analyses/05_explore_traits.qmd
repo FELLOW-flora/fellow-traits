@@ -1,5 +1,5 @@
 ---
-title: "Exploration of trait dataset"
+title: "Exploration of FELLOW trait dataset"
 format:
   html:
     code-fold: true
@@ -7,11 +7,12 @@ format:
 ---
 
 
-The objective of this document is to:
-- visually explore the trait database
-- understand trait coverage
-- identify data gaps
-- check for possible inconsistencies
+The objective of this document is to:  
+
+- visually explore the trait database  
+- understand trait coverage / data gaps
+- check for possible inconsistencies  
+
 
 ```{r load}
 #| warning: false
@@ -26,17 +27,33 @@ library(plotly)
 traits <- read.csv(
   here::here("data", "derived-data", "merged_traits.csv")
 )
-```
 
+# Load species list with taxonomy
+taxolist <- read.csv(
+  here::here("data", "derived-data", "species_list_taxo.csv")
+)
 
-## Description of trait databases
+real_traits <- !grepl("original", names(traits)) &
+  names(traits) != "accepted_taxa"
 
-```{r nabase}
 # summary of NAs
 num_na <- apply(is.na(traits), 2, sum)
 
 db_na <- num_na[grep("original", names(num_na))]
 names(db_na) <- gsub("original_taxa_", "", names(db_na))
+
+trait_na <- apply(is.na(traits[, real_traits]), 2, sum)
+
+# species with lowest completness
+sp_na <- apply(is.na(traits[, real_traits]), 1, sum)
+```
+
+
+## Description of trait databases
+
+So far, we compiled `{r} sum(real_traits)` traits for `{r} nrow(traits)` taxa gathered from `{r} length(db_na)` trait databases. But there are many missing values.
+
+```{r nabase}
 # database with best match
 par(mar = c(4, 8, 1, 1))
 barplot(
@@ -48,35 +65,64 @@ barplot(
 ```
 
 
+
 ```{r natraits}
 # summary of NAs
-real_traits <- !grepl("original", names(traits)) &
-  names(traits) != "accepted_taxa"
-
-trait_na <- apply(is.na(traits[, real_traits]), 2, sum)
-
+trait_db <- strsplit(names(trait_na), "_") |>
+  sapply(function(x) x[[length(x)]]) |>
+  factor(
+    levels = names(db_na)[order(db_na)],
+    ordered = TRUE
+  )
 # database with best match
 par(mar = c(4, 8, 1, 1))
-barplot(
-  sort(trait_na),
-  horiz = TRUE,
+boxplot(
+  trait_na ~ trait_db,
+  horizontal = TRUE,
   las = 1,
-  xlab = "Number of missing species"
+  xlab = "Number of missing traits values",
+  ylab = ""
 )
 ```
 
 
 ```{r naspecies}
-# species with lowest completness
-sp_na <- apply(is.na(traits[, real_traits]), 1, sum)
-names(sp_na) <- traits$accepted_taxa
+# hist(sp_na, xlab = "Number of missing traits", ylab = "Number of species")
 
-boxplot(sp_na, ylab = "Number of missing traits")
-hist(sp_na, xlab = "Number of missing traits", ylab = "Number of species")
+# barplot(t(table(sp_na, taxolist$gbif_rank)), border = NA)
+df <- data.frame(
+  "cat" = cut(sp_na, breaks = seq(0, 140, by = 10), include.lowest = TRUE),
+  "rank" = taxolist$accepted_rank
+)
+tdf <- table(df$rank, df$cat)
+barx <- barplot(
+  tdf,
+  col = hcl.colors(5, "viridis"),
+  names = rep("", 14),
+  xlab = "Number of missing traits",
+  ylab = "Number of species"
+)
+barax <- c(barx - mean(diff(barx) / 2), max(barx) + mean(diff(barx) / 2))
+axis(1, at = barax, seq(0, 140, by = 10))
+legend("topright", legend = row.names(tdf), fill = hcl.colors(5, "viridis"))
 ```
 
 
+Taxa with no or limited trait information (N=`{r} sum(sp_na >130)`).
+```{r nodata}
+nodata <- traits$accepted_taxa[sp_na > 130]
+print(nodata)
+```
+
+Open question:
+**How to deal with families or subspecies/varieties taxa?**
+
+
+
+
 ```{r naheatmap}
+#| eval: false
+#| echo: false
 mat_na <- !is.na(traits[, real_traits])
 mat_na <- apply(mat_na, 2, as.numeric)
 row.names(mat_na) <- traits$accepted_taxa
@@ -97,10 +143,11 @@ plot_ly(
 
 ### SLA
 There are three sources of information for Specific leaf area (SLA) : Hodgson et al. 2023 (in mm2/mg), GIFT (in cm2/g) and BIEN (in m2/kg = mm2/mg).
+
 ```{r sla}
 # names(traits)[grep("SLA", names(traits))]
 sla <- data.frame(
-  "Hodgson" = traits$SLA.mm2.mg.1_Hodgson_2023,
+  "Hodgson" = traits$SLA.mm2.mg.1_Hodgson2023,
   "GIFT" = traits$SLA.mean.cm2.g.1_GIFT / 10,
   "BIEN" = traits$leaf.area.per.leaf.dry.mass.m2.kg.1_BIEN
 )
@@ -108,21 +155,46 @@ sla <- data.frame(
 pairs(sla, lower.panel = panel.smooth, upper.panel = panel.cor)
 ```
 
+Values are highly correlated, so we could imagine filling the missing values (using preferred data sources or averaging them).  
+
+**Number of NAs:**  
+```{r fillsla}
+# sla$average <- apply(sla, 1, mean, na.rm = TRUE)
+sla$filled <- ifelse(
+  is.na(sla$GIFT),
+  ifelse(is.na(sla$BIEN), sla$Hodgson, sla$BIEN),
+  sla$GIFT
+)
+
+print(apply(is.na(sla), 2, sum))
+```
 
 ### Plant height
 There are four sources of information for plant height.
 
 ```{r height}
 # names(traits)[grep("Height", names(traits))]
-# all in mm2/mg
-
 height <- data.frame(
   "spvignes" = traits$Plant_Height_SPVignes,
-  "lososova" = traits$Plant.height_m_Lososova_2023,
+  "lososova" = traits$Plant.height_m_Lososova2023,
   "BIEN" = traits$whole.plant.height.m_BIEN,
   "GIFT" = traits$Plant.height.mean.m_GIFT
 )
 
 pairs(height, lower.panel = panel.smooth, upper.panel = panel.cor)
+```
 
+Not sure what is the unit of `Plant_Height` in SPVignes (cm?), and why it is limited to only small plants (<1m). Yet we could potentially fill the height trait values.  
+
+
+**Number of NAs:**  
+```{r fillheight}
+# sla$average <- apply(sla, 1, mean, na.rm = TRUE)
+height$filled <- ifelse(
+  is.na(height$lososova),
+  ifelse(is.na(height$GIFT), height$BIEN, height$GIFT),
+  height$lososova
+)
+
+print(apply(is.na(height), 2, sum))
 ```

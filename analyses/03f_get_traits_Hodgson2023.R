@@ -27,12 +27,9 @@ synonyms <- read.csv(here::here(
 ))
 
 # load metadata of traits (defining which traits are kept)
-meta <- readxl::read_xlsx(here::here(
-  "data",
-  "raw-data",
-  "traits",
-  "Metatraits.xlsx"
-))
+meta <- readxl::read_xlsx(
+  here::here("data", "raw-data", "traits", "Metatraits.xlsx")
+)
 
 # load the trait database : baseflor
 hodgson <- readxl::read_xlsx(
@@ -64,10 +61,10 @@ m_hodgson <- ifelse(!is.na(m1), m1, ifelse(!is.na(m2), m2, m3))
 print(prop.table(table(!is.na(m_hodgson)))) #49%
 
 # 2. Format trait data ---------------------------
-keepT <- meta$original.name[meta$database %in% "Hodgson_2023"]
+keepT <- meta$original.name[meta$database %in% "Hodgson2023"]
 newlab <- paste(
-  c("original_taxa", meta$new.name[meta$database %in% "Hodgson_2023"]),
-  "Hodgson_2023",
+  c("original_taxa", meta$new.name[meta$database %in% "Hodgson2023"]),
+  "Hodgson2023",
   sep = "_"
 )
 

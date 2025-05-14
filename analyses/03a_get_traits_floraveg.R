@@ -58,10 +58,10 @@ m_midolo <- ifelse(!is.na(m1), m1, ifelse(!is.na(m2), m2, m3))
 prop.table(table(!is.na(m_midolo))) #71% > 75% (with synonyms)
 
 # so far, let's focus on traits only (not their SD)
-keepT <- c("species", meta$original.name[meta$database %in% "Midolo_2023"])
+keepT <- c("species", meta$original.name[meta$database %in% "Midolo2023"])
 newlab <- paste(
-  c("original_taxa", meta$new.name[meta$database %in% "Midolo_2023"]),
-  "Midolo_2023",
+  c("original_taxa", meta$new.name[meta$database %in% "Midolo2023"]),
+  "Midolo2023",
   sep = "_"
 )
 t1 <- midolo[m_midolo, keepT]
@@ -91,10 +91,10 @@ m_tichy <- ifelse(!is.na(m1), m1, ifelse(!is.na(m2), m2, m3))
 prop.table(table(!is.na(m_tichy))) #80%
 
 # so far, let's focus on average Ellenberg values
-keepT <- c("Taxon", meta$original.name[meta$database %in% "Tichy_2022"])
+keepT <- c("Taxon", meta$original.name[meta$database %in% "Tichy2022"])
 newlab <- paste(
-  c("original_taxa", meta$new.name[meta$database %in% "Tichy_2022"]),
-  "Tichy_2022",
+  c("original_taxa", meta$new.name[meta$database %in% "Tichy2022"]),
+  "Tichy2022",
   sep = "_"
 )
 t2 <- tichy[m_tichy, keepT]
@@ -124,10 +124,10 @@ lososova$`Plant height (m)` <- suppressWarnings(as.numeric(
   lososova$`Plant height (m)`
 ))
 
-keepT <- c("Taxon", meta$original.name[meta$database %in% "Lososova_2023"])
+keepT <- c("Taxon", meta$original.name[meta$database %in% "Lososova2023"])
 newlab <- paste(
-  c("original_taxa", meta$new.name[meta$database %in% "Lososova_2023"]),
-  "Lososova_2023",
+  c("original_taxa", meta$new.name[meta$database %in% "Lososova2023"]),
+  "Lososova2023",
   sep = "_"
 )
 
@@ -136,11 +136,11 @@ names(t3) <- newlab
 
 # check that numeric traits are numeric
 # metanum <- !is.na(meta$units[meta$database %in% "Lososova_2023"])
-metanum <- meta$type[meta$database %in% "Lososova_2023"] == "numeric"
-datanum <- unlist(lapply(t3[, -1], is.numeric))
-if (any(metanum != datanum)) {
-  print(names(datanum)[metanum != datanum])
-}
+# metanum <- meta$type[meta$database %in% "Lososova2023"] == "numeric"
+# datanum <- unlist(lapply(t3[, -1], is.numeric))
+# if (any(metanum != datanum)) {
+#   print(names(datanum)[metanum != datanum])
+# }
 
 # 4. life form from Dfevojan -----------------
 dfevojan <- readxl::read_xlsx(here::here(
@@ -163,11 +163,11 @@ prop.table(table(!is.na(m_dfevojan))) #86%
 
 keepT <- c(
   "FloraVeg.Taxon",
-  meta$original.name[meta$database %in% "Dfevojan_2023"]
+  meta$original.name[meta$database %in% "Dfevojan2023"]
 )
 newlab <- paste(
-  c("original_taxa", meta$new.name[meta$database %in% "Dfevojan_2023"]),
-  "Dfevojan_2023",
+  c("original_taxa", meta$new.name[meta$database %in% "Dfevojan2023"]),
+  "Dfevojan2023",
   sep = "_"
 )
 
@@ -199,20 +199,19 @@ write.csv(
   row.names = FALSE
 )
 # missing traits
-apply(is.na(out), 2, sum)
-
+print(apply(is.na(out), 2, sum))
 
 # why not present? mostly genus
 # taxolist$original_taxa[is.na(m_lososova)]
 # table(taxolist$gbif_rank[is.na(m_lososova)])
 
-species <- taxolist$accepted_taxa[
-  taxolist$taxref_rank %in% c("ES", "SSES", "VAR")
-]
-genus <- taxolist$accepted_taxa[taxolist$taxref_rank %in% "GN"]
-gen_sp <- sapply(strsplit(species, " "), function(x) x[[1]])
-table(genus %in% gen_sp)
-genus[!genus %in% gen_sp]
+# species <- taxolist$accepted_taxa[
+#   taxolist$taxref_rank %in% c("ES", "SSES", "VAR")
+# ]
+# genus <- taxolist$accepted_taxa[taxolist$taxref_rank %in% "GN"]
+# gen_sp <- sapply(strsplit(species, " "), function(x) x[[1]])
+# table(genus %in% gen_sp)
+# genus[!genus %in% gen_sp]
 
 # # so 142 of our taxa are genus or higher, so always missing :10%
 # # what should we do with genus?

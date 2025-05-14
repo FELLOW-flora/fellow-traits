@@ -60,10 +60,10 @@ m_yvoz <- ifelse(!is.na(m1), m1, ifelse(!is.na(m2), m2, m3))
 prop.table(table(!is.na(m_yvoz))) #60
 
 # select the interesting columns
-keepT <- c("latin_name", meta$original.name[meta$database %in% "Yvoz_ValPol"])
+keepT <- c("latin_name", meta$original.name[meta$database %in% "YvozValPol"])
 newlab <- paste(
-  c("original_taxa", meta$new.name[meta$database %in% "Yvoz_ValPol"]),
-  "Yvoz_ValPol",
+  c("original_taxa", meta$new.name[meta$database %in% "YvozValPol"]),
+  "YvozValPol",
   sep = "_"
 )
 
@@ -132,10 +132,10 @@ m3 <- match(taxolist$accepted_gbif, vinedivers$taxa)
 m_vinedivers <- ifelse(!is.na(m1), m1, ifelse(!is.na(m2), m2, m3))
 prop.table(table(!is.na(m_vinedivers))) #21%
 
-keepT <- c("species", meta$original.name[meta$database %in% "At_Vinedivers"])
+keepT <- c("species", meta$original.name[meta$database %in% "AtVinedivers"])
 newlab <- paste(
-  c("original_taxa", meta$new.name[meta$database %in% "At_Vinedivers"]),
-  "At_Vinedivers",
+  c("original_taxa", meta$new.name[meta$database %in% "AtVinedivers"]),
+  "AtVinedivers",
   sep = "_"
 )
 
@@ -156,3 +156,6 @@ write.csv(
   file = here::here("data", "derived-data", "traitC_privatedb.csv"),
   row.names = FALSE
 )
+
+# missing traits
+print(apply(is.na(out), 2, sum))

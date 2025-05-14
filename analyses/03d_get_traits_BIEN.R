@@ -98,7 +98,7 @@ m_cat <- match(taxolist$accepted_taxa, row.names(trait_cat))
 
 out <- cbind(
   "accepted_taxa" = taxolist$accepted_taxa,
-  "original_taxa" = ifelse(
+  "original_taxa_BIEN" = ifelse(
     is.na(m_num) & is.na(m_cat),
     NA,
     taxolist$accepted_taxa

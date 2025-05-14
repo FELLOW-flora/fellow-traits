@@ -32,7 +32,7 @@ dim(traits) #1359 taxa, 150 traits
 
 # fill in the genus values : 128 genus
 # table(taxolist$taxref_rank, taxolist$gbif_rank)
-is_genus <- taxolist$taxref_rank %in% "GN"
+is_genus <- taxolist$accepted_rank %in% "GENUS"
 
 gen <- sapply(strsplit(taxolist$accepted_taxa, " "), function(x) x[[1]])
 
