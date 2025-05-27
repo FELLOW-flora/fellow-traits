@@ -111,6 +111,7 @@ clean_species_list <- function(x, iter = TRUE) {
   return(out_x)
 }
 
+# and remove 'x'
 get_binomial <- function(x) {
   strsplit(x, " ") |>
     sapply(first_second)
@@ -122,6 +123,9 @@ get_genus <- function(x) {
 }
 
 first_second <- function(x, sep = " ") {
+  # remove 'x' if any
+  x <- x[!x %in% 'x']
+  # get the first and secong
   if (length(x) > 1) {
     return(paste(x[1], x[2], sep = sep))
   } else {
@@ -129,8 +133,22 @@ first_second <- function(x, sep = " ") {
   }
 }
 
-firstup <- function(x) {
+firstup <- function(x, rm_hybrid = TRUE) {
   x <- tolower(x)
-  substr(x, 1, 1) <- toupper(substr(x, 1, 1))
+  if (rm_hybrid) {
+    start_x <- grepl("^x ", x)
+    substr(x, 1, 1) <- ifelse(
+      start_x,
+      substr(x, 1, 1),
+      toupper(substr(x, 1, 1))
+    )
+    substr(x, 3, 3) <- ifelse(
+      start_x,
+      toupper(substr(x, 3, 3)),
+      substr(x, 3, 3)
+    )
+  } else {
+    substr(x, 1, 1) <- toupper(substr(x, 1, 1))
+  }
   return(x)
 }

@@ -9,22 +9,18 @@
 # output: traitF_hodgson2023.csv
 
 # 0. Load packages, data, set parameters ----------------------
-# if the script is not run from make.R, need to load home made functions (e.g. clean_taxo())
+# if the script is not run from make.R, need to load home made functions (e.g. clean_species_list())
 devtools::load_all()
 # or source(here::here("R", "clean_taxo.R"))
 
 # Load species list with taxonomy
-taxolist <- read.csv(here::here(
-  "data",
-  "derived-data",
-  "species_list_taxo.csv"
-))
+taxolist <- read.csv(
+  here::here("data", "derived-data", "species_short_list.csv")
+)
 # and synonyms
-synonyms <- read.csv(here::here(
-  "data",
-  "derived-data",
-  "species_known_synonyms.csv"
-))
+synonyms <- read.csv(
+  here::here("data", "derived-data", "species_known_synonyms.csv")
+)
 
 # load metadata of traits (defining which traits are kept)
 meta <- readxl::read_xlsx(
@@ -42,41 +38,19 @@ hodgson <- readxl::read_xlsx(
   )
 )
 
-# 1. Match species names ----------------------
-# clean species name
-hodgson$taxa <- clean_species_list(hodgson$Species, iter = TRUE)
+# 1. Extract trait values ----------------------
 
-# replace if known synonyms
-is_syn <- hodgson$taxa %in% synonyms$synonym_taxa
-hodgson$taxa[is_syn] <- synonyms$accepted_taxa[match(
-  hodgson$taxa[is_syn],
-  synonyms$synonym_taxa
-)]
-
-
-m1 <- match(taxolist$original_taxa, hodgson$taxa)
-m2 <- match(taxolist$accepted_taxref, hodgson$taxa)
-m3 <- match(taxolist$accepted_gbif, hodgson$taxa)
-m_hodgson <- ifelse(!is.na(m1), m1, ifelse(!is.na(m2), m2, m3))
-print(prop.table(table(!is.na(m_hodgson)))) #49%
-
-# 2. Format trait data ---------------------------
-keepT <- meta$original.name[meta$database %in% "Hodgson2023"]
-newlab <- paste(
-  c("original_taxa", meta$new.name[meta$database %in% "Hodgson2023"]),
-  "Hodgson2023",
-  sep = "_"
-)
-
-out <- cbind(
-  taxolist$accepted_taxa,
-  hodgson$Species[m_hodgson],
-  hodgson[m_hodgson, keepT]
-)
-names(out) <- c("accepted_taxa", newlab)
+out <- extract_trait_taxalist(
+  trait_df = hodgson,
+  trait_sp = "Species",
+  meta_trait = meta[meta$database %in% "Hodgson2023", ],
+  taxalist = taxolist$accepted_taxa,
+  synonyms = synonyms
+) # 48.24 %
+names(out)[-1] <- paste(names(out)[-1], "Hodgson2023", sep = "_")
 
 
-# 3. Export trait data ---------------------------
+# 2. Export trait data ---------------------------
 write.csv(
   out,
   file = here::here("data", "derived-data", "traitF_hodgson2023.csv"),

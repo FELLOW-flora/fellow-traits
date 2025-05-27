@@ -9,30 +9,23 @@
 # output: traitE_dcube.csv
 # issue , as decimal ...
 # 0. Load packages, data, set parameters ----------------------
-# if the script is not run from make.R, need to load home made functions (e.g. clean_taxo())
+# if the script is not run from make.R, need to load home made functions (e.g. clean_species_list())
 devtools::load_all()
 # or source(here::here("R", "clean_taxo.R"))
 
 # Load species list with taxonomy
-taxolist <- read.csv(here::here(
-  "data",
-  "derived-data",
-  "species_list_taxo.csv"
-))
+taxolist <- read.csv(
+  here::here("data", "derived-data", "species_short_list.csv")
+)
 # and synonyms
-synonyms <- read.csv(here::here(
-  "data",
-  "derived-data",
-  "species_known_synonyms.csv"
-))
+synonyms <- read.csv(
+  here::here("data", "derived-data", "species_known_synonyms.csv")
+)
 
 # load metadata of traits (defining which traits are kept)
-meta <- readxl::read_xlsx(here::here(
-  "data",
-  "raw-data",
-  "traits",
-  "Metatraits.xlsx"
-))
+meta <- readxl::read_xlsx(
+  here::here("data", "raw-data", "traits", "Metatraits.xlsx")
+)
 
 # load the trait database : baseflor
 dcube <- read.csv(
@@ -48,46 +41,21 @@ dcube <- read.csv(
   encoding = "latin1"
 )
 
-# 1. Match species names ----------------------
+# 1. Extract trait values ----------------------
 # remove accent
 dcube$name <- iconv(dcube$name, from = "latin1", to = "ASCII//TRANSLIT")
 
-# clean species name
-dcube$taxa <- clean_species_list(dcube$name, iter = TRUE)
-
-# replace if known synonyms
-is_syn <- dcube$taxa %in% synonyms$synonym_taxa
-dcube$taxa[is_syn] <- synonyms$accepted_taxa[match(
-  dcube$taxa[is_syn],
-  synonyms$synonym_taxa
-)]
-
-
-# m0 <- match(taxolist$accepted_taxa, dcube$taxa) # miss 19 taxa, but not sure what is the best strategy
-m1 <- match(taxolist$original_taxa, dcube$taxa)
-m2 <- match(taxolist$accepted_taxref, dcube$taxa)
-m3 <- match(taxolist$accepted_gbif, dcube$taxa)
-m_dcube <- ifelse(!is.na(m1), m1, ifelse(!is.na(m2), m2, m3))
-print(prop.table(table(!is.na(m_dcube)))) #55%
-
-# 2. Format trait data ---------------------------
-
-keepT <- meta$original.name[meta$database %in% "dcube"]
-newlab <- paste(
-  c("original_taxa", meta$new.name[meta$database %in% "dcube"]),
-  "Dcube",
-  sep = "_"
-)
-
-out <- cbind(
-  taxolist$accepted_taxa,
-  dcube$name[m_dcube],
-  dcube[m_dcube, keepT]
-)
-names(out) <- c("accepted_taxa", newlab)
+out <- extract_trait_taxalist(
+  trait_df = dcube,
+  trait_sp = "name",
+  meta_trait = meta[meta$database %in% "Dcube", ],
+  taxalist = taxolist$accepted_taxa,
+  synonyms = synonyms
+) # 55%
+names(out)[-1] <- paste(names(out)[-1], "Dcube", sep = "_")
 
 
-# 3. Export trait data ---------------------------
+# 2. Export trait data ---------------------------
 write.csv(
   out,
   file = here::here("data", "derived-data", "traitE_dcube.csv"),

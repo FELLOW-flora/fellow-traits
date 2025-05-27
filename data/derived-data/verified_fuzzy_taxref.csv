@@ -45,7 +45,7 @@ Knautia integrifola,Knautia integrifolia,0.0163330000000000,TRUE
 Lathyrus sativa,Lathyrus sativus,0.0626110000000000,TRUE
 Linaria amethystea,NA,NA,FALSE
 Linaria hirta,NA,NA,FALSE
-Linaria latifolia,Licania latifolia,0.0594490000000000,1
+Linaria latifolia,Licania latifolia,0.0594490000000000,TRUE
 Loncomelos narbonensis,Loncomelos narbonense,0.0452530000000000,TRUE
 Loncomelos pyrenaicus,Loncomelos pyrenaicum,0.0311110000000000,TRUE
 Medicago sativa varia,NA,NA,FALSE
@@ -54,7 +54,7 @@ Ochlopoa annua,NA,NA,FALSE
 Odontites verna,Odontites vernus,0.0626110000000000,TRUE
 Odontites vernus salinus,NA,NA,FALSE
 Onobrychis alba,NA,NA,FALSE
-Onopordon,Onopordum,NA,1
+Onopordon,Onopordum,NA,TRUE
 Oreganum vulgare,Origanum vulgare,0.0412500000000000,TRUE
 Ornithogalum boucheanum,Ornithogalum bourgaeanum,0.0847950000000000,TRUE
 Ornithogalum muscari,NA,NA,FALSE
@@ -68,8 +68,8 @@ Populus canescens,Populus x canescens,0.0343860000000000,TRUE
 Portulaca oleraceae,Portulaca oleracea,0.0171930000000000,TRUE
 Pulicaria arabica hispanica,NA,NA,FALSE
 Reseda lanceolata,NA,NA,FALSE
-Rorippa armoracioides,Rorippa x armoracioides,0.0284060000000000,1
-Rubus idenus,Rubus idaeus,0.0544440000000000,1
+Rorippa armoracioides,Rorippa x armoracioides,0.0284060000000000,TRUE
+Rubus idenus,Rubus idaeus,0.0544440000000000,TRUE
 Rumex confertus,NA,NA,FALSE
 Rumex thyrsiflorus,Rumex thyrsiflorus,0.0362960000000000,TRUE
 Scirpus silvaticus,Scirpus sylvaticus,0.0843360000000000,TRUE
@@ -77,23 +77,24 @@ Senecio jacobea,Senecio jacobaea,0.0421940000000000,TRUE
 Sheradia arvensis,Sherardia arvensis,0.0757950000000000,TRUE
 Silena gallica,NA,NA,FALSE
 Silene niceensis,Silene nicaeensis,0.0192160000000000,TRUE
-Silene stricta,NA,NA,0
+Silene stricta,NA,NA,FALSE
 Sporobulus,Sporobolus,0.10163000000000,TRUE
-Teloxys aristata,NA,NA,0
-Thesium dollineri,NA,NA,0
+Teloxys aristata,NA,NA,FALSE
+Thesium dollineri,NA,NA,FALSE
 Thlapsi arvense,Thlaspi arvense,0.0217780000000000,TRUE
-Thymus spinulosus,NA,NA,0
-Thymus striatus,NA,NA,0
+Thymus spinulosus,NA,NA,FALSE
+Thymus striatus,NA,NA,FALSE
 Trifolium campestris,Trifolium campestre,0.0498600000000000,TRUE
-Trigonotis,NA,NA,0
-Trigonotis peduncularis,NA,NA,0
+Trigonotis,NA,NA,FALSE
+Trigonotis peduncularis,NA,NA,FALSE
 Triticosecale,X triticosecale,0.0444440000000000,TRUE
 Triticosecale rimpaui,X triticosecale rimpaui,0.0289860000000000,TRUE
 Tyrmnus leucographus,Tyrimnus leucographus,0.0156350000000000,TRUE
 Urtica dioïca,Urtica dioica,0.0502560000000000,TRUE
-Valerianella multidentata,NA,NA,0
-Vicia ciliata,Vicia ciliatula,NA,1
+Valerianella multidentata,NA,NA,FALSE
+Vicia ciliata,Vicia ciliatula,NA,TRUE
 Vicia fabia,Vicia faba,0.0296970000000000,TRUE
 Viola kaitaibeliana,Viola kitaibeliana,0.117008000000000,TRUE
 Viola reichenbachiana,Viola reichenbachiana,0.0311110000000000,TRUE
+,,,
 

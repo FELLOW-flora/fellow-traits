@@ -1,6 +1,6 @@
 # small handy functions
-concat <- function(x, sep = ",") {
-  paste(sort(unique(tolower(x))), collapse = sep)
+concat <- function(x, sep = "_") {
+  paste(sort(unique(firstup(x))), collapse = sep)
 }
 
 paste_unique <- function(x) {

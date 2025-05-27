@@ -19,11 +19,20 @@ RoxygenNote: 7.3.2
 Depends: 
     R (>= 3.5.0),
     BIEN,
+    dplyr,
     GIFT
 Imports: 
+    crul,
     devtools,
     here,
+    jsonlite,
+    knitr,
+    quarto,
+    readr,
     readxl,
     remotes,
     rgbif,
-    rtaxref
+    rtaxref,
+    stats,
+    tibble,
+    utils

@@ -50,7 +50,7 @@ spclean <- spclean[!spclean %in% rmClass]
 # harmonize the species names
 spclean <- sort(unique(spclean))
 print(paste("Number of unique taxa:", length(spclean)))
-#from 1358 to 1884 with EU species list
+#from 1358 to 1884 with additional EU species list
 
 # 2. get accepted name from Taxref --------------
 # could use rtaxref to use the online API but takes too long and unstable
@@ -227,7 +227,7 @@ full_df <- cbind(full_df, gbif_df)
 
 # focus on taxa not found in TaxRef
 miss <- spclean[!spclean %in% full_df$original_taxa]
-print(paste("Taxa not found in Taxref:", length(miss))) # 44 taxa (instead of 9)
+print(paste("Taxa not found in Taxref:", length(miss))) # 46 taxa (instead of 9)
 
 addgbif <- rgbif::name_backbone_checklist(miss, strict = TRUE)
 # strict = TRUE else weird match

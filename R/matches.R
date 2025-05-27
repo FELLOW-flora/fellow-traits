@@ -67,8 +67,15 @@ which_taxa <- function(i, ref, binomial = TRUE, genus = TRUE, n_max = 10) {
 #'
 #' @returns A list of the same length as `x` containing
 #' integers giving the positions in `y` of the all matches found (if any).
-matches_taxa <- function(x, y, binomial = TRUE, genus = TRUE, n_max = 5) {
-  lapply(
+matches_taxa <- function(
+  x,
+  y,
+  binomial = TRUE,
+  genus = TRUE,
+  n_max = 5,
+  as_df = FALSE
+) {
+  out <- lapply(
     x,
     which_taxa,
     ref = y,
@@ -76,4 +83,11 @@ matches_taxa <- function(x, y, binomial = TRUE, genus = TRUE, n_max = 5) {
     genus = genus,
     n_max = n_max
   )
+  if (as_df) {
+    out <- data.frame(
+      "x" = rep(x, sapply(out, length)),
+      "match" = unlist(out)
+    )
+  }
+  return(out)
 }

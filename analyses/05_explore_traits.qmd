@@ -1,15 +1,14 @@
 ---
 title: "Exploration of FELLOW trait dataset"
-format:
-  html:
-    code-fold: true
-    embed-resources: true
+execute:
+  echo: false
+format: pdf
 ---
 
 
 The objective of this document is to:  
 
-- visually explore the trait database  
+- visually explore the trait database
 - understand trait coverage / data gaps
 - check for possible inconsistencies  
 
@@ -19,9 +18,6 @@ The objective of this document is to:
 #| echo: false
 
 devtools::load_all()
-library(DT)
-library(crosstalk)
-library(plotly)
 
 # Load species list with taxonomy
 traits <- read.csv(
@@ -30,7 +26,7 @@ traits <- read.csv(
 
 # Load species list with taxonomy
 taxolist <- read.csv(
-  here::here("data", "derived-data", "species_list_taxo.csv")
+  here::here("data", "derived-data", "species_short_list.csv")
 )
 
 real_traits <- !grepl("original", names(traits)) &
@@ -108,9 +104,12 @@ legend("topright", legend = row.names(tdf), fill = hcl.colors(5, "viridis"))
 ```
 
 
-Taxa with no or limited trait information (N=`{r} sum(sp_na >130)`).
+{{< pagebreak >}}
+
+
+Taxa with no or limited trait information (N=`{r} sum(sp_na >=max(sp_na))`).
 ```{r nodata}
-nodata <- traits$accepted_taxa[sp_na > 130]
+nodata <- traits$accepted_taxa[sp_na >= max(sp_na)]
 print(nodata)
 ```
 
@@ -120,24 +119,8 @@ Open question:
 
 
 
-```{r naheatmap}
-#| eval: false
-#| echo: false
-mat_na <- !is.na(traits[, real_traits])
-mat_na <- apply(mat_na, 2, as.numeric)
-row.names(mat_na) <- traits$accepted_taxa
-# heatmap(mat_na, scale = "none")
 
-mat_na <- mat_na[order(sp_na), order(trait_na)]
-plot_ly(
-  x = colnames(mat_na),
-  y = rownames(mat_na),
-  z = mat_na,
-  type = "heatmap"
-) %>%
-  layout(margin = list(l = 120))
-```
-
+{{< pagebreak >}}
 
 ## Comparison
 
@@ -168,6 +151,10 @@ sla$filled <- ifelse(
 
 print(apply(is.na(sla), 2, sum))
 ```
+
+
+{{< pagebreak >}}
+
 
 ### Plant height
 There are four sources of information for plant height.

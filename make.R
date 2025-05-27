@@ -42,7 +42,7 @@ source(here::here("analyses", "03d_get_traits_BIEN.R"))
 source(here::here("analyses", "03e_get_traits_Dcube.R"))
 # Hodgson 2023
 source(here::here("analyses", "03f_get_traits_Hodgson2023.R"))
-# GIFT
+# GIFT (takes longer to compute)
 source(here::here("analyses", "03g_get_traits_GIFT.R"))
 
 # 4 Merge traits

@@ -6,22 +6,18 @@
 #    metadata in traits/Metatraits.xlsx
 # output: traitC_privatedb.csv
 
-# if the script is not run from make.R, need to load home made functions (clean_taxo())
+# if the script is not run from make.R, need to load home made functions (clean_species_list())
 devtools::load_all()
 # or source(here::here("R", "clean_taxo.R"))
 
 # Load species list with taxonomy
-taxolist <- read.csv(here::here(
-  "data",
-  "derived-data",
-  "species_list_taxo.csv"
-))
+taxolist <- read.csv(
+  here::here("data", "derived-data", "species_short_list.csv")
+)
 # and synonyms
-synonyms <- read.csv(here::here(
-  "data",
-  "derived-data",
-  "species_known_synonyms.csv"
-))
+synonyms <- read.csv(
+  here::here("data", "derived-data", "species_known_synonyms.csv")
+)
 
 # set the folder with traits data
 traitfolder <- here::here("data", "raw-data", "traits", "private")
@@ -44,69 +40,30 @@ yvoz <- read.csv(
   ),
   sep = ";"
 )
-dim(yvoz)
-# clean species name
-yvoz$taxa <- clean_taxo(yvoz$latin_name)
-# replace if known synonyms (none ...)
-is_syn <- yvoz$taxa %in% synonyms$synonym_taxa
-yvoz$taxa[is_syn] <- synonyms$accepted_taxa[match(
-  yvoz$taxa[is_syn],
-  synonyms$synonym_taxa
-)]
-m1 <- match(taxolist$original_taxa, yvoz$taxa)
-m2 <- match(taxolist$accepted_taxref, yvoz$taxa)
-m3 <- match(taxolist$accepted_gbif, yvoz$taxa)
-m_yvoz <- ifelse(!is.na(m1), m1, ifelse(!is.na(m2), m2, m3))
-prop.table(table(!is.na(m_yvoz))) #60
 
-# select the interesting columns
-keepT <- c("latin_name", meta$original.name[meta$database %in% "YvozValPol"])
-newlab <- paste(
-  c("original_taxa", meta$new.name[meta$database %in% "YvozValPol"]),
-  "YvozValPol",
-  sep = "_"
-)
-
-t1 <- yvoz[m_yvoz, keepT]
-names(t1) <- newlab
+t1 <- extract_trait_taxalist(
+  trait_df = yvoz,
+  trait_sp = "latin_name",
+  meta_trait = meta[meta$database %in% "YvozValPol", ],
+  taxalist = taxolist$accepted_taxa,
+  synonyms = synonyms
+) # 56.74 %
+names(t1)[-1] <- paste(names(t1)[-1], "YvozValPol", sep = "_")
 
 
 # 2. traits from the SP_Vignes ------------
 vignes <- readxl::read_xls(here::here(traitfolder, "TraitSpVignes.xls"))
-dim(vignes) # only 123 species
+# dim(vignes) # only 123 species
 # too small dataset, is it worth the effort?
 
-# clean and check synonyms
-vignes$taxa <- clean_taxo(vignes$Species)
-is_syn <- vignes$taxa %in% synonyms$synonym_taxa
-vignes$taxa[is_syn] <- synonyms$accepted_taxa[match(
-  vignes$taxa[is_syn],
-  synonyms$synonym_taxa
-)]
-m1 <- match(taxolist$original_taxa, vignes$taxa)
-m2 <- match(taxolist$accepted_taxref, vignes$taxa)
-m3 <- match(taxolist$accepted_gbif, vignes$taxa)
-
-m_vignes <- ifelse(!is.na(m1), m1, ifelse(!is.na(m2), m2, m3))
-prop.table(table(!is.na(m_vignes))) #9%
-
-keepT <- c("Species", meta$original.name[meta$database %in% "SPVignes"])
-newlab <- paste(
-  c("original_taxa", meta$new.name[meta$database %in% "SPVignes"]),
-  "SPVignes",
-  sep = "_"
-)
-
-vignes$`Plant Height` <- suppressWarnings(as.numeric(vignes$`Plant Height`))
-t2 <- vignes[m_vignes, keepT]
-names(t2) <- newlab
-
-# check that numeric traits are numeric
-metanum <- !is.na(meta$units[meta$database %in% "SPVignes"])
-datanum <- unlist(lapply(t2[, -1], is.numeric))
-if (any(metanum != datanum)) {
-  print(names(datanum)[metanum != datanum])
-}
+t2 <- extract_trait_taxalist(
+  trait_df = vignes,
+  trait_sp = "Species",
+  meta_trait = meta[meta$database %in% "SPVignes", ],
+  taxalist = taxolist$accepted_taxa,
+  synonyms = synonyms
+) # 8.97 %
+names(t2)[-1] <- paste(names(t2)[-1], "SPVignes", sep = "_")
 
 
 # 3. traits from the AT_VINEDIVERS ------------
@@ -116,39 +73,24 @@ vinedivers <- readxl::read_xlsx(
   sheet = 2
 )
 names(vinedivers)[1:2] <- c("species", "abb")
-dim(vinedivers) # only 240 species
-# again very small dataset, is it worth the effort?
+# dim(vinedivers) # only 240 species
 
-# clean and check synonyms
-vinedivers$taxa <- clean_taxo(vinedivers$species)
-is_syn <- vinedivers$taxa %in% synonyms$synonym_taxa
-vinedivers$taxa[is_syn] <- synonyms$accepted_taxa[match(
-  vinedivers$taxa[is_syn],
-  synonyms$synonym_taxa
-)]
-m1 <- match(taxolist$original_taxa, vinedivers$taxa)
-m2 <- match(taxolist$accepted_taxref, vinedivers$taxa)
-m3 <- match(taxolist$accepted_gbif, vinedivers$taxa)
-m_vinedivers <- ifelse(!is.na(m1), m1, ifelse(!is.na(m2), m2, m3))
-prop.table(table(!is.na(m_vinedivers))) #21%
-
-keepT <- c("species", meta$original.name[meta$database %in% "AtVinedivers"])
-newlab <- paste(
-  c("original_taxa", meta$new.name[meta$database %in% "AtVinedivers"]),
-  "AtVinedivers",
-  sep = "_"
-)
-
-t3 <- vinedivers[m_vinedivers, keepT]
-names(t3) <- newlab
+t3 <- extract_trait_taxalist(
+  trait_df = vinedivers,
+  trait_sp = "species",
+  meta_trait = meta[meta$database %in% "ATVinedivers", ],
+  taxalist = taxolist$accepted_taxa,
+  synonyms = synonyms
+) # 19.34 %
+names(t3)[-1] <- paste(names(t3)[-1], "ATVinedivers", sep = "_")
 
 
 # 4. Export -------------------------------------
 out <- cbind(
   "accepted_taxa" = taxolist$accepted_taxa,
-  t1,
-  t2,
-  t3
+  t1[, -1],
+  t2[, -1],
+  t3[, -1]
 )
 
 write.csv(
