@@ -4,7 +4,7 @@
 #' extract trait information for the species in the FELLOW database
 #'
 #' @author Romain Frelat
-#' @date 2 April 2025
+#' @date 16 May 2025
 
 ## Install Dependencies (listed in DESCRIPTION) ----
 # rdeps::add_deps() # update automatically the list of dependencies
@@ -18,7 +18,7 @@ remotes::install_deps(upgrade = "never")
 
 ## Load Project Addins (R Functions) -------------
 
-devtools::load_all(here::here())
+devtools::load_all()
 
 
 ## Run Project ----
