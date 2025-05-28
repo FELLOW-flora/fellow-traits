@@ -23,20 +23,67 @@ extract_trait_taxalist <- function(
   taxalist,
   synonyms,
   look_subsp = TRUE,
+  look_genus = FALSE,
+  max_matches = 10,
   verbatim = TRUE,
-  quiet = TRUE
+  quiet = TRUE,
+  clean_taxalist = FALSE,
+  clean_synonyms = FALSE
 ) {
   # many checks need to be defined
-  # for instance
-  # check that synonyms are not looping
-  # check that all arguments have the good format
-  # check that data.frames have the needed column names
-  # return error if taxalist and trait_sp doesn't match at all
-  # remove NA from taxalist
-  # check correspondance taxalist and synonyms
-  #
+  # first make sure there are data.frames
   trait_df <- as.data.frame(trait_df)
-  #
+  meta_trait <- as.data.frame(meta_trait)
+  synonyms <- as.data.frame(synonyms)
+  # for instance
+  # check that all arguments have the good format
+  if (!is.character(trait_sp) | length(trait_sp) != 1) {
+    stop("Argument 'trait_sp' must be a character of length 1", call. = FALSE)
+  }
+  if (!trait_sp %in% names(trait_df)) {
+    stop("Argument 'trait_sp' is not found in 'trait_df'", call. = FALSE)
+  }
+  # check that data.frames have the needed column names
+  if (!all(c("original.name", "type", "new.name") %in% names(meta_trait))) {
+    msg <- "The columns 'original.name', 'type' and 'new.name' are not found in 'meta_trait'"
+    stop(msg, call. = FALSE)
+  }
+  if (!all(c("synonym_taxa", "accepted_taxa") %in% names(synonyms))) {
+    msg <- "The columns 'synonym_taxa' and 'accepted_taxa' are not found in 'synonyms'"
+    stop(msg, call. = FALSE)
+  }
+  if (!all(meta_trait$original.name %in% names(trait_df))) {
+    miss <- which(!meta_trait$original.name %in% names(trait_df))
+    msg <- paste(meta_trait$original.name[miss], "is missing from 'trait_df'.")
+    warning(msg, call. = FALSE)
+    meta_trait <- meta_trait[-miss, ]
+  }
+  if (nrow(meta_trait) == 0) {
+    stop("The data.frame 'meta_trait' is empty", call. = FALSE)
+  }
+  # by default clean_taxalist = FALSE to make the extraction faster
+  if (clean_taxalist) {
+    taxalist <- clean_species_list(taxalist)
+    taxalist <- taxalist[!is.na(taxalist)]
+    taxalist <- taxalist[taxalist != ""]
+    synonyms$synonym_taxa <- clean_species_list(synonyms$synonym_taxa)
+    synonyms$accepted_taxa <- clean_species_list(synonyms$accepted_taxa)
+  }
+  # check and simplify synonyms, avoid loops
+  if (clean_synonyms) {
+    # keep only the usefull columns
+    synonyms <- synonyms[, c("synonym_taxa", "accepted_taxa")]
+    # keep only taxa in taxalist
+    synonyms <- synonyms[synonyms$accepted_taxa %in% taxalist, ]
+    # remove synonyms that are accepted taxa (avoid loops)
+    synonyms <- synonyms[!synonyms$synonym_taxa %in% synonyms$accepted_taxa, ]
+    # remove duplicates
+    synonyms <- synonyms[!duplicated(synonyms), ]
+    # remove synonyms with different accepted names
+    rm_syn <- synonyms$synonym_taxa[duplicated(synonyms$synonym_taxa)]
+    synonyms <- synonyms[!synonyms$synonym_taxa %in% rm_syn, ]
+  }
+
   # clean species name
   trait_df$clean_taxa <- clean_species_list(trait_df[, trait_sp])
   # replace with synonyms
@@ -47,9 +94,27 @@ extract_trait_taxalist <- function(
     trait_df$clean_taxa[is_syn],
     synonyms$accepted_taxa[m_syn]
   )
+  # return error if taxalist and trait_sp doesn't match at all
+  if (!any(trait_df$clean_taxa %in% taxalist)) {
+    stop("The species in 'trait_df' don't match 'taxalist'", call. = FALSE)
+  }
 
   # match species names (including multiple matches)
-  match_df <- matches_taxa(taxalist, trait_df$clean_taxa, as_df = TRUE)
+  match_df <- matches_taxa(
+    taxalist,
+    trait_df$clean_taxa,
+    binomial = look_subsp,
+    genus = look_genus,
+    n_max = max_matches,
+    as_df = TRUE
+  )
+  # add matches with genus
+  oneword_taxa <- taxalist[get_genus(taxalist) == taxalist]
+  miss_gen <- oneword_taxa[!oneword_taxa %in% match_df$x]
+  gen_df <- match_df[get_genus(match_df$x) %in% miss_gen, ]
+  gen_df$x <- get_genus(gen_df$x)
+  gen_df <- gen_df[!duplicated(gen_df), ]
+  match_df <- rbind(match_df, gen_df)
   if (verbatim) {
     p <- prop.table(table(taxalist %in% match_df$x))
     p <- round(p[2] * 100, 2)
@@ -63,7 +128,7 @@ extract_trait_taxalist <- function(
   )
   for (i in 1:nrow(meta_trait)) {
     match_i <- unlist(trait_df[match_df$match, meta_trait$original.name[i]])
-    if (meta_trait$type[i] == "numeric") {
+    if (tolower(meta_trait$type[i]) == "numeric") {
       if (quiet) {
         match_i <- suppressWarnings(as.numeric(match_i))
       } else {
@@ -73,7 +138,7 @@ extract_trait_taxalist <- function(
     } else {
       trait_i <- tapply(as.character(match_i), match_df$x, concat)
     }
-    out[meta$new.name[i]] <- trait_i
+    out[meta_trait$new.name[i]] <- trait_i
   }
   # complete with full taxalist
   full_out <- out[match(taxalist, out$accepted_taxa), ]

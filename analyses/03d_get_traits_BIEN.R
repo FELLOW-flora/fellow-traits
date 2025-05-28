@@ -22,14 +22,14 @@ meta <- readxl::read_xlsx(
   here::here("data", "raw-data", "traits", "Metatraits.xlsx")
 )
 
-library("BIEN")
+# library("BIEN")
 
 # 1. Download the BIEN database ----------------------
 # only keep species or sub-species level
 keep <- taxolist$accepted_rank %in% c("SPECIES", "SUBSPECIES", "VARIETY")
 sp <- unique(taxolist$accepted_taxa[keep])
 # GBIF (accepted_gbif) had more records than the "accepted_taxa"
-bien_db <- BIEN_trait_species(sp)
+bien_db <- BIEN::BIEN_trait_species(sp)
 # takes a bit of time to run, but ok... 35 page of records
 dim(bien_db) # 344629     13
 
@@ -83,12 +83,11 @@ newlabC <- meta$new.name[meta$database == "BIEN" & meta$type == "categorical"]
 colnames(trait_cat) <- paste(colnames(trait_cat), "BIEN", sep = "_")
 
 
-# 3. Export -------------------------------------
 # merge the traits information
 m_num <- match(taxolist$accepted_taxa, row.names(trait_av))
 m_cat <- match(taxolist$accepted_taxa, row.names(trait_cat))
 
-out <- cbind(
+out <- data.frame(
   "accepted_taxa" = taxolist$accepted_taxa,
   "original_taxa_BIEN" = ifelse(
     is.na(m_num) & is.na(m_cat),
@@ -96,13 +95,49 @@ out <- cbind(
     taxolist$accepted_taxa
   ),
   trait_av[m_num, ],
-  trait_cat[m_cat, ]
+  trait_cat[m_cat, ],
+  check.names = FALSE
 )
 
+# fill in the genus values : 128 genus
+is_genus <- taxolist$accepted_rank %in% "GENUS"
+gen <- get_genus(taxolist$accepted_taxa)
+
+# for categorical variable (including taxonomic match)
+cats <- c("original_taxa_BIEN", colnames(trait_cat))
+
+mean_genus_cat <- aggregate(
+  out[, cats],
+  by = list(gen),
+  FUN = concat
+)
+# replace empty string (non-match) with NA
+mean_genus_cat[mean_genus_cat == ""] <- NA
+m_gen <- match(out$accepted_taxa[is_genus], mean_genus_cat$Group.1)
+out[is_genus, cats] <- mean_genus_cat[m_gen, -1]
+
+nums <- colnames(trait_av)
+mean_genus_num <- aggregate(
+  out[, nums],
+  by = list(gen),
+  FUN = mean,
+  na.rm = TRUE
+)
+# replace NaN by NA
+mean_genus_num[is.na(mean_genus_num)] <- NA
+# replace in trait dataset
+m_gen <- match(taxolist$accepted_taxa[is_genus], mean_genus_num$Group.1)
+out[is_genus, nums] <- mean_genus_num[m_gen, -1]
+
+# 3. Export -------------------------------------
 write.csv(
   out,
   file = here::here("data", "derived-data", "traitD_BIEN.csv"),
   row.names = FALSE
 )
+
+p <- prop.table(table(!is.na(out$original_taxa_BIEN)))
+p <- round(p[2] * 100, 2) # 82.12%
+print(paste("Taxa coverage of the trait database: ", p, "%"))
 # missing traits
-apply(is.na(out), 2, sum)
+print(apply(is.na(out), 2, sum))

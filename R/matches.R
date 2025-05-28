@@ -42,7 +42,7 @@ matches <- function(x, y) {
 }
 
 
-which_taxa <- function(i, ref, binomial = TRUE, genus = TRUE, n_max = 10) {
+which_taxa <- function(i, ref, binomial = TRUE, genus = FALSE, n_max = 10) {
   # find all exact match
   out <- which(ref %in% i)
   # if none, binomial match (no subspecies)
@@ -71,8 +71,8 @@ matches_taxa <- function(
   x,
   y,
   binomial = TRUE,
-  genus = TRUE,
-  n_max = 5,
+  genus = FALSE,
+  n_max = 10,
   as_df = FALSE
 ) {
   out <- lapply(

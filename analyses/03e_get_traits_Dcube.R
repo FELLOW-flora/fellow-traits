@@ -51,7 +51,7 @@ out <- extract_trait_taxalist(
   meta_trait = meta[meta$database %in% "Dcube", ],
   taxalist = taxolist$accepted_taxa,
   synonyms = synonyms
-) # 55%
+) # 59.2%
 names(out)[-1] <- paste(names(out)[-1], "Dcube", sep = "_")
 
 

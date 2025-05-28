@@ -47,7 +47,7 @@ out <- extract_trait_taxalist(
   meta_trait = meta[meta$database %in% "Baseflor", ],
   taxalist = taxolist$accepted_taxa,
   synonyms = synonyms
-) # 81.3 %
+) # 90.15 %
 names(out)[-1] <- paste(names(out)[-1], "Baseflor", sep = "_")
 
 # 2. Export trait data ---------------------------

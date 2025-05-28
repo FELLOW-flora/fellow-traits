@@ -1,20 +1,20 @@
-"accepted_taxa","original_taxa_Dcube","Strategy_Grime_Dcube","Max_Life_Dcube","GrassHerbLegTree_Dcube","Chorology_Dcube","Inflorescence_Dcube","Sexuality_Dcube","Pollination_Dcube","Fruit_Dcube","Dissemination_Dcube","Flower.color_Dcube","Flowering_Dcube","Plant.formation_Dcube","Optimal.habitat_Dcube","Luminosity_Dcube","Temperature_Dcube","Continentality_Dcube","Humidity.atmospheric_Dcube","Humidity.edaphic_Dcube","Soil_reaction_Dcube","Trophic.level_Dcube"
+"accepted_taxa","original_taxa_Dcube","fruit.type_Dcube","dia.type_Dcube","dia.exposure_Dcube","dia.hetero_Dcube","dia.app.nutrient_Dcube","dia.app.elon_Dcube","dia.app.hook_Dcube","dia.app.muci_Dcube","dia.mass.mg_Dcube","dia.surfacestructure_Dcube","dia.length.mm_Dcube","dia.width.mm_Dcube","dia.height.mm_Dcube","dia.shape_Dcube","dia.form_Dcube","term.velocity.m.s-1_Dcube","rank.ane_Dcube","rank.hydro_Dcube","rank.epi.wool_Dcube","diaspore.seeds.class_Dcube"
 "Abutilon",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Abutilon theophrasti",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Acacia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Acalypha",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Acalypha ostryifolia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Acalypha virginica",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Acer",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Acer","Acer campestre l._Acer negundo l._Acer platanoides l._Acer pseudoplatanus l.","Non-fleshy fruit","Fruit segment","Exposed","0","1","0","0","0",103.076,0.91,38.5,15,1,0.16,"Elongated & flat_Flat",1.0375,0.8575,0.235,0,"1"
 "Acer campestre","Acer campestre l.","Non-fleshy fruit","Fruit segment","Exposed","0","1","0","0","0",87.48,0.91,29,NA,NA,NA,"",1.21,0.82,0,0,"1"
 "Acer negundo","Acer negundo l.","Non-fleshy fruit","Fruit segment","Exposed","0","1","0","0","0",37.5,NA,30,10,1,0.16,"Elongated & flat",0.88,0.89,NA,NA,"1"
 "Acer platanoides","Acer platanoides l.","Non-fleshy fruit","Fruit segment","Exposed","0","1","0","0","0",148.05,NA,50,20,1,0.16,"Flat",1.01,0.86,NA,NA,"1"
 "Acer pseudoplatanus","Acer pseudoplatanus l.","Non-fleshy fruit","Fruit segment","Exposed","0","1","0","0","0",139.274,NA,45,15,NA,0.16,"Flat",1.05,0.86,0.47,NA,"1"
-"Achillea",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Achillea","Achillea millefolium agg._Achillea ptarmica agg.","Non-fleshy fruit","Fruit","Covered partly","1","0","0","0","0",0.130657,0.895,2.055,0.8,0.5,0.11,"Spherical",0.97,0.815,0.635,0.675,"1"
 "Achillea millefolium","Achillea millefolium agg.","Non-fleshy fruit","Fruit","Covered partly","1","0","0","0","0",0.130657,0.98,1.85,0.66,0.5,0.11,"Spherical",1.25,0.8,0.54,0.62,"1"
 "Achillea odorata",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Achillea ptarmica","Achillea ptarmica agg.","Non-fleshy fruit","Fruit","Covered partly","1","0","0","0","0",NA,0.81,2.26,0.94,0.5,0.11,"Spherical",0.69,0.83,0.73,0.73,"1"
-"Adonis","Adonis aestivalis l._Adonis flammea jacq._Adonis vernalis l.","Non-fleshy fruit","Fruit segment","Exposed","0","0_1","1","0_1","0",11.47,0.94,4.59,3.13666666666667,NA,0.0333333333333333,"Spherical",7.69333333333333,0.12,NA,0.63,"1"
+"Adonis","Adonis aestivalis l._Adonis flammea jacq.","Non-fleshy fruit","Fruit segment","Exposed","0","0","1","0_1","0",12,0.96,4.715,3.03,NA,0.035,"Spherical",8.685,0.09,NA,0.57,"1"
 "Adonis aestivalis","Adonis aestivalis l.","Non-fleshy fruit","Fruit segment","Exposed","0","0","1","0","0",12,0.96,5,3.26,NA,0.03,"Spherical",8.12,0.1,NA,0.5,"1"
 "Adonis annua",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Adonis flammea","Adonis flammea jacq.","Non-fleshy fruit","Fruit segment","Exposed","0","0","1","1","0",NA,0.96,4.43,2.8,NA,0.04,"Spherical",9.25,0.08,NA,0.64,"1"
@@ -31,7 +31,7 @@
 "Agrimonia eupatoria","Agrimonia eupatoria l.","Non-fleshy fruit","Fruit","Exposed","0","0","1","1","0",17.527,0.71,7.72,4.05,3.68,0.05,"Spherical",2.96,0.43,0.16,0.86,"2"
 "Agropyron",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Agrostemma githago","Agrostemma githago l.","Fruit with upright aperture","Seed","Enclosed","0","0","0","0","0",11.545,0.8,3.46,2.81,NA,0.02,"Spherical",11.6,0.05,NA,0.09,"1"
-"Agrostis",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Agrostis","Agrostis capillaris l._Agrostis gigantea roth_Agrostis stolonifera agg.","Non-fleshy fruit","Fruit","Covered partly","0_1","1","0_1","0","0",NA,0.97,2.27666666666667,0.526666666666667,0.39,0.143333333333333,"Elongated",0.875,0.826666666666667,0.71,0.635,"1"
 "Agrostis capillaris","Agrostis capillaris l.","Non-fleshy fruit","Fruit","Covered partly","0","1","0","0","0",NA,0.98,2.56,0.53,NA,0.15,"Elongated",0.89,0.81,0.6,NA,"1"
 "Agrostis gigantea","Agrostis gigantea roth","Non-fleshy fruit","Fruit","Covered partly","0","1","1","0","0",NA,0.98,2.06,0.52,0.39,0.14,"Elongated",NA,0.84,0.74,0.71,"1"
 "Agrostis stolonifera","Agrostis stolonifera agg.","Non-fleshy fruit","Fruit","Covered partly","1","1","0","0","0",NA,0.95,2.21,0.53,0.39,0.14,"Elongated",0.86,0.83,0.79,0.56,"1"
@@ -48,7 +48,7 @@
 "Alkanna matthioli",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Alkekengi officinarum","Physalis alkekengi l.","Fleshy fruit","Fruit","Exposed","1","1","0","0","0",NA,0.91,10.7,10,9.84,0,"Spherical",NA,NA,NA,NA,"3"
 "Alliaria petiolata","Alliaria petiolata (m. bieb.) cavara & grande","Fruit with lateral aperture","Seed","Covered partly","0","0","0","0","0",2.362857,0.94,3.36,1.38,NA,0.09,"Spherical",7.71,0.11,NA,0.36,"1"
-"Allium",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Allium","Allium oleraceum l._Allium scorodoprasum l. s.str._Allium sphaerocephalon l._Allium vineale agg.","Fruit with upright aperture","Seed","Enclosed","0_1","0","0","0","0",2.82876675,0.903333333333333,6.78,3.15666666666667,NA,0.105,"Elongated & flat_Spherical",5.06,0.2525,0.31,0.166666666666667,"1"
 "Allium ampeloprasum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Allium cepa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Allium cyrilli",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -65,7 +65,7 @@
 "Allium sphaerocephalon","Allium sphaerocephalon l.","Fruit with upright aperture","Seed","Enclosed","0","0","0","0","0",1.85,0.97,2.67,1.49,NA,0.09,"Spherical",5.19,0.21,NA,0.18,"1"
 "Allium subhirsutum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Allium vineale","Allium vineale agg.","Fruit with upright aperture","Seed","Enclosed","1","0","0","0","0",1.124667,NA,NA,NA,NA,NA,"",2.89,0.42,NA,NA,"1"
-"Alopecurus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Alopecurus","Alopecurus geniculatus l._Alopecurus myosuroides huds._Alopecurus pratensis l._Alopecurus rendlei eig","Non-fleshy fruit","Fruit","Exposed","0","1","1","0_1","0",2.102,0.686666666666667,6.92333333333333,2.11666666666667,0.82,0.143333333333333,"Elongated_Elongated & flat",3.15333333333333,0.503333333333333,0.25,0.883333333333333,"1"
 "Alopecurus geniculatus","Alopecurus geniculatus l.","Non-fleshy fruit","Fruit","Exposed","0","1","1","0","0",NA,0.67,3.9,1.53,0.48,0.13,"Elongated & flat",1.23,0.75,0.4,0.91,"1"
 "Alopecurus myosuroides","Alopecurus myosuroides huds.","Non-fleshy fruit","Fruit","Exposed","0","1","1","0","0",2.102,0.88,9.06,1.99,0.9,0.16,"Elongated",4.05,0.36,0.12,0.81,"1"
 "Alopecurus pratensis","Alopecurus pratensis l.","Non-fleshy fruit","Fruit","Exposed","0","1","1","0","0",NA,0.51,7.81,2.83,1.08,0.14,"Elongated & flat",4.18,0.4,0.23,0.93,"1"
@@ -73,14 +73,14 @@
 "Alopecurus utriculatus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Althaea cannabina",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Althaea officinalis","Althaea officinalis l.","Non-fleshy fruit","Fruit segment","Covered partly","0","0","0","0","0",NA,0.9,2.12,1.79,NA,0.08,"Spherical",6.44,0.15,0.34,0.29,"1"
-"Alyssum","Alyssum alyssoides (l.) l._Alyssum montanum l._Alyssum saxatile l.","Fruit with lateral aperture","Seed","Covered partly","0","0","0","0","1",0.56,0.926666666666667,2.26333333333333,1.91333333333333,0.495,0.11,"Flat_Spherical",2.99333333333333,0.5,NA,0.29,"1"
+"Alyssum","Alyssum alyssoides (l.) l._Alyssum montanum l.","Fruit with lateral aperture","Seed","Covered partly","0","0","0","0","1",0.56,0.91,2.13,1.7,0.495,0.1,"Flat_Spherical",3.615,0.405,NA,0.305,"1"
 "Alyssum alyssoides","Alyssum alyssoides (l.) l.","Fruit with lateral aperture","Seed","Covered partly","0","0","0","0","1",0.52,0.91,1.8,1.34,0.59,0.07,"Spherical",2.14,0.6,NA,0.32,"1"
 "Alyssum granatense",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Alyssum minutum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Alyssum montanum","Alyssum montanum l.","Fruit with lateral aperture","Seed","Covered partly","0","0","0","0","1",0.6,0.91,2.46,2.06,0.4,0.13,"Flat",5.09,0.21,NA,0.29,"1"
 "Alyssum simplex",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Amaranthaceae",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Amaranthus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Amaranthus","Amaranthus albus l._Amaranthus blitoides s. watson_Amaranthus blitum l. s.l._Amaranthus deflexus l._Amaranthus graecizans l._Amaranthus hybridus agg._Amaranthus powellii s. watson_Amaranthus retroflexus l.","Fruit with upright aperture_Non-fleshy fruit","Fruit_Seed","Enclosed_Exposed","0_1","1","0_1","0","0",0.5859135,0.9725,1.26571428571429,1.15857142857143,1,0.025,"Spherical",4.60625,0.29125,0.37,0.248571428571429,"1"
 "Amaranthus albus","Amaranthus albus l.","Fruit with upright aperture","Seed","Enclosed","0","1","0","0","0",NA,0.99,1.19,1.09,1,0,"Spherical",5.53,0.19,NA,0.28,"1"
 "Amaranthus blitoides","Amaranthus blitoides s. watson","Fruit with upright aperture","Seed","Enclosed","0","1","0","0","0",1.1088,0.99,1.47,1.33,NA,0.03,"Spherical",6.04,0.17,NA,0.19,"1"
 "Amaranthus blitum","Amaranthus blitum l. s.l.","Fruit with upright aperture","Seed","Enclosed","1","1","0","0","0",0.4486,1,1.26,1.09,NA,0.04,"Spherical",4.27,0.28,NA,0.25,"1"
@@ -131,7 +131,7 @@
 "Anthemis ruthenica","Anthemis ruthenica m. bieb.","Non-fleshy fruit","Fruit","Covered partly","1","0","0","0","0",0.2192,0.98,1.95,0.94,0.7,0.08,"Spherical",1.37,0.79,NA,0.59,"1"
 "Anthoxanthum aristatum","Anthoxanthum aristatum boiss.","Non-fleshy fruit","Fruit","Covered partly","1","1","1","0","0",NA,0.6,4.49,1.77,0.79,0.12,"Elongated & flat",1.7,0.61,NA,0.84,"1"
 "Anthoxanthum odoratum","Anthoxanthum odoratum l.","Non-fleshy fruit","Fruit","Covered partly","0","1","1","1","0",0.6554,0.62,6.76,2.27,0.74,0.14,"Flat",1.63,0.66,0.64,0.85,"1"
-"Anthriscus","Anthriscus caucalis m. bieb._Anthriscus cerefolium (l.) hoffm._Anthriscus nitida (wahlenb.) hazsl._Anthriscus sylvestris (l.) hoffm.","Non-fleshy fruit","Fruit segment","Exposed","0","0","0_1","0_1","0",2.80420766666667,0.86,6.325,1.29,1.325,0.14,"Elongated_Spherical",4.84,0.24,0,0.63,"1"
+"Anthriscus","Anthriscus caucalis m. bieb._Anthriscus cerefolium (l.) hoffm._Anthriscus sylvestris (l.) hoffm.","Non-fleshy fruit","Fruit segment","Exposed","0","0","0_1","0_1","0",2.80420766666667,0.83,6.21,1.36666666666667,1.65,0.133333333333333,"Elongated_Spherical",4.51666666666667,0.26,0,0.683333333333333,"1"
 "Anthriscus caucalis","Anthriscus caucalis m. bieb.","Non-fleshy fruit","Fruit segment","Exposed","0","0","1","1","0",2.4,0.67,3.83,2,1.65,0.06,"Spherical",4.47,0.26,NA,0.9,"1"
 "Anthriscus cerefolium","Anthriscus cerefolium (l.) hoffm.","Non-fleshy fruit","Fruit segment","Exposed","0","0","0","0","0",2.4,0.89,8.02,0.96,NA,0.18,"Elongated",4.36,0.27,0,0.64,"1"
 "Anthriscus sylvestris","Anthriscus sylvestris (l.) hoffm.","Non-fleshy fruit","Fruit segment","Exposed","0","0","0","0","0",3.612623,0.93,6.78,1.14,NA,0.16,"Elongated",4.72,0.25,NA,0.51,"1"
@@ -144,11 +144,11 @@
 "Aphanes australis","Aphanes inexspectata w. lippert","Non-fleshy fruit","Fruit","Exposed","0","0","1","1","0",NA,NA,NA,NA,NA,NA,"",1.91,0.65,NA,NA,"1"
 "Aphyllanthes monspeliensis",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Apiaceae",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Apium","Apium graveolens l._Apium inundatum (l.) rchb. f._Apium nodiflorum (l.) lag._Apium repens (jacq.) lag.","Non-fleshy fruit","Fruit segment","Exposed","0","0","0","0","0",0.324366666666667,0.9575,1.5875,1.01,0.97,0.0325,"Spherical",3.37333333333333,0.38,0.67,0.696666666666667,"1"
+"Apium","Apium graveolens l.","Non-fleshy fruit","Fruit segment","Exposed","0","0","0","0","0",0.45,0.98,1.28,1.02,1,0.01,"Spherical",4.18,0.28,0.67,0.63,"1"
 "Apium graveolens","Apium graveolens l.","Non-fleshy fruit","Fruit segment","Exposed","0","0","0","0","0",0.45,0.98,1.28,1.02,1,0.01,"Spherical",4.18,0.28,0.67,0.63,"1"
 "Arabidopsis arenosa","Cardaminopsis arenosa (l.) hayek","Fruit with lateral aperture","Seed","Covered partly","0","0","0","0","1",0.0996,0.98,1,0.57,0.5,0.06,"Spherical",1.86,0.77,NA,0.63,"1"
 "Arabidopsis thaliana","Arabidopsis thaliana (l.) heynh.","Fruit with lateral aperture","Seed","Covered partly","0","0","0","0","1",0.024333,0.87,0.48,0.25,0.2,0.06,"Spherical",1.19,0.86,NA,0.78,"1"
-"Arctium","Arctium lappa l._Arctium minus (hill) bernh. s.str._Arctium nemorosum lej._Arctium tomentosum mill.","Non-fleshy fruit","Fruit","Covered partly","1","0","0","0","0",200.375,0.983333333333333,6.83666666666667,2.93,2,0.103333333333333,"Spherical",7.62666666666667,0.15,0.35,0.085,"1"
+"Arctium","Arctium lappa l._Arctium minus (hill) bernh. s.str._Arctium tomentosum mill.","Non-fleshy fruit","Fruit","Covered partly","1","0","0","0","0",10.68,0.985,6.075,2.7,NA,0.1,"Spherical",7.005,0.18,0.35,0.15,"1"
 "Arctium lappa","Arctium lappa l.","Non-fleshy fruit","Fruit","Covered partly","1","0","0","0","0",NA,0.99,6.88,2.79,NA,0.11,"Spherical",NA,NA,0.35,NA,"1"
 "Arctium minus","Arctium minus (hill) bernh. s.str.","Non-fleshy fruit","Fruit","Covered partly","1","0","0","0","0",NA,NA,NA,NA,NA,NA,"",6,0.25,NA,NA,"1"
 "Arctium tomentosum","Arctium tomentosum mill.","Non-fleshy fruit","Fruit","Covered partly","1","0","0","0","0",10.68,0.98,5.27,2.61,NA,0.09,"Spherical",8.01,0.11,NA,0.15,"1"
@@ -185,12 +185,12 @@
 "Asphodelus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Asphodelus ramosus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Asteraceae",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Astragalus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Astragalus","Astragalus cicer l._Astragalus glycyphyllos l.","Fruit with lateral aperture","Seed","Enclosed","1","1","0","0","0",2.6,0.905,2.445,1.955,NA,0.05,"Spherical",9.17,0.09,0,0.135,"1"
 "Astragalus boeticus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Astragalus cicer","Astragalus cicer l.","Fruit with lateral aperture","Seed","Enclosed","1","1","0","0","0",2.6,0.92,2.36,1.9,NA,0.05,"Spherical",8.37,0.1,NA,0.15,"1"
 "Astragalus glycyphyllos","Astragalus glycyphyllos l.","Fruit with lateral aperture","Seed","Enclosed","1","1","0","0","0",NA,0.89,2.53,2.01,NA,0.05,"Spherical",9.97,0.08,0,0.12,"1"
 "Astragalus hamosus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Atriplex",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Atriplex","Atriplex hortensis l._Atriplex littoralis l._Atriplex oblongifolia waldst. & kit._Atriplex patula l._Atriplex prostrata boucher ex dc._Atriplex sagittata borkh._Atriplex tatarica l.","Non-fleshy fruit","Fruit","Exposed","0_1","0","0_1","0","0",1.7928,0.932857142857143,4.91714285714286,3.89857142857143,NA,0.0766666666666667,"Flat_Spherical",2.71,0.474285714285714,0.146666666666667,0.542,"1"
 "Atriplex halimus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Atriplex hortensis","Atriplex hortensis l.","Non-fleshy fruit","Fruit","Exposed","1","0","0","0","0",NA,0.94,5.68,4.37,NA,0.1,"Flat",1.52,0.75,NA,NA,"1"
 "Atriplex littoralis","Atriplex littoralis l.","Non-fleshy fruit","Fruit","Exposed","0","0","1","0","0",2.2936,0.9,4.41,3.84,NA,NA,"",3.02,0.37,NA,0.79,"1"
@@ -209,11 +209,11 @@
 "Avena strigosa","Avena strigosa schreb.","Non-fleshy fruit","Infructescence","Covered partly","1","1","1","1","0",NA,0.74,18.21,6.61,NA,NA,"",NA,NA,NA,0.72,"2"
 "Avenula pubescens","Helictotrichon pubescens (huds.) pilg.","Non-fleshy fruit","Fruit","Covered partly","0","1","1","1","0",1.773333,0.4,13.28,5.19,NA,NA,"",1.76,0.59,0.13,0.86,"1"
 "Ballota nigra","Ballota nigra l. s.l.","Non-fleshy fruit","Fruit","Exposed","1","0","1","1","0",0.5848,0.98,2.04,1.02,NA,0.05,"Spherical",3.8,0.47,NA,0.75,"2"
-"Barbarea","Barbarea intermedia boreau_Barbarea stricta andrz._Barbarea verna (mill.) asch._Barbarea vulgaris r. br.","Fruit with lateral aperture","Seed","Covered partly","0","0","0","0","0",0.57985,0.95,1.5375,1.095,0.4,0.09,"Spherical",3.9725,0.325,0.67,0.54,"1"
+"Barbarea","Barbarea intermedia boreau_Barbarea stricta andrz._Barbarea vulgaris r. br.","Fruit with lateral aperture","Seed","Covered partly","0","0","0","0","0",0.496733333333333,0.943333333333333,1.52666666666667,1.07333333333333,0.4,0.0866666666666667,"Spherical",3.76666666666667,0.346666666666667,0.67,0.56,"1"
 "Barbarea intermedia","Barbarea intermedia boreau","Fruit with lateral aperture","Seed","Covered partly","0","0","0","0","0",0.5512,0.96,1.54,1.07,0.4,0.09,"Spherical",4.06,0.3,0.23,0.54,"1"
 "Barbarea stricta","Barbarea stricta andrz.","Fruit with lateral aperture","Seed","Covered partly","0","0","0","0","0",0.234,0.96,1.41,0.96,0.4,0.09,"Spherical",3.12,0.45,0.89,0.58,"1"
 "Barbarea vulgaris","Barbarea vulgaris r. br.","Fruit with lateral aperture","Seed","Covered partly","0","0","0","0","0",0.705,0.91,1.63,1.19,NA,0.08,"Spherical",4.12,0.29,0.89,0.56,"1"
-"Bassia","Bassia hirsuta (l.) asch.","Non-fleshy fruit","Fruit","Exposed","0","0","1","0","0",NA,NA,2,2,2,0,"Spherical",NA,NA,NA,NA,"1"
+"Bassia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Bassia scoparia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Bellardia trixago",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Bellardia viscosa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -227,7 +227,7 @@
 "Betonica officinalis","Betonica officinalis l.","Non-fleshy fruit","Fruit segment","Covered partly","0","0","0","0","0",1.0255,0.95,2.95,1.37,NA,0.09,"Spherical",2.06,0.68,NA,0.48,"1"
 "Betula pendula","Betula pendula roth","Non-fleshy fruit","Fruit","Exposed","0","0","0","0","0",0.7252,0.81,3.72,2.77,0.5,0.13,"Flat",0.4,0.95,0.89,0.74,"1"
 "Betula pubescens","Betula pubescens ehrh. s.l.","Non-fleshy fruit","Fruit","Covered partly","0","0","0","0","0",NA,0.85,2.91,2.23,NA,0.12,"Flat",0.64,0.92,NA,0.56,"1"
-"Bidens","Bidens cernua l._Bidens connata h. l. muhl. ex willd._Bidens frondosa l._Bidens radiata thuill._Bidens tripartita l.","Non-fleshy fruit","Fruit","Exposed","0_1","0","1","1","0",2.2,0.642,9.01,2.9475,NA,0.16,"Elongated & flat",2.715,0.65,0.625,0.902,"1"
+"Bidens","Bidens tripartita l.","Non-fleshy fruit","Fruit","Exposed","0","0","1","1","0",2.2,0.7,8.52,2.49,NA,0.16,"Elongated & flat",NA,0.8,NA,0.89,"1"
 "Bidens bipinnata",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Bidens subalternans",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Bidens tripartita","Bidens tripartita l.","Non-fleshy fruit","Fruit","Exposed","0","0","1","1","0",2.2,0.7,8.52,2.49,NA,0.16,"Elongated & flat",NA,0.8,NA,0.89,"1"
@@ -249,7 +249,7 @@
 "Brachypodium retusum","Bromus ramosus huds. s.str.","Non-fleshy fruit","Fruit","Covered partly","0","1","1","0","0",NA,0.89,15.09,2.15,0.8,0.18,"Elongated",NA,0.46,0.18,0.52,"1"
 "Brachypodium rupestre","Brachypodium rupestre (host) roem. & schult.","Non-fleshy fruit","Fruit","Covered partly","0","1","1","0","0",1.2752,0.95,8.93,1.21,NA,NA,"",2.14,0.6,NA,0.57,"1"
 "Brachypodium sylvaticum","Brachypodium sylvaticum (huds.) p. beauv.","Non-fleshy fruit","Fruit","Covered partly","1","1","1","0","0",4.666667,0.79,16.33,1.75,0.8,0.19,"Elongated",3.33,0.41,NA,0.62,"1"
-"Brassica","Brassica elongata ehrh._Brassica nigra (l.) w. d. j. koch_Brassica oleracea ssp. oleracea","Fruit with lateral aperture","Seed","Covered partly","0","0","0","0","0_1",3.0662,0.91,1.69666666666667,1.61666666666667,1,0.025,"Spherical",9.17,0.23,0,0.405,"1"
+"Brassica","Brassica nigra (l.) w. d. j. koch","Fruit with lateral aperture","Seed","Covered partly","0","0","0","0","1",NA,0.84,1.6,1.51,1,0.03,"Spherical",NA,0.37,0,0.52,"1"
 "Brassica barrelieri",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Brassica carinata",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Brassica juncea",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -265,7 +265,7 @@
 "Bromopsis benekenii","Bromus benekenii (lange) trimen","Non-fleshy fruit","Fruit","Covered partly","0","1","1","0","0",5.9,0.84,18.38,1.93,0.76,0.19,"Elongated",3.07,0.44,0.06,0.56,"1"
 "Bromopsis erecta",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Bromopsis inermis","Bromus inermis leyss.","Non-fleshy fruit","Fruit","Covered partly","0","1","1","0","0",4,NA,NA,NA,NA,0.18,"Elongated",2.05,0.64,0.08,NA,"1"
-"Bromus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Bromus","Bromus arvensis l._Bromus commutatus schrad._Bromus grossus desf. ex dc._Bromus hordeaceus l._Bromus japonicus thunb._Bromus racemosus l._Bromus secalinus l. s.str._Bromus squarrosus l.","Non-fleshy fruit","Fruit","Covered partly","0","1","1","0_1","0",3.144,0.91375,14.15375,2.8825,1.61333333333333,0.165,"Elongated",3.1875,0.45,0.14,0.54125,"1"
 "Bromus arvensis","Bromus arvensis l.","Non-fleshy fruit","Fruit","Covered partly","0","1","1","0","0",2.1,0.91,13.37,2,1.76,0.17,"Elongated",2.08,0.55,NA,0.59,"1"
 "Bromus commutatus","Bromus commutatus schrad.","Non-fleshy fruit","Fruit","Covered partly","0","1","1","0","0",NA,0.96,14.51,2.31,1.72,0.17,"Elongated",3.48,0.37,0.18,0.45,"1"
 "Bromus commutatus subsp. decipiens","Bromus commutatus schrad.","Non-fleshy fruit","Fruit","Covered partly","0","1","1","0","0",NA,0.96,14.51,2.31,1.72,0.17,"Elongated",3.48,0.37,0.18,0.45,"1"
@@ -297,7 +297,7 @@
 "Camelina rumelica",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Camelina sativa","Camelina sativa (l.) crantz (s.str.)","Fruit with lateral aperture","Seed","Covered partly","1","0","0","0","1",NA,0.92,1.73,0.92,NA,NA,"",5.36,0.2,NA,0.52,"1"
 "Camelina sativa var. pilosa","Camelina sativa (l.) crantz (s.str.)","Fruit with lateral aperture","Seed","Covered partly","1","0","0","0","1",NA,0.92,1.73,0.92,NA,NA,"",5.36,0.2,NA,0.52,"1"
-"Campanula",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Campanula","Campanula glomerata l._Campanula patula l._Campanula persicifolia l._Campanula rapunculoides l._Campanula rapunculus l._Campanula rotundifolia l. s.str.","Fruit with lateral aperture","Seed","Enclosed","0","0","0","0","0",0.0659741666666667,0.966666666666667,0.851666666666667,0.476666666666667,NA,0.086,"Spherical",1.76333333333333,0.686666666666667,0.7,0.401666666666667,"1"
 "Campanula erinus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Campanula glomerata","Campanula glomerata l.","Fruit with lateral aperture","Seed","Enclosed","0","0","0","0","0",0.10496,0.98,1.12,0.64,NA,0.08,"Spherical",1.93,0.65,NA,0.35,"1"
 "Campanula patula","Campanula patula l.","Fruit with lateral aperture","Seed","Enclosed","0","0","0","0","0",0.03,0.98,0.52,0.37,NA,NA,"",1.25,0.81,NA,0.43,"1"
@@ -308,16 +308,16 @@
 "Cannabis sativa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Capsella bursa-pastoris","Capsella bursa-pastoris (l.) medik.","Fruit with lateral aperture","Seed","Covered partly","0","0","0","0","1",0.1268,0.91,0.99,0.54,NA,NA,"",1.97,0.66,NA,0.68,"1"
 "Capsella rubella",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Cardamine",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Cardamine","Cardamine hirsuta l._Cardamine pratensis agg._Cardamine pratensis l. (s.str.)","Explosive release mechanism","Seed","Enclosed","0","0","0","0","0_1",0.404666666666667,0.956666666666667,1.24666666666667,0.92,NA,0.09,"Spherical",2.11,0.58,0.72,0.293333333333333,"1"
 "Cardamine hirsuta","Cardamine hirsuta l.","Explosive release mechanism","Seed","Enclosed","0","0","0","0","1",0.18,0.91,1.04,0.78,NA,0.09,"Spherical",1.88,0.66,NA,0.38,"1"
 "Cardamine pratensis","Cardamine pratensis agg._Cardamine pratensis l. (s.str.)","Explosive release mechanism","Seed","Enclosed","0","0","0","0","0",0.517,0.98,1.35,0.99,NA,0.09,"Spherical",2.225,0.54,0.72,0.25,"1"
-"Carduus","Carduus acanthoides l._Carduus crispus l._Carduus defloratus l._Carduus nutans agg._Carduus personata (l.) jacq.","Non-fleshy fruit","Fruit","Exposed","1","0","1","0","0",2.9422665,0.533333333333333,10.84,7.985,4.28333333333333,0.106,"Elongated_Flat_Spherical",2.395,0.635,0.79,0.9,"1"
+"Carduus","Carduus acanthoides l._Carduus crispus l._Carduus nutans agg.","Non-fleshy fruit","Fruit","Exposed","1","0","1","0","0",3.122533,0.495,11.9166666666667,8.465,3.425,0.12,"Elongated_Flat_Spherical",1.13,0.793333333333333,0.79,0.9,"1"
 "Carduus acanthoides","Carduus acanthoides l.","Non-fleshy fruit","Fruit","Exposed","1","0","1","0","0",NA,0.21,13.25,6.93,1,0.14,"Flat",0.41,0.93,NA,0.95,"1"
 "Carduus crispus","Carduus crispus l.","Non-fleshy fruit","Fruit","Exposed","1","0","1","0","0",NA,NA,12,NA,NA,0.19,"Elongated",0.4,0.95,0.79,NA,"1"
 "Carduus nutans","Carduus nutans agg.","Non-fleshy fruit","Fruit","Exposed","1","0","1","0","0",3.122533,0.78,10.5,10,5.85,0.03,"Spherical",2.58,0.5,NA,0.85,"1"
 "Carduus pycnocephalus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Carduus tenuiflorus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Carex",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Carex","Carex caryophyllea latourr._Carex curvula all._Carex divulsa stokes s.str._Carex flacca schreb._Carex hirta l._Carex muricata agg._Carex muricata l. s.str._Carex nigra (l.) reichard_Carex otrubae podp._Carex pallescens l._Carex pendula huds._Carex spicata huds._Carex vulpina l.","Non-fleshy fruit","Fruit","Covered partly_Exposed","0","0_1","0_1","0_1","0",1.4009625,0.914615384615385,4.91076923076923,2.10916666666667,NA,0.0975,"Elongated & flat_Spherical",2.9825,0.469230769230769,0.7825,0.645384615384615,"1"
 "Carex caryophyllea","Carex caryophyllea latourr.","Non-fleshy fruit","Fruit","Covered partly","0","0","0","0","0",1.2565,0.95,2.75,NA,NA,NA,"",1.62,0.72,0.86,0.45,"1"
 "Carex curvula","Carex curvula all.","Non-fleshy fruit","Fruit","Covered partly","0","0","1","0","0",1.5675,0.97,15.82,4.85,NA,NA,"",3.23,0.39,NA,0.57,"1"
 "Carex divulsa","Carex divulsa stokes s.str.","Non-fleshy fruit","Fruit","Exposed","0","0","1","0","0",NA,0.97,4.18,1.85,NA,NA,"",4.21,0.34,NA,0.73,"1"
@@ -342,7 +342,7 @@
 "Celtis australis",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Cenchrus americanus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Cenchrus incertus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Centaurea",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Centaurea","Centaurea calcitrapa l._Centaurea jacea l. s.l._Centaurea nigrescens willd._Centaurea paniculata agg._Centaurea scabiosa l. s.l._Centaurea solstitialis l._Cnicus benedictus l.","Non-fleshy fruit","Fruit","Covered partly","0_1","0","0_1","0","0",12.15841675,0.515714285714286,7.14428571428571,5.24571428571429,1,0.0733333333333333,"Spherical",4.73833333333333,0.335714285714286,0.335,0.69,"1"
 "Centaurea argentea",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Centaurea aspera",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Centaurea benedicta","Cnicus benedictus l.","Non-fleshy fruit","Fruit","Covered partly","0","0","1","0","0",37.753333,0.32,18.24,15.14,NA,0.04,"Spherical",7.83,0.18,NA,0.63,"1"
@@ -358,12 +358,12 @@
 "Centaurea scabiosa","Centaurea scabiosa l. s.l.","Non-fleshy fruit","Fruit","Covered partly","0","0","1","0","0",7.019667,0.3,8.17,6,NA,NA,"",1.68,0.65,0.36,0.82,"1"
 "Centaurea solstitialis","Centaurea solstitialis l.","Non-fleshy fruit","Fruit","Covered partly","1","0","1","0","0",NA,0.33,5.33,3.81,NA,NA,"",4.17,0.28,NA,0.86,"1"
 "Centaurea stoebe",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Centaurium","Centaurium erythraea rafn_Centaurium littorale (turner) gilm._Centaurium pulchellum (sw.) druce","Fruit with lateral aperture","Seed","Enclosed","0","0","0","0","0",0.0536335,0.92,0.366666666666667,0.3,0.09,0.0533333333333333,"Flat_Spherical",1.08,0.853333333333333,0.77,0.486666666666667,"1"
+"Centaurium","Centaurium erythraea rafn_Centaurium pulchellum (sw.) druce","Fruit with lateral aperture","Seed","Enclosed","0","0","0","0","0",0.018267,0.925,0.355,0.29,0.09,0.06,"Flat_Spherical",1.18,0.845,0.77,0.5,"1"
 "Centaurium erythraea","Centaurium erythraea rafn","Fruit with lateral aperture","Seed","Enclosed","0","0","0","0","0",0.018267,0.98,0.37,0.3,0.09,0.1,"Flat",1.18,0.83,NA,0.46,"1"
 "Centaurium pulchellum","Centaurium pulchellum (sw.) druce","Fruit with lateral aperture","Seed","Enclosed","0","0","0","0","0",NA,0.87,0.34,0.28,NA,0.02,"Spherical",NA,0.86,0.77,0.54,"1"
 "Centranthus calcitrapae",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Centranthus ruber","Centranthus ruber (l.) dc.","Non-fleshy fruit","Fruit","Exposed","0","0","1","0","0",NA,NA,NA,NA,NA,0.13,"Elongated & flat",NA,0.88,NA,NA,"1"
-"Cerastium",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Cerastium","Cerastium arvense l._Cerastium brachypetalum agg._Cerastium fontanum agg._Cerastium fontanum baumg. s.str._Cerastium glomeratum thuill._Cerastium holosteoides fr._Cerastium pumilum agg.","Fruit with upright aperture","Seed","Enclosed","0","0","0","0","0",0.15215975,0.915,0.735,0.596666666666667,NA,0.04,"Spherical",2.226,0.601666666666667,0.18,0.425,"1"
 "Cerastium arvense","Cerastium arvense l.","Fruit with upright aperture","Seed","Enclosed","0","0","0","0","0",0.3364,0.85,1.1,0.87,NA,0.05,"Spherical",2.51,0.53,0.19,0.4,"1"
 "Cerastium brachypetalum","Cerastium brachypetalum agg.","Fruit with upright aperture","Seed","Enclosed","0","0","0","0","0",NA,0.95,0.71,0.54,NA,NA,"",3.09,0.41,NA,0.43,"1"
 "Cerastium dichotomum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -381,7 +381,7 @@
 "Chaenorhinum minus subsp. minus","Chaenorhinum minus (l.) lange","Fruit with upright aperture","Seed","Enclosed","0","0","0","0","0",NA,0.93,0.79,0.5,NA,0.03,"Spherical",NA,0.65,NA,0.42,"1"
 "Chaenorhinum origanifolium",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Chaenorhinum rubrifolium",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Chaerophyllum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Chaerophyllum","Chaerophyllum temulum l.","Non-fleshy fruit","Fruit segment","Exposed","0","0","0","0","0",2.04152,0.97,5.51,1.11,NA,0.17,"Elongated",4.91,0.36,NA,0.48,"1"
 "Chaerophyllum temulum","Chaerophyllum temulum l.","Non-fleshy fruit","Fruit segment","Exposed","0","0","0","0","0",2.04152,0.97,5.51,1.11,NA,0.17,"Elongated",4.91,0.36,NA,0.48,"1"
 "Chamaenerion angustifolium","Epilobium angustifolium l.","Fruit with lateral aperture","Seed","Covered partly","0","0","1","0","0",0.256,NA,NA,NA,NA,NA,"",0.08,1,NA,NA,"1"
 "Chamaenerion fleischeri","Epilobium fleischeri hochst.","Fruit with lateral aperture","Seed","Covered partly","0","0","1","0","0",0.1638,0.1,21.08,18.24,18.04,0,"Spherical",0.14,1,0.79,0.89,"1"
@@ -389,7 +389,7 @@
 "Chelidonium majus","Chelidonium majus l.","Fruit with lateral aperture","Seed","Covered partly","0","1","0","0","0",0.94,0.94,1.54,1.2,NA,0.04,"Spherical",NA,0.75,NA,0.52,"1"
 "Chenopodiastrum hybridum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Chenopodiastrum murale","Chenopodium murale l.","Non-fleshy fruit","Fruit","Exposed","1","0","0","0","1",0.6,0.82,1.4,1.26,NA,0.04,"Spherical",4.39,0.27,NA,0.84,"1"
-"Chenopodium",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Chenopodium","Chenopodium album agg._Chenopodium ficifolium sm._Chenopodium vulvaria l.","Non-fleshy fruit","Fruit","Exposed","1","0","0_1","0_1","1",0.49505,0.85,1.34,1.15666666666667,1,0.02,"Spherical",4.205,0.356666666666667,0.89,0.833333333333333,"1"
 "Chenopodium album","Chenopodium album agg.","Non-fleshy fruit","Fruit","Exposed","1","0","1","1","1",0.6214,0.92,1.56,1.32,1,0.03,"Spherical",4.17,0.29,NA,0.83,"1"
 "Chenopodium ficifolium","Chenopodium ficifolium sm.","Non-fleshy fruit","Fruit","Exposed","1","0","0","0","1",0.38,0.92,1.18,1.06,1,0,"Spherical",NA,0.5,0.89,0.77,"1"
 "Chenopodium vulvaria","Chenopodium vulvaria l.","Non-fleshy fruit","Fruit","Exposed","1","0","1","1","1",0.48375,0.71,1.28,1.09,NA,0.03,"Spherical",4.24,0.28,NA,0.9,"1"
@@ -400,7 +400,7 @@
 "Cichorium endivia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Cichorium intybus","Cichorium intybus l.","Non-fleshy fruit","Fruit","Covered partly","0","0","1","0","0",1.4395,0.92,2.84,1.31,NA,0.08,"Spherical",2.92,0.49,NA,0.62,"1"
 "Cicuta virosa","Cicuta virosa l.","Non-fleshy fruit","Fruit segment","Exposed","0","0","1","1","0",NA,0.94,2,2,2,0,"Spherical",4.49,0.26,NA,0.79,"1"
-"Cirsium",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Cirsium","Cirsium arvense (l.) scop._Cirsium eriophorum (l.) scop._Cirsium erisithales (jacq.) scop._Cirsium oleraceum (l.) scop._Cirsium palustre (l.) scop._Cirsium vulgare (savi) ten.","Non-fleshy fruit","Fruit","Exposed","1","0","1","0","0",3.4108,0.453333333333333,13.2233333333333,10.6266666666667,10,0.128,"Elongated_Flat_Spherical",2.01666666666667,0.708333333333333,0.563333333333333,0.923333333333333,"1"
 "Cirsium arvense","Cirsium arvense (l.) scop.","Non-fleshy fruit","Fruit","Exposed","1","0","1","0","0",1.064,0.55,11.89,9.42,NA,0.14,"Flat",0.26,0.98,0.69,0.91,"1"
 "Cirsium eriophorum","Cirsium eriophorum (l.) scop.","Non-fleshy fruit","Fruit","Exposed","1","0","1","0","0",6,NA,20,NA,NA,0.16,"Elongated",0.62,0.92,NA,NA,"1"
 "Cirsium erisithales","Cirsium erisithales (jacq.) scop.","Non-fleshy fruit","Fruit","Exposed","1","0","1","0","0",NA,NA,4.5,NA,NA,NA,"",4.93,0.23,NA,NA,"1"
@@ -412,7 +412,7 @@
 "Cistus monspeliensis",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Cistus salviifolius",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Cladanthus mixtus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Clematis","Clematis alpina (l.) mill._Clematis recta l._Clematis vitalba l.","Non-fleshy fruit","Fruit segment","Exposed","0","0","1","0","0",2.8873335,0.16,19.91,12.28,NA,NA,"",1.055,0.87,0.61,0.96,"1"
+"Clematis","Clematis vitalba l.","Non-fleshy fruit","Fruit segment","Exposed","0","0","1","0","0",2.966667,NA,NA,NA,NA,NA,"",1.1,0.88,NA,NA,"1"
 "Clematis flammula",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Clematis vitalba","Clematis vitalba l.","Non-fleshy fruit","Fruit segment","Exposed","0","0","1","0","0",2.966667,NA,NA,NA,NA,NA,"",1.1,0.88,NA,NA,"1"
 "Clinopodium","Calamintha nepeta agg._Clinopodium vulgare l.","Non-fleshy fruit","Fruit_Fruit segment","Covered partly_Exposed","0_1","0_1","0_1","0_1","0",0.3694,0.97,1.13,0.8,NA,0.03,"Spherical",3.55,0.48,0.51,0.68,"1_2"
@@ -434,7 +434,7 @@
 "Coriandrum sativum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Coris monspeliensis",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Corispermum nitidum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Cornus","Cornus mas l._Cornus sanguinea l._Cornus suecica l.","Fleshy fruit","Fruit","Exposed","0","1","0_1","0","0",497.224777666667,0.946666666666667,9.32333333333333,7.40666666666667,8.62,0,"Spherical",11.075,0.095,NA,0.13,"2"
+"Cornus","Cornus sanguinea l.","Fleshy fruit","Fruit","Exposed","0","1","0","0","0",187.35,0.95,5.42,5.11,NA,NA,"",NA,NA,NA,0.03,"2"
 "Cornus alba",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Cornus sanguinea","Cornus sanguinea l.","Fleshy fruit","Fruit","Exposed","0","1","0","0","0",187.35,0.95,5.42,5.11,NA,NA,"",NA,NA,NA,0.03,"2"
 "Coronilla scorpioides",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -448,10 +448,10 @@
 "Crambe abyssinica",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Crambe hispanica abyssinica",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Crassula tillaea","Crassula tillaea lest.-garl.","Fruit with upright aperture","Seed","Enclosed","0","0","0","0","0",NA,NA,0.3,0.1,0.1,0.1,"Elongated",NA,NA,NA,NA,"1"
-"Crataegus","Crataegus laevigata (poir.) dc. s.l._Crataegus monogyna jacq. s.l.","Fleshy fruit","Fruit","Exposed","0","1","0","0","0",481.25,0.94,9.57,8.03,NA,0,"Spherical",NA,NA,NA,0.02,"1"
+"Crataegus","Crataegus monogyna jacq. s.l.","Fleshy fruit","Fruit","Exposed","0","1","0","0","0",455,0.94,9.57,8.03,NA,NA,"",NA,NA,NA,0.02,"1"
 "Crataegus monogyna","Crataegus monogyna jacq. s.l.","Fleshy fruit","Fruit","Exposed","0","1","0","0","0",455,0.94,9.57,8.03,NA,NA,"",NA,NA,NA,0.02,"1"
 "Crataegus x subsphaerica",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Crepis",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Crepis","Crepis biennis l._Crepis capillaris (l.) wallr._Crepis foetida l._Crepis setosa haller f._Crepis tectorum l.","Non-fleshy fruit","Fruit","Exposed","0_1","0","1","0_1","0",0.72825,0.413333333333333,12.89,5.88,NA,0.07,"Spherical",0.8375,0.8825,0.32,0.94,"1"
 "Crepis bellidifolia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Crepis biennis","Crepis biennis l.","Non-fleshy fruit","Fruit","Exposed","0","0","1","0","0",1.1065,0.42,NA,NA,NA,NA,"",0.68,0.91,0.32,0.93,"1"
 "Crepis bursifolia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -473,7 +473,7 @@
 "Cucurbita",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Cucurbita pepo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Cullen americanum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Cuscuta",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Cuscuta","Cuscuta campestris yunck._Cuscuta epilinum weihe","Non-fleshy fruit","Fruit","Exposed","1","0","0","0","0",0.5692,0.95,1.31,1.08,0.8,0.02,"Spherical",4.425,0.285,0.65,0.67,"2"
 "Cuscuta campestris","Cuscuta campestris yunck.","Non-fleshy fruit","Fruit","Exposed","1","0","0","0","0",0.5692,0.99,1.27,1.08,0.8,0.02,"Spherical",4.41,0.31,NA,0.58,"2"
 "Cuscuta epilinum","Cuscuta epilinum weihe","Non-fleshy fruit","Fruit","Exposed","1","0","0","0","0",NA,0.91,1.35,1.08,NA,0.02,"Spherical",4.44,0.26,0.65,0.76,"2"
 "Cuscuta monogyna",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -487,7 +487,7 @@
 "Cynoglossum creticum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Cynoglossum officinale","Cynoglossum officinale l.","Non-fleshy fruit","Fruit segment","Exposed","0","0","1","1","0",32,0.44,6.87,5.48,NA,0.05,"Spherical",7.35,0.12,NA,0.9,"1"
 "Cynosurus echinatus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Cyperus","Cyperus flavescens l._Cyperus fuscus l._Cyperus longus l. s.l._Cyperus longus ssp. badius (desf.) murb._Cyperus michelianus (l.) link","Non-fleshy fruit","Fruit","Covered partly","0","0","0","0","0",NA,0.86,1.198,0.54,NA,0.0766666666666667,"Spherical",1.48,0.716666666666667,0.855,0.77,"1"
+"Cyperus","Cyperus longus l. s.l.","Non-fleshy fruit","Fruit","Covered partly","0","0","0","0","0",NA,0.86,1.2,0.6,NA,NA,"",NA,NA,NA,0.75,"1"
 "Cyperus difformis",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Cyperus eragrostis",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Cyperus esculentus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -543,7 +543,7 @@
 "Elytrigia intermedia","Elymus hispidus (opiz) melderis","Non-fleshy fruit","Fruit","Covered partly","1","1","1","0","0",NA,NA,NA,NA,NA,NA,"",NA,NA,NA,NA,"1"
 "Elytrigia juncea",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Elytrigia repens","Elymus repens (l.) gould","Non-fleshy fruit","Fruit","Covered partly","1","1","1","0","0",7.23,0.92,9.75,1.71,1.05,0.17,"Elongated",2.6,0.54,NA,0.51,"1"
-"Epilobium",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Epilobium","Epilobium ciliatum raf._Epilobium hirsutum l._Epilobium lanceolatum sebast. & mauri_Epilobium montanum l._Epilobium obscurum schreb._Epilobium palustre l._Epilobium parviflorum schreb.","Fruit with lateral aperture","Seed","Covered partly","0","0","1","0","0",0.108025,0.1725,14.19,9.625,NA,0.02,"Spherical",0.17,0.992,0.745,0.893333333333333,"1"
 "Epilobium ciliatum","Epilobium ciliatum raf.","Fruit with lateral aperture","Seed","Covered partly","0","0","1","0","0",0.062,0.21,10.25,6.64,NA,NA,"",0.16,1,0.71,0.89,"1"
 "Epilobium hirsutum","Epilobium hirsutum l.","Fruit with lateral aperture","Seed","Covered partly","0","0","1","0","0",0.126,NA,NA,NA,NA,NA,"",0.19,0.99,NA,NA,"1"
 "Epilobium lanceolatum","Epilobium lanceolatum sebast. & mauri","Fruit with lateral aperture","Seed","Covered partly","0","0","1","0","0",NA,0.15,15.14,11.61,NA,0.02,"Spherical",NA,NA,NA,NA,"1"
@@ -562,7 +562,7 @@
 "Eragrostis cilianensis","Eragrostis cilianensis (all.) vignolo ex janch.","Non-fleshy fruit","Fruit","Covered partly","0","1","0","0","0",NA,NA,NA,NA,NA,NA,"",NA,NA,NA,NA,"1"
 "Eragrostis minor","Eragrostis minor host","Non-fleshy fruit","Fruit","Covered partly","0","1","0","0","0",0.07,NA,NA,NA,NA,0.04,"Spherical",2.47,0.66,NA,NA,"1"
 "Eragrostis pilosa","Eragrostis pilosa (l.) p. beauv.","Non-fleshy fruit","Fruit","Covered partly","1","1","0","0","0",NA,NA,NA,NA,NA,NA,"",NA,NA,NA,NA,"1"
-"Erigeron",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Erigeron","Conyza canadensis (l.) cronquist_Erigeron acris l._Erigeron annuus (l.) pers.","Non-fleshy fruit","Fruit","Exposed","0","0","1","0","0",0.0853333333333333,0.48,1.9,0.62,NA,NA,"",0.29,0.97,NA,0.94,"1"
 "Erigeron acris","Erigeron acris l.","Non-fleshy fruit","Fruit","Exposed","0","0","1","0","0",0.176,NA,NA,NA,NA,NA,"",0.26,0.98,NA,NA,"1"
 "Erigeron annuus","Erigeron annuus (l.) pers.","Non-fleshy fruit","Fruit","Exposed","0","0","1","0","0",0.03,NA,NA,NA,NA,NA,"",NA,NA,NA,NA,"1"
 "Erigeron bonariensis",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -570,7 +570,7 @@
 "Erigeron floribundus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Erigeron glabratus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Erigeron sumatrensis",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Erodium","Erodium ballii jord._Erodium ciconium (l.) l'her._Erodium cicutarium agg._Erodium lebelii jord._Erodium moschatum (l.) l'her.","Explosive release mechanism","Fruit segment","Covered partly","0","0","1","1","0",8.695,0.46,16.135,3.17333333333333,1,0.176666666666667,"Elongated_Elongated & flat",3.4525,0.4275,NA,0.82,"1"
+"Erodium","Erodium ciconium (l.) l'her._Erodium cicutarium agg._Erodium moschatum (l.) l'her.","Explosive release mechanism","Fruit segment","Covered partly","0","0","1","1","0",8.695,0.465,18.705,4.26,1,0.175,"Elongated_Elongated & flat",3.82333333333333,0.393333333333333,NA,0.82,"1"
 "Erodium chium",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Erodium ciconium","Erodium ciconium (l.) l'her.","Explosive release mechanism","Fruit segment","Covered partly","0","0","1","1","0",8.96,NA,NA,NA,NA,NA,"",5.59,0.19,NA,NA,"1"
 "Erodium cicutarium","Erodium cicutarium agg.","Explosive release mechanism","Fruit segment","Covered partly","0","0","1","1","0",8.43,0.47,14.23,1.22,1,0.19,"Elongated",3.37,0.47,NA,0.82,"1"
@@ -593,7 +593,7 @@
 "Eschscholzia californica",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Euonymus europaeus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Eupatorium cannabinum","Eupatorium cannabinum l.","Non-fleshy fruit","Fruit","Exposed","0","0","1","0","0",0.303867,0.21,10.2,7.02,NA,0.08,"Spherical",0.36,0.96,NA,0.98,"1"
-"Euphorbia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Euphorbia","Euphorbia amygdaloides l._Euphorbia cyparissias l._Euphorbia esula agg._Euphorbia exigua l._Euphorbia falcata l._Euphorbia helioscopia l._Euphorbia humifusa willd._Euphorbia peplus l._Euphorbia prostrata aiton_Euphorbia serrulata thuill.","Explosive release mechanism","Seed","Enclosed","0","0_1","0","0","0",2.340310375,0.92875,2.10125,1.5175,1.05333333333333,0.0277777777777778,"Spherical",5.51222222222222,0.266666666666667,0.24,0.21,"1"
 "Euphorbia amygdaloides","Euphorbia amygdaloides l.","Explosive release mechanism","Seed","Enclosed","0","1","0","0","0",5.033333,0.84,2.87,1.99,NA,0.02,"Spherical",10.11,0.07,NA,0.14,"1"
 "Euphorbia chamaesyce",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Euphorbia characias",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -616,7 +616,7 @@
 "Euphorbia sulcata",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Euphorbia taurinensis",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Euphorbia terracina",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Euphrasia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Euphrasia","Euphrasia nemorosa (pers.) wallr._Euphrasia officinalis s.l.","Fruit with lateral aperture","Seed","Enclosed","0","0","0","0","0",0.186063,NA,1.78,NA,NA,0.08,"Spherical",2.12,0.6,NA,NA,"1"
 "Euphrasia nemorosa","Euphrasia nemorosa (pers.) wallr.","Fruit with lateral aperture","Seed","Enclosed","0","0","0","0","0",NA,NA,NA,NA,NA,NA,"",NA,NA,NA,NA,"1"
 "Euphrasia officinalis","Euphrasia officinalis s.l.","Fruit with lateral aperture","Seed","Enclosed","0","0","0","0","0",0.186063,NA,1.78,NA,NA,0.08,"Spherical",2.12,0.6,NA,NA,"1"
 "Fabaceae",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -626,7 +626,7 @@
 "Fallopia convolvulus","Fallopia convolvulus (l.) a. love","Non-fleshy fruit","Fruit","Exposed","0","1","0","0","0",5,0.98,3.92,2.63,NA,0.03,"Spherical",8.16,0.25,0.39,0.08,"1"
 "Fallopia dumetorum","Fallopia dumetorum (l.) holub","Non-fleshy fruit","Fruit","Exposed","0","0","0","0","0",4.3,0.97,4.51,2.55,NA,0.04,"Spherical",6.37,0.15,0.18,0.1,"1"
 "Fatsia japonica",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Festuca",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Festuca","Festuca amethystina l._Festuca ovina agg._Festuca ovina l. s.str._Festuca rubra agg._Festuca rupicola heuff._Festuca valesiaca schleich. ex gaudin","Non-fleshy fruit","Fruit","Covered partly","1","1","0_1","0","0",0.66945425,0.872,5.40833333333333,0.923333333333333,0.6075,0.162,"Elongated",1.5825,0.621666666666667,0.4275,0.72,"1"
 "Festuca amethystina","Festuca amethystina l.","Non-fleshy fruit","Fruit","Covered partly","1","1","0","0","0",NA,0.95,5.4,0.91,NA,NA,"",NA,0.58,NA,NA,"1"
 "Festuca ovina","Festuca ovina agg._Festuca ovina l. s.str.","Non-fleshy fruit","Fruit","Covered partly","1","1","1","0","0",0.59405,0.82,4.365,0.915,0.575,0.15,"Elongated",1.79,0.6,0.43,0.75,"1"
 "Festuca rubra","Festuca rubra agg.","Non-fleshy fruit","Fruit","Covered partly","1","1","1","0","0",1.1471,0.93,7.17,1.04,0.69,0.17,"Elongated",2.2,0.53,0.34,0.63,"1"
@@ -636,7 +636,7 @@
 "Ficaria grandiflora",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Ficaria verna",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Ficus carica",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Filago",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Filago","Filago arvensis l._Filago lutescens jord._Filago pyramidata l._Filago vulgaris agg._Filago vulgaris lam.","Non-fleshy fruit","Fruit","Exposed","1","0","1","0","0",0.030075,0.75,1.052,0.638,0.3,0.086,"Flat_Spherical",1.134,0.842,NA,0.8875,"1"
 "Filago arvensis","Filago arvensis l.","Non-fleshy fruit","Fruit","Exposed","1","0","1","0","0",0.015,0.97,0.74,0.36,0.3,0.07,"Spherical",0.99,0.87,NA,0.8,"1"
 "Filago eriocephala",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Filago germanica","Filago vulgaris agg._Filago vulgaris lam.","Non-fleshy fruit","Fruit","Exposed","1","0","1","0","0",0.02755,0.515,1.405,1.03,0.3,0.1,"Flat_Spherical",1.195,0.83,NA,0.94,"1"
@@ -645,9 +645,9 @@
 "Filipendula ulmaria","Filipendula ulmaria (l.) maxim.","Non-fleshy fruit","Fruit segment","Exposed","0","0","1","0","0",0.503333,0.78,3.73,1.77,NA,0.12,"Elongated & flat",1.73,0.75,0.61,0.87,"1"
 "Filipendula vulgaris","Filipendula vulgaris moench","Non-fleshy fruit","Fruit segment","Exposed","0","0","1","0","0",0.671143,0.52,3.61,1.93,NA,0.09,"Spherical",1.7,0.7,0.7,0.92,"1"
 "Foeniculum vulgare",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Fragaria","Fragaria moschata (duchesne) weston_Fragaria vesca l._Fragaria viridis (duchesne) weston","Fleshy fruit","Fruit","Exposed","0","1","0","0","0",500,NA,10,10,NA,NA,"",NA,NA,NA,NA,"4"
+"Fragaria","Fragaria vesca l.","Fleshy fruit","Fruit","Exposed","0","1","0","0","0",500,NA,NA,NA,NA,NA,"",NA,NA,NA,NA,"4"
 "Fragaria vesca","Fragaria vesca l.","Fleshy fruit","Fruit","Exposed","0","1","0","0","0",500,NA,NA,NA,NA,NA,"",NA,NA,NA,NA,"4"
-"Fraxinus","Fraxinus excelsior l._Fraxinus ornus l.","Non-fleshy fruit","Fruit","Exposed","0","0","0","0","0",57.665,0.955,26.49,4.725,1.5,0.175,"Elongated_Elongated & flat",1.58,0.7,0.17,0.01,"1"
+"Fraxinus","Fraxinus excelsior l.","Non-fleshy fruit","Fruit","Exposed","0","0","0","0","0",65.33,0.96,31.22,5.58,NA,0.18,"Elongated & flat",1.58,0.7,0.17,0.01,"1"
 "Fraxinus angustifolia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Fraxinus excelsior","Fraxinus excelsior l.","Non-fleshy fruit","Fruit","Exposed","0","0","0","0","0",65.33,0.96,31.22,5.58,NA,0.18,"Elongated & flat",1.58,0.7,0.17,0.01,"1"
 "Fumana ericifolia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -669,7 +669,7 @@
 "Galatella sedifolia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Galega officinalis","Galega officinalis l.","Fruit with lateral aperture","Seed","Enclosed","0","1","0","0","0",NA,NA,NA,NA,NA,0.08,"Spherical",10.79,0.06,0.16,NA,"1"
 "Galega orientalis",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Galeopsis",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Galeopsis","Galeopsis angustifolia hoffm._Galeopsis bifida boenn._Galeopsis ladanum l._Galeopsis pubescens besser_Galeopsis segetum neck._Galeopsis speciosa mill._Galeopsis tetrahit l.","Non-fleshy fruit","Fruit","Exposed","1","0","1","1","0",2.3983,0.975,2.76166666666667,2.016,1.6,0.0428571428571429,"Spherical",4.048,0.368,0.5,0.705,"2"
 "Galeopsis angustifolia","Galeopsis angustifolia hoffm.","Non-fleshy fruit","Fruit","Exposed","1","0","1","1","0",1.6,NA,2.6,2,1.2,0.05,"Spherical",2.83,0.46,NA,NA,"2"
 "Galeopsis bifida","Galeopsis bifida boenn.","Non-fleshy fruit","Fruit","Exposed","1","0","1","1","0",NA,0.99,NA,NA,NA,0.04,"Spherical",NA,NA,0.53,0.66,"2"
 "Galeopsis ladanum","Galeopsis ladanum l.","Non-fleshy fruit","Fruit","Exposed","1","0","1","1","0",NA,NA,3,2,NA,0.06,"Spherical",2.5,0.52,NA,NA,"2"
@@ -680,7 +680,7 @@
 "Galinsoga","Galinsoga ciliata (raf.) s. f. blake_Galinsoga parviflora cav.","Non-fleshy fruit","Fruit","Exposed","0","0","1","0","0",0.2,0.81,1.6,1.46,NA,0.095,"Spherical",1.28,0.835,NA,0.87,"1"
 "Galinsoga parviflora","Galinsoga parviflora cav.","Non-fleshy fruit","Fruit","Exposed","0","0","1","0","0",0.2,0.91,1.5,NA,NA,0.1,"Spherical",0.87,0.89,NA,0.84,"1"
 "Galinsoga quadriradiata","Galinsoga ciliata (raf.) s. f. blake","Non-fleshy fruit","Fruit","Exposed","0","0","1","0","0",NA,0.71,1.7,1.46,NA,0.09,"Spherical",1.69,0.78,NA,0.9,"1"
-"Galium",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Galium","Galium aparine agg._Galium aparine l._Galium mollugo agg._Galium mollugo s.str. l._Galium odoratum (l.) scop._Galium palustre s.l. l._Galium parisiense l._Galium rotundifolium l._Galium spurium l._Galium tricornutum dandy_Galium uliginosum l._Galium verum agg.","Non-fleshy fruit","Fruit segment","Exposed","1","0","0_1","0_1","0",4.744557,0.742222222222222,2.09818181818182,1.76090909090909,1.42,0.0155555555555556,"Spherical",5.35111111111111,0.313,0.556666666666667,0.772222222222222,"1"
 "Galium album",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Galium aparine","Galium aparine agg._Galium aparine l.","Non-fleshy fruit","Fruit segment","Exposed","1","0","1","1","0",9.815,0.48,3.4,2.895,1.5,0.02,"Spherical",6.69,0.145,NA,0.915,"1"
 "Galium corrudifolium",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -699,7 +699,7 @@
 "Gastridium ventricosum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Genista scorpius",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Genista sphaerocarpa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Geranium",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Geranium","Geranium columbinum l._Geranium dissectum l._Geranium molle l._Geranium palustre l._Geranium phaeum l._Geranium pratense l._Geranium pusillum burm. f._Geranium pyrenaicum burm. f._Geranium robertianum s.str. l._Geranium rotundifolium l.","Explosive release mechanism","Fruit segment_Seed","Covered partly_Enclosed","0","0","0_1","0_1","0",2.9602,0.91125,2.643,1.47,1.5,0.055,"Spherical",7.38555555555556,0.166,0.12,0.264285714285714,"1"
 "Geranium columbinum","Geranium columbinum l.","Explosive release mechanism","Seed","Enclosed","0","0","0","0","0",4.44,0.99,2.14,1.59,1,0.05,"Spherical",6.44,0.15,NA,0.11,"1"
 "Geranium dissectum","Geranium dissectum l.","Explosive release mechanism","Seed","Enclosed","0","0","0","0","0",2.9,0.88,1.97,1.48,NA,0.02,"Spherical",8.56,0.09,0.08,0.17,"1"
 "Geranium molle","Geranium molle l.","Explosive release mechanism","Fruit segment","Covered partly","0","0","0","0","0",1.15,0.96,1.65,1.1,NA,0.05,"Spherical",6.66,0.15,NA,0.45,"1"
@@ -714,7 +714,7 @@
 "Geropogon hybridus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Geum rivale","Geum rivale l.","Non-fleshy fruit","Fruit segment","Exposed","0","0","1","1","0",1.21975,0.28,13.32,5.11,NA,NA,"",1.79,0.68,NA,0.96,"1"
 "Geum urbanum","Geum urbanum l.","Non-fleshy fruit","Fruit segment","Exposed","0","0","1","1","0",1.8825,0.51,7.57,2,0.7,0.16,"Elongated",1.77,0.61,0.51,0.92,"1"
-"Gladiolus","Gladiolus palustris gaudin","Fruit with lateral aperture","Seed","Enclosed","0","0","0","0","0",NA,NA,NA,NA,NA,0.03,"Spherical",NA,0.5,0.47,NA,"1"
+"Gladiolus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Gladiolus illyricus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Gladiolus italicus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Glaucium corniculatum","Glaucium corniculatum (l.) rudolph","Fruit with lateral aperture","Seed","Covered partly","0","0","0","0","0",NA,0.96,1.52,1.23,0.8,0.04,"Spherical",5.61,0.19,NA,NA,"1"
@@ -726,7 +726,7 @@
 "Glyceria",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Glycine max",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Glycyrrhiza glabra",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Gnaphalium","Gnaphalium exilifolium a. nelson_Gnaphalium hoppeanum w. d. j. koch_Gnaphalium luteoalbum l._Gnaphalium norvegicum gunnerus_Gnaphalium supinum l.","Non-fleshy fruit","Fruit","Covered partly_Exposed","0","0","1","0","1",0.0844,0.23,4.815,3.68,3.44,0.02,"Spherical",0.42,0.95,0.85,0.99,"1"
+"Gnaphalium",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Gnaphalium uliginosum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Guizotia abyssinica",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Gypsophila repens","Gypsophila repens l.","Fruit with upright aperture","Seed","Enclosed","0","0","0","0","0",0.67,0.95,0.41,0.34,NA,NA,"",2.8,0.45,NA,0.24,"1"
@@ -748,7 +748,7 @@
 "Helleborus purpurascens",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Helminthotheca comosa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Helminthotheca echioides","Picris echioides l.","Non-fleshy fruit","Fruit","Exposed","0","0","1","0","0",NA,NA,NA,NA,NA,NA,"",0.83,0.89,NA,NA,"1"
-"Heracleum","Heracleum austriacum l._Heracleum mantegazzianum sommier & levier_Heracleum sphondylium l._Heracleum sphondylium ssp. elegans (crantz) schubl. & martens","Non-fleshy fruit","Fruit segment","Exposed","0","0","0","0","0",6.15612,0.935,8.6475,6.405,1,0.126666666666667,"Flat",2.03333333333333,0.626666666666667,0,0.07,"1"
+"Heracleum","Heracleum sphondylium l.","Non-fleshy fruit","Fruit segment","Exposed","0","0","0","0","0",6.15612,0.93,7.97,6.01,NA,0.12,"Flat",1.89,0.67,0,0.09,"1"
 "Heracleum sphondylium","Heracleum sphondylium l.","Non-fleshy fruit","Fruit segment","Exposed","0","0","0","0","0",6.15612,0.93,7.97,6.01,NA,0.12,"Flat",1.89,0.67,0,0.09,"1"
 "Herniaria","Herniaria glabra l._Herniaria hirsuta l.","Non-fleshy fruit","Fruit","Exposed","0","0","0_1","0","0",0.04,0.83,1.19,0.76,NA,NA,"",1.625,0.72,0.31,0.82,"1"
 "Herniaria cinerea",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -756,7 +756,7 @@
 "Herniaria hirsuta","Herniaria hirsuta l.","Non-fleshy fruit","Fruit","Exposed","0","0","1","0","0",NA,0.73,1.15,0.81,NA,NA,"",1.86,0.66,NA,NA,"1"
 "Herniaria lusitanica",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Hibiscus trionum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Hieracium",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Hieracium","Hieracium lachenalii c. c. gmel._Hieracium umbellatum l.","Non-fleshy fruit","Fruit","Exposed","0","0","1","0","0",0.465,NA,NA,NA,NA,0,"Spherical",0.43,0.95,NA,NA,"1"
 "Hieracium lachenalii","Hieracium lachenalii c. c. gmel.","Non-fleshy fruit","Fruit","Exposed","0","0","1","0","0",NA,NA,NA,NA,NA,0,"Spherical",NA,NA,NA,NA,"1"
 "Hieracium umbellatum","Hieracium umbellatum l.","Non-fleshy fruit","Fruit","Exposed","0","0","1","0","0",0.465,NA,NA,NA,NA,NA,"",0.43,0.95,NA,NA,"1"
 "Himantoglossum hircinum","Himantoglossum hircinum (l.) spreng.","Fruit with lateral aperture","Seed","Enclosed","0","0","0","0","0",NA,NA,NA,NA,NA,NA,"",NA,NA,NA,NA,"1"
@@ -769,7 +769,7 @@
 "Holcus mollis","Holcus mollis l.","Non-fleshy fruit","Fruit","Covered partly","1","1","1","0","0",NA,0.7,5.45,1.97,0.9,0.13,"Elongated & flat",0.79,0.9,0.08,0.82,"1"
 "Holosteum umbellatum","Holosteum umbellatum l.","Fruit with upright aperture","Seed","Enclosed","0","0","0","0","0",0.086,0.97,0.94,0.77,NA,0.06,"Spherical",1.6,0.73,NA,0.38,"1"
 "Honorius nutans","Ornithogalum nutans agg.","Fruit with lateral aperture","Seed","Covered partly","0","0","0","0","0",5.96,0.84,2.11,2.02,1,0.06,"Spherical",10.71,0.07,NA,0.3,"1"
-"Hordeum","Hordeum jubatum l._Hordeum marinum agg._Hordeum murinum l._Hordeum secalinum schreb.","Non-fleshy fruit","Fruit","Covered partly","0","1","1","0","0",NA,0.443333333333333,17.885,6.0675,0.87,0.155,"Elongated_Flat",3.90666666666667,0.5075,0.495,NA,"1"
+"Hordeum","Hordeum murinum l.","Non-fleshy fruit","Fruit","Covered partly","0","1","1","0","0",NA,0.28,29.48,15.39,0.5,0.16,"Flat",2.41,0.53,0.42,NA,"1"
 "Hordeum murinum","Hordeum murinum l.","Non-fleshy fruit","Fruit","Covered partly","0","1","1","0","0",NA,0.28,29.48,15.39,0.5,0.16,"Flat",2.41,0.53,0.42,NA,"1"
 "Hordeum murinum subsp. leporinum","Hordeum murinum l.","Non-fleshy fruit","Fruit","Covered partly","0","1","1","0","0",NA,0.28,29.48,15.39,0.5,0.16,"Flat",2.41,0.53,0.42,NA,"1"
 "Hordeum murinum subsp. murinum","Hordeum murinum l.","Non-fleshy fruit","Fruit","Covered partly","0","1","1","0","0",NA,0.28,29.48,15.39,0.5,0.16,"Flat",2.41,0.53,0.42,NA,"1"
@@ -786,7 +786,7 @@
 "Hypecoum imberbe",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Hypecoum pendulum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Hypecoum procumbens",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Hypericum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Hypericum","Hypericum hirsutum l._Hypericum humifusum l._Hypericum maculatum agg._Hypericum perforatum l._Hypericum pulchrum l.","Fruit with lateral aperture","Seed","Enclosed","0","0","0","0","0",0.08827525,0.958,0.964,0.42,0.4,0.074,"Elongated_Spherical",1.62,0.716,0.545,0.406,"1"
 "Hypericum hirsutum","Hypericum hirsutum l.","Fruit with lateral aperture","Seed","Enclosed","0","0","0","0","0",0.13,0.92,0.97,0.41,NA,0.09,"Spherical",1.76,0.69,NA,0.41,"1"
 "Hypericum humifusum","Hypericum humifusum l.","Fruit with lateral aperture","Seed","Enclosed","0","0","0","0","0",NA,0.98,0.66,0.36,NA,0.03,"Spherical",1.6,0.73,0.74,0.41,"1"
 "Hypericum linariifolium","Hypericum pulchrum l.","Fruit with lateral aperture","Seed","Enclosed","0","0","0","0","0",0.093346,0.96,1.28,0.42,0.4,0.1,"Elongated",1.81,0.67,NA,0.39,"1"
@@ -816,7 +816,7 @@
 "Juglans","Juglans regia l.","Non-fleshy fruit","Fruit","Exposed","0","1","0","0","0",5980.425,NA,23,21.5,21,0,"Spherical",26.29,0,NA,NA,"1"
 "Juglans nigra",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Juglans regia","Juglans regia l.","Non-fleshy fruit","Fruit","Exposed","0","1","0","0","0",5980.425,NA,23,21.5,21,0,"Spherical",26.29,0,NA,NA,"1"
-"Juncus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Juncus","Juncus bufonius agg._Juncus capitatus weigel_Juncus conglomeratus l._Juncus effusus l.","Fruit with upright aperture","Seed","Covered partly","0","0","0","0","1",0.01875,0.97,0.4575,0.265,NA,0.0566666666666667,"Spherical",1.8725,0.7475,0.7225,0.7175,"1"
 "Juncus bufonius","Juncus bufonius agg.","Fruit with upright aperture","Seed","Covered partly","0","0","0","0","1",0.025,0.98,0.48,0.31,NA,0.04,"Spherical",1.43,0.77,0.69,0.7,"1"
 "Juncus capitatus","Juncus capitatus weigel","Fruit with upright aperture","Seed","Covered partly","0","0","0","0","1",NA,0.98,0.36,0.2,NA,NA,"",0.96,0.88,0.89,0.72,"1"
 "Juncus conglomeratus","Juncus conglomeratus l.","Fruit with upright aperture","Seed","Covered partly","0","0","0","0","1",NA,0.97,0.45,0.22,NA,0.06,"Spherical",2.56,0.69,0.82,0.72,"1"
@@ -829,7 +829,7 @@
 "Knautia arvensis","Knautia arvensis agg.","Non-fleshy fruit","Fruit","Exposed","0","1","1","0","0",5.26375,0.43,5.19,2.84,NA,0.08,"Spherical",2.9,0.46,0.65,0.91,"1"
 "Knautia integrifolia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Krubera peregrina",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Lactuca",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Lactuca","Lactuca perennis l._Lactuca saligna l._Lactuca serriola l._Lactuca virosa l._Mycelis muralis (l.) dumort.","Non-fleshy fruit","Fruit","Exposed","0","0","1","0","0",0.5,0.215,11.52,6.89,NA,NA,"",0.393333333333333,0.953333333333333,NA,0.975,"1"
 "Lactuca muralis","Mycelis muralis (l.) dumort.","Non-fleshy fruit","Fruit","Exposed","0","0","1","0","0",0.3,0.15,12.65,8.03,NA,NA,"",0.36,0.96,NA,0.99,"1"
 "Lactuca perennis","Lactuca perennis l.","Non-fleshy fruit","Fruit","Exposed","0","0","1","0","0",NA,NA,NA,NA,NA,NA,"",NA,NA,NA,NA,"1"
 "Lactuca saligna","Lactuca saligna l.","Non-fleshy fruit","Fruit","Exposed","0","0","1","0","0",NA,0.28,10.39,5.75,NA,NA,"",NA,NA,NA,0.96,"1"
@@ -837,7 +837,7 @@
 "Lactuca virosa","Lactuca virosa l.","Non-fleshy fruit","Fruit","Exposed","0","0","1","0","0",NA,NA,NA,NA,NA,NA,"",0.22,0.98,NA,NA,"1"
 "Lagurus ovatus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Lamiaceae",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Lamium",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Lamium","Lamium album l._Lamium amplexicaule l._Lamium hybridum agg._Lamium maculatum l._Lamium purpureum s.l. l.","Non-fleshy fruit","Fruit segment","Covered partly","0","1","0","0","0",0.625,0.92,2.672,1.16666666666667,0.8,0.082,"Spherical",3.8725,0.3375,0.39,0.51,"1"
 "Lamium album","Lamium album l.","Non-fleshy fruit","Fruit segment","Covered partly","0","1","0","0","0",NA,0.85,2.77,1.31,NA,0.08,"Spherical",3.46,0.36,0.5,0.53,"1"
 "Lamium album subsp. album","Lamium album l.","Non-fleshy fruit","Fruit segment","Covered partly","0","1","0","0","0",NA,0.85,2.77,1.31,NA,0.08,"Spherical",3.46,0.36,0.5,0.53,"1"
 "Lamium amplexicaule","Lamium amplexicaule l.","Non-fleshy fruit","Fruit segment","Covered partly","0","1","0","0","0",0.6,NA,2.75,NA,NA,0.08,"Spherical",3.24,0.39,NA,NA,"1"
@@ -847,7 +847,7 @@
 "Lappula squarrosa","Lappula squarrosa (retz.) dumort.","Non-fleshy fruit","Fruit segment","Exposed","0","0","1","1","0",NA,0.7,2.83,1.61,NA,0.05,"Spherical",5.13,0.21,NA,0.9,"1"
 "Lapsana communis","Lapsana communis l.","Non-fleshy fruit","Fruit","Covered partly","0","0","0","0","0",1.7,NA,3.75,NA,NA,0.15,"Elongated",3.87,0.31,NA,NA,"1"
 "Larix decidua","Larix decidua mill.","Gymnosperme type","Seed","Covered partly","0","1","0","0","0",5.87,0.96,11.41,4.57,NA,NA,"",1,0.86,NA,0.07,"1"
-"Lathyrus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Lathyrus","Lathyrus aphaca l._Lathyrus hirsutus l._Lathyrus latifolius l._Lathyrus nissolia l._Lathyrus palustris l._Lathyrus pratensis l._Lathyrus sylvestris l._Lathyrus tuberosus l.","Explosive release mechanism","Seed","Enclosed","0","1","0","0","0",38.0505375,0.96,4.3775,3.80625,2.5,0.0175,"Spherical",13.66875,0.0725,0.25,0.0585714285714286,"1"
 "Lathyrus angulatus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Lathyrus annuus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Lathyrus aphaca","Lathyrus aphaca l.","Explosive release mechanism","Seed","Enclosed","0","1","0","0","0",NA,0.99,3.29,3.03,2,0.03,"Spherical",13.63,0.04,NA,0.06,"1"
@@ -870,12 +870,12 @@
 "Legousia falcata",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Legousia hybrida","Legousia hybrida (l.) delarbre","Fruit with lateral aperture","Seed","Enclosed","0","0","0","0","0",NA,0.93,1.44,0.76,NA,0.07,"Spherical",2.4,0.54,NA,0.35,"1"
 "Legousia speculum-veneris","Legousia speculum-veneris (l.) chaix","Fruit with lateral aperture","Seed","Enclosed","0","0","0","0","0",NA,1,1.32,0.74,NA,0.08,"Spherical",3.2,0.4,NA,0.3,"1"
-"Leontodon","Leontodon helveticus merat_Leontodon hispidus l._Leontodon incanus (l.) schrank_Leontodon montanus lam._Leontodon taraxacoides (vill.) merat non hoppe & hornsch. 1821","Non-fleshy fruit","Fruit","Exposed","0_1","0","1","0","0",1.17286533333333,0.2425,15.7925,7.365,6.78,0.04,"Spherical",0.936666666666667,0.8825,0.37,0.96,"1"
+"Leontodon","Leontodon hispidus l.","Non-fleshy fruit","Fruit","Exposed","0","0","1","0","0",1.268596,0.2,12.58,8.18,6.78,0.04,"Spherical",0.88,0.9,0.37,0.96,"1"
 "Leontodon hirtus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Leontodon hispidus","Leontodon hispidus l.","Non-fleshy fruit","Fruit","Exposed","0","0","1","0","0",1.268596,0.2,12.58,8.18,6.78,0.04,"Spherical",0.88,0.9,0.37,0.96,"1"
 "Leontodon saxatilis",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Leontodon saxatilis subsp. saxatilis",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Lepidium",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Lepidium","Cardaria draba (l.) desv._Coronopus didymus (l.) sm._Coronopus squamatus (forssk.) asch._Lepidium campestre (l.) r. br._Lepidium graminifolium l._Lepidium heterophyllum benth._Lepidium ruderale l.","Fruit with lateral aperture_Non-fleshy fruit","Fruit_Seed","Covered partly_Exposed","0_1","0","0","0","0_1",2.4855,0.93,2.07,1.40857142857143,1,0.065,"Spherical",4.675,0.335714285714286,0.365,0.485,"1_3"
 "Lepidium campestre","Lepidium campestre (l.) r. br.","Fruit with lateral aperture","Seed","Covered partly","0","0","0","0","1",2.3,0.96,2.51,1.53,NA,0.07,"Spherical",8.72,0.09,0.12,0.35,"1"
 "Lepidium coronopus","Coronopus squamatus (forssk.) asch.","Non-fleshy fruit","Fruit","Exposed","0","0","0","0","0",5.54,0.83,4.06,2.8,2,0.04,"Spherical",4.47,0.26,NA,0.71,"3"
 "Lepidium didymum","Coronopus didymus (l.) sm.","Non-fleshy fruit","Fruit","Exposed","1","0","0","0","0",NA,0.87,1.6,1.25,NA,0.05,"Spherical",NA,0.47,0.65,NA,"3"
@@ -883,12 +883,12 @@
 "Lepidium graminifolium","Lepidium graminifolium l.","Fruit with lateral aperture","Seed","Covered partly","0","0","0","0","1",0.2452,0.98,1.43,0.85,0.5,0.07,"Spherical",2.92,0.44,0.16,0.54,"1"
 "Lepidium heterophyllum","Lepidium heterophyllum benth.","Fruit with lateral aperture","Seed","Covered partly","0","0","0","0","1",1.8568,1,1.5,1,0.5,0.07,"Spherical",6.46,0.15,0.53,0.34,"1"
 "Lepidium ruderale","Lepidium ruderale l.","Fruit with lateral aperture","Seed","Covered partly","0","0","0","0","1",NA,0.9,1.22,0.67,NA,0.09,"Spherical",2.86,0.45,NA,NA,"1"
-"Leucanthemum","Leucanthemum adustum (w. d. j. koch) gremli_Leucanthemum halleri (suter) ducommun_Leucanthemum vulgare agg.","Non-fleshy fruit","Fruit","Covered partly","0","0","0","0","1",0.424327,0.94,2.52,0.81,NA,0.1,"Spherical",2.58,0.49,0.21,0.58,"1"
+"Leucanthemum","Leucanthemum vulgare agg.","Non-fleshy fruit","Fruit","Covered partly","0","0","0","0","1",0.424327,0.94,2.29,0.81,NA,0.1,"Spherical",2.58,0.49,0.21,0.58,"1"
 "Leucanthemum ircutianum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Leucanthemum vulgare","Leucanthemum vulgare agg.","Non-fleshy fruit","Fruit","Covered partly","0","0","0","0","1",0.424327,0.94,2.29,0.81,NA,0.1,"Spherical",2.58,0.49,0.21,0.58,"1"
 "Ligustrum vulgare","Ligustrum vulgare l.","Fleshy fruit","Fruit","Exposed","0","1","0","0","0",198.25,0.91,6.85,5.48,NA,0.08,"Spherical",NA,NA,NA,0.03,"2"
 "Liliaceae",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Linaria","Linaria alpina (l.) mill._Linaria arvensis (l.) desf._Linaria repens (l.) mill. sensu willd. 1809_Linaria vulgaris mill.","Fruit with lateral aperture_Fruit with upright aperture","Seed","Enclosed","0","0","0","0","0",0.164,0.9475,1.4475,1.1775,0.366666666666667,0.1075,"Flat_Spherical",1.24,0.8125,0.6,0.24,"1"
+"Linaria","Linaria arvensis (l.) desf._Linaria repens (l.) mill. sensu willd. 1809_Linaria vulgaris mill.","Fruit with upright aperture","Seed","Enclosed","0","0","0","0","0",0.164,0.94,1.43666666666667,1.15666666666667,0.35,0.11,"Flat_Spherical",1.31,0.796666666666667,0.6,0.285,"1"
 "Linaria amethystea",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Linaria arvensis","Linaria arvensis (l.) desf.","Fruit with upright aperture","Seed","Enclosed","0","0","0","0","0",NA,0.98,1.09,0.96,0.3,0.1,"Flat",1.43,0.77,NA,NA,"1"
 "Linaria chalepensis",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -900,7 +900,7 @@
 "Linaria repens","Linaria repens (l.) mill. sensu willd. 1809","Fruit with upright aperture","Seed","Enclosed","0","0","0","0","0",0.198,0.91,1.23,0.78,0.4,0.08,"Spherical",1.56,0.74,NA,0.35,"1"
 "Linaria simplex",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Linaria vulgaris","Linaria vulgaris mill.","Fruit with upright aperture","Seed","Enclosed","0","0","0","0","0",0.13,0.93,1.99,1.73,NA,0.15,"Flat",0.94,0.88,0.6,0.22,"1"
-"Linum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Linum","Linum catharticum l._Linum tenuifolium l.","Fruit with lateral aperture","Seed","Covered partly","0","0","0","0","1",0.392876,0.945,1.68,0.94,NA,0.1,"Elongated & flat_Spherical",1.67,0.71,0.6,0.59,"1"
 "Linum catharticum","Linum catharticum l.","Fruit with lateral aperture","Seed","Covered partly","0","0","0","0","1",0.139085,0.9,1.26,0.73,NA,0.09,"Spherical",1.82,0.67,0.6,0.68,"1"
 "Linum perenne",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Linum strictum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -910,7 +910,7 @@
 "Lobularia maritima",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Logfia gallica","Filago gallica l.","Non-fleshy fruit","Fruit","Exposed","1","0","1","0","0",NA,NA,1,0.5,0.3,0.09,"Spherical",NA,NA,NA,NA,"1"
 "Logfia minima","Filago minima (sm.) pers.","Non-fleshy fruit","Fruit","Exposed","1","0","1","0","0",NA,0.97,0.72,0.39,0.3,0.06,"Spherical",NA,NA,NA,0.8,"1"
-"Lolium",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Lolium","Lolium multiflorum lam._Lolium perenne l._Lolium remotum schrank_Lolium temulentum agg._Lolium temulentum l.","Non-fleshy fruit","Fruit","Covered partly","0_1","1","0_1","0","0",4.252875,0.95,10.0925,1.7075,1.135,0.165,"Elongated",3.26,0.434,0.21,0.4075,"1"
 "Lolium multiflorum","Lolium multiflorum lam.","Non-fleshy fruit","Fruit","Covered partly","0","1","1","0","0",2.1,0.94,10.15,1.78,1.12,0.17,"Elongated",NA,0.5,0.13,0.55,"1"
 "Lolium perenne","Lolium perenne l.","Non-fleshy fruit","Fruit","Covered partly","1","1","0","0","0",1.9115,0.98,6.04,1.31,0.9,0.15,"Elongated",1.48,0.73,0.55,0.12,"1"
 "Lolium remotum","Lolium remotum schrank","Non-fleshy fruit","Fruit","Covered partly","0","1","0","0","0",NA,NA,NA,NA,NA,NA,"",4.15,0.29,0.08,NA,"1"
@@ -918,21 +918,21 @@
 "Lolium temulentum","Lolium temulentum agg._Lolium temulentum l.","Non-fleshy fruit","Fruit","Covered partly","1","1","1","0","0",6.5,0.94,12.09,1.87,1.26,0.17,"Elongated",4.15,0.325,0.08,0.48,"1"
 "Loncomelos narbonense",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Loncomelos pyrenaicum","Ornithogalum pyrenaicum l.","Fruit with lateral aperture","Seed","Covered partly","0","0","0","0","0",NA,0.98,3.56,2.39,NA,NA,"",9.76,0.08,NA,0.23,"1"
-"Lotus","Lotus corniculatus l._Lotus glaber mill._Lotus uliginosus schkuhr","Explosive release mechanism","Seed","Enclosed","0","1","0","0","0",1.213909,0.983333333333333,1.53333333333333,1.22,1,0.0333333333333333,"Spherical",6.93333333333333,0.176666666666667,0.195,0.225,"1"
+"Lotus","Lotus corniculatus l._Lotus uliginosus schkuhr","Explosive release mechanism","Seed","Enclosed","0","1","0","0","0",1.213909,0.99,1.6,1.25,NA,0.045,"Spherical",7.03,0.195,0.195,0.19,"1"
 "Lotus angustissimus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Lotus corniculatus","Lotus corniculatus l.","Explosive release mechanism","Seed","Enclosed","0","1","0","0","0",1.213909,0.99,2,1.5,NA,0.03,"Spherical",7.01,0.26,0,0.19,"1"
 "Lotus dorycnium",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Lotus edulis",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Lotus ornithopodioides",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Lotus pedunculatus","Lotus uliginosus schkuhr","Explosive release mechanism","Seed","Enclosed","0","1","0","0","0",NA,0.99,1.2,1,NA,0.06,"Spherical",7.05,0.13,0.39,NA,"1"
-"Lupinus","Lupinus polyphyllus lindl.","Explosive release mechanism","Seed","Enclosed","0","1","0","0","0",25,0.99,4.68,3.27,NA,0.03,"Spherical",3.39,0.37,NA,0.06,"1"
+"Lupinus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Lupinus angustifolius",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Lupinus luteus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Luzula campestris","Luzula campestris (l.) dc.","Fruit with upright aperture","Seed","Covered partly","0","1","0","0","1",0.597688,0.97,2.71,1.25,NA,0.07,"Spherical",5.62,0.27,0.65,0.53,"1"
 "Lychnis flos-cuculi","Lychnis flos-cuculi l.","Fruit with upright aperture","Seed","Enclosed","0","0","0","0","0",0.1,0.9,0.94,0.79,NA,0.04,"Spherical",2.52,0.63,NA,0.4,"1"
 "Lycopsis arvensis","Anchusa arvensis (l.) m. bieb. s.l.","Non-fleshy fruit","Fruit segment","Covered partly","0","1","0","0","0",6.3,0.92,3.21,2.05,NA,0.03,"Spherical",8.54,0.09,0.06,0.24,"1"
 "Lycopus europaeus","Lycopus europaeus l.","Non-fleshy fruit","Fruit segment","Covered partly","1","0","0","0","1",0.23,NA,1.6,1.25,NA,0.08,"Spherical",2.19,0.64,0.89,NA,"1"
-"Lysimachia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Lysimachia","Anagallis arvensis l._Anagallis foemina mill._Lysimachia nummularia l._Lysimachia punctata l._Lysimachia vulgaris l.","Fruit with upright aperture","Seed","Enclosed","0","0","0","0","0",0.35225,0.952,1.408,1.054,0.613333333333333,0.046,"Spherical",3.426,0.4,0.745,0.284,"1"
 "Lysimachia arvensis","Anagallis arvensis l.","Fruit with upright aperture","Seed","Enclosed","0","0","0","0","0",0.4245,0.91,1.33,0.97,0.84,0.02,"Spherical",3.89,0.31,0.78,0.3,"1"
 "Lysimachia foemina","Anagallis foemina mill.","Fruit with upright aperture","Seed","Enclosed","0","0","0","0","0",NA,0.94,1.77,1.38,NA,0.02,"Spherical",4,0.3,0.42,0.28,"1"
 "Lysimachia nummularia","Lysimachia nummularia l.","Fruit with upright aperture","Seed","Enclosed","0","0","0","0","0",NA,0.97,1.3,0.94,0.5,0.06,"Spherical",3.14,0.41,0.89,0.26,"1"
@@ -945,7 +945,7 @@
 "Lythrum virgatum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Malcolmia africana",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Malcolmia littorea",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Malva",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Malva","Althaea hirsuta l._Lavatera thuringiaca l._Malva alcea l._Malva moschata l._Malva neglecta wallr._Malva pusilla sm._Malva sylvestris l.","Non-fleshy fruit","Fruit segment","Covered partly","0","0","0_1","0","0_1",3.37033333333333,0.861666666666667,2.65428571428571,2.15166666666667,1,0.0557142857142857,"Spherical",5.925,0.181666666666667,0.22,0.426666666666667,"1"
 "Malva alcea","Malva alcea l.","Non-fleshy fruit","Fruit segment","Covered partly","0","0","0","0","0",2.382,0.96,2.75,NA,NA,0.06,"Spherical",5.23,0.21,NA,0.34,"1"
 "Malva arborea",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Malva moschata","Malva moschata l.","Non-fleshy fruit","Fruit segment","Covered partly","0","0","1","0","0",2.132,0.59,3.03,2.57,NA,0.07,"Spherical",NA,NA,NA,0.8,"1"
@@ -964,7 +964,7 @@
 "Matricaria chamomilla","Matricaria recutita l.","Non-fleshy fruit","Fruit","Covered partly","0","0","0","0","1",NA,0.9,1.48,0.7,0.58,0.07,"Spherical",NA,NA,NA,0.73,"1"
 "Matricaria discoidea","Matricaria discoidea dc.","Non-fleshy fruit","Fruit","Covered partly","0","0","0","0","1",0.108,0.78,1.4,0.48,NA,0.11,"Spherical",1.89,0.66,0.32,0.77,"1"
 "Matricaria matricarioides",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Medicago",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Medicago","Medicago arabica (l.) huds._Medicago lupulina l._Medicago minima (l.) l._Medicago polymorpha l._Medicago sativa agg._Medicago sativa s.str. l.","Fruit with lateral aperture","Seed","Enclosed","0_1","1","0","0","0",36.7171423333333,0.661666666666667,4.665,3.96,3,0.05,"Spherical",5.684,0.248,0,0.14,"1"
 "Medicago arabica","Medicago arabica (l.) huds.","Fruit with lateral aperture","Seed","Enclosed","1","1","0","0","0",NA,0.39,5.16,4.76,3,0.03,"Spherical",6.5,0.15,NA,NA,"1"
 "Medicago ciliaris",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Medicago disciformis",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -987,12 +987,12 @@
 "Medicago scutellata",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Medicago truncatula",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Medicago turbinata",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Melampyrum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Melampyrum","Melampyrum arvense l.","Fruit with lateral aperture","Seed","Covered partly","0","1","0","0","0",14,0.97,4.6,2.19,NA,0.09,"Spherical",9.94,0.08,NA,0.13,"1"
 "Melampyrum arvense","Melampyrum arvense l.","Fruit with lateral aperture","Seed","Covered partly","0","1","0","0","0",14,0.97,4.6,2.19,NA,0.09,"Spherical",9.94,0.08,NA,0.13,"1"
 "Melia azedarach",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Melica ciliata","Melica ciliata agg.","Non-fleshy fruit","Fruit","Covered partly","0","1","1","0","0",1.391,0.1,8.46,7.24,1.45,0.13,"Flat",0.58,0.92,0.45,0.88,"1"
 "Melica ciliata subsp. transsilvanica","Melica transsilvanica schur","Non-fleshy fruit","Fruit","Covered partly","0","1","1","0","0",1.6,NA,8.72,7.14,1.45,0.12,"Flat",NA,NA,0.25,NA,"1"
-"Melilotus","Melilotus albus medik._Melilotus altissimus thuill._Melilotus dentatus (waldst. & kit.) pers._Melilotus indicus (l.) all._Melilotus officinalis (l.) lam.","Non-fleshy fruit","Fruit","Exposed","1","1","0_1","0_1","0",2.892,0.946,3.138,1.9525,1,0.068,"Spherical",5.33333333333333,0.355,NA,0.68,"1_2"
+"Melilotus","Melilotus albus medik._Melilotus altissimus thuill._Melilotus indicus (l.) all._Melilotus officinalis (l.) lam.","Non-fleshy fruit","Fruit","Exposed","1","1","1","0_1","0",2.892,0.9375,3.2375,2.05,1,0.0675,"Spherical",5.15,0.413333333333333,NA,0.7425,"1_2"
 "Melilotus albus","Melilotus albus medik.","Non-fleshy fruit","Fruit","Exposed","1","1","1","1","0",2,0.94,3.5,2.18,NA,0.08,"Spherical",NA,0.81,NA,0.79,"2"
 "Melilotus altissimus","Melilotus altissimus thuill.","Non-fleshy fruit","Fruit","Exposed","1","1","1","1","0",4.576,0.9,3.91,2.26,NA,0.07,"Spherical",5.35,0.2,NA,0.81,"1"
 "Melilotus indicus","Melilotus indicus (l.) all.","Non-fleshy fruit","Fruit","Exposed","1","1","1","0","0",NA,0.94,2.54,1.71,1,0.06,"Spherical",4.95,0.23,NA,0.73,"1"
@@ -1000,12 +1000,12 @@
 "Melilotus spicatus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Melilotus sulcatus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Melomphis arabica",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Mentha",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Mentha","Mentha arvensis l._Mentha longifolia (l.) huds._Mentha pulegium l._Mentha suaveolens ehrh.","Non-fleshy fruit","Fruit segment","Covered partly","0","0","0_1","0","0",0.158333333333333,0.76,0.736666666666667,0.523333333333333,0.3,0.05,"Spherical",1.99666666666667,0.6275,0.75,0.765,"1"
 "Mentha arvensis","Mentha arvensis l.","Non-fleshy fruit","Fruit segment","Covered partly","0","0","0","0","0",0.34,NA,0.9,0.65,NA,0.05,"Spherical",1.93,0.62,0.89,NA,"1"
 "Mentha longifolia","Mentha longifolia (l.) huds.","Non-fleshy fruit","Fruit segment","Covered partly","0","0","1","0","0",0.06,0.53,0.66,0.45,NA,0.05,"Spherical",NA,0.64,0.78,0.86,"1"
 "Mentha pulegium","Mentha pulegium l.","Non-fleshy fruit","Fruit segment","Covered partly","0","0","0","0","0",0.075,NA,NA,NA,NA,0.05,"Spherical",2.48,0.52,0.44,NA,"1"
 "Mentha suaveolens","Mentha suaveolens ehrh.","Non-fleshy fruit","Fruit segment","Covered partly","0","0","0","0","0",NA,0.99,0.65,0.47,0.3,0.05,"Spherical",1.58,0.73,0.89,0.67,"1"
-"Mercurialis","Mercurialis annua l._Mercurialis ovata sternb. & hoppe_Mercurialis perennis l.","Explosive release mechanism","Seed","Enclosed","0","1","0","0","0",8.30666666666667,0.943333333333333,2.63666666666667,2.41666666666667,2.5,0.00333333333333333,"Spherical",8.12333333333333,0.13,0.52,0.113333333333333,"1"
+"Mercurialis","Mercurialis annua l._Mercurialis perennis l.","Explosive release mechanism","Seed","Enclosed","0","1","0","0","0",6.81,0.92,2.53,2.275,NA,0.005,"Spherical",7.555,0.155,0.52,0.13,"1"
 "Mercurialis annua","Mercurialis annua l.","Explosive release mechanism","Seed","Enclosed","0","1","0","0","0",2.5,0.86,2.02,1.67,NA,0.01,"Spherical",7,0.21,0.52,0.18,"1"
 "Mercurialis perennis","Mercurialis perennis l.","Explosive release mechanism","Seed","Enclosed","0","1","0","0","0",11.12,0.98,3.04,2.88,NA,0,"Spherical",8.11,0.1,NA,0.08,"1"
 "Mibora minima","Mibora minima (l.) desv.","Non-fleshy fruit","Fruit","Covered partly","0","1","1","0","0",0.1524,0.68,1.55,0.69,0.48,0.09,"Spherical",1.53,0.75,NA,0.84,"1"
@@ -1018,14 +1018,14 @@
 "Montia fontana subsp. minor","Montia arvensis wallr.","Explosive release mechanism","Seed","Enclosed","0","0","0","0","0",NA,NA,NA,NA,NA,NA,"",NA,0.44,NA,NA,"1"
 "Morus alba",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Morus nigra",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Muscari","Muscari botryoides (l.) mill._Muscari comosum (l.) mill._Muscari neglectum guss. ex ten._Muscari tenuiflorum tausch","Fruit with lateral aperture","Seed","Covered partly_Enclosed","0","0","0","0","0",4.57,0.9775,2.445,2.06,1.5,0.015,"Spherical",10.4975,0.0675,0.4,0.1525,"1"
+"Muscari","Muscari botryoides (l.) mill._Muscari comosum (l.) mill._Muscari neglectum guss. ex ten.","Fruit with lateral aperture","Seed","Covered partly_Enclosed","0","0","0","0","0",2.7,0.983333333333333,2.52,2.18,1.5,0.0133333333333333,"Spherical",10.36,0.07,0.4,0.166666666666667,"1"
 "Muscari botryoides","Muscari botryoides (l.) mill.","Fruit with lateral aperture","Seed","Covered partly","0","0","0","0","0",NA,0.99,NA,NA,NA,0.01,"Spherical",9.1,0.09,0.4,0.27,"1"
 "Muscari comosum","Muscari comosum (l.) mill.","Fruit with lateral aperture","Seed","Enclosed","0","0","0","0","0",NA,0.97,2.52,2.18,1.5,0.03,"Spherical",11.6,0.05,NA,0.1,"1"
 "Muscari motelayi",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Muscari neglectum","Muscari neglectum guss. ex ten.","Fruit with lateral aperture","Seed","Enclosed","0","0","0","0","0",2.7,0.99,NA,NA,NA,0,"Spherical",10.38,0.07,NA,0.13,"1"
 "Muscari racemosum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Myagrum perfoliatum","Myagrum perfoliatum l.","Non-fleshy fruit","Fruit","Exposed","0","0","0","0","0",NA,0.92,NA,NA,NA,0.1,"Spherical",6.33,0.16,NA,0.19,"1"
-"Myosotis",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Myosotis","Myosotis arvensis (l.) hill_Myosotis discolor pers._Myosotis ramosissima rochel ex schult._Myosotis scorpioides l._Myosotis stricta link ex roem. & schult.","Non-fleshy fruit","Fruit","Exposed","1","0","1","1","0",0.23855,0.985,1.186,0.855,0.4,0.0575,"Spherical",2.768,0.502,NA,0.77,"2"
 "Myosotis arvensis","Myosotis arvensis (l.) hill","Non-fleshy fruit","Fruit","Exposed","1","0","1","1","0",0.31225,0.98,1.54,0.97,NA,0.06,"Spherical",2.03,0.67,NA,0.78,"2"
 "Myosotis discolor","Myosotis discolor pers.","Non-fleshy fruit","Fruit","Exposed","1","0","1","1","0",NA,NA,1,0.7,0.4,0.06,"Spherical",2.53,0.51,NA,NA,"2"
 "Myosotis minutiflora",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -1047,14 +1047,14 @@
 "Nonea lutea",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Nonea pulla","Nonea pulla (l.) dc.","Non-fleshy fruit","Fruit segment","Covered partly","0","1","0","0","0",NA,NA,5,2.5,2,0.07,"Spherical",NA,NA,NA,NA,"1"
 "Ochlopoa annua",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Odontites","Odontites litoralis (fr.) fr._Odontites luteus (l.) clairv._Odontites ruber agg._Odontites viscosa (l.) clairv. _Odontites vulgaris moench","Fruit with lateral aperture","Seed","Enclosed","0","0","0","0","0",0.21,0.975,1.46,0.78,NA,0.0733333333333333,"Spherical",NA,0.62,NA,0.31,"1"
+"Odontites","Odontites luteus (l.) clairv.","Fruit with lateral aperture","Seed","Enclosed","0","0","0","0","0",0.21,0.97,1.34,0.76,NA,0.06,"Spherical",NA,NA,NA,0.31,"1"
 "Odontites jaubertianus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Odontites luteus subsp. lanceolatus","Odontites luteus (l.) clairv.","Fruit with lateral aperture","Seed","Enclosed","0","0","0","0","0",0.21,0.97,1.34,0.76,NA,0.06,"Spherical",NA,NA,NA,0.31,"1"
 "Odontites vernus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Odontites vernus salinus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Odontites vernus subsp. serotinus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Odontites vernus subsp. vernus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Oenothera","Oenothera biennis s.l. l._Oenothera oakesiana s.l. (a. gray) robbins ex s. watson & coult_Oenothera parviflora s.l. l.","Fruit with lateral aperture","Seed","Enclosed","0","0","0","0","0",0.6866,0.96,1.67,1.24,0.8,0.045,"Spherical",1.955,0.58,NA,0.26,"1"
+"Oenothera","Oenothera biennis s.l. l.","Fruit with lateral aperture","Seed","Enclosed","0","0","0","0","0",0.5732,0.96,1.7,1.32,NA,0.05,"Spherical",2.12,0.58,NA,0.26,"1"
 "Oenothera biennis","Oenothera biennis s.l. l.","Fruit with lateral aperture","Seed","Enclosed","0","0","0","0","0",0.5732,0.96,1.7,1.32,NA,0.05,"Spherical",2.12,0.58,NA,0.26,"1"
 "Olea europaea",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Oloptum miliaceum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -1063,7 +1063,7 @@
 "Onobrychis arenaria","Onobrychis arenaria (kit.) dc.","Non-fleshy fruit","Fruit","Exposed","0","1","1","0","0",NA,0.81,5.33,4.11,2,0.07,"Spherical",8.64,0.09,NA,NA,"1"
 "Onobrychis caput-galli",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Onobrychis viciifolia","Onobrychis viciifolia agg.","Non-fleshy fruit","Fruit","Exposed","0","1","1","0","0",19.707167,0.88,6.31,4.76,2.33,0.07,"Spherical",5,0.27,NA,0.59,"1"
-"Ononis","Ononis arvensis l._Ononis natrix l._Ononis repens l._Ononis rotundifolia l._Ononis spinosa agg.","Explosive release mechanism","Seed","Enclosed","0","1","0","0","0",6.5326665,0.9725,2.462,2.168,1,0.045,"Spherical",7.2775,0.215,0.22,0.12,"1"
+"Ononis","Ononis repens l._Ononis spinosa agg.","Explosive release mechanism","Seed","Enclosed","0","1","0","0","0",6.5326665,0.97,2.62,2.1,1,0.035,"Spherical",3.705,0.37,0.22,0.11,"1"
 "Ononis reclinata",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Ononis spinosa","Ononis spinosa agg.","Explosive release mechanism","Seed","Enclosed","0","1","0","0","0",5.669333,0.97,2.41,2.07,1,0.04,"Spherical",4.89,0.23,0.22,0.11,"1"
 "Ononis spinosa subsp. procurrens","Ononis repens l.","Explosive release mechanism","Seed","Enclosed","0","1","0","0","0",7.396,0.97,2.83,2.13,NA,0.03,"Spherical",2.52,0.51,NA,0.11,"1"
@@ -1079,19 +1079,19 @@
 "Origanum vulgare","Origanum vulgare l.","Non-fleshy fruit","Fruit segment","Covered partly","0","0","0","0","0",0.085,NA,0.75,NA,NA,0.04,"Spherical",1.38,0.74,0.59,NA,"1"
 "Orlaya grandiflora","Orlaya grandiflora (l.) hoffm.","Non-fleshy fruit","Fruit segment","Exposed","0","0","1","1","0",NA,0.36,7.71,4.21,3,0.07,"Spherical",4.44,0.27,NA,0.92,"1"
 "Orlaya platycarpos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Ornithogalum","Ornithogalum orthophyllum ssp. kochii (parl.) maire & weiller_Ornithogalum umbellatum agg.","Fruit with lateral aperture","Seed","Covered partly","0","0","0","0","0",9.306,0.97,2.74,2.27,1,0.07,"Spherical",11.11,0.06,NA,0.17,"1"
+"Ornithogalum","Ornithogalum umbellatum agg.","Fruit with lateral aperture","Seed","Covered partly","0","0","0","0","0",9.306,0.97,2.74,2.27,1,0.07,"Spherical",11.11,0.06,NA,0.17,"1"
 "Ornithogalum divergens",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Ornithogalum kochii subsp. monticola",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Ornithogalum umbellatum","Ornithogalum umbellatum agg.","Fruit with lateral aperture","Seed","Covered partly","0","0","0","0","0",9.306,0.97,2.74,2.27,1,0.07,"Spherical",11.11,0.06,NA,0.17,"1"
 "Ornithopus compressus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Ornithopus perpusillus","Ornithopus perpusillus l.","Non-fleshy fruit","Fruit segment","Exposed","0","1","1","0","0",NA,0.74,2.66,1.38,1,0.07,"Spherical",1.6,0.73,NA,NA,"1"
-"Orobanche",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Orobanche","Orobanche alba stephan ex willd._Orobanche minor sm.","Fruit with lateral aperture","Seed","Enclosed","0","0","0","0","0",NA,NA,0.25,0.2,0.1,0.06,"Spherical",NA,NA,NA,NA,"1"
 "Orobanche cernua",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Orobanche crenata","Orobanche alba stephan ex willd.","Fruit with lateral aperture","Seed","Enclosed","0","0","0","0","0",NA,NA,0.25,0.2,0.1,0.06,"Spherical",NA,NA,NA,NA,"1"
 "Orobanche minor","Orobanche minor sm.","Fruit with lateral aperture","Seed","Enclosed","0","0","0","0","0",NA,NA,0.25,0.2,0.1,0.06,"Spherical",NA,NA,NA,NA,"1"
 "Oryza sativa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Osyris alba",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Oxalis","Oxalis corniculata l._Oxalis dillenii jacq._Oxalis fontana bunge_Oxalis montana raf.","Explosive release mechanism","Seed","Enclosed","0","0","0","0","0",0.2051,0.96,1.25333333333333,0.803333333333333,0.2,0.106666666666667,"Flat_Spherical",2.35666666666667,0.546666666666667,NA,0.316666666666667,"1"
+"Oxalis","Oxalis corniculata l._Oxalis dillenii jacq._Oxalis fontana bunge","Explosive release mechanism","Seed","Enclosed","0","0","0","0","0",0.2051,0.96,1.25333333333333,0.803333333333333,0.2,0.106666666666667,"Flat_Spherical",2.35666666666667,0.546666666666667,NA,0.316666666666667,"1"
 "Oxalis acetosella",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Oxalis corniculata","Oxalis corniculata l.","Explosive release mechanism","Seed","Enclosed","0","0","0","0","0",0.22,0.95,1.25,0.83,0.2,0.12,"Flat",2.42,0.53,NA,0.32,"1"
 "Oxalis dillenii","Oxalis dillenii jacq.","Explosive release mechanism","Seed","Enclosed","0","0","0","0","0",NA,0.97,1.24,0.86,NA,0.08,"Spherical",2.53,0.51,NA,0.31,"1"
@@ -1109,7 +1109,7 @@
 "Panicum miliaceum subsp. miliaceum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Panicum miliaceum subsp. ruderale",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Panicum virgatum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Papaver","Papaver dubium agg._Papaver hybridum l._Papaver lecoqii lamotte_Papaver rhoeas l._Papaver sendtneri kern. ex hayek","Fruit with upright aperture","Seed","Enclosed","0","1","0","0","0",0.29,0.965,0.985,0.855,0.83,0.0225,"Spherical",2.53,0.556666666666667,NA,0.3275,"1"
+"Papaver","Papaver dubium agg._Papaver rhoeas l.","Fruit with upright aperture","Seed","Enclosed","0","1","0","0","0",0.33,0.965,0.875,0.71,NA,0.035,"Spherical",NA,0.6,NA,0.32,"1"
 "Papaver dubium","Papaver dubium agg.","Fruit with upright aperture","Seed","Enclosed","0","1","0","0","0",0.12,0.97,0.87,0.7,NA,0.04,"Spherical",NA,NA,NA,0.35,"1"
 "Papaver rhoeas","Papaver rhoeas l.","Fruit with upright aperture","Seed","Enclosed","0","1","0","0","0",0.54,0.96,0.88,0.72,NA,0.03,"Spherical",NA,0.6,NA,0.29,"1"
 "Papaver somniferum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -1160,7 +1160,7 @@
 "Pilosella aurantiaca","Hieracium aurantiacum l.","Non-fleshy fruit","Fruit","Exposed","0","0","1","0","0",NA,NA,NA,NA,NA,NA,"",0.32,0.97,0.43,NA,"1"
 "Pilosella cymosa","Hieracium cymosum l.","Non-fleshy fruit","Fruit","Exposed","0","0","1","0","0",NA,NA,NA,NA,NA,NA,"",NA,NA,NA,NA,"1"
 "Pilosella officinarum","Hieracium pilosella l.","Non-fleshy fruit","Fruit","Exposed","0","0","1","0","0",0.129083,0.24,NA,NA,NA,0,"Spherical",0.45,0.95,NA,0.98,"1"
-"Pimpinella",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Pimpinella","Pimpinella major (l.) huds._Pimpinella saxifraga agg._Pimpinella saxifraga l.","Non-fleshy fruit","Fruit segment","Exposed","0","0","1","0","0",1.541619,0.97,2.68333333333333,1.315,NA,0.08,"Spherical",2.52,0.503333333333333,0.433333333333333,0.693333333333333,"1"
 "Pimpinella major","Pimpinella major (l.) huds.","Non-fleshy fruit","Fruit segment","Exposed","0","0","1","0","0",2.6,0.94,3,NA,NA,0.07,"Spherical",2.62,0.49,0.68,0.72,"1"
 "Pimpinella saxifraga","Pimpinella saxifraga agg._Pimpinella saxifraga l.","Non-fleshy fruit","Fruit segment","Exposed","0","0","1","0","0",1.0124285,0.985,2.525,1.315,NA,0.085,"Spherical",2.47,0.51,0.31,0.68,"1"
 "Pinus halepensis",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -1172,7 +1172,7 @@
 "Pisum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Pisum sativum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Pisum sativum subsp. sativum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Plantago",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Plantago","Plantago arenaria waldst. & kit._Plantago coronopus l._Plantago lanceolata l._Plantago media l.","Fruit with lateral aperture","Seed","Enclosed","0","0","0","0","1",0.9984385,0.9625,2.1075,1.0975,0.8,0.08,"Spherical",3.985,0.355,0.233333333333333,0.24,"1"
 "Plantago afra",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Plantago albicans",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Plantago altissima",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -1186,7 +1186,7 @@
 "Plantago major subsp. intermedia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Plantago media","Plantago media l.","Fruit with lateral aperture","Seed","Enclosed","0","0","0","0","1",0.3468,0.94,1.5,0.82,NA,0.09,"Spherical",2.41,0.57,0.36,0.29,"1"
 "Platycapnos spicata",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Poa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Poa","Poa annua l._Poa bulbosa l._Poa chaixii agg._Poa compressa l._Poa nemoralis l._Poa palustris l._Poa pratensis agg._Poa pratensis s.str. l._Poa trivialis l.","Non-fleshy fruit","Fruit_Infructescence","Covered partly","0_1","1","1","0","0_1",0.344952428571429,0.7875,3.2975,1.03125,0.52,0.13375,"Elongated_Elongated & flat_Flat",1.815,0.6875,0.455,0.784285714285714,"1_2"
 "Poa annua","Poa annua l.","Non-fleshy fruit","Fruit","Covered partly","0","1","1","0","0",0.31,0.7,2.82,0.97,0.62,0.12,"Elongated & flat",2.55,0.62,NA,0.82,"1"
 "Poa bulbosa","Poa bulbosa l.","Non-fleshy fruit","Infructescence","Covered partly","1","1","1","0","1",NA,0.77,5.76,1.98,0.57,0.14,"Flat",2.4,0.52,0.13,NA,"2"
 "Poa chaixii","Poa chaixii agg.","Non-fleshy fruit","Fruit","Covered partly","1","1","1","0","0",NA,NA,NA,NA,NA,NA,"",NA,NA,NA,NA,"1"
@@ -1205,16 +1205,16 @@
 "Polycnemum arvense","Polycnemum arvense agg.","Non-fleshy fruit","Fruit","Exposed","1","0","1","0","0",0.8296,0.92,1.43,1.22,1,0.01,"Spherical",4.68,0.25,NA,0.81,"1"
 "Polycnemum majus","Polycnemum majus a. braun","Non-fleshy fruit","Fruit","Exposed","1","0","1","0","0",0.9014,0.91,1.39,1.2,1,0.01,"Spherical",3.81,0.32,NA,0.82,"1"
 "Polygala monspeliaca",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Polygonum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Polygonum","Polygonum aviculare agg.","Non-fleshy fruit","Fruit","Exposed","0","0","0","0","0",2.2,0.96,2.94,1.84,1,0.07,"Spherical",NA,0.48,NA,0.2,"1"
 "Polygonum aviculare","Polygonum aviculare agg.","Non-fleshy fruit","Fruit","Exposed","0","0","0","0","0",2.2,0.96,2.94,1.84,1,0.07,"Spherical",NA,0.48,NA,0.2,"1"
 "Polygonum bellardii",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Polypogon monspeliensis",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Populus","Populus alba l._Populus nigra l._Populus tremula l.","Fruit with lateral aperture","Seed","Exposed","1","0","1","0","0",0.82,0.09,15.87,10.68,NA,NA,"",0.11,0.985,0.89,0.99,"1"
+"Populus","Populus alba l._Populus tremula l.","Fruit with lateral aperture","Seed","Exposed","1","0","1","0","0",0.82,0.09,15.87,10.68,NA,NA,"",0.11,1,NA,0.99,"1"
 "Populus alba","Populus alba l.","Fruit with lateral aperture","Seed","Exposed","1","0","1","0","0",0.82,0.09,15.87,10.68,NA,NA,"",NA,NA,NA,0.99,"1"
 "Populus tremula","Populus tremula l.","Fruit with lateral aperture","Seed","Exposed","1","0","1","0","0",NA,NA,NA,NA,NA,NA,"",0.11,1,NA,NA,"1"
 "Populus x canescens",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Portulaca oleracea","Portulaca oleracea l.","Fruit with lateral aperture","Seed","Enclosed","0","0","0","0","0",0.325,0.97,0.7,0.61,NA,0.03,"Spherical",4.27,0.28,NA,0.29,"1"
-"Potentilla",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Potentilla","Potentilla argentea s.l. l._Potentilla crantzii (crantz) beck ex fritsch_Potentilla erecta (l.) rausch._Potentilla micrantha ramond ex dc._Potentilla norvegica l._Potentilla recta l._Potentilla reptans l._Potentilla supina l.","Non-fleshy fruit","Fruit segment","Covered partly","0","0_1","0","0","0",0.2949244,0.968333333333333,1.245,0.993333333333333,0.743333333333333,0.0485714285714286,"Spherical",1.72666666666667,0.676666666666667,0.84,0.581666666666667,"1"
 "Potentilla argentea","Potentilla argentea s.l. l.","Non-fleshy fruit","Fruit segment","Covered partly","0","0","0","0","0",0.082,NA,0.9,NA,NA,0.06,"Spherical",1.11,0.85,NA,NA,"1"
 "Potentilla crantzii","Potentilla crantzii (crantz) beck ex fritsch","Non-fleshy fruit","Fruit segment","Covered partly","0","0","0","0","0",0.602222,0.98,1.48,1.08,0.63,0.06,"Spherical",NA,NA,NA,0.51,"1"
 "Potentilla erecta","Potentilla erecta (l.) rausch.","Non-fleshy fruit","Fruit segment","Covered partly","0","1","0","0","0",0.3614,0.92,1.63,1.12,NA,0.04,"Spherical",1.99,0.67,0.77,0.6,"1"
@@ -1230,7 +1230,7 @@
 "Primula veris","Primula veris l.","Fruit with upright aperture","Seed","Enclosed","0","0","0","0","0",0.908909,0.92,1.69,1.4,NA,0.04,"Spherical",2.42,0.53,0.82,0.24,"1"
 "Prunella laciniata","Prunella laciniata (l.) l.","Non-fleshy fruit","Fruit segment","Covered partly","1","0","0","0","1",1.1,0.92,2.25,NA,NA,0.08,"Spherical",5.77,0.18,0.2,0.51,"1"
 "Prunella vulgaris","Prunella vulgaris l.","Non-fleshy fruit","Fruit segment","Covered partly","1","0","0","0","1",0.68075,0.99,1.65,1.05,NA,0.07,"Spherical",3.65,0.37,0.16,0.5,"1"
-"Prunus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Prunus","Prunus avium l._Prunus spinosa s.l. l.","Fleshy fruit","Fruit","Exposed","0","1","0","0","0",1246.5635,NA,11.5,11.5,11.5,0,"Spherical",23.01,0,NA,NA,"1"
 "Prunus avium","Prunus avium l.","Fleshy fruit","Fruit","Exposed","0","1","0","0","0",718.977,NA,15,15,15,0,"Spherical",23.01,0,NA,NA,"1"
 "Prunus dulcis",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Prunus spinosa","Prunus spinosa s.l. l.","Fleshy fruit","Fruit","Exposed","0","1","0","0","0",1774.15,NA,8,8,8,0,"Spherical",NA,NA,NA,NA,"1"
@@ -1241,13 +1241,13 @@
 "Pulicaria arabica hispanica",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Pulicaria dysenterica","Pulicaria dysenterica (l.) bernh.","Non-fleshy fruit","Fruit","Exposed","0","0","1","0","0",0.0565,0.4,4.36,2.47,NA,NA,"",0.37,0.96,0.86,0.96,"1"
 "Pulicaria vulgaris","Pulicaria vulgaris gaertn.","Non-fleshy fruit","Fruit","Exposed","0","0","1","0","0",NA,0.56,2.97,1.05,NA,0.14,"Elongated",NA,NA,0.46,0.93,"1"
-"Quercus","Quercus cerris l._Quercus ilex l._Quercus petraea liebl._Quercus pubescens willd._Quercus robur l.","Non-fleshy fruit","Fruit","Covered partly_Exposed","0","1","0","0","0",1818.70125,0.9575,23.165,12.4975,10,0.06,"Spherical",NA,NA,0.1,0,"1"
+"Quercus","Quercus ilex l._Quercus pubescens willd._Quercus robur l.","Non-fleshy fruit","Fruit","Exposed","0","1","0","0","0",2085.03,0.97,24.94,12.945,10,0.065,"Spherical",NA,NA,0.1,0,"1"
 "Quercus coccifera",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Quercus ilex","Quercus ilex l.","Non-fleshy fruit","Fruit","Exposed","0","1","0","0","0",NA,NA,NA,NA,NA,NA,"",NA,NA,NA,NA,"1"
 "Quercus pubescens","Quercus pubescens willd.","Non-fleshy fruit","Fruit","Exposed","0","1","0","0","0",1670.06,0.97,22.06,11.55,10,0.06,"Spherical",NA,NA,NA,0,"1"
 "Quercus robur","Quercus robur l.","Non-fleshy fruit","Fruit","Exposed","0","1","0","0","0",2500,0.97,27.82,14.34,10,0.07,"Spherical",NA,NA,0.1,0,"1"
 "Rabelera holostea","Stellaria glauca with._Stellaria holostea l.","Fruit with upright aperture","Seed","Enclosed","0","0","0","0","0",NA,0.85,1.695,1.36,0.6,0.04,"Spherical",5.48,0.19,NA,NA,"1"
-"Ranunculus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Ranunculus","Ranunculus acris agg._Ranunculus arvensis l._Ranunculus bulbosus l._Ranunculus illyricus l._Ranunculus repens l._Ranunculus sardous crantz_Ranunculus sceleratus l.","Non-fleshy fruit","Fruit segment","Exposed","0","0","1","0_1","0",3.8688384,0.948571428571429,3.63714285714286,2.17,1.2,0.08,"Flat_Spherical",3.61166666666667,0.431428571428571,0.6275,0.73,"1"
 "Ranunculus acris","Ranunculus acris agg.","Non-fleshy fruit","Fruit segment","Exposed","0","0","1","0","0",1.366792,0.97,3.31,2.29,NA,0.1,"Spherical",2.34,0.54,0.62,0.67,"1"
 "Ranunculus arvensis","Ranunculus arvensis l.","Non-fleshy fruit","Fruit segment","Exposed","0","0","1","0","0",12.2,0.87,6.25,NA,NA,0.03,"Spherical",6.01,0.17,NA,0.68,"1"
 "Ranunculus bulbosus","Ranunculus bulbosus l.","Non-fleshy fruit","Fruit segment","Exposed","0","0","1","1","0",2.893,0.97,4.15,2.96,NA,0.09,"Spherical",2.33,0.49,0.72,0.71,"1"
@@ -1274,7 +1274,7 @@
 "Reynoutria japonica","Reynoutria japonica houtt.","Non-fleshy fruit","Fruit","Exposed","0","0","0","0","0",2.392,0.88,10.91,5.63,NA,0.13,"Flat",1.08,0.85,NA,0.27,"1"
 "Rhagadiolus stellatus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Rhamnus alaternus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Rhinanthus","Rhinanthus alectorolophus agg._Rhinanthus angustifolius s.l. c. c. gmel. (soo 1968)_Rhinanthus aristatus agg._Rhinanthus glacialis personnat_Rhinanthus minor l.","Fruit with upright aperture","Seed","Enclosed","0","1","0","0","0",2.41659275,0.974,4.158,3.262,1,0.112,"Flat_Spherical",2.105,0.61,0.345,0.06,"1"
+"Rhinanthus","Rhinanthus alectorolophus agg._Rhinanthus minor l.","Fruit with upright aperture","Seed","Enclosed","0","1","0","0","0",2.7646855,0.98,4.23,3.32,NA,0.125,"Flat",1.72,0.7,0.24,0.06,"1"
 "Rhinanthus alectorolophus","Rhinanthus alectorolophus agg.","Fruit with upright aperture","Seed","Enclosed","0","1","0","0","0",3.5778,0.98,4.32,3.41,NA,0.13,"Flat",1.94,0.64,NA,0.05,"1"
 "Rhinanthus minor","Rhinanthus minor l.","Fruit with upright aperture","Seed","Enclosed","0","1","0","0","0",1.951571,0.98,4.14,3.23,NA,0.12,"Flat",1.5,0.76,0.24,0.07,"1"
 "Ridolfia segetum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -1283,14 +1283,14 @@
 "Roemeria argemone","Papaver argemone l.","Fruit with upright aperture","Seed","Enclosed","0","1","0","0","0",NA,0.96,0.99,0.61,NA,0.04,"Spherical",3.24,0.46,0.82,0.35,"1"
 "Roemeria hispida",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Roemeria hybrida",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Rorippa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Rorippa","Cardamine palustris (wimm. & grab.) peterm._Rorippa amphibia (l.) besser_Rorippa austriaca (crantz) besser_Rorippa islandica agg._Rorippa sylvestris (l.) besser_Rorippa x armoracioides (tausch) fuss","Explosive release mechanism_Fruit with lateral aperture","Seed","Covered partly_Enclosed","0_1","0","0","0","1",0.137733333333333,0.97,0.805,0.5825,0.3,0.065,"Spherical",2.095,0.69,0.7,0.65,"1"
 "Rorippa amphibia","Rorippa amphibia (l.) besser","Fruit with lateral aperture","Seed","Covered partly","1","0","0","0","1",0.2252,0.95,1.04,0.75,NA,0.09,"Spherical",2.8,0.46,NA,0.62,"1"
 "Rorippa austriaca","Rorippa austriaca (crantz) besser","Fruit with lateral aperture","Seed","Covered partly","1","0","0","0","1",NA,NA,0.7,0.5,0.3,0.05,"Spherical",NA,0.77,0.86,NA,"1"
 "Rorippa islandica","Rorippa islandica agg.","Fruit with lateral aperture","Seed","Covered partly","1","0","0","0","1",0.057,0.98,0.82,0.57,0.3,0.07,"Spherical",1.39,0.81,0.85,0.68,"1"
 "Rorippa palustris","Cardamine palustris (wimm. & grab.) peterm.","Explosive release mechanism","Seed","Enclosed","0","0","0","0","1",NA,NA,NA,NA,NA,NA,"",NA,NA,NA,NA,"1"
 "Rorippa sylvestris","Rorippa sylvestris (l.) besser","Fruit with lateral aperture","Seed","Covered partly","1","0","0","0","1",0.131,0.98,0.66,0.51,NA,0.05,"Spherical",NA,0.72,0.39,0.65,"1"
 "Rorippa x armoracioides","Rorippa x armoracioides (tausch) fuss","Fruit with lateral aperture","Seed","Covered partly","1","0","0","0","1",NA,NA,NA,NA,NA,NA,"",NA,NA,NA,NA,"1"
-"Rosa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Rosa","Rosa arvensis huds._Rosa canina s.l. l.","Fleshy fruit","Fruit","Exposed","1","1","0","0","0",769.8944375,0.855,10.53,10,6.68,0.05,"Spherical",12.32,0.04,NA,0,"3"
 "Rosa arvensis","Rosa arvensis huds.","Fleshy fruit","Fruit","Exposed","1","1","0","0","0",888.95,0.76,NA,NA,NA,0.08,"Spherical",NA,NA,NA,0,"3"
 "Rosa canina","Rosa canina s.l. l.","Fleshy fruit","Fruit","Exposed","1","1","0","0","0",650.838875,0.95,10.53,10,6.68,0.02,"Spherical",12.32,0.04,NA,0,"3"
 "Rosa sempervirens",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -1299,14 +1299,14 @@
 "Rubia peregrina","Rubia peregrina l.","Fleshy fruit","Fruit","Exposed","0","1","0","0","0",170,0.99,5.53,4.77,NA,NA,"",NA,NA,NA,0.03,"1"
 "Rubia tinctorum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Rubiaceae",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Rubus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Rubus","Rubus caesius l._Rubus chamaemorus l._Rubus fruticosus agg._Rubus idaeus l.","Fleshy fruit","Fruit","Exposed","0","1","0","0","0",600,NA,10,10,10,0,"Spherical",NA,NA,NA,NA,"2_3"
 "Rubus arcticus","Rubus chamaemorus l.","Fleshy fruit","Fruit","Exposed","0","1","0","0","0",NA,NA,10,10,10,0,"Spherical",NA,NA,NA,NA,"2"
 "Rubus caesius","Rubus caesius l.","Fleshy fruit","Fruit","Exposed","0","1","0","0","0",700,NA,NA,NA,NA,NA,"",NA,NA,NA,NA,"3"
 "Rubus fruticosus","Rubus fruticosus agg.","Fleshy fruit","Fruit","Exposed","0","1","0","0","0",NA,NA,10,10,10,0,"Spherical",NA,NA,NA,NA,"3"
 "Rubus idaeus","Rubus idaeus l.","Fleshy fruit","Fruit","Exposed","0","1","0","0","0",500,NA,NA,NA,NA,NA,"",NA,NA,NA,NA,"3"
 "Rubus ulmifolius",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Rubus vestitus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Rumex",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Rumex","Rumex acetosa l._Rumex acetosella s.l. l._Rumex conglomeratus murray_Rumex crispus l._Rumex obtusifolius l._Rumex palustris sm._Rumex pulcher l._Rumex sanguineus l._Rumex stenophyllus ledeb._Rumex thyrsiflorus fingerh.","Non-fleshy fruit","Fruit","Exposed","0","0","0_1","0_1","0",1.438625,0.846,3.84571428571429,2.72714285714286,2.04333333333333,0.0542857142857143,"Flat_Spherical",2.696,0.571666666666667,0.604285714285714,0.595,"1"
 "Rumex acetosa","Rumex acetosa l.","Non-fleshy fruit","Fruit","Exposed","0","0","0","0","0",1.0085,NA,4.58,4.4,1.13,0.12,"Flat",1.36,0.8,NA,NA,"1"
 "Rumex acetosella","Rumex acetosella s.l. l.","Non-fleshy fruit","Fruit","Exposed","0","0","0","0","0",0.485,0.95,1.41,0.94,NA,NA,"",2.36,0.55,0.72,0.69,"1"
 "Rumex bucephalophorus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -1331,7 +1331,7 @@
 "Sagina procumbens","Sagina procumbens l.","Fruit with upright aperture","Seed","Enclosed","0","0","0","0","0",0.017,0.91,0.35,0.27,0.2,0.03,"Spherical",1.23,0.82,0.47,0.51,"1"
 "Salix",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Salsola kali",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Salvia","Salvia glutinosa l._Salvia nemorosa l._Salvia pratensis l._Salvia verticillata l.","Non-fleshy fruit","Fruit segment","Covered partly","0","0","0","0","0_1",1.96940825,0.98,2.485,1.94,2.175,0.0275,"Spherical",4.845,0.31,0.23,0.4075,"1"
+"Salvia","Salvia nemorosa l._Salvia pratensis l._Salvia verticillata l.","Non-fleshy fruit","Fruit segment","Covered partly","0","0","0","0","0_1",0.947877666666667,0.976666666666667,2.2,1.75333333333333,1.98,0.03,"Spherical",3.56333333333333,0.383333333333333,0.23,0.463333333333333,"1"
 "Salvia nemorosa","Salvia nemorosa l.","Non-fleshy fruit","Fruit segment","Covered partly","0","0","0","0","0",1.1728,0.95,2.44,2.3,1.98,0.01,"Spherical",5.16,0.21,NA,0.49,"1"
 "Salvia pratensis","Salvia pratensis l.","Non-fleshy fruit","Fruit segment","Covered partly","0","0","0","0","1",1.370833,0.99,2.29,1.67,NA,0.02,"Spherical",2.55,0.51,0.19,0.38,"1"
 "Salvia rosmarinus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -1339,10 +1339,10 @@
 "Salvia verbenaca",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Salvia verticillata","Salvia verticillata l.","Non-fleshy fruit","Fruit segment","Covered partly","0","0","0","0","0",0.3,0.99,1.87,1.29,NA,0.06,"Spherical",2.98,0.43,0.27,0.52,"1"
 "Salvia viridis",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Sambucus","Sambucus ebulus l._Sambucus nigra l._Sambucus racemosa l.","Fleshy fruit","Fruit","Exposed","0","1","0","0","0",110.166666666667,0.915,5.23,4.63666666666667,NA,NA,"",5.52,0.19,NA,0.055,"2"
+"Sambucus","Sambucus ebulus l._Sambucus nigra l.","Fleshy fruit","Fruit","Exposed","0","1","0","0","0",124,0.9,5.48,4.99,NA,NA,"",NA,NA,NA,0.05,"2"
 "Sambucus ebulus","Sambucus ebulus l.","Fleshy fruit","Fruit","Exposed","0","1","0","0","0",105,NA,6,6,NA,NA,"",NA,NA,NA,NA,"2"
 "Sambucus nigra","Sambucus nigra l.","Fleshy fruit","Fruit","Exposed","0","1","0","0","0",143,0.9,4.96,3.98,NA,NA,"",NA,NA,NA,0.05,"2"
-"Sanguisorba","Sanguisorba minor ssp. polygama (waldst. & kit.) holub_Sanguisorba officinalis l.","Non-fleshy fruit","Fruit","Exposed","0","0","0","0","0",4.483,0.925,4.105,3.02,NA,0.04,"Spherical",3.52,0.45,0.51,0.1,"2"
+"Sanguisorba",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Santolina chamaecyparissus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Saponaria officinalis","Saponaria officinalis l.","Fruit with upright aperture","Seed","Enclosed","0","0","0","0","0",1.987333,0.94,1.9,1.9,NA,0.07,"Spherical",NA,0.64,0.45,0.18,"1"
 "Satureja montana",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -1371,10 +1371,10 @@
 "Scrophularia nodosa","Scrophularia nodosa l.","Fruit with lateral aperture","Seed","Enclosed","0","0","0","0","0",0.083733,0.88,1.42,1.02,1,0.03,"Spherical",NA,NA,NA,0.45,"1"
 "Scutellaria galericulata","Scutellaria galericulata l.","Non-fleshy fruit","Fruit segment","Covered partly","0","0","0","0","0",0.734,NA,1.5,NA,NA,0.02,"Spherical",4.7,0.25,0.8,NA,"1"
 "Secale cereale",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Sedum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Sedum","Sedum acre l._Sedum album l.","Fruit with upright aperture","Seed","Covered partly","0","0","0","0","0",0.0325835,0.82,0.85,0.37,NA,0.1,"Spherical",1.2,0.815,NA,0.795,"1"
 "Sedum acre","Sedum acre l.","Fruit with upright aperture","Seed","Covered partly","0","0","0","0","0",0.039,0.81,0.9,0.45,NA,0.09,"Spherical",1.44,0.76,NA,0.8,"1"
 "Sedum album","Sedum album l.","Fruit with upright aperture","Seed","Covered partly","0","0","0","0","0",0.026167,0.83,0.8,0.29,NA,0.11,"Spherical",0.96,0.87,NA,0.79,"1"
-"Senecio",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Senecio","Senecio inaequidens dc._Senecio vernalis waldst. & kit._Senecio viscosus l._Senecio vulgaris l.","Non-fleshy fruit","Fruit","Exposed","0","0","1","0","0",0.301,0.28,8.29,5.8,NA,0.02,"Spherical",0.38,0.96,NA,0.97,"1"
 "Senecio gallicus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Senecio inaequidens","Senecio inaequidens dc.","Non-fleshy fruit","Fruit","Exposed","0","0","1","0","0",NA,NA,NA,NA,NA,NA,"",0.37,0.96,NA,NA,"1"
 "Senecio leucanthemifolius",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -1383,7 +1383,7 @@
 "Senecio viscosus","Senecio viscosus l.","Non-fleshy fruit","Fruit","Exposed","0","0","1","0","0",0.5,NA,NA,NA,NA,0.02,"Spherical",0.46,0.95,NA,NA,"1"
 "Senecio vulgaris","Senecio vulgaris l.","Non-fleshy fruit","Fruit","Exposed","0","0","1","0","0",0.238,0.28,8.29,5.8,NA,NA,"",0.31,0.97,NA,0.97,"1"
 "Serapias lingua",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Setaria","Setaria italica (l.) p. beauv._Setaria pumila (poir.) roem. & schult._Setaria verticillata (l.) p. beauv._Setaria verticillata var. ambigua (guss.) parl._Setaria viridis (l.) p. beauv.","Non-fleshy fruit","Fruit","Covered partly_Exposed","0","1","0_1","0_1","0",0.9,0.973333333333333,2.572,1.324,1.13,0.07,"Spherical",2.302,0.516,0.33,0.2,"1"
+"Setaria","Setaria italica (l.) p. beauv._Setaria pumila (poir.) roem. & schult._Setaria verticillata (l.) p. beauv._Setaria viridis (l.) p. beauv.","Non-fleshy fruit","Fruit","Covered partly_Exposed","0","1","0_1","0_1","0",0.9,0.975,2.68,1.3925,1.13,0.07,"Spherical",2.535,0.4475,0.33,0.2,"1"
 "Setaria faberi",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Setaria italica","Setaria italica (l.) p. beauv.","Non-fleshy fruit","Fruit","Exposed","0","1","1","1","0",NA,NA,2.73,1.37,NA,0.08,"Spherical",2.73,0.42,0.18,NA,"1"
 "Setaria italica subsp. italica","Setaria italica (l.) p. beauv._Setaria viridis (l.) p. beauv.","Non-fleshy fruit","Fruit","Covered partly_Exposed","0","1","0_1","0_1","0",0.9,0.98,2.465,1.255,0.88,0.08,"Spherical",2.865,0.42,0.305,0.2,"1"
@@ -1396,7 +1396,7 @@
 "Sicyos angulatus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Sideritis romana",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Silaum silaus","Silaum silaus (l.) schinz & thell.","Non-fleshy fruit","Fruit segment","Exposed","0","0","0","0","0",2.5435,NA,5,NA,NA,0.11,"Spherical",3.42,0.36,0.31,NA,"1"
-"Silene",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Silene","Silene conica l._Silene dichotoma ehrh._Silene dioica (l.) clairv._Silene gallica l._Silene noctiflora l._Silene vulgaris s.l. (moench) garcke","Fruit with upright aperture","Seed","Enclosed","0","0","0","0","0",0.619516666666667,0.916666666666667,1.12833333333333,0.991666666666667,0.5,0.0333333333333333,"Spherical",4.25,0.292,0.1,0.245,"1"
 "Silene conica","Silene conica l.","Fruit with upright aperture","Seed","Enclosed","0","0","0","0","0",0.262,0.96,0.93,0.87,0.5,0.04,"Spherical",3.96,0.3,NA,0.3,"1"
 "Silene conoidea",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Silene cretica",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -1418,7 +1418,7 @@
 "Sinapis alba",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Sinapis arvensis","Sinapis arvensis l.","Fruit with lateral aperture","Seed","Covered partly","0","0","0","0","1",2.095,0.99,1.13,1.05,NA,0.01,"Spherical",NA,NA,0.11,0.32,"1"
 "Sison segetum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Sisymbrium",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Sisymbrium","Sisymbrium altissimum l._Sisymbrium austriacum jacq._Sisymbrium irio l._Sisymbrium loeselii l._Sisymbrium officinale (l.) scop._Sisymbrium supinum l.","Fruit with lateral aperture","Seed","Covered partly","0","0","0","0","0",0.194666666666667,0.95,1.155,0.653333333333333,0.585,0.0666666666666667,"Spherical",2.518,0.536,NA,0.632,"1"
 "Sisymbrium altissimum","Sisymbrium altissimum l.","Fruit with lateral aperture","Seed","Covered partly","0","0","0","0","0",0.204133,0.97,1.05,0.77,NA,0.06,"Spherical",2.06,0.61,NA,0.6,"1"
 "Sisymbrium austriacum","Sisymbrium austriacum jacq.","Fruit with lateral aperture","Seed","Covered partly","0","0","0","0","0",0.219467,0.87,1.3,0.69,NA,0.09,"Spherical",3.25,0.39,NA,0.67,"1"
 "Sisymbrium irio","Sisymbrium irio l.","Fruit with lateral aperture","Seed","Covered partly","0","0","0","0","0",NA,0.97,1.2,0.6,0.57,0.06,"Spherical",2.29,0.56,NA,0.64,"1"
@@ -1427,7 +1427,7 @@
 "Sisymbrium orientale",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Sisymbrium runcinatum","Sisymbrium supinum l.","Fruit with lateral aperture","Seed","Covered partly","0","0","0","0","0",NA,NA,1.5,0.6,0.6,0.08,"Spherical",NA,NA,NA,NA,"1"
 "Smilax aspera",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Solanum","Solanum dulcamara l._Solanum physalifolium var. nitidibaccatum (bitter) edmonds_Solanum ptycanthum dunal_Solanum sarachoides s.l. sendtner_Solanum villosum s.l. mill.","Fleshy fruit","Fruit","Exposed","0","1","0_1","0","0",155.505,0.79,8.795,6.955,8,0.02,"Spherical",10.7466666666667,0.0733333333333333,NA,0.376666666666667,"3"
+"Solanum","Solanum dulcamara l._Solanum physalifolium var. nitidibaccatum (bitter) edmonds_Solanum ptycanthum dunal_Solanum villosum s.l. mill.","Fleshy fruit","Fruit","Exposed","0","1","0","0","0",194.94,0.82,8.96,7.08,8,0.02,"Spherical",11.875,0.06,NA,0.195,"3"
 "Solanum americanum","Solanum ptycanthum dunal","Fleshy fruit","Fruit","Exposed","0","1","0","0","0",NA,NA,NA,NA,NA,NA,"",NA,NA,NA,NA,"3"
 "Solanum chenopodioides",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Solanum dulcamara","Solanum dulcamara l.","Fleshy fruit","Fruit","Exposed","0","1","0","0","0",450,NA,11,8,8,0.02,"Spherical",NA,NA,NA,NA,"3"
@@ -1436,17 +1436,17 @@
 "Solanum nitidibaccatum","Solanum physalifolium var. nitidibaccatum (bitter) edmonds","Fleshy fruit","Fruit","Exposed","0","1","0","0","0",37.2,0.73,8.3,6.58,NA,NA,"",8.49,0.1,NA,0.33,"3"
 "Solanum tuberosum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Solanum villosum","Solanum villosum s.l. mill.","Fleshy fruit","Fruit","Exposed","0","1","0","0","0",97.62,0.91,7.58,6.66,NA,NA,"",15.26,0.02,NA,0.06,"3"
-"Solidago","Solidago canadensis l._Solidago gigantea aiton_Solidago graminifolia (l.) salisb._Solidago virgaurea ssp. minuta (l.) arcang._Solidago virgaurea ssp. virgaurea","Non-fleshy fruit","Fruit","Exposed","0","0","1","0","0",0.159455,0.2875,4.6425,4.085,5.055,0,"Spherical",0.3775,0.955,0.34,0.9725,"1"
+"Solidago","Solidago canadensis l._Solidago gigantea aiton","Non-fleshy fruit","Fruit","Exposed","0","0","1","0","0",0.05046,0.335,3.545,3.13,3.03,0,"Spherical",0.28,0.97,0.25,0.965,"1"
 "Solidago canadensis","Solidago canadensis l.","Non-fleshy fruit","Fruit","Exposed","0","0","1","0","0",0.05012,0.25,3.5,3.32,3.03,0,"Spherical",0.32,0.97,0.25,0.98,"1"
 "Solidago gigantea","Solidago gigantea aiton","Non-fleshy fruit","Fruit","Exposed","0","0","1","0","0",0.0508,0.42,3.59,2.94,NA,NA,"",0.24,0.97,NA,0.95,"1"
 "Solidago virgaurea",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Sonchus","Sonchus arvensis l._Sonchus asper (l.) hill_Sonchus oleraceus l._Sonchus palustris l.","Non-fleshy fruit","Fruit","Exposed","0","0","1","0","0",0.3612,0.136666666666667,10.3533333333333,6.91333333333333,NA,0.02,"Spherical",0.285,0.965,0.815,0.986666666666667,"1"
+"Sonchus","Sonchus arvensis l._Sonchus asper (l.) hill_Sonchus oleraceus l.","Non-fleshy fruit","Fruit","Exposed","0","0","1","0","0",0.3612,0.136666666666667,10.3533333333333,6.91333333333333,NA,0.02,"Spherical",0.285,0.966666666666667,0.89,0.986666666666667,"1"
 "Sonchus arvensis","Sonchus arvensis l.","Non-fleshy fruit","Fruit","Exposed","0","0","1","0","0",0.417,0.21,8.81,5.55,NA,0.01,"Spherical",0.24,0.98,NA,0.97,"1"
 "Sonchus arvensis subsp. uliginosus","Sonchus arvensis l.","Non-fleshy fruit","Fruit","Exposed","0","0","1","0","0",0.417,0.21,8.81,5.55,NA,0.01,"Spherical",0.24,0.98,NA,0.97,"1"
 "Sonchus asper","Sonchus asper (l.) hill","Non-fleshy fruit","Fruit","Exposed","0","0","1","0","0",0.2836,0.1,10.54,7.46,NA,0.02,"Spherical",NA,0.96,0.89,1,"1"
 "Sonchus oleraceus","Sonchus oleraceus l.","Non-fleshy fruit","Fruit","Exposed","0","0","1","0","0",0.383,0.1,11.71,7.73,NA,0.03,"Spherical",0.33,0.96,NA,0.99,"1"
 "Sonchus tenerrimus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Sorbus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Sorbus","Sorbus aucuparia l.","Fleshy fruit","Fruit","Exposed","0","1","0","0","0",490,0.93,8,6.15,NA,0.03,"Spherical",NA,NA,0.33,0.02,"2"
 "Sorbus aucuparia","Sorbus aucuparia l.","Fleshy fruit","Fruit","Exposed","0","1","0","0","0",490,0.93,8,6.15,NA,0.03,"Spherical",NA,NA,0.33,0.02,"2"
 "Sorghum","Sorghum halepense (l.) pers.","Non-fleshy fruit","Fruit","Covered partly","0","1","1","1","0",NA,NA,NA,NA,NA,NA,"",4.16,0.35,0.77,NA,"1"
 "Sorghum bicolor",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -1454,13 +1454,13 @@
 "Spergula arvensis","Spergula arvensis l.","Fruit with upright aperture","Seed","Enclosed","0","0","0","0","0",0.435,0.96,1.24,1.14,NA,0.02,"Spherical",NA,NA,NA,0.13,"1"
 "Spergula morisonii","Spergula morisonii boreau","Fruit with upright aperture","Seed","Enclosed","0","0","0","0","0",0.1511,0.94,1.77,1.58,NA,0.15,"Flat",0.97,0.87,NA,0.21,"1"
 "Spergula pentandra","Spergula pentandra agg._Spergula pentandra l.","Fruit with upright aperture","Seed","Enclosed","0","0","0","0","0",0.1511,0.94,1.57,1.52,0.2,0.165,"Flat",0.97,0.87,NA,0.35,"1"
-"Spergularia","Spergularia echinosperma (celak.) asch. & graebn._Spergularia maritima (all.) chiov._Spergularia rubra (l.) j. presl & c. presl_Spergularia salina j. presl & c. presl_Spergularia segetalis (l.) g. don","Fruit with upright aperture","Seed","Enclosed","0_1","0","0","0","0",0.043733,0.8175,0.79,0.716,0.3,0.0875,"Flat_Spherical",1.07,0.8475,0.633333333333333,0.5225,"1"
+"Spergularia","Spergularia maritima (all.) chiov._Spergularia rubra (l.) j. presl & c. presl_Spergularia segetalis (l.) g. don","Fruit with upright aperture","Seed","Enclosed","0_1","0","0","0","0",0.043733,0.82,0.89,0.82,0.3,0.0933333333333333,"Flat_Spherical",0.96,0.845,0.89,0.53,"1"
 "Spergularia media","Spergularia maritima (all.) chiov.","Fruit with upright aperture","Seed","Enclosed","1","0","0","0","0",0.043733,0.85,1.1,1.01,0.3,0.11,"Flat",0.96,0.82,NA,0.51,"1"
 "Spergularia rubra","Spergularia rubra (l.) j. presl & c. presl","Fruit with upright aperture","Seed","Enclosed","0","0","0","0","0",NA,0.79,0.57,0.45,NA,0.06,"Spherical",NA,0.87,0.89,0.55,"1"
 "Spergularia segetalis","Spergularia segetalis (l.) g. don","Fruit with upright aperture","Seed","Enclosed","0","0","0","0","0",NA,NA,1,1,0.3,0.11,"Flat",NA,NA,NA,NA,"1"
 "Sporobolus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Sporobolus indicus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Stachys",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Stachys","Stachys annua (l.) l._Stachys arvensis (l.) l._Stachys palustris l._Stachys recta l._Stachys sylvatica l.","Non-fleshy fruit","Fruit segment","Covered partly","0","0","0","0","0",1.1677206,0.99,1.912,1.585,1.15,0.032,"Spherical",3.652,0.382,NA,0.453333333333333,"1"
 "Stachys annua","Stachys annua (l.) l.","Non-fleshy fruit","Fruit segment","Covered partly","0","0","0","0","0",1.0532,1,1.89,1.56,NA,0.03,"Spherical",5.4,0.2,NA,0.43,"1"
 "Stachys arvensis","Stachys arvensis (l.) l.","Non-fleshy fruit","Fruit segment","Covered partly","0","0","0","0","0",0.674625,1,1.81,1.43,1.1,0.03,"Spherical",4.73,0.24,NA,0.48,"1"
 "Stachys palustris","Stachys palustris l.","Non-fleshy fruit","Fruit segment","Covered partly","0","0","0","0","0",1.078333,0.97,2.11,1.55,NA,0.04,"Spherical",3.54,0.35,NA,0.45,"1"
@@ -1474,19 +1474,19 @@
 "Stipellula capensis",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Succowia balearica",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Symphyotrichum squamatum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Symphytum","Symphytum bulbosum schimp._Symphytum officinale s.l. l._Symphytum tuberosum l._Symphytum x uplandicum nyman","Non-fleshy fruit","Fruit segment","Covered partly","0","1","0","0","0",8.5,0.95,3.79333333333333,2.365,1.5,0.05,"Spherical",5.445,0.356666666666667,NA,NA,"1"
+"Symphytum","Symphytum officinale s.l. l.","Non-fleshy fruit","Fruit segment","Covered partly","0","1","0","0","0",8.5,NA,4.5,NA,NA,0.04,"Spherical",4.39,0.27,NA,NA,"1"
 "Symphytum officinale","Symphytum officinale s.l. l.","Non-fleshy fruit","Fruit segment","Covered partly","0","1","0","0","0",8.5,NA,4.5,NA,NA,0.04,"Spherical",4.39,0.27,NA,NA,"1"
 "Taeniatherum caput-medusae",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Tagetes minuta",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Tanacetum corymbosum","Tanacetum corymbosum (l.) sch. bip.","Non-fleshy fruit","Fruit","Covered partly","0","0","0","0","0",0.3874,0.86,3.04,0.95,0.6,0.13,"Elongated",1.83,0.77,NA,0.64,"1"
 "Tanacetum vulgare","Tanacetum vulgare l.","Non-fleshy fruit","Fruit","Covered partly","0","0","0","0","0",0.1375,0.99,1.89,0.7,NA,0.1,"Spherical",1.05,0.84,NA,0.62,"1"
-"Taraxacum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Taraxacum","Taraxacum laevigatum agg.","Non-fleshy fruit","Fruit","Exposed","0","0","1","1","0",0.459,0.16,14.44,8.32,NA,0.05,"Spherical",0.49,0.94,0.72,0.99,"1"
 "Taraxacum campylodes",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Taraxacum erythrospermum","Taraxacum laevigatum agg.","Non-fleshy fruit","Fruit","Exposed","0","0","1","1","0",0.459,0.16,14.44,8.32,NA,0.05,"Spherical",0.49,0.94,0.72,0.99,"1"
 "Taraxacum officinale",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Teesdalia nudicaulis","Teesdalia nudicaulis (l.) r. br.","Fruit with lateral aperture","Seed","Covered partly","0","0","0","0","0",0.275,0.9,1.22,0.94,NA,0.05,"Spherical",2.75,0.47,0.12,0.64,"1"
 "Teloxys aristata",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Teucrium","Teucrium botrys l._Teucrium chamaedrys l._Teucrium montanum l._Teucrium scordium agg._Teucrium scorodonia l.","Non-fleshy fruit","Fruit segment","Covered partly","0","0","0","0","0",1.2229,0.975,1.6425,1.2575,1.2,0.02,"Spherical",5.1875,0.2725,NA,0.4475,"1"
+"Teucrium","Teucrium botrys l._Teucrium chamaedrys l._Teucrium scorodonia l.","Non-fleshy fruit","Fruit segment","Covered partly","0","0","0","0","0",1.30986666666667,0.98,1.61333333333333,1.33333333333333,1.2,0.0133333333333333,"Spherical",6.18,0.17,NA,0.436666666666667,"1"
 "Teucrium botrys","Teucrium botrys l.","Non-fleshy fruit","Fruit segment","Covered partly","0","0","0","0","0",1.119,0.99,1.67,1.28,NA,0.02,"Spherical",5.6,0.19,NA,0.44,"1"
 "Teucrium chamaedrys","Teucrium chamaedrys l.","Non-fleshy fruit","Fruit segment","Covered partly","0","0","0","0","0",1.7406,0.97,1.66,1.39,1.2,0.01,"Spherical",7.26,0.13,NA,0.4,"1"
 "Teucrium polium",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -1495,19 +1495,19 @@
 "Thalictrum minus","Thalictrum minus s.l. l.","Non-fleshy fruit","Fruit segment","Exposed","0","0","0","0","0",2.333333,NA,4,NA,NA,0.15,"Elongated",2.05,0.62,NA,NA,"1"
 "Thesium dollineri",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Thesium humile","Thesium alpinum l.","Non-fleshy fruit","Fruit","Exposed","0","1","0","0","0",3.079,NA,4.48,2,1.21,0.1,"Spherical",3.67,0.34,NA,NA,"1"
-"Thlaspi",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Thlaspi","Thlaspi alliaceum l._Thlaspi arvense l.","Fruit with lateral aperture","Seed","Covered partly","0","0","0","0","1",1.2060665,0.99,1.805,1.265,0.5,0.075,"Spherical",4.04,0.375,NA,0.44,"1"
 "Thlaspi alliaceum","Thlaspi alliaceum l.","Fruit with lateral aperture","Seed","Covered partly","0","0","0","0","1",1.0308,0.99,1.62,1.12,0.5,0.08,"Spherical",5.63,0.19,NA,0.47,"1"
 "Thlaspi arvense","Thlaspi arvense l.","Fruit with lateral aperture","Seed","Covered partly","0","0","0","0","1",1.381333,0.99,1.99,1.41,NA,0.07,"Spherical",2.45,0.56,NA,0.41,"1"
 "Thymbra capitata",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Thymelaea passerina","Thymelaea passerina (l.) coss. & germ.","Non-fleshy fruit","Fruit","Exposed","0","0","1","0","0",1.342,0.97,3.12,1.41,NA,0.07,"Spherical",4.13,0.29,NA,0.67,"1"
 "Thymelaea sanamunda",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Thymus","Thymus praecox s.l. opiz_Thymus praecox ssp. polytrichus (a. kern. ex borbas) ronniger_Thymus pulegioides agg._Thymus pulegioides ssp. carniolicus (borbas) p. a. schmidt_Thymus serpyllum l.","Non-fleshy fruit","Fruit","Exposed","1","0","1","1","0",0.1822,0.985,NA,NA,NA,0.1,"Flat",1.61666666666667,0.6525,0.76,0.77,"2"
+"Thymus","Thymus pulegioides agg.","Non-fleshy fruit","Fruit","Exposed","1","0","1","1","0",0.14,0.99,NA,NA,NA,NA,"",1.93,0.58,0.76,0.77,"2"
 "Thymus pulegioides","Thymus pulegioides agg.","Non-fleshy fruit","Fruit","Exposed","1","0","1","1","0",0.14,0.99,NA,NA,NA,NA,"",1.93,0.58,0.76,0.77,"2"
 "Thymus spinulosus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Thymus striatus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Thymus vulgaris",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Thysselinum palustre","Peucedanum palustre (l.) moench","Non-fleshy fruit","Fruit segment","Exposed","0","0","0","0","0",1.99,0.8,5.72,3.73,NA,0.11,"Flat",2.39,0.54,NA,0.45,"1"
-"Tilia","Tilia cordata mill._Tilia platyphyllos scop.","Non-fleshy fruit","Infructescence","Exposed","0","0","0","0","0",187,NA,NA,NA,NA,NA,"",1.515,0.75,NA,NA,"2"
+"Tilia","Tilia platyphyllos scop.","Non-fleshy fruit","Infructescence","Exposed","0","0","0","0","0",187,NA,NA,NA,NA,NA,"",1.7,0.7,NA,NA,"2"
 "Tilia platyphyllos","Tilia platyphyllos scop.","Non-fleshy fruit","Infructescence","Exposed","0","0","0","0","0",187,NA,NA,NA,NA,NA,"",1.7,0.7,NA,NA,"2"
 "Tolpis umbellata",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Tordylium","Tordylium maximum l.","Non-fleshy fruit","Fruit segment","Exposed","0","0","1","0","0",3.916,0.88,NA,NA,NA,0.14,"Flat",2.32,0.56,NA,0.79,"1"
@@ -1518,7 +1518,7 @@
 "Torilis japonica","Torilis japonica agg.","Non-fleshy fruit","Fruit segment","Exposed","0","0","1","1","0",1.599667,0.48,3.28,1.88,NA,0.06,"Spherical",2.12,0.63,NA,0.93,"1"
 "Torilis leptophylla",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Torilis nodosa","Torilis nodosa (l.) p. gaertn.","Non-fleshy fruit","Fruit segment","Exposed","1","0","1","1","0",0.996,0.91,4,2.5,2.5,0.03,"Spherical",4.63,0.25,NA,0.83,"1"
-"Tragopogon","Tragopogon dubius scop._Tragopogon porrifolius ssp. australis (jord.) nyman_Tragopogon pratensis s.l. l._Tragopogon pratensis ssp. orientalis (l.) celak._Tragopogon pratensis ssp. pratensis","Non-fleshy fruit","Fruit","Exposed","0","0","1","1","0",8.66611666666667,0.26,30.92,17.29,NA,NA,"",0.443333333333333,0.9425,NA,0.945,"1"
+"Tragopogon","Tragopogon dubius scop._Tragopogon pratensis s.l. l.","Non-fleshy fruit","Fruit","Exposed","0","0","1","1","0",9.17355,0.26,30.92,17.29,NA,NA,"",0.445,0.95,NA,0.94,"1"
 "Tragopogon crocifolius",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Tragopogon dubius","Tragopogon dubius scop.","Non-fleshy fruit","Fruit","Exposed","0","0","1","1","0",10.35,NA,NA,NA,NA,NA,"",0.33,0.97,NA,NA,"1"
 "Tragopogon porrifolius",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -1527,7 +1527,7 @@
 "Tragopogon pratensis subsp. orientalis","Tragopogon pratensis s.l. l.","Non-fleshy fruit","Fruit","Exposed","0","0","1","1","0",7.9971,0.26,30.92,17.29,NA,NA,"",0.56,0.93,NA,0.94,"1"
 "Tragus racemosus","Tragus racemosus (l.) all.","Non-fleshy fruit","Infructescence","Exposed","0","1","1","1","0",1.422,0.56,4.65,1.91,0.99,0.11,"Spherical",NA,0.57,NA,0.92,"2"
 "Tribulus terrestris",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Trifolium",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Trifolium","Trifolium alpestre l._Trifolium arvense l._Trifolium campestre schreb._Trifolium dubium sibth._Trifolium fragiferum l._Trifolium hybridum l._Trifolium medium l._Trifolium pratense l._Trifolium repens l._Trifolium resupinatum l._Trifolium rubens l._Trifolium scabrum l._Trifolium striatum l.","Fruit with lateral aperture_Non-fleshy fruit","Fruit_Seed","Enclosed_Exposed","0_1","1","0_1","0_1","0",1.35536358333333,0.850833333333333,3.34,1.94583333333333,1.64,0.055,"Flat_Spherical",3.37636363636364,0.481666666666667,0.215,0.371666666666667,"1"
 "Trifolium alexandrinum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Trifolium alpestre","Trifolium alpestre l.","Fruit with lateral aperture","Seed","Enclosed","1","1","0","0","0",3.212,0.99,2.34,1.57,1,0.06,"Spherical",1.59,0.73,0.34,0.12,"1"
 "Trifolium angustifolium",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -1592,18 +1592,18 @@
 "Turgenia latifolia","Turgenia latifolia (l.) hoffm.","Non-fleshy fruit","Fruit segment","Exposed","0","0","1","1","0",35.09,0.26,10,5,5,0.06,"Spherical",7.46,0.12,NA,0.92,"1"
 "Tussilago farfara","Tussilago farfara l.","Non-fleshy fruit","Fruit","Exposed","0","0","1","0","0",0.284333,0.11,21.61,18.34,NA,0.02,"Spherical",0.17,0.99,NA,1,"1"
 "Tyrimnus leucographus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Ulmus","Ulmus glabra huds._Ulmus laevis pall._Ulmus minor mill.","Non-fleshy fruit","Fruit","Exposed","0","0","0_1","0","0",3.28,0.766666666666667,16.5766666666667,11.4533333333333,3,0.116666666666667,"Flat",0.88,0.88,NA,0.393333333333333,"1"
+"Ulmus","Ulmus minor mill.","Non-fleshy fruit","Fruit","Exposed","0","0","0","0","0",3.28,0.87,15.66,10.17,3,0.11,"Flat",0.88,0.88,NA,0.23,"1"
 "Ulmus minor","Ulmus minor mill.","Non-fleshy fruit","Fruit","Exposed","0","0","0","0","0",3.28,0.87,15.66,10.17,3,0.11,"Flat",0.88,0.88,NA,0.23,"1"
 "Umbilicus rupestris",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Urospermum dalechampii",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Urospermum picroides",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Urtica","Urtica dioica s.l. l._Urtica kioviensis rogow._Urtica urens l.","Non-fleshy fruit","Fruit","Exposed","0","0","1","0","0",0.296166666666667,0.775,1.55666666666667,1.13666666666667,1,0.0633333333333333,"Spherical",2.09,0.69,0.52,0.88,"1"
+"Urtica","Urtica dioica s.l. l._Urtica urens l.","Non-fleshy fruit","Fruit","Exposed","0","0","1","0","0",0.35285,0.8,1.58,1.115,NA,0.085,"Spherical",2.09,0.69,NA,0.87,"1"
 "Urtica dioica","Urtica dioica s.l. l.","Non-fleshy fruit","Fruit","Exposed","0","0","1","0","0",0.1557,NA,1,0.8,NA,0.07,"Spherical",NA,0.77,NA,NA,"1"
 "Urtica urens","Urtica urens l.","Non-fleshy fruit","Fruit","Exposed","0","0","1","0","0",0.55,0.8,2.16,1.43,NA,0.1,"Spherical",2.09,0.61,NA,0.87,"1"
-"Valeriana",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Valeriana","Valeriana officinalis agg._Valeriana officinalis s.str. l.","Non-fleshy fruit","Fruit","Exposed","0","0","1","0","0",0.6725,0.13,12.8,9.9,NA,NA,"",0.56,0.93,NA,0.98,"1"
 "Valeriana excelsa subsp. sambucifolia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Valeriana officinalis","Valeriana officinalis agg._Valeriana officinalis s.str. l.","Non-fleshy fruit","Fruit","Exposed","0","0","1","0","0",0.6725,0.13,12.8,9.9,NA,NA,"",0.56,0.93,NA,0.98,"1"
-"Valerianella","Valerianella carinata loisel._Valerianella dentata (l.) pollich_Valerianella eriocarpa desv._Valerianella locusta (l.) laterr._Valerianella rimosa bastard","Non-fleshy fruit","Fruit","Exposed","0_1","0","0_1","0","0",0.97138,0.92,2.0325,1.64,1.34666666666667,0.05,"Spherical",2.9275,0.4675,NA,0.73,"1"
+"Valerianella","Valerianella dentata (l.) pollich_Valerianella eriocarpa desv._Valerianella locusta (l.) laterr.","Non-fleshy fruit","Fruit","Exposed","0_1","0","1","0","0",1.0615,0.89,2.27,1.605,1.42,0.05,"Spherical",3.045,0.44,NA,0.825,"1"
 "Valerianella coronata",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Valerianella dentata","Valerianella dentata (l.) pollich","Non-fleshy fruit","Fruit","Exposed","0","0","1","0","0",1.2,NA,NA,NA,NA,0.08,"Spherical",2.29,0.56,NA,NA,"1"
 "Valerianella discoidea",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -1611,7 +1611,7 @@
 "Valerianella eriocarpa","Valerianella eriocarpa desv.","Non-fleshy fruit","Fruit","Exposed","0","0","1","0","0",0.862,0.89,2.53,1.21,1,0.07,"Spherical",NA,NA,NA,0.83,"1"
 "Valerianella locusta","Valerianella locusta (l.) laterr.","Non-fleshy fruit","Fruit","Exposed","1","0","1","0","0",1.1225,0.89,2.01,2,1.84,0,"Spherical",3.8,0.32,NA,0.82,"1"
 "Valerianella multidentata",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Verbascum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Verbascum","Verbascum blattaria l._Verbascum densiflorum bertol._Verbascum nigrum l._Verbascum phlomoides l._Verbascum phoeniceum l._Verbascum pulverulentum vill._Verbascum thapsus l.","Fruit with lateral aperture","Seed","Enclosed","0","0","0","0","0",0.119047571428571,0.962857142857143,0.915714285714286,0.648571428571429,0.4,0.0533333333333333,"Spherical",2.29,0.646666666666667,NA,0.364285714285714,"1"
 "Verbascum blattaria","Verbascum blattaria l.","Fruit with lateral aperture","Seed","Enclosed","0","0","0","0","0",0.102333,0.96,0.85,0.63,0.4,0.05,"Spherical",2.35,0.55,NA,0.38,"1"
 "Verbascum boerhavii",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Verbascum densiflorum","Verbascum densiflorum bertol.","Fruit with lateral aperture","Seed","Enclosed","0","0","0","0","0",0.105133,0.98,1,0.59,0.4,0.06,"Spherical",2.13,0.72,NA,0.36,"1"
@@ -1624,7 +1624,7 @@
 "Verbascum thapsus","Verbascum thapsus l.","Fruit with lateral aperture","Seed","Enclosed","0","0","0","0","0",0.1524,0.95,0.96,0.73,NA,0.05,"Spherical",NA,0.68,NA,0.37,"1"
 "Verbena officinalis","Verbena officinalis l.","Non-fleshy fruit","Fruit segment","Exposed","0","0","0","0","0",0.3366,0.97,1.77,0.71,NA,0.09,"Spherical",2.7,0.48,NA,0.66,"1"
 "Verbena supina",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Veronica",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Veronica","Veronica acinifolia l._Veronica agrestis l._Veronica anagallis-aquatica agg._Veronica arvensis l._Veronica chamaedrys s.str. l._Veronica filiformis sm._Veronica hederifolia agg._Veronica officinalis l._Veronica opaca fr._Veronica persica poir._Veronica polita fr._Veronica praecox all._Veronica serpyllifolia l._Veronica spicata l._Veronica triphyllos l.","Fruit with lateral aperture_Fruit with upright aperture","Seed","Enclosed","0_1","0_1","0","0","0_1",0.5394066,0.97,1.23461538461538,0.89,0.2,0.0654545454545455,"Flat_Spherical",2.61181818181818,0.558333333333333,0.495,0.267,"1"
 "Veronica acinifolia","Veronica acinifolia l.","Fruit with lateral aperture","Seed","Enclosed","0","0","0","0","1",NA,NA,NA,NA,NA,NA,"",NA,NA,NA,NA,"1"
 "Veronica agrestis","Veronica agrestis l.","Fruit with lateral aperture","Seed","Enclosed","1","1","0","0","1",0.2444,0.95,1.31,0.95,NA,0.03,"Spherical",4.71,0.25,NA,0.31,"1"
 "Veronica anagallis-aquatica","Veronica anagallis-aquatica agg.","Fruit with lateral aperture","Seed","Enclosed","0","0","0","0","1",0.039233,0.98,0.51,0.39,NA,0.06,"Spherical",1.06,0.83,0.65,0.42,"1"
@@ -1642,8 +1642,8 @@
 "Veronica serpyllifolia","Veronica serpyllifolia l.","Fruit with lateral aperture","Seed","Enclosed","0","0","0","0","1",0.058822,0.97,0.72,0.48,NA,0.08,"Spherical",1.52,0.75,NA,0.4,"1"
 "Veronica spicata","Veronica spicata l.","Fruit with upright aperture","Seed","Enclosed","0","0","0","0","1",0.0772,0.98,0.93,0.54,0.2,0.09,"Spherical",1.47,0.76,NA,0.38,"1"
 "Veronica triphyllos","Veronica triphyllos l.","Fruit with lateral aperture","Seed","Enclosed","0","0","0","0","1",0.3,NA,1.4,1.1,NA,0.06,"Spherical",2.23,0.57,NA,NA,"1"
-"Viburnum","Viburnum lantana l._Viburnum opulus l.","Fleshy fruit","Fruit","Exposed","0","1","0","0","0",331.5714285,0.95,7.51,6.475,NA,0.115,"Flat_Spherical",7.635,0.11,NA,0.02,"1"
-"Vicia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Viburnum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Vicia","Vicia cracca s.str. l._Vicia grandiflora scop._Vicia lathyroides l._Vicia lutea l._Vicia narbonensis agg._Vicia pannonica crantz_Vicia pisiformis l._Vicia sativa agg._Vicia sepium l._Vicia villosa s.l. roth","Explosive release mechanism","Seed","Enclosed","0","1","0","0","0",35.461975,0.9825,4.199,3.856,3,0.022,"Spherical",14.01125,0.03125,0.24,0.06125,"1"
 "Vicia angustifolia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Vicia benghalensis",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Vicia bithynica",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -1671,7 +1671,7 @@
 "Vicia tenuifolia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Vicia villosa","Vicia villosa s.l. roth","Explosive release mechanism","Seed","Enclosed","0","1","0","0","0",39.006,0.99,3.57,2.98,NA,0.01,"Spherical",12.24,0.05,NA,0.04,"1"
 "Vincetoxicum hirundinaria","Vincetoxicum hirundinaria agg.","Fruit with lateral aperture","Seed","Covered partly","0","0","1","0","0",7.046667,NA,5.82,2.61,NA,0.1,"Spherical",0.6,0.94,NA,NA,"1"
-"Viola",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Viola","Viola alba besser_Viola canina s.l. l._Viola cenisia l._Viola hirta l._Viola odorata l._Viola reichenbachiana boreau","Explosive release mechanism","Seed","Enclosed","0","1","0","0","0",2.55302,0.97,2.57,1.436,1.125,0.054,"Spherical",5.9825,0.1825,NA,0.1525,"1"
 "Viola alba","Viola alba besser","Explosive release mechanism","Seed","Enclosed","0","1","0","0","0",NA,NA,2.2,1,1,0.07,"Spherical",NA,NA,NA,NA,"1"
 "Viola arvensis",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Viola canina","Viola canina s.l. l.","Explosive release mechanism","Seed","Enclosed","0","1","0","0","0",1.0744,0.96,2,1.12,1,0.05,"Spherical",4.11,0.29,NA,0.21,"1"
@@ -1682,7 +1682,7 @@
 "Viola tricolor","Viola cenisia l.","Explosive release mechanism","Seed","Enclosed","0","1","0","0","0",NA,NA,NA,NA,NA,NA,"",NA,NA,NA,NA,"1"
 "Viola tricolor subsp. tricolor","Viola cenisia l.","Explosive release mechanism","Seed","Enclosed","0","1","0","0","0",NA,NA,NA,NA,NA,NA,"",NA,NA,NA,NA,"1"
 "Visnaga daucoides",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Vitis","Vitis vinifera ssp. sylvestris (c. c. gmel.) hegi_Vitis vinifera ssp. vinifera","Fleshy fruit","Fruit","Exposed","0","1","0","0","0",NA,NA,NA,NA,NA,NA,"",NA,NA,NA,NA,"2"
+"Vitis",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Vitis rupestris",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Vitis vinifera",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Vogtia annua",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA

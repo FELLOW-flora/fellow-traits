@@ -50,7 +50,7 @@ spclean <- spclean[!spclean %in% rmClass]
 # harmonize the species names
 spclean <- sort(unique(spclean))
 print(paste("Number of unique taxa:", length(spclean)))
-#from 1358 to 1884 with additional EU species list
+#1884 with additional EU species list (1358 previously)
 
 # 2. get accepted name from Taxref --------------
 # could use rtaxref to use the online API but takes too long and unstable
@@ -97,7 +97,7 @@ df <- df[!is.na(df$accepted_taxref), ]
 # focus on taxa not found
 no_taxref <- spclean[is.na(mtr)]
 print(paste("Taxa with no exact match in Taxref:", length(no_taxref)))
-#from 49 to 97 taxa
+# 97 taxa (previously 49)
 
 # try fuzzy match with stringdist package and Jaro-Winkler distance
 # even if TRY use the Levenshtein distance (number of edits)
@@ -227,7 +227,7 @@ full_df <- cbind(full_df, gbif_df)
 
 # focus on taxa not found in TaxRef
 miss <- spclean[!spclean %in% full_df$original_taxa]
-print(paste("Taxa not found in Taxref:", length(miss))) # 46 taxa (instead of 9)
+print(paste("Taxa not found in Taxref:", length(miss))) # 46 taxa (previously 9)
 
 addgbif <- rgbif::name_backbone_checklist(miss, strict = TRUE)
 # strict = TRUE else weird match
@@ -426,7 +426,7 @@ syn_df <- syn_df[!syn_df$synonym_taxa %in% rm_syn, ]
 # remove duplicated lines
 syn_df <- syn_df[!duplicated(syn_df[, c("synonym_taxa", "accepted_taxa")]), ]
 
-dim(syn_df) #43049 synonyms !
+dim(syn_df) #43049 synonyms
 write.csv(
   syn_df,
   file = "data/derived-data/species_known_synonyms.csv",

@@ -114,7 +114,7 @@ print(nodata)
 ```
 
 Open question:
-**How to deal with families or subspecies/varieties taxa?**
+**How to deal with families taxa?**
 
 
 
@@ -131,7 +131,7 @@ There are three sources of information for Specific leaf area (SLA) : Hodgson et
 # names(traits)[grep("SLA", names(traits))]
 sla <- data.frame(
   "Hodgson" = traits$SLA.mm2.mg.1_Hodgson2023,
-  "GIFT" = traits$SLA.mean.cm2.g.1_GIFT / 10,
+  "GIFT" = traits$SLA_mean_cm2.g.1_GIFT / 10,
   "BIEN" = traits$leaf.area.per.leaf.dry.mass.m2.kg.1_BIEN
 )
 
@@ -165,7 +165,7 @@ height <- data.frame(
   "spvignes" = traits$Plant_Height_SPVignes,
   "lososova" = traits$Plant.height_m_Lososova2023,
   "BIEN" = traits$whole.plant.height.m_BIEN,
-  "GIFT" = traits$Plant.height.mean.m_GIFT
+  "GIFT" = traits$Plant_height_mean_m_GIFT
 )
 
 pairs(height, lower.panel = panel.smooth, upper.panel = panel.cor)

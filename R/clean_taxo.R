@@ -10,6 +10,9 @@
 #'
 #' @export
 clean_taxo <- function(x) {
+  if (!is.character(x)) {
+    stop("Argument 'x' must be character", call. = FALSE)
+  }
   # remove everything in bracket
   x <- gsub("\\((.+?)\\)", "", x)
   x <- gsub("\\\"", "", x)

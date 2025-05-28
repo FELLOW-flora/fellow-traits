@@ -10,7 +10,7 @@
 
 # if the script is not run from make.R, need to load home made functions (clean_species_list())
 devtools::load_all() # or source(here::here("R", "clean_taxo.R"))
-library("GIFT")
+# library("GIFT")
 
 # Load species list with taxonomy
 taxolist <- read.csv(
@@ -30,7 +30,7 @@ meta <- readxl::read_xlsx(
 )
 
 # check out GIFT metadata
-meta_lvl3 <- GIFT_traits_meta()
+meta_lvl3 <- GIFT::GIFT_traits_meta()
 gift_meta <- read.csv(
   here::here("data", "raw-data", "traits", "GIFT_metadata_filled.csv")
 )
@@ -38,7 +38,7 @@ gift_meta <- read.csv(
 gift_meta$Lvl3 <- meta_lvl3$Lvl3[match(gift_meta$Trait2, meta_lvl3$Trait2)]
 
 # download the 32 interesting traits
-# db_gift <- GIFT_traits(
+# db_gift <- GIFT::GIFT_traits(
 #   trait_IDs = gift_meta$Lvl3[gift_meta$interesting == 1],
 #   agreement = 0.66,
 #   bias_ref = FALSE,
@@ -65,7 +65,7 @@ out <- extract_trait_taxalist(
   meta_trait = meta[meta$database %in% "GIFT", ],
   taxalist = taxolist$accepted_taxa,
   synonyms = synonyms
-) # 84.94 %
+) # 95.37 %
 names(out)[-1] <- paste(names(out)[-1], "GIFT", sep = "_")
 
 
