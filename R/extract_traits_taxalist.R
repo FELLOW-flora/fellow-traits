@@ -11,8 +11,11 @@
 #' @param look_subsp whether taxa are simplified to binomial if no trait found
 #' @param verbatim print information
 #' @param quiet remove warning from as.numeric()
+#' @param long whether trait_df is in long format
+#' @param trait_label column name of the trait label (for long format data.frame)
+#' @param trai_value column name of the trait value (for long format data.frame)
 #'
-#' @returns A vector of `characters` with the homogenized names
+#' @returns A data.frame with the extracted trait database for the taxa in taxa_list
 #'
 #' @export
 
@@ -28,7 +31,10 @@ extract_trait_taxalist <- function(
   verbatim = TRUE,
   quiet = TRUE,
   clean_taxalist = FALSE,
-  clean_synonyms = FALSE
+  clean_synonyms = FALSE,
+  long = FALSE,
+  trait_label = NULL,
+  trait_value = NULL
 ) {
   # many checks need to be defined
   # first make sure there are data.frames
@@ -52,8 +58,18 @@ extract_trait_taxalist <- function(
     msg <- "The columns 'synonym_taxa' and 'accepted_taxa' are not found in 'synonyms'"
     stop(msg, call. = FALSE)
   }
-  if (!all(meta_trait$original.name %in% names(trait_df))) {
+  if (!long & !all(meta_trait$original.name %in% names(trait_df))) {
     miss <- which(!meta_trait$original.name %in% names(trait_df))
+    msg <- paste(meta_trait$original.name[miss], "is missing from 'trait_df'.")
+    warning(msg, call. = FALSE)
+    meta_trait <- meta_trait[-miss, ]
+  }
+  if (long & (is.null(trait_label) | is.null(trait_value))) {
+    msg <- "Arguments 'trait_label' and 'trait_value' are needed for 'long' data.frame"
+    stop(msg, call. = FALSE)
+  }
+  if (long & !all(meta_trait$original.name %in% trait_df[, trait_label])) {
+    miss <- which(!meta_trait$original.name %in% trait_df[, trait_label])
     msg <- paste(meta_trait$original.name[miss], "is missing from 'trait_df'.")
     warning(msg, call. = FALSE)
     meta_trait <- meta_trait[-miss, ]
@@ -61,6 +77,7 @@ extract_trait_taxalist <- function(
   if (nrow(meta_trait) == 0) {
     stop("The data.frame 'meta_trait' is empty", call. = FALSE)
   }
+
   # by default clean_taxalist = FALSE to make the extraction faster
   if (clean_taxalist) {
     taxalist <- clean_species_list(taxalist)
@@ -69,6 +86,7 @@ extract_trait_taxalist <- function(
     synonyms$synonym_taxa <- clean_species_list(synonyms$synonym_taxa)
     synonyms$accepted_taxa <- clean_species_list(synonyms$accepted_taxa)
   }
+
   # check and simplify synonyms, avoid loops
   if (clean_synonyms) {
     # keep only the usefull columns
@@ -82,6 +100,37 @@ extract_trait_taxalist <- function(
     # remove synonyms with different accepted names
     rm_syn <- synonyms$synonym_taxa[duplicated(synonyms$synonym_taxa)]
     synonyms <- synonyms[!synonyms$synonym_taxa %in% rm_syn, ]
+  }
+
+  # transform to wide if trait_df in long format
+  if (long & !is.null(trait_label) & !is.null(trait_value)) {
+    numT <- meta_trait$original.name[meta_trait$type == "numeric"]
+    # average per trait and per species
+    trait_num <- trait_df[trait_df[, trait_label] %in% numT, ]
+    trait_av <- tapply(
+      as.numeric(trait_num[, trait_value]),
+      list(trait_num[, trait_sp], trait_num[, trait_label]),
+      mean,
+      na.rm = TRUE
+    )
+    catT <- meta_trait$original.name[meta_trait$type != "numeric"]
+    trait_cat <- trait_df[trait_df[, trait_label] %in% catT, ]
+    trait_cc <- tapply(
+      trait_cat[, trait_value],
+      list(trait_cat[, trait_sp], trait_cat[, trait_label]),
+      concat
+    )
+    fullsp <- sort(unique(c(row.names(trait_av), row.names(trait_cc))))
+    m_num <- match(fullsp, row.names(trait_av))
+    m_cat <- match(fullsp, row.names(trait_cc))
+    wide <- data.frame(
+      "sp" = fullsp,
+      trait_av[m_num, ],
+      trait_cc[m_cat, ],
+      check.names = FALSE
+    )
+    names(wide)[1] <- trait_sp
+    trait_df <- wide
   }
 
   # clean species name

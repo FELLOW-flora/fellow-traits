@@ -114,7 +114,8 @@ print(nodata)
 ```
 
 Open question:
-**How to deal with families taxa?**
+**How to deal with families taxa?**  
+**How to deal with missing trait values? Trait imputation, discarding taxa, ...**
 
 
 
@@ -164,7 +165,7 @@ There are four sources of information for plant height.
 height <- data.frame(
   "spvignes" = traits$Plant_Height_SPVignes,
   "lososova" = traits$Plant.height_m_Lososova2023,
-  "BIEN" = traits$whole.plant.height.m_BIEN,
+  "BIEN" = traits$maximum.whole.plant.height.m_BIEN,
   "GIFT" = traits$Plant_height_mean_m_GIFT
 )
 

@@ -17,6 +17,10 @@ data/raw-data/WFO_Backbone_v.2023.12
 data/raw-data/GrassBase
 
 data/raw-data/traits/tr8
+data/raw-data/traits/Groot
+data/raw-data/traits/PLANTATT_19_Nov_08
+
+data/raw-data/*pdf
 # regional database
 ## mediterranean
 data/raw-data/traits/BROT2.0 
@@ -26,6 +30,10 @@ data/raw-data/traits/Garcia-Gutterez_2018
 # private datasets
 data/raw-data/traits/private
 data/raw-data/traits/LEDA
+data/raw-data/traits/TRY
+
+
+data/raw-data/traits/traits elena.xlsx
 
 # air
 air.toml

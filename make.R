@@ -44,6 +44,9 @@ source(here::here("analyses", "03e_get_traits_Dcube.R"))
 source(here::here("analyses", "03f_get_traits_Hodgson2023.R"))
 # GIFT (takes longer to compute)
 source(here::here("analyses", "03g_get_traits_GIFT.R"))
+# FlorealData
+source(here::here("analyses", "03h_get_traits_FlorealData.R"))
+
 
 # 4 Merge traits
 source(here::here("analyses", "04_merge_traits.R"))

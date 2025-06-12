@@ -20,31 +20,35 @@ The analysis is divided in four sequential steps:
 3. extract trait values for the species of interest (one file per trait database)
 4. merge extracted trait databases into a single 'fellow' trait database  
 
-These four steps will be run automatically when run this command in R/RStudio (approx 5 minutes): 
+These four steps will be run automatically with this command in R/RStudio (approx. 5 minutes): 
 
 ```r
 source("make.R")
 ```
 
+An exploratory analysis is carried out in the file [analysis/05_explore_traits.pdf](https://github.com/FELLOW-flora/fellow-traits/blob/main/analyses/05_explore_traits.pdf).
 
-An exploratory analysis was carried out in the file [05_explore_traits.qmd](analyses/05_explore_traits.qmd).
+
+## Methodological choices
+
+1. The taxonomic backbone is [TaxRef v18.0](https://inpn.mnhn.fr/telechargement/referentielEspece/taxref/18.0/menu), completed with [GBIF](https://www.gbif.org/dataset/d7dddbf4-2cf0-4f39-9b2a-bb099caae36c) (based on Catalogue of Life). The taxonomic description of all taxa listed in Fellow are in [derived_data/species_list_taxo.csv](https://github.com/FELLOW-flora/fellow-traits/blob/main/data/derived-data/species_list_taxo.csv)
+2. A list of known synonyms was built from TaxRef and GBIF. We removed ambigous synonyms, e.g. one synonym refers to a single accepted name only; and loops, e.g. an accepted name can not be in synonym.
+3. For taxa with multiple matches in the trait database, we take the average values for numerical traits, and concatenate the different categories for  categorical traits.
+4. For genus with no trait information, we aggregate values of species that are listed in the taxa list.  
+
+
+In summary, the source of trait information is:   
+- direct match between taxa
+- if not available, look for known synonyms
+- if not available, remove subspecies or variety (consider only binomial names)
+- if not available and for genus, look for i
+
+In all cases, the original name of the taxa in the trait database is kept as a variable 'original_name' (and when multiple taxa area aggregated, these are collated).
+We only use information from synonyms if not available for the original name (e.g. Silene latifolia is accepted synonyms of Atocion armeria, if both are available, we only consider trait values for Atocion armeria).
 
 
 ## To do
 
 1. Update the metadata of traits in [metatraits.xlsx](https://github.com/FELLOW-flora/fellow-traits/raw/refs/heads/main/data/raw-data/traits/Metatraits.xlsx): select only relevant traits, add missing traits or trait databases, coherently rename traits that are similar across different database (to simplify later merging).  
-2. Decide how to handle taxa that are not defined at species level (families, genus, subsepecies and varieties)
-3. Better handle numerical traits (make checks to be sure that they are properly handled)
-4. Decide how to handle mutliple values in trait database and synonyms (e.g. Silene latifolia is accepted synonyms of Atocion armeria yet different values in Midolo)
-5. Further develop sanity checks and comparison across database
+2. Further develop sanity checks and comparison across database
 
-
-source of information
-- best if available for "original name"
-- if not, synonyms
-
-
-## Issues
-Load trait data
-Clean taxa name (homogenize to maximize number of matches)
-Replace by synonyms (if the accepted is not in the original db)

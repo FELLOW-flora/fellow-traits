@@ -1,5 +1,7 @@
 # Get taxonomic information from TaxRef v18 and GBIF
-# input: species list in species_list_raw.rds
+# input:
+#    species list in species_list_raw.rds
+#    taxref in raw-data/TAXREF_v18_2025/TAXREFv18.txt
 # output: full taxonomic information in the file species_list_taxo.csv
 
 # if the script is not run from make.R, need to load home made functions (clean_species_list())
