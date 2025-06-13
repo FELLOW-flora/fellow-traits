@@ -12,10 +12,11 @@ devtools::load_all()
 sp <- readRDS(here::here("data", "derived-data", "species_list_raw.rds"))
 
 # 1. get unique species list --------------
-# keep only unique species (no matter in which database they are listed)
-splist <- sort(unique(sp$taxa))
 # harmonize the species names
-spclean <- sort(unique(clean_species_list(splist)))
+sp$clean_taxo <- clean_species_list(sp$taxa)
+
+# keep only unique species (no matter in which database they are listed)
+spclean <- sort(unique(sp$clean_taxo))
 
 # remove non-relevant species
 rmlist <- c(
@@ -339,8 +340,15 @@ all_df$accepted_rank <- ifelse(
   conv_rank[all_df$taxref_rank]
 )
 
+# add database information
+which_db <- table(sp$clean_taxo, sp$database_ID)
+db_df <- as.data.frame(apply(which_db > 0, 2, as.numeric))
+row.names(db_df) <- row.names(which_db)
+db_df <- db_df[match(all_df$original_taxa, row.names(db_df)), ]
+names(db_df) <- paste0("in_", names(db_df))
+
 write.csv(
-  all_df,
+  cbind(all_df, db_df),
   here::here("data", "derived-data", "species_list_taxo.csv"),
   row.names = FALSE
 )

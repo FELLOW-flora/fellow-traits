@@ -35,9 +35,10 @@ baseflor <- readxl::read_xlsx(
 
 # 1. Extract trait values ----------------------
 # deal with NA in nomH
-na_taxa <- is.na(baseflor$nomH)
-baseflor$nomH[na_taxa] <- clean_ref(baseflor$NOM_SCIENTIFIQUE[na_taxa])
-
+# baseflor$nomH <- baseflor$`Nom Phytobase`
+# na_taxa <- is.na(baseflor$nomH)
+# baseflor$nomH[na_taxa] <- clean_ref(baseflor$NOM_SCIENTIFIQUE[na_taxa])
+baseflor$nomH <- clean_ref(baseflor$NOM_SCIENTIFIQUE)
 # pre-clean species name
 baseflor$nomH <- gsub(" \\*$", "", baseflor$nomH)
 
@@ -47,7 +48,7 @@ out <- extract_trait_taxalist(
   meta_trait = meta[meta$database %in% "Baseflor", ],
   taxalist = taxolist$accepted_taxa,
   synonyms = synonyms
-) # 90.15 %
+) # 94.31 % vs 90.15 % in previous version with nomH instead of nom scientifique
 names(out)[-1] <- paste(names(out)[-1], "Baseflor", sep = "_")
 
 # 2. Export trait data ---------------------------
