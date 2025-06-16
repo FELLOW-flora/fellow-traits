@@ -46,7 +46,10 @@ source(here::here("analyses", "03f_get_traits_Hodgson2023.R"))
 source(here::here("analyses", "03g_get_traits_GIFT.R"))
 # FlorealData
 source(here::here("analyses", "03h_get_traits_FlorealData.R"))
-
+# TRYdb
+source(here::here("analyses", "03i_get_traits_TRYdb.R"))
+# Groot
+source(here::here("analyses", "03j_get_traits_Groot.R"))
 
 # 4 Merge traits
 source(here::here("analyses", "04_merge_traits.R"))
