@@ -31,18 +31,18 @@ meta <- readxl::read_xlsx(
 # B. what should we do with missing species? fuzzy match? look for gbif synonyms?
 
 # 1. Disturbance from Midolo ----------------------
-midolo <- readxl::read_xlsx(
-  here::here(traitfolder, "disturbance_indicator_values_Midolo_2023.xlsx")
-)
+# midolo <- readxl::read_xlsx(
+#   here::here(traitfolder, "disturbance_indicator_values_Midolo_2023.xlsx")
+# )
 
-t1 <- extract_trait_taxalist(
-  trait_df = midolo,
-  trait_sp = "species",
-  meta_trait = meta[meta$database %in% "Midolo2023", ],
-  taxalist = taxolist$accepted_taxa,
-  synonyms = synonyms
-) # 86.34 %
-names(t1)[-1] <- paste(names(t1)[-1], "Midolo2023", sep = "_")
+# t1 <- extract_trait_taxalist(
+#   trait_df = midolo,
+#   trait_sp = "species",
+#   meta_trait = meta[meta$database %in% "Midolo2023", ],
+#   taxalist = taxolist$accepted_taxa,
+#   synonyms = synonyms
+# ) # 86.34 %
+# names(t1)[-1] <- paste(names(t1)[-1], "Midolo2023", sep = "_")
 
 # 2. Ellenberg from Tichy --------------------
 tichy <- readxl::read_xlsx(
@@ -82,26 +82,26 @@ t3 <- extract_trait_taxalist(
 names(t3)[-1] <- paste(names(t3)[-1], "Lososova2023", sep = "_")
 
 # 4. life form from Dfevojan -----------------
-dfevojan <- readxl::read_xlsx(
-  here::here(traitfolder, "Life_form_Dfevojan_2023.xlsx")
-)
+# dfevojan <- readxl::read_xlsx(
+#   here::here(traitfolder, "Life_form_Dfevojan_2023.xlsx")
+# )
 
-t4 <- extract_trait_taxalist(
-  trait_df = dfevojan,
-  trait_sp = "FloraVeg.Taxon",
-  meta_trait = meta[meta$database %in% "Dfevojan2023", ],
-  taxalist = taxolist$accepted_taxa,
-  synonyms = synonyms
-) # 95.66%
-names(t4)[-1] <- paste(names(t4)[-1], "Dfevojan2023", sep = "_")
+# t4 <- extract_trait_taxalist(
+#   trait_df = dfevojan,
+#   trait_sp = "FloraVeg.Taxon",
+#   meta_trait = meta[meta$database %in% "Dfevojan2023", ],
+#   taxalist = taxolist$accepted_taxa,
+#   synonyms = synonyms
+# ) # 95.66%
+# names(t4)[-1] <- paste(names(t4)[-1], "Dfevojan2023", sep = "_")
 
 # 5. Export -------------------------------------
 out <- cbind(
   "accepted_taxa" = taxolist$accepted_taxa,
-  t1[, -1],
+  #t1[, -1],
   t2[, -1],
-  t3[, -1],
-  t4[, -1]
+  t3[, -1]
+  #t4[, -1]
 )
 
 write.csv(
@@ -111,9 +111,3 @@ write.csv(
 )
 # missing traits
 print(apply(is.na(out), 2, sum))
-
-# why not present?
-# taxolist$accepted_taxa[is.na(t4$original_taxa_Dfevojan2023)]
-# table(taxolist$accepted_rank[is.na(t4$original_taxa_Dfevojan2023)])
-
-# genus imputation will be delt in 04_merge_traits.R

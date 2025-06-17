@@ -48,7 +48,7 @@ dcube$name <- iconv(dcube$name, from = "latin1", to = "ASCII//TRANSLIT")
 out <- extract_trait_taxalist(
   trait_df = dcube,
   trait_sp = "name",
-  meta_trait = meta[meta$database %in% "Dcube", ],
+  meta_trait = meta[meta$database %in% "dcube", ],
   taxalist = taxolist$accepted_taxa,
   synonyms = synonyms
 ) # 59.2%

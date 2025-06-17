@@ -1,4 +1,4 @@
-"accepted_taxa","original_taxa","Seed.mass_mg","Plant.height_m","Plant.flowering","Root.depth_m","Root.type","original_taxa_Biolflor","Seed.mass_mg_Biolflor","Seed.length_mm_Biolflor","Flower.color_Biolflor","Flower.pollinator_Biolflor","Flower.sex_Biolflor","Flower.sex.timing_Biolflor","Flower.UV.light.reflectance_Biolflor","Plant.lifespan_Biolflor","Strategy_Grime_Biolflor"
+"accepted_taxa","original_taxa_Ecoflora","Seed.mass_mg_Ecoflora","Plant.height_m_Ecoflora","Plant.flowering_Ecoflora","Root.depth_m_Ecoflora","Root.type_Ecoflora","original_taxa_Biolflor","Seed.mass_mg_Biolflor","Seed.length_mm_Biolflor","Flower.color_Biolflor","Flower.pollinator_Biolflor","Flower.sex_Biolflor","Flower.sex.timing_Biolflor","Flower.UV.light.reflectance_Biolflor","Plant.lifespan_Biolflor","Strategy_Grime_Biolflor"
 "Abutilon","Abutilon theophrasti",0.009,1.5,"",NA,"","Abutilon theophrasti",10.6053333333333,3.51,"","","","",NA,NA,""
 "Abutilon theophrasti","Abutilon theophrasti",0.009,1.5,"",NA,"","Abutilon theophrasti",10.6053333333333,3.51,"","","","",NA,NA,""
 "Acacia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA

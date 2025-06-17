@@ -21,6 +21,8 @@ datalist = lapply(traitfile, function(x) {
 traits <- do.call(cbind, datalist)
 # remove duplicated 'accepted_taxa' column
 traits <- traits[, !duplicated(names(traits))]
+# empty string = NA
+traits[traits == ""] <- NA
 dim(traits) #1706 taxa, 151 traits
 
 

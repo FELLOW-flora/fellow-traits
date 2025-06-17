@@ -16,7 +16,6 @@ The objective of this document is to:
 ```{r load}
 #| warning: false
 #| echo: false
-
 devtools::load_all()
 
 # Load species list with taxonomy
@@ -26,9 +25,79 @@ traits <- read.csv(
 
 # Load species list with taxonomy
 taxolist <- read.csv(
-  here::here("data", "derived-data", "species_short_list.csv")
+  here::here("data", "derived-data", "species_list_taxo.csv")
 )
 
+# Load short species list
+shortlist <- read.csv(
+  here::here("data", "derived-data", "species_short_list.csv")
+)
+```
+
+
+## Description of the species list
+
+We compiled the species lists from `{r} sum(grepl("^in_", names(taxolist)))`  datasets. 
+After cleaning and harmonization, there were `{r} nrow(shortlist)` unique taxa.
+
+```{r}
+table(shortlist$accepted_rank)
+
+# taxolist$original_taxa[is.na(taxolist$accepted_taxa)]
+# might be good to add the database
+# remove NAs
+taxolist <- taxolist[!is.na(taxolist$accepted_taxa), ]
+```
+
+{{< pagebreak >}}
+Let's define:  
+*specialist*: a taxa that occured only in a singe database  
+*generalist*: a taxa that is listed in 50% of the databases (8 out of 16)  
+
+```{r}
+#| fig-height: 6
+#| fig-width: 8
+
+# get the database data.frame
+col_db <- grep("^in_", names(taxolist))
+db <- taxolist[, col_db]
+# merge per species (remove duplicates)
+dbpersp <- rowsum(db, group = taxolist$accepted_taxa)
+# count the number of database per species
+nsp_db <- apply(dbpersp > 0, 2, sum)
+# count the number of species per database
+ndb <- apply(dbpersp > 0, 1, sum)
+
+# split species between specialists and generalists
+sp_class <- cut(
+  ndb,
+  breaks = c(0, 1, 8, max(ndb)),
+  labels = c("specialist", "other", "generalist")
+)
+
+table(sp_class)
+sum_gen <- as.matrix(rowsum(dbpersp, sp_class))
+colnames(sum_gen) <- gsub("^in_", "", colnames(sum_gen))
+par(mar = c(4, 8, 1, 1))
+barplot(
+  sum_gen,
+  horiz = TRUE,
+  las = 1,
+  xlab = "Number of species",
+  col = RColorBrewer::brewer.pal(3, "Set3")
+)
+legend(
+  "topright",
+  fill = RColorBrewer::brewer.pal(3, "Set3"),
+  legend = c("specialist", "other", "generalist")
+)
+```
+
+{{< pagebreak >}}
+
+## Description of trait databases
+
+```{r}
 real_traits <- !grepl("original", names(traits)) &
   names(traits) != "accepted_taxa"
 
@@ -44,8 +113,6 @@ trait_na <- apply(is.na(traits[, real_traits]), 2, sum)
 sp_na <- apply(is.na(traits[, real_traits]), 1, sum)
 ```
 
-
-## Description of trait databases
 
 So far, we compiled `{r} sum(real_traits)` traits for `{r} nrow(traits)` taxa gathered from `{r} length(db_na)` trait databases. But there are many missing values.
 
@@ -82,25 +149,70 @@ boxplot(
 ```
 
 
+
 ```{r naspecies}
+#| fig-height: 4
 # hist(sp_na, xlab = "Number of missing traits", ylab = "Number of species")
 
 # barplot(t(table(sp_na, taxolist$gbif_rank)), border = NA)
 df <- data.frame(
-  "cat" = cut(sp_na, breaks = seq(0, 140, by = 10), include.lowest = TRUE),
-  "rank" = taxolist$accepted_rank
+  "cat" = cut(sp_na, breaks = seq(0, 120, by = 10), include.lowest = TRUE),
+  "rank" = shortlist$accepted_rank
 )
 tdf <- table(df$rank, df$cat)
+par(mar = c(4, 4, 1, 1))
 barx <- barplot(
   tdf,
   col = hcl.colors(5, "viridis"),
-  names = rep("", 14),
+  names = rep("", 12),
   xlab = "Number of missing traits",
   ylab = "Number of species"
 )
 barax <- c(barx - mean(diff(barx) / 2), max(barx) + mean(diff(barx) / 2))
-axis(1, at = barax, seq(0, 140, by = 10))
+axis(1, at = barax, seq(0, 120, by = 10))
 legend("topright", legend = row.names(tdf), fill = hcl.colors(5, "viridis"))
+```
+
+
+```{r}
+#| fig-height: 3.8
+# table(traits$accepted_taxa == names(ndb))
+par(mar = c(4, 4, 1, 1))
+plot(
+  jitter(ndb),
+  sp_na,
+  xlab = "Number of datasets (jittered)",
+  ylab = "Number of missing traits"
+)
+abline(v = c(1.5, 8.5), lwd = 2)
+text(1, 17, "test")
+segments(
+  par()$usr[1],
+  par()$usr[3],
+  1.5,
+  par()$usr[3],
+  col = RColorBrewer::brewer.pal(3, "Set3")[1],
+  lwd = 5,
+  xpd = NA
+)
+segments(
+  1.5,
+  par()$usr[3],
+  8.5,
+  par()$usr[3],
+  col = RColorBrewer::brewer.pal(3, "Set3")[2],
+  lwd = 5,
+  xpd = NA
+)
+segments(
+  8.5,
+  par()$usr[3],
+  par()$usr[2],
+  par()$usr[3],
+  col = RColorBrewer::brewer.pal(3, "Set3")[3],
+  lwd = 5,
+  xpd = NA
+)
 ```
 
 
@@ -113,9 +225,11 @@ nodata <- traits$accepted_taxa[sp_na >= max(sp_na)]
 print(nodata)
 ```
 
-Open question:
+Open question:  
+
 **How to deal with families taxa?**  
-**How to deal with missing trait values? Trait imputation, discarding taxa, ...**
+
+**How to deal with missing trait values?** Trait imputation, discarding taxa, ...
 
 
 
@@ -158,21 +272,33 @@ print(apply(is.na(sla), 2, sum))
 
 
 ### Plant height
-There are four sources of information for plant height.
+There are six sources of information for plant height.
 
 ```{r height}
+#| fig-height: 5
+
 # names(traits)[grep("Height", names(traits))]
+
+# transform height in FlorealData
+traits$Plant_Height_cm_FlorealData <- ifelse(
+  traits$Plant_Height_cm_FlorealData >= 100,
+  NA,
+  traits$Plant_Height_cm_FlorealData
+)
 height <- data.frame(
-  "spvignes" = traits$Plant_Height_SPVignes,
+  "spvignes" = traits$Plant_Height_SPVignes / 100,
+  "FlorealData" = traits$Plant_Height_cm_FlorealData / 100,
   "lososova" = traits$Plant.height_m_Lososova2023,
-  "BIEN" = traits$maximum.whole.plant.height.m_BIEN,
-  "GIFT" = traits$Plant_height_mean_m_GIFT
+  "BIEN" = traits$whole.plant.height.m_BIEN,
+  "GIFT" = traits$Plant_height_mean_m_GIFT,
+  "Ecoflora" = traits$Plant.height_m_Ecoflora
 )
 
 pairs(height, lower.panel = panel.smooth, upper.panel = panel.cor)
 ```
 
-Not sure what is the unit of `Plant_Height` in SPVignes (cm?), and why it is limited to only small plants (<1m). Yet we could potentially fill the height trait values.  
+
+SPVignes and FlorealData are limited to small plants (<1m) (no trees) *but FlorealData>100cm must be clean*.
 
 
 **Number of NAs:**  
@@ -186,3 +312,65 @@ height$filled <- ifelse(
 
 print(apply(is.na(height), 2, sum))
 ```
+
+{{< pagebreak >}}
+
+### Seed mass
+There are five sources of information for seed mass
+
+```{r seed}
+#| fig-height: 5
+# names(traits)[grep("seed", names(traits))]
+
+seed <- data.frame(
+  "lososova" = traits$Seed.mass_mg_Lososova2023,
+  "BIEN" = traits$seed.mass.mg_BIEN,
+  "GIFT" = traits$Seed_mass_mean_g_GIFT * 1000,
+  "Ecoflora" = traits$Seed.mass_mg_Ecoflora,
+  "Biolflor" = traits$Seed.mass_mg_Biolflor
+)
+
+pairs(seed, lower.panel = panel.smooth, upper.panel = panel.cor)
+```
+
+```{r fillseed}
+# sla$average <- apply(sla, 1, mean, na.rm = TRUE)
+seed$filled <- ifelse(
+  is.na(seed$lososova),
+  ifelse(
+    is.na(seed$GIFT),
+    ifelse(
+      is.na(seed$BIEN),
+      ifelse(is.na(seed$Ecoflora), seed$Biolflor, seed$Ecoflora),
+      height$BIEN
+    ),
+    height$GIFT
+  ),
+  height$lososova
+)
+
+print(apply(is.na(seed), 2, sum))
+```
+
+
+
+{{< pagebreak >}}
+
+### Flower colour
+There are five sources of information for flower colour, but it must be cleaned
+
+```{r color}
+# names(traits)[grep("col", names(traits))]
+color <- data.frame(
+  "Baseflor" = traits$Flower.color_Baseflor,
+  "BIEN" = traits$flower.color_BIEN,
+  "GIFT" = traits$Flower_colour_GIFT,
+  "FlorealData" = traits$Flower_color_FlorealData,
+  "Biolflor" = traits$Flower.color_Biolflor
+)
+print(apply(is.na(color), 2, sum))
+
+sort(unique(color$Baseflor))
+# table(color$Baseflor, useNA = "ifany")
+```
+

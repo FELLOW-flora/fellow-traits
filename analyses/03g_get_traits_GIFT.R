@@ -32,7 +32,7 @@ meta <- readxl::read_xlsx(
 # check out GIFT metadata
 meta_lvl3 <- GIFT::GIFT_traits_meta()
 gift_meta <- read.csv(
-  here::here("data", "raw-data", "traits", "GIFT_metadata_filled.csv")
+  here::here("data", "raw-data", "traits", "GIFT", "GIFT_metadata_filled.csv")
 )
 # weird renaming of lvl3 code ...
 gift_meta$Lvl3 <- meta_lvl3$Lvl3[match(gift_meta$Trait2, meta_lvl3$Trait2)]
@@ -50,7 +50,7 @@ gift_meta$Lvl3 <- meta_lvl3$Lvl3[match(gift_meta$Trait2, meta_lvl3$Trait2)]
 #   here::here("data", "raw-data", "traits", "GIFT_sptraits.rds")
 # )
 db_gift <- readRDS(
-  here::here("data", "raw-data", "traits", "GIFT_sptraits.rds")
+  here::here("data", "raw-data", "traits", "GIFT", "GIFT_sptraits.rds")
 )
 
 # 1. Extract trait values ----------------------
