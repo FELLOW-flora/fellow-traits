@@ -17,9 +17,7 @@ remotes::install_deps(upgrade = "never")
 
 
 ## Load Project Addins (R Functions) -------------
-
 devtools::load_all()
-
 
 ## Run Project ----
 
@@ -56,3 +54,5 @@ source(here::here("analyses", "04_merge_traits.R"))
 
 # 5 Explore trait dataset
 quarto::quarto_render(here::here("analyses", "05_explore_traits.qmd"))
+
+# run in about 30 minutes

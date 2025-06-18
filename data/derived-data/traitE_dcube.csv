@@ -1,4 +1,4 @@
-"accepted_taxa","original_taxa_Dcube","fruit.type_Dcube","dia.type_Dcube","dia.exposure_Dcube","dia.mass.mg_Dcube","dia.height.mm_Dcube","rank.ane_Dcube","rank.hydro_Dcube","rank.epi.wool_Dcube"
+"accepted_taxa","original_taxa_Dcube","Fruit.type_Dcube","Diaspore.type_Dcube","Diaspore.exposure_Dcube","Diaspore.mass_mg_Dcube","Diaspore.height_mm_Dcube","Anemochory_rank_Dcube","Hydrochory_rank_Dcube","Epizoochory_rank_Dcube"
 "Abutilon",NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Abutilon theophrasti",NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Acacia",NA,NA,NA,NA,NA,NA,NA,NA,NA

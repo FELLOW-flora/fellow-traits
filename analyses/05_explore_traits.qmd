@@ -63,10 +63,12 @@ col_db <- grep("^in_", names(taxolist))
 db <- taxolist[, col_db]
 # merge per species (remove duplicates)
 dbpersp <- rowsum(db, group = taxolist$accepted_taxa)
+# transform as binary
+dbpersp[dbpersp > 1] <- 1
 # count the number of database per species
-nsp_db <- apply(dbpersp > 0, 2, sum)
+nsp_db <- apply(dbpersp, 2, sum)
 # count the number of species per database
-ndb <- apply(dbpersp > 0, 1, sum)
+ndb <- apply(dbpersp, 1, sum)
 
 # split species between specialists and generalists
 sp_class <- cut(
@@ -170,7 +172,11 @@ barx <- barplot(
 )
 barax <- c(barx - mean(diff(barx) / 2), max(barx) + mean(diff(barx) / 2))
 axis(1, at = barax, seq(0, 120, by = 10))
-legend("topright", legend = row.names(tdf), fill = hcl.colors(5, "viridis"))
+legend(
+  "topright",
+  legend = firstup(row.names(tdf)),
+  fill = hcl.colors(5, "viridis")
+)
 ```
 
 
@@ -185,7 +191,6 @@ plot(
   ylab = "Number of missing traits"
 )
 abline(v = c(1.5, 8.5), lwd = 2)
-text(1, 17, "test")
 segments(
   par()$usr[1],
   par()$usr[3],
@@ -231,8 +236,37 @@ Open question:
 
 **How to deal with missing trait values?** Trait imputation, discarding taxa, ...
 
+{{< pagebreak >}}
 
+**Summary of trait completness**  
+```{r traitcat}
+trname <- names(traits)[real_traits]
 
+trone <- sapply(strsplit(trname, "_"), function(x) x[[1]])
+trone <- gsub(".mm2.mg.1", "", trone) # SLA must be checked in metatraits
+trone <- gsub("Fruit.colour", "Fruit.color", trone) # to be replaced in metatraits
+trone[grepl("Flower.UV.reflectance", trone)] <- "Flower.UV.reflectance"
+
+# calculate the completeness of each traits
+trna <- apply(!is.na(traits[, real_traits]), 1, as.numeric)
+summaryna <- apply(rowsum(trna, trone) > 0, 1, sum)
+# to be removed: variables with no information
+summaryna <- summaryna[summaryna > 0]
+
+completness <- data.frame(
+  "trait" = names(summaryna),
+  "database" = as.numeric(table(trone[trone %in% names(summaryna)])),
+  "N_taxa" = as.numeric(summaryna),
+  "completness" = round(as.numeric(summaryna) / nrow(traits) * 100)
+)
+
+# DT::datatable(completness)
+knitr::kable(
+  completness[order(completness$N_taxa, decreasing = TRUE), ],
+  row.names = FALSE,
+  col.names = c("Trait", "N database", "N taxa", "Completness (%)")
+)
+```
 
 
 {{< pagebreak >}}
@@ -246,8 +280,8 @@ There are three sources of information for Specific leaf area (SLA) : Hodgson et
 # names(traits)[grep("SLA", names(traits))]
 sla <- data.frame(
   "Hodgson" = traits$SLA.mm2.mg.1_Hodgson2023,
-  "GIFT" = traits$SLA_mean_cm2.g.1_GIFT / 10,
-  "BIEN" = traits$leaf.area.per.leaf.dry.mass.m2.kg.1_BIEN
+  "GIFT" = traits$SLA_cm2.g.1_GIFT / 10,
+  "BIEN" = traits$SLA_m2.kg.1_BIEN
 )
 
 pairs(sla, lower.panel = panel.smooth, upper.panel = panel.cor)
@@ -280,17 +314,17 @@ There are six sources of information for plant height.
 # names(traits)[grep("Height", names(traits))]
 
 # transform height in FlorealData
-traits$Plant_Height_cm_FlorealData <- ifelse(
-  traits$Plant_Height_cm_FlorealData >= 100,
+traits$Plant.height_cm_FlorealData <- ifelse(
+  traits$Plant.height_cm_FlorealData >= 100,
   NA,
-  traits$Plant_Height_cm_FlorealData
+  traits$Plant.height_cm_FlorealData
 )
 height <- data.frame(
-  "spvignes" = traits$Plant_Height_SPVignes / 100,
-  "FlorealData" = traits$Plant_Height_cm_FlorealData / 100,
+  "spvignes" = traits$Plant.height_cm_SPVignes / 100,
+  "FlorealData" = traits$Plant.height_cm_FlorealData / 100,
   "lososova" = traits$Plant.height_m_Lososova2023,
-  "BIEN" = traits$whole.plant.height.m_BIEN,
-  "GIFT" = traits$Plant_height_mean_m_GIFT,
+  "BIEN" = traits$Plant.height_m_BIEN,
+  "GIFT" = traits$Plant.height_mean_m_GIFT,
   "Ecoflora" = traits$Plant.height_m_Ecoflora
 )
 
@@ -303,13 +337,11 @@ SPVignes and FlorealData are limited to small plants (<1m) (no trees) *but Flore
 
 **Number of NAs:**  
 ```{r fillheight}
-# sla$average <- apply(sla, 1, mean, na.rm = TRUE)
-height$filled <- ifelse(
-  is.na(height$lososova),
-  ifelse(is.na(height$GIFT), height$BIEN, height$GIFT),
-  height$lososova
-)
-
+# height$average <- apply(height, 1, mean, na.rm = TRUE)
+colfill <- sapply(apply(!is.na(height), 1, which), function(x) {
+  ifelse(length(x) > 0, x[[1]], NA)
+})
+height$filled <- height[cbind(1:nrow(height), colfill)]
 print(apply(is.na(height), 2, sum))
 ```
 
@@ -324,8 +356,8 @@ There are five sources of information for seed mass
 
 seed <- data.frame(
   "lososova" = traits$Seed.mass_mg_Lososova2023,
-  "BIEN" = traits$seed.mass.mg_BIEN,
-  "GIFT" = traits$Seed_mass_mean_g_GIFT * 1000,
+  "BIEN" = traits$Seed.mass_mg_BIEN,
+  "GIFT" = traits$Seed.mass_g_GIFT * 1000,
   "Ecoflora" = traits$Seed.mass_mg_Ecoflora,
   "Biolflor" = traits$Seed.mass_mg_Biolflor
 )
@@ -333,25 +365,16 @@ seed <- data.frame(
 pairs(seed, lower.panel = panel.smooth, upper.panel = panel.cor)
 ```
 
+**Number of NAs:**  
 ```{r fillseed}
 # sla$average <- apply(sla, 1, mean, na.rm = TRUE)
-seed$filled <- ifelse(
-  is.na(seed$lososova),
-  ifelse(
-    is.na(seed$GIFT),
-    ifelse(
-      is.na(seed$BIEN),
-      ifelse(is.na(seed$Ecoflora), seed$Biolflor, seed$Ecoflora),
-      height$BIEN
-    ),
-    height$GIFT
-  ),
-  height$lososova
-)
+colfill <- sapply(apply(!is.na(seed), 1, which), function(x) {
+  ifelse(length(x) > 0, x[[1]], NA)
+})
+seed$filled <- seed[cbind(1:nrow(seed), colfill)]
 
 print(apply(is.na(seed), 2, sum))
 ```
-
 
 
 {{< pagebreak >}}
@@ -363,14 +386,18 @@ There are five sources of information for flower colour, but it must be cleaned
 # names(traits)[grep("col", names(traits))]
 color <- data.frame(
   "Baseflor" = traits$Flower.color_Baseflor,
-  "BIEN" = traits$flower.color_BIEN,
-  "GIFT" = traits$Flower_colour_GIFT,
-  "FlorealData" = traits$Flower_color_FlorealData,
-  "Biolflor" = traits$Flower.color_Biolflor
+  "BIEN" = traits$Flower.color_BIEN,
+  "GIFT" = traits$Flower.color_GIFT,
+  "FlorealData" = traits$Flower.color_FlorealData,
+  "Biolflor" = traits$Flower.color_Biolflor,
+  "YvozValPol" = traits$Flower.color_YvozValPol
 )
 print(apply(is.na(color), 2, sum))
 
-sort(unique(color$Baseflor))
-# table(color$Baseflor, useNA = "ifany")
+
+# removing unclear color patterns for genus
+baseflor <- color$Baseflor
+baseflor[grepl("_", baseflor)] <- NA
+table(baseflor, useNA = "ifany")
 ```
 

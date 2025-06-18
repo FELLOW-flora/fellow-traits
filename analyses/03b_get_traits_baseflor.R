@@ -48,7 +48,7 @@ out <- extract_trait_taxalist(
   meta_trait = meta[meta$database %in% "Baseflor", ],
   taxalist = taxolist$accepted_taxa,
   synonyms = synonyms
-) # 94.31 % vs 90.15 % in previous version with nomH instead of nom scientifique
+) # 94.31%
 names(out)[-1] <- paste(names(out)[-1], "Baseflor", sep = "_")
 
 # 2. Export trait data ---------------------------

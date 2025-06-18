@@ -1,4 +1,4 @@
-"accepted_taxa","original_taxa_Tichy2022","Ellenberg.Light_Tichy2022","Ellenberg.Temperature_Tichy2022","Ellenberg.Moisture_Tichy2022","Ellenberg.Reaction_Tichy2022","Ellenberg.Nutrients_Tichy2022","Ellenberg.Salinity_Tichy2022","original_taxa_Lososova2023","Plant.height_m_Lososova2023","Seed.mass_mg_Lososova2023","Efficient.dispersal.mode_Lososova2023","Dispersal.distance.class_Lososova2023"
+"accepted_taxa","original_taxa_Tichy2022","Ellenberg.Light_Tichy2022","Ellenberg.Temperature_Tichy2022","Ellenberg.Moisture_Tichy2022","Ellenberg.Reaction_Tichy2022","Ellenberg.Nutrients_Tichy2022","Ellenberg.Salinity_Tichy2022","original_taxa_Lososova2023","Plant.height_m_Lososova2023","Seed.mass_mg_Lososova2023","Dispersal.mode_Lososova2023","Dispersal.distance_class_Lososova2023"
 "Abutilon","Abutilon theophrasti",7.5,NA,5.2,6.6,NA,0.4,"Abutilon theophrasti",1.20125,9.807,"Local non-specific dispersal","2"
 "Abutilon theophrasti","Abutilon theophrasti",7.5,NA,5.2,6.6,NA,0.4,"Abutilon theophrasti",1.20125,9.807,"Local non-specific dispersal","2"
 "Acacia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA

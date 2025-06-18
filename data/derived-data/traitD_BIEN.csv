@@ -1,4 +1,4 @@
-"accepted_taxa","original_taxa_BIEN","flower.color_BIEN","leaf.area.mm2_BIEN","leaf.area.per.leaf.dry.mass.m2.kg-1_BIEN","leaf.carbon.content.per.leaf.nitrogen.content_BIEN","leaf.dry.mass.g_BIEN","leaf.dry.mass.per.leaf.fresh.mass.mg.g-1_BIEN","leaf.nitrogen.content.per.leaf.dry.mass.mg.g-1_BIEN","plant.flowering.begin.month_BIEN","seed.mass.mg_BIEN","whole.plant.growth.form_BIEN","whole.plant.height.m_BIEN"
+"accepted_taxa","original_taxa_BIEN","Flower.color_BIEN","Leaf.area_mm2_BIEN","SLA_m2.kg-1_BIEN","Leaf.carbon.to.nitrogen.content_mg.g-1_BIEN","Leaf.dry.mass_g_BIEN","Leaf.dry.mass.content_mg.g-1_BIEN","Leaf.nitrogen.content_mg.g-1_BIEN","Flowering_begin.month_BIEN","Seed.mass_mg_BIEN","Growth.form_BIEN","Plant.height_m_BIEN"
 "Abutilon","Abutilon theophrasti","",NA,25,10.898,NA,NA,39.3,"8",9.0119,"Herb",1.2
 "Abutilon theophrasti","Abutilon theophrasti","",NA,25,10.898,NA,NA,39.3,"8",9.0119,"Herb",1.2
 "Acacia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA

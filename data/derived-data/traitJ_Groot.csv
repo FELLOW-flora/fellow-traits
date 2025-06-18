@@ -1,4 +1,4 @@
-"accepted_taxa","original_taxa_Groot","Root_mycorrhizal colonization_Groot","Specific_root_length_Groot","Root_N_concentration_Groot","Mean_Root_diameter_Groot","Root_tissue_density_Groot","Root_Lateral_spread_Groot","Root_mass_fraction_Groot","Root_C_concentration_Groot","Rooting_depth_Groot","Root_C_N_ratio_Groot"
+"accepted_taxa","original_taxa_Groot","Root.mycorrhizal.colonization_Groot","Specific.root.length_m.g-1_Groot","Root.N.concentration_Groot","Root.diameter_mm_Groot","Root.tissue.density_g.cm-3_Groot","Root.lateral.spread_cm.yr-1_Groot","Root.mass.fraction_Groot","Root.C.concentration_Groot","Root.depth_m_Groot","Root.C.N.ratio_Groot"
 "Abutilon","Abutilon theophrasti",NA,NA,NA,NA,NA,NA,0.237222222222222,NA,NA,NA
 "Abutilon theophrasti","Abutilon theophrasti",NA,NA,NA,NA,NA,NA,0.237222222222222,NA,NA,NA
 "Acacia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
