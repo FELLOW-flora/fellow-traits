@@ -2,10 +2,10 @@
 # received on 04/04/2025
 # version from 07/03/2025: https://www.tela-botanica.org/projets/phytosociologie/porte-documents/
 # input:
-#    species list in species_list_taxo.csv
+#    species list in species_short_list.csv
 #    synonyms list in species_known_synonyms.csv
-#    traits in traits/baseflor.xlsx
 #    metadata in traits/Metatraits.xlsx
+#    traits in traits/baseflor.xlsx
 # output: traitB_baseflor.csv
 
 # 0. Load packages, data, set parameters ----------------------
@@ -48,7 +48,7 @@ out <- extract_trait_taxalist(
   meta_trait = meta[meta$database %in% "Baseflor", ],
   taxalist = taxolist$accepted_taxa,
   synonyms = synonyms
-) # 94.31%
+) # 94.33 %
 names(out)[-1] <- paste(names(out)[-1], "Baseflor", sep = "_")
 
 # 2. Export trait data ---------------------------

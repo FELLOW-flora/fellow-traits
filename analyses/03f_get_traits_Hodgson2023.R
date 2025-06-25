@@ -2,10 +2,10 @@
 # DOI: 10.5287/ora-pp4y9nkoz
 #
 # input:
-#    species list in species_list_taxo.csv
+#    species list in species_short_list.csv
 #    synonyms list in species_known_synonyms.csv
-#    traits in traits/Hodgson_2023/Functional+trait+database+of+arable+weeds+from+Eurasia+and+North+Africa.xlsx
 #    metadata in traits/Metatraits.xlsx
+#    traits in traits/Hodgson_2023/Functional+trait+database+of+arable+weeds+from+Eurasia+and+North+Africa.xlsx
 # output: traitF_hodgson2023.csv
 
 # 0. Load packages, data, set parameters ----------------------
@@ -47,7 +47,7 @@ out <- extract_trait_taxalist(
   meta_trait = meta[meta$database %in% "Hodgson2023", ],
   taxalist = taxolist$accepted_taxa,
   synonyms = synonyms
-) # 49.47 %
+) # 46.23 %
 names(out)[-1] <- paste(names(out)[-1], "Hodgson2023", sep = "_")
 
 

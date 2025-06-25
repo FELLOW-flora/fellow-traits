@@ -23,7 +23,11 @@ traits <- do.call(cbind, datalist)
 traits <- traits[, !duplicated(names(traits))]
 # empty string = NA
 traits[traits == ""] <- NA
-dim(traits) #1706 taxa, 151 traits
+
+#remove empty traits
+traits <- traits[, apply(is.na(traits), 2, sum) < nrow(traits)]
+
+print(dim(traits)) #2027 taxa, 131 traits
 
 
 # 3. Export merged trait data ---------------------------

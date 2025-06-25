@@ -1,16 +1,15 @@
-# Get trait information from https://groot-database.github.io/GRooT/
+# Get trait information from https://www.cahiersagricultures.fr/articles/cagri/pdf/2021/01/cagri210051.pdf
 # input:
 #    species list in species_short_list.csv
 #    synonyms list in species_known_synonyms.csv
+#    trait data in raw-data/traits/CLO-PLA/CLO-PLA-traits.txt
 #    metadata in traits/Metatraits.xlsx
-#    trait data in raw-data/traits/Groot/GRooTAggregateSpeciesVersion.csv
-# output: traitJ_Groot.csv
+# output: traitK_CLOPLA.csv
 
 # 0. Load packages, data, set parameters ----------------------
 
 # if the script is not run from make.R, need to load home made functions (clean_species_list())
 devtools::load_all()
-
 
 # Load species list with taxonomy
 taxolist <- read.csv(
@@ -27,38 +26,30 @@ meta <- readxl::read_xlsx(
   here::here("data", "raw-data", "traits", "Metatraits.xlsx")
 )
 
-# load Groot database
-groot <- read.csv(
-  here::here(
-    "data",
-    "raw-data",
-    "traits",
-    "Groot",
-    "GRooTAggregateSpeciesVersion.csv"
-  ),
+# Load CLO-PLA
+clopla <- read.table(
+  here::here("data", "raw-data", "traits", "CLO-PLA", "CLO-PLA-traits.txt"),
+  header = TRUE,
+  sep = "\t",
   encoding = "latin1"
 )
 
-groot$taxa <- paste(groot$genusTNRS, groot$speciesTNRS)
 
 # 1. Extract trait values ----------------------
 out <- extract_trait_taxalist(
-  trait_df = groot,
-  trait_sp = "taxa",
-  meta_trait = meta[meta$database %in% "Groot", ],
+  trait_df = clopla,
+  trait_sp = "Species_name",
+  meta_trait = meta[meta$database %in% "CLO-PLA", ],
   taxalist = taxolist$accepted_taxa,
-  synonyms = synonyms,
-  long = TRUE,
-  trait_label = "traitName",
-  trait_value = "meanSpecies"
-) # 54.46 %
-names(out)[-1] <- paste(names(out)[-1], "Groot", sep = "_")
+  synonyms = synonyms
+) # 64.23 %
+names(out)[-1] <- paste(names(out)[-1], "CLOPLA", sep = "_")
 
 
 # 2. Export trait data ---------------------------
 write.csv(
   out,
-  file = here::here("data", "derived-data", "traitJ_Groot.csv"),
+  file = here::here("data", "derived-data", "traitK_CLOPLA.csv"),
   row.names = FALSE
 )
 

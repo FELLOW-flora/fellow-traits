@@ -1,13 +1,11 @@
 # Get trait information from https://www.cahiersagricultures.fr/articles/cagri/pdf/2021/01/cagri210051.pdf
 # input:
-#    species list in species_list_taxo.csv
+#    species list in species_short_list.csv
 #    synonyms list in species_known_synonyms.csv
+#    metadata in traits/Metatraits.xlsx
 #    trait data in raw-data/traits/FlorealData/FlorealData.xlsx
 #    taxref in raw-data/TAXREF_v18_2025/TAXREFv18.txt
-#    metadata in traits/Metatraits.xlsx
 # output: traitH_FlorealData.csv
-
-# check out documentation at https://github.com/BioGeoMacro/GIFT
 
 # 0. Load packages, data, set parameters ----------------------
 
@@ -61,7 +59,7 @@ out <- extract_trait_taxalist(
   meta_trait = meta[meta$database %in% "FlorealData", ],
   taxalist = taxolist$accepted_taxa,
   synonyms = synonyms
-) # 31.83 %
+) # 32.81 %
 names(out)[-1] <- paste(names(out)[-1], "FlorealData", sep = "_")
 
 

@@ -1,10 +1,14 @@
 # Get trait information from https://gift.uni-goettingen.de/home
-# input:
-#    species list in species_list_taxo.csv
-#    list of interesting traits in GIFT_metadata_filled.csv
-# output: so far only percentage of coverage
-
 # check out documentation at https://github.com/BioGeoMacro/GIFT
+#
+# input:
+#    species list in species_short_list.csv
+#    synonyms list in species_known_synonyms.csv
+#    metadata in traits/Metatraits.xlsx
+#    list of interesting traits in GIFT_metadata_filled.csv
+#    trait db from GIFT::GIFT_traits()
+#      stored in raw-data/traits/GIFT/GIFT_sptraits.rds
+# output: traitG_GIFT.csv
 
 # 0. Load packages, data, set parameters ----------------------
 
@@ -49,6 +53,7 @@ gift_meta$Lvl3 <- meta_lvl3$Lvl3[match(gift_meta$Trait2, meta_lvl3$Trait2)]
 #   db_gift,
 #   here::here("data", "raw-data", "traits", "GIFT_sptraits.rds")
 # )
+
 db_gift <- readRDS(
   here::here("data", "raw-data", "traits", "GIFT", "GIFT_sptraits.rds")
 )
@@ -65,9 +70,8 @@ out <- extract_trait_taxalist(
   meta_trait = meta[meta$database %in% "GIFT", ],
   taxalist = taxolist$accepted_taxa,
   synonyms = synonyms
-) # 95.37 %
+) # 94.67 %
 names(out)[-1] <- paste(names(out)[-1], "GIFT", sep = "_")
-
 
 # 2. Export trait data ---------------------------
 write.csv(

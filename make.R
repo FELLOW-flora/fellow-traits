@@ -48,6 +48,8 @@ source(here::here("analyses", "03h_get_traits_FlorealData.R"))
 source(here::here("analyses", "03i_get_traits_TRYdb.R"))
 # Groot
 source(here::here("analyses", "03j_get_traits_Groot.R"))
+# CLO-PLA
+source(here::here("analyses", "03k_get_traits_CLOPLA.R"))
 
 # 4 Merge traits
 source(here::here("analyses", "04_merge_traits.R"))

@@ -2,12 +2,12 @@
 # DOI: 10.1016/j.ppees.2013.02.001
 #
 # input:
-#    species list in species_list_taxo.csv
+#    species list in species_short_list.csv
 #    synonyms list in species_known_synonyms.csv
-#    traits in traits/baseflor.xlsx
 #    metadata in traits/Metatraits.xlsx
+#    traits in traits/baseflor.xlsx
 # output: traitE_dcube.csv
-# issue , as decimal ...
+
 # 0. Load packages, data, set parameters ----------------------
 # if the script is not run from make.R, need to load home made functions (e.g. clean_species_list())
 devtools::load_all()
@@ -51,7 +51,7 @@ out <- extract_trait_taxalist(
   meta_trait = meta[meta$database %in% "dcube", ],
   taxalist = taxolist$accepted_taxa,
   synonyms = synonyms
-) # 59.2%
+) # 60.68 %
 names(out)[-1] <- paste(names(out)[-1], "Dcube", sep = "_")
 
 

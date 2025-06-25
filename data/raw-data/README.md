@@ -1,5 +1,5 @@
 # fellow-traits raw data
-Here lies the raw datasets
+Here lies the raw datasets that should not be modified.
 
 
 ## General

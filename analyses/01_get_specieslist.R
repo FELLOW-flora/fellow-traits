@@ -164,7 +164,7 @@ vine_bdx <- readxl::read_xlsx(
 df13 <- data.frame(
   "taxa" = gsub("_", " ", vine_bdx$complete_species_name),
   "original_ID" = NA,
-  "database_ID" = "FR_VINE_CA33"
+  "database_ID" = "FR_VINE_BDX"
 )
 
 #Vine_ca33
@@ -217,6 +217,78 @@ df17 <- data.frame(
 )
 df17 <- df17[!duplicated(df17), ]
 
+# new dataset
+#ANN_37
+ann_37 <- readxl::read_xlsx(
+  here::here(spfolder, "FR_ANN_37_species_list.xlsx")
+)
+df18 <- data.frame(
+  "taxa" = ann_37$Taxons,
+  "original_ID" = NA,
+  "database_ID" = "FR_ANN_37"
+)
+
+#ANN_37
+ann_45 <- readxl::read_xlsx(
+  here::here(spfolder, "FR_ANN_45_species_list.xlsx")
+)
+df19 <- data.frame(
+  "taxa" = ann_45$nom_valide,
+  "original_ID" = ann_45$cd_nom,
+  "database_ID" = "FR_ANN_45"
+)
+
+#ANN_BOURGOGNE
+ann_brg <- readxl::read_xlsx(
+  here::here(spfolder, "FR_ANN_BOURGOGNE_species_list.xlsx")
+)
+df20 <- data.frame(
+  "taxa" = ann_brg$name,
+  "original_ID" = ann_brg$cd_ref,
+  "database_ID" = "FR_ANN_BOURGOGNE"
+)
+
+#ANN_CASPAR
+ann_caspar <- readxl::read_xlsx(
+  here::here(spfolder, "FR_ANN_CASDAR_species_list.xlsx")
+)
+df21 <- data.frame(
+  "taxa" = ann_caspar$NOM_VALIDE,
+  "original_ID" = ann_caspar$CD_NOM,
+  "database_ID" = "FR_ANN_CASPAR"
+)
+
+#ANN_MP
+ann_mp <- readxl::read_xlsx(
+  here::here(spfolder, "FR_ANN_MP_species_list.xlsx")
+)
+df22 <- data.frame(
+  "taxa" = ann_mp$Name,
+  "original_ID" = ann_mp$`EPPO code`,
+  "database_ID" = "FR_ANN_MP"
+)
+
+#ANN_VINE
+ann_vine <- readxl::read_xlsx(
+  here::here(spfolder, "FR_ANN_VINE_500_ENI.xlsx")
+)
+df23 <- data.frame(
+  "taxa" = ann_vine$Name,
+  "original_ID" = NA,
+  "database_ID" = "FR_ANN_VINE_500_ENI"
+)
+
+#Vine_ALPES
+ann_vine <- readxl::read_xlsx(
+  here::here(spfolder, "FR_VINE_ALPES_species_list.xlsx")
+)
+df24 <- data.frame(
+  "taxa" = ann_vine$nom_reconnu,
+  "original_ID" = ann_vine$cd_ref,
+  "database_ID" = "FR_VINE_ALPES"
+)
+
+
 ## merge species list ------------------
 fulldf <- rbind(
   df1,
@@ -235,7 +307,18 @@ fulldf <- rbind(
   df14,
   df15,
   df16,
-  df17
+  df17,
+  df18,
+  df19,
+  df20,
+  df21,
+  df22,
+  df23,
+  df24
 )
 
-saveRDS(fulldf, here::here("data", "derived-data", "species_list_raw.rds"))
+write.csv(
+  fulldf,
+  here::here("data", "derived-data", "species_list_raw.csv"),
+  row.names = FALSE
+)

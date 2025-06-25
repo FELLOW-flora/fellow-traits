@@ -9,7 +9,7 @@ devtools::load_all()
 # or source(here::here("R", "clean_taxo.R"))
 
 # Load dataset
-sp <- readRDS(here::here("data", "derived-data", "species_list_raw.rds"))
+sp <- read.csv(here::here("data", "derived-data", "species_list_raw.csv"))
 
 # 1. get unique species list --------------
 # harmonize the species names
@@ -53,7 +53,7 @@ spclean <- spclean[!spclean %in% rmClass]
 # harmonize the species names
 spclean <- sort(unique(spclean))
 print(paste("Number of unique taxa:", length(spclean)))
-#1884 with additional EU species list (1358 previously)
+# 2286 (1358 previously, then 1884 with additional EU species list)
 
 # 2. get accepted name from Taxref --------------
 # could use rtaxref to use the online API but takes too long and unstable
@@ -100,7 +100,7 @@ df <- df[!is.na(df$accepted_taxref), ]
 # focus on taxa not found
 no_taxref <- spclean[is.na(mtr)]
 print(paste("Taxa with no exact match in Taxref:", length(no_taxref)))
-# 97 taxa (previously 49)
+# 112 taxa (previously 49, then 97)
 
 # try fuzzy match with stringdist package and Jaro-Winkler distance
 # even if TRY use the Levenshtein distance (number of edits)
@@ -188,6 +188,9 @@ full_df <- rbind(df, fuzzy_df)
 # 3. add accepted name from GBIF --------------
 checkgbif <- rgbif::name_backbone_checklist(full_df$taxref_full_name)
 table(checkgbif$status, checkgbif$matchType, useNA = "ifany") # all found :)
+# three missing species in GBIF : "Magnoliidae"           "Cardueae"              "Rhizogemma staphylina"
+# full_df$taxref_full_name[is.na(checkgbif$status)]
+# full_df$taxref_full_name[checkgbif$matchType == "HIGHERRANK"]
 
 # simplify and select gbif information
 gbif_df <- data.frame(
@@ -227,14 +230,14 @@ full_df <- cbind(full_df, gbif_df)
 
 
 # 4. deal with missing taxa from Taxref --------------
-
 # focus on taxa not found in TaxRef
 miss <- spclean[!spclean %in% full_df$original_taxa]
-print(paste("Taxa not found in Taxref:", length(miss))) # 46 taxa (previously 9)
+print(paste("Taxa not found in Taxref:", length(miss))) # 52 taxa (previously 9, then 46)
 
 addgbif <- rgbif::name_backbone_checklist(miss, strict = TRUE)
 # strict = TRUE else weird match
 table(addgbif$status, addgbif$matchType, useNA = "ifany") # 2 not found
+miss[is.na(addgbif$status)]
 # keep only the EXACT match
 # addgbif <- addgbif[addgbif$matchType == "EXACT", ]
 gbif_add <- data.frame(
@@ -353,12 +356,19 @@ write.csv(
   row.names = FALSE
 )
 
+# show missing taxa in TaxRef and GBIF
+cat(
+  "Missing taxa: ",
+  paste(all_df$original_taxa[is.na(all_df$accepted_taxa)], collapse = ", "),
+  "\n"
+)
+
 # make a short species list for gathering traits
 short_df <- all_df[, c("accepted_taxa", "full_name", "accepted_rank")]
 short_df <- short_df[!duplicated(short_df), ]
 short_df <- short_df[complete.cases(short_df), ]
 short_df <- short_df[order(short_df$accepted_taxa), ]
-dim(short_df) # remain 1705 taxa (instead of 1241)
+dim(short_df) # remain 2027 taxa (instead of 1241, then 1705)
 write.csv(
   short_df,
   here::here("data", "derived-data", "species_short_list.csv"),
@@ -436,7 +446,7 @@ syn_df <- syn_df[!syn_df$synonym_taxa %in% rm_syn, ]
 # remove duplicated lines
 syn_df <- syn_df[!duplicated(syn_df[, c("synonym_taxa", "accepted_taxa")]), ]
 
-dim(syn_df) #43049 synonyms
+dim(syn_df) #49184 synonyms
 write.csv(
   syn_df,
   file = "data/derived-data/species_known_synonyms.csv",

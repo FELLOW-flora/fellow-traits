@@ -1,6 +1,6 @@
 # Get trait information from private trait database
 # input:
-#    species list in species_list_taxo.csv
+#    species list in species_short_list.csv
 #    synonyms list in species_known_synonyms.csv
 #    trait databases in data/raw-data/traits/private
 #    metadata in traits/Metatraits.xlsx
@@ -47,7 +47,7 @@ t1 <- extract_trait_taxalist(
   meta_trait = meta[meta$database %in% "YvozValPol", ],
   taxalist = taxolist$accepted_taxa,
   synonyms = synonyms
-) # 58.21 %
+) # 53.97 %
 names(t1)[-1] <- paste(names(t1)[-1], "YvozValPol", sep = "_")
 
 
@@ -62,7 +62,7 @@ t2 <- extract_trait_taxalist(
   meta_trait = meta[meta$database %in% "SPVignes", ],
   taxalist = taxolist$accepted_taxa,
   synonyms = synonyms
-) # 8.85 %
+) # 8.39 %
 names(t2)[-1] <- paste(names(t2)[-1], "SPVignes", sep = "_")
 
 
@@ -81,7 +81,7 @@ t3 <- extract_trait_taxalist(
   meta_trait = meta[meta$database %in% "ATVinedivers", ],
   taxalist = taxolist$accepted_taxa,
   synonyms = synonyms
-) # 19.46 %
+) # 18.5 %
 names(t3)[-1] <- paste(names(t3)[-1], "ATVinedivers", sep = "_")
 
 

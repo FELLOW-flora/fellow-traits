@@ -1,7 +1,9 @@
 # Get trait information from https://bien.nceas.ucsb.edu/bien/
 # input:
-#    species list in species_list_taxo.csv
+#    species list in species_short_list.csv
+#    synonyms list in species_known_synonyms.csv
 #    metadata in traits/Metatraits.xlsx
+#    trait db downloaded from BIEN::BIEN_trait_species()
 # output: traitD_BIEN.csv
 
 # check out documentations:
@@ -64,7 +66,7 @@ out <- extract_trait_taxalist(
   long = TRUE,
   trait_label = "trait_lab",
   trait_value = "trait_value"
-) # 83.53 %
+) # 82.19 %
 names(out)[-1] <- paste(names(out)[-1], "BIEN", sep = "_")
 
 # 3. Export -------------------------------------

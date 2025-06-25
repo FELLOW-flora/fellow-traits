@@ -1,8 +1,11 @@
 # Get trait information from https://www.try-db.org/de/Datasets.php
 # input:
 #    species list in species_short_list.csv
+#    synonyms list in species_known_synonyms.csv
 #    metadata in traits/Metatraits.xlsx
-# output: traitX_TRY.csv
+#    Ecoflora trait data in raw-data/traits/TRY/Ecoflora_41939.txt
+#    Biolflor trait data in raw-data/traits/TRY/Biolflor_41641.txt
+# output: traitI_TRY.csv
 
 # package rtry not really useful:
 # library(rtry)
@@ -42,7 +45,7 @@ t1 <- extract_trait_taxalist(
   long = TRUE,
   trait_label = "TraitName",
   trait_value = "StdValue"
-) # 50.59%
+) # 51.16 %
 names(t1)[-1] <- paste(names(t1)[-1], "Ecoflora", sep = "_")
 
 # 2. traits from Biolflor -------------------------------------
@@ -62,7 +65,7 @@ t2 <- extract_trait_taxalist(
   long = TRUE,
   trait_label = "TraitName",
   trait_value = "StdValue"
-) # 67.7%
+) # 67.83 %
 names(t2)[-1] <- paste(names(t2)[-1], "Biolflor", sep = "_")
 
 
@@ -79,7 +82,7 @@ write.csv(
 )
 
 # missing traits
-print(apply(is.na(out), 2, sum))
+print(apply(is.na(t2), 2, sum))
 
 #
 #

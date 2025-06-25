@@ -27,6 +27,9 @@ traits <- read.csv(
 taxolist <- read.csv(
   here::here("data", "derived-data", "species_list_taxo.csv")
 )
+# taxolist$original_taxa[is.na(taxolist$accepted_taxa)]
+# remove NAs
+taxolist <- taxolist[!is.na(taxolist$accepted_taxa), ]
 
 # Load short species list
 shortlist <- read.csv(
@@ -42,17 +45,12 @@ After cleaning and harmonization, there were `{r} nrow(shortlist)` unique taxa.
 
 ```{r}
 table(shortlist$accepted_rank)
-
-# taxolist$original_taxa[is.na(taxolist$accepted_taxa)]
-# might be good to add the database
-# remove NAs
-taxolist <- taxolist[!is.na(taxolist$accepted_taxa), ]
 ```
 
 {{< pagebreak >}}
 Let's define:  
 *specialist*: a taxa that occured only in a singe database  
-*generalist*: a taxa that is listed in 50% of the databases (8 out of 16)  
+*generalist*: a taxa that is listed in 50% of the databases (12 out of 24)  
 
 ```{r}
 #| fig-height: 6
@@ -63,6 +61,8 @@ col_db <- grep("^in_", names(taxolist))
 db <- taxolist[, col_db]
 # merge per species (remove duplicates)
 dbpersp <- rowsum(db, group = taxolist$accepted_taxa)
+# select taxa in short_df (with complete taxonomic rank)
+dbpersp <- dbpersp[row.names(dbpersp) %in% shortlist$accepted_taxa, ]
 # transform as binary
 dbpersp[dbpersp > 1] <- 1
 # count the number of database per species
@@ -71,9 +71,10 @@ nsp_db <- apply(dbpersp, 2, sum)
 ndb <- apply(dbpersp, 1, sum)
 
 # split species between specialists and generalists
+th_gen <- max(ndb) / 2
 sp_class <- cut(
   ndb,
-  breaks = c(0, 1, 8, max(ndb)),
+  breaks = c(0, 1, th_gen, max(ndb)),
   labels = c("specialist", "other", "generalist")
 )
 
@@ -190,32 +191,21 @@ plot(
   xlab = "Number of datasets (jittered)",
   ylab = "Number of missing traits"
 )
-abline(v = c(1.5, 8.5), lwd = 2)
+abline(v = c(1.5, th_gen), lwd = 2)
 segments(
-  par()$usr[1],
+  c(par()$usr[1], 1.5, th_gen),
   par()$usr[3],
-  1.5,
+  c(1.5, th_gen, par()$usr[2]),
   par()$usr[3],
-  col = RColorBrewer::brewer.pal(3, "Set3")[1],
+  col = RColorBrewer::brewer.pal(3, "Set3"),
   lwd = 5,
   xpd = NA
 )
-segments(
-  1.5,
-  par()$usr[3],
-  8.5,
-  par()$usr[3],
-  col = RColorBrewer::brewer.pal(3, "Set3")[2],
-  lwd = 5,
-  xpd = NA
-)
-segments(
-  8.5,
-  par()$usr[3],
-  par()$usr[2],
-  par()$usr[3],
-  col = RColorBrewer::brewer.pal(3, "Set3")[3],
-  lwd = 5,
+mtext(
+  at = c(0.5, 17.5),
+  side = 1,
+  line = 0.5,
+  text = c("Specialists", "Generalists"),
   xpd = NA
 )
 ```
@@ -383,13 +373,12 @@ print(apply(is.na(seed), 2, sum))
 There are five sources of information for flower colour, but it must be cleaned
 
 ```{r color}
-# names(traits)[grep("col", names(traits))]
+names(traits)[grep("col", names(traits))]
 color <- data.frame(
   "Baseflor" = traits$Flower.color_Baseflor,
   "BIEN" = traits$Flower.color_BIEN,
   "GIFT" = traits$Flower.color_GIFT,
   "FlorealData" = traits$Flower.color_FlorealData,
-  "Biolflor" = traits$Flower.color_Biolflor,
   "YvozValPol" = traits$Flower.color_YvozValPol
 )
 print(apply(is.na(color), 2, sum))
