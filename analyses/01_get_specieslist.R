@@ -58,7 +58,7 @@ bvg <- readxl::read_xlsx(
 df4 <- data.frame(
   "taxa" = bvg$Name,
   "original_ID" = bvg$Species,
-  "database_ID" = "FR_BVG"
+  "database_ID" = bvg$Dataset.name.in.FELLOW
 )
 df4 <- df4[!duplicated(df4), ]
 

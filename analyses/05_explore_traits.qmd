@@ -48,14 +48,9 @@ table(shortlist$accepted_rank)
 ```
 
 {{< pagebreak >}}
-Let's define:  
-*specialist*: a taxa that occured only in a singe database  
-*generalist*: a taxa that is listed in 50% of the databases (12 out of 24)  
+
 
 ```{r}
-#| fig-height: 6
-#| fig-width: 8
-
 # get the database data.frame
 col_db <- grep("^in_", names(taxolist))
 db <- taxolist[, col_db]
@@ -71,7 +66,18 @@ nsp_db <- apply(dbpersp, 2, sum)
 ndb <- apply(dbpersp, 1, sum)
 
 # split species between specialists and generalists
-th_gen <- max(ndb) / 2
+th_gen <- floor(length(col_db) / 2) # or max(ndb) / 2
+```
+
+
+Let's define:  
+*specialist*: a taxa that occurred only in a singe database  
+*generalist*: a taxa that is listed in 50% of the databases (`{r} th_gen+1` out of `{r} length(col_db)`)  
+
+```{r}
+#| fig-height: 6
+#| fig-width: 8
+
 sp_class <- cut(
   ndb,
   breaks = c(0, 1, th_gen, max(ndb)),
@@ -81,13 +87,14 @@ sp_class <- cut(
 table(sp_class)
 sum_gen <- as.matrix(rowsum(dbpersp, sp_class))
 colnames(sum_gen) <- gsub("^in_", "", colnames(sum_gen))
-par(mar = c(4, 8, 1, 1))
+par(mar = c(4, 10, 1, 1))
 barplot(
   sum_gen,
   horiz = TRUE,
   las = 1,
   xlab = "Number of species",
-  col = RColorBrewer::brewer.pal(3, "Set3")
+  col = RColorBrewer::brewer.pal(3, "Set3"),
+  cex.names = 0.8
 )
 legend(
   "topright",
@@ -191,18 +198,18 @@ plot(
   xlab = "Number of datasets (jittered)",
   ylab = "Number of missing traits"
 )
-abline(v = c(1.5, th_gen), lwd = 2)
+abline(v = c(1.5, th_gen + 0.5), lwd = 2)
 segments(
-  c(par()$usr[1], 1.5, th_gen),
+  c(par()$usr[1], 1.5, th_gen + 0.5),
   par()$usr[3],
-  c(1.5, th_gen, par()$usr[2]),
+  c(1.5, th_gen + 0.5, par()$usr[2]),
   par()$usr[3],
   col = RColorBrewer::brewer.pal(3, "Set3"),
   lwd = 5,
   xpd = NA
 )
 mtext(
-  at = c(0.5, 17.5),
+  at = c(0.5, th_gen * 1.5),
   side = 1,
   line = 0.5,
   text = c("Specialists", "Generalists"),
@@ -310,9 +317,9 @@ traits$Plant.height_cm_FlorealData <- ifelse(
   traits$Plant.height_cm_FlorealData
 )
 height <- data.frame(
-  "spvignes" = traits$Plant.height_cm_SPVignes / 100,
+  "SpVignes" = traits$Plant.height_cm_SPVignes / 100,
   "FlorealData" = traits$Plant.height_cm_FlorealData / 100,
-  "lososova" = traits$Plant.height_m_Lososova2023,
+  "Lososova" = traits$Plant.height_m_Lososova2023,
   "BIEN" = traits$Plant.height_m_BIEN,
   "GIFT" = traits$Plant.height_mean_m_GIFT,
   "Ecoflora" = traits$Plant.height_m_Ecoflora
@@ -345,7 +352,7 @@ There are five sources of information for seed mass
 # names(traits)[grep("seed", names(traits))]
 
 seed <- data.frame(
-  "lososova" = traits$Seed.mass_mg_Lososova2023,
+  "Lososova" = traits$Seed.mass_mg_Lososova2023,
   "BIEN" = traits$Seed.mass_mg_BIEN,
   "GIFT" = traits$Seed.mass_g_GIFT * 1000,
   "Ecoflora" = traits$Seed.mass_mg_Ecoflora,
@@ -373,7 +380,7 @@ print(apply(is.na(seed), 2, sum))
 There are five sources of information for flower colour, but it must be cleaned
 
 ```{r color}
-names(traits)[grep("col", names(traits))]
+# names(traits)[grep("col", names(traits))]
 color <- data.frame(
   "Baseflor" = traits$Flower.color_Baseflor,
   "BIEN" = traits$Flower.color_BIEN,
@@ -387,6 +394,6 @@ print(apply(is.na(color), 2, sum))
 # removing unclear color patterns for genus
 baseflor <- color$Baseflor
 baseflor[grepl("_", baseflor)] <- NA
-table(baseflor, useNA = "ifany")
+table(baseflor)
 ```
 
