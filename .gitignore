@@ -6,6 +6,7 @@
 # ignore dev file
 analyses/test*.R
 analyses/div*.R
+analyses/transform*.R
 
 # taxref can be downloaded from https://inpn.mnhn.fr/docs-web/docs/download/454260
 # https://inpn.mnhn.fr/telechargement/referentielEspece/taxref/18.0/menu
@@ -16,9 +17,10 @@ data/raw-data/TAXREF_v18_2025
 data/raw-data/WFO_Backbone_v.2023.12
 
 data/raw-data/GrassBase
+
+
 data/raw-data/traits/tr8
 data/raw-data/traits/PLANTATT_19_Nov_08
-
 # regional database
 ## mediterranean
 data/raw-data/traits/BROT2.0 
@@ -33,6 +35,8 @@ data/raw-data/traits/TRY
 # updated metadata
 data/raw-data/traits/old_Metatraits.xlsx
 data/raw-data/traits/traits fellow.xlsx
+
+data/raw-data/traits/TRY
 
 # air
 air.toml

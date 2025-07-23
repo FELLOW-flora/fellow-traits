@@ -53,7 +53,7 @@ spclean <- spclean[!spclean %in% rmClass]
 # harmonize the species names
 spclean <- sort(unique(spclean))
 print(paste("Number of unique taxa:", length(spclean)))
-# 2286 (1358 previously, then 1884 with additional EU species list)
+# 2373
 
 # 2. get accepted name from Taxref --------------
 # could use rtaxref to use the online API but takes too long and unstable
@@ -100,7 +100,7 @@ df <- df[!is.na(df$accepted_taxref), ]
 # focus on taxa not found
 no_taxref <- spclean[is.na(mtr)]
 print(paste("Taxa with no exact match in Taxref:", length(no_taxref)))
-# 112 taxa (previously 49, then 97)
+# 115 taxa (previously 49, then 97)
 
 # try fuzzy match with stringdist package and Jaro-Winkler distance
 # even if TRY use the Levenshtein distance (number of edits)
@@ -187,7 +187,7 @@ full_df <- rbind(df, fuzzy_df)
 
 # 3. add accepted name from GBIF --------------
 checkgbif <- rgbif::name_backbone_checklist(full_df$taxref_full_name)
-table(checkgbif$status, checkgbif$matchType, useNA = "ifany") # all found :)
+# table(checkgbif$status, checkgbif$matchType, useNA = "ifany") # 5 are missing
 # three missing species in GBIF : "Magnoliidae"           "Cardueae"              "Rhizogemma staphylina"
 # full_df$taxref_full_name[is.na(checkgbif$status)]
 # full_df$taxref_full_name[checkgbif$matchType == "HIGHERRANK"]
@@ -205,7 +205,14 @@ gbif_df <- data.frame(
 )
 
 # look for the accepted name of synonyms
+# table(
+#   checkgbif$acceptedUsageKey != checkgbif$usageKey,
+#   checkgbif$status,
+#   useNA = "ifany"
+# )
+checkgbif$synonym <- checkgbif$status %in% "SYNONYM"
 synkey <- checkgbif$acceptedUsageKey[checkgbif$synonym]
+
 syn_df <- c()
 for (i in synkey) {
   di <- rgbif::name_usage(key = i)
@@ -232,11 +239,11 @@ full_df <- cbind(full_df, gbif_df)
 # 4. deal with missing taxa from Taxref --------------
 # focus on taxa not found in TaxRef
 miss <- spclean[!spclean %in% full_df$original_taxa]
-print(paste("Taxa not found in Taxref:", length(miss))) # 52 taxa (previously 9, then 46)
+print(paste("Taxa not found in Taxref:", length(miss))) # 53 taxa (previously 9, then 46)
 
 addgbif <- rgbif::name_backbone_checklist(miss, strict = TRUE)
 # strict = TRUE else weird match
-table(addgbif$status, addgbif$matchType, useNA = "ifany") # 2 not found
+table(addgbif$status, addgbif$matchType, useNA = "ifany") # 6 not found
 miss[is.na(addgbif$status)]
 # keep only the EXACT match
 # addgbif <- addgbif[addgbif$matchType == "EXACT", ]
@@ -252,6 +259,7 @@ gbif_add <- data.frame(
 )
 
 # replace value for the synonym
+addgbif$synonym <- addgbif$status %in% "SYNONYM"
 synkey <- addgbif$acceptedUsageKey[addgbif$synonym]
 syn_df <- c()
 for (i in synkey) {
@@ -271,26 +279,26 @@ for (i in synkey) {
 
 
 # replace value for the higher rank
-# check issue with higher rank (only one here)
-hrank <- rgbif::name_backbone(
-  name = addgbif$verbatim_name[addgbif$matchType == "HIGHERRANK"],
-  verbose = TRUE
-)
-# Vicia ciliatula is synonym of Vicia ciliatula or Vicia lutea; lutea seems better
-validkey <- hrank$acceptedUsageKey[
-  hrank$scientificName == "Vicia ciliata Schur"
-]
-synhrbif <- rgbif::name_usage(key = validkey)
-gbif_add[addgbif$matchType == "HIGHERRANK", ] <- data.frame(
-  accepted_gbif = synhrbif$data$canonicalName,
-  gbif_key = synhrbif$data$key,
-  gbif_rank = synhrbif$data$rank,
-  gbif_full_name = synhrbif$data$scientificName,
-  gbif_phylum = synhrbif$data$phylum,
-  gbif_order = synhrbif$data$order,
-  gbif_family = synhrbif$data$family,
-  gbif_status = "SYNONYM"
-)
+# check issue with higher rank
+# hrank <- rgbif::name_backbone(
+#   name = addgbif$verbatim_name[addgbif$matchType == "HIGHERRANK"],
+#   verbose = TRUE
+# )
+# # Vicia ciliatula is synonym of Vicia ciliatula or Vicia lutea; lutea seems better
+# validkey <- hrank$acceptedUsageKey[
+#   hrank$scientificName == "Vicia ciliata Schur"
+# ]
+# synhrbif <- rgbif::name_usage(key = validkey)
+# gbif_add[addgbif$matchType == "HIGHERRANK", ] <- data.frame(
+#   accepted_gbif = synhrbif$data$canonicalName,
+#   gbif_key = synhrbif$data$key,
+#   gbif_rank = synhrbif$data$rank,
+#   gbif_full_name = synhrbif$data$scientificName,
+#   gbif_phylum = synhrbif$data$phylum,
+#   gbif_order = synhrbif$data$order,
+#   gbif_family = synhrbif$data$family,
+#   gbif_status = "SYNONYM"
+# )
 
 # check back in TaxRef
 madd <- match(tolower(gbif_add$accepted_gbif), tolower(taxref$clean_name))

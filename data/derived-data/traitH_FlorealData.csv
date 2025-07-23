@@ -30,6 +30,7 @@
 "Aegilops triuncialis",NA,NA,NA,NA,NA
 "Aegonychon purpurocaeruleum",NA,NA,NA,NA,NA
 "Aegopodium podagraria",NA,NA,NA,NA,NA
+"Aesculus hippocastanum",NA,NA,NA,NA,NA
 "Aethusa cynapium",NA,NA,NA,NA,NA
 "Aethusa cynapium subsp. cynapium",NA,NA,NA,NA,NA
 "Agrimonia agrimonoides",NA,NA,NA,NA,NA
@@ -56,6 +57,7 @@
 "Alchemilla","Alchemilla","Vert",NA,"Autre",NA
 "Alchemilla xanthochlora","Alchemilla xanthochlora","Vert",6.92820323,"Autre",47.5
 "Alisma lanceolatum",NA,NA,NA,NA,NA
+"Alisma plantago-aquatica","Alisma plantago-aquatica","Blanc",6,"Autre",65
 "Alkanna matthioli",NA,NA,NA,NA,NA
 "Alkekengi officinarum",NA,NA,NA,NA,NA
 "Alliaria petiolata","Alliaria petiolata","Blanc",3,"Autre",70
@@ -79,6 +81,7 @@
 "Allium subhirsutum",NA,NA,NA,NA,NA
 "Allium triquetrum",NA,NA,NA,NA,NA
 "Allium vineale","Allium vineale","Blanc",4,"Autre",57.5
+"Alnus glutinosa","Alnus glutinosa","Vert",3,"Ligneux",100
 "Alopecurus","Alopecurus geniculatus_Alopecurus pratensis","Vert",4.661342202,"Graminées",NA
 "Alopecurus geniculatus","Alopecurus geniculatus","Vert",5.322684404,"Graminées",NA
 "Alopecurus myosuroides",NA,NA,NA,NA,NA
@@ -179,6 +182,8 @@
 "Arenaria leptoclados",NA,NA,NA,NA,NA
 "Arenaria serpyllifolia","Arenaria serpyllifolia","Blanc",NA,"Autre",21.5
 "Argentina anserina",NA,NA,NA,NA,NA
+"Argentina anserina subsp. anserina",NA,NA,NA,NA,NA
+"Aria edulis","Sorbus aria","Blanc",3,"Ligneux",100
 "Arisarum simorrhinum",NA,NA,NA,NA,NA
 "Arisarum vulgare",NA,NA,NA,NA,NA
 "Aristolochia clematitis",NA,NA,NA,NA,NA
@@ -236,6 +241,7 @@
 "Avena sterilis",NA,NA,NA,NA,NA
 "Avena sterilis subsp. ludoviciana",NA,NA,NA,NA,NA
 "Avena strigosa",NA,NA,NA,NA,NA
+"Avenella flexuosa","Avenella flexuosa","Vert",3,"Graminées",NA
 "Avenula pubescens","Avenula pubescens","Blanc",2.698107111,"Graminées",NA
 "Ballota nigra",NA,NA,NA,NA,NA
 "Barbarea",NA,NA,NA,NA,NA
@@ -257,6 +263,7 @@
 "Beta vulgaris subsp. vulgaris",NA,NA,NA,NA,NA
 "Betonica alopecuros",NA,NA,NA,NA,NA
 "Betonica officinalis","Betonica officinalis officinalis","Pourpre",1.80006391,"Autre",60
+"Betula","Betula pendula","",3,"Ligneux",100
 "Betula pendula","Betula pendula","",3,"Ligneux",100
 "Betula pubescens",NA,NA,NA,NA,NA
 "Bidens","Bidens frondosa","Jaune",NA,"Autre",90
@@ -331,6 +338,7 @@
 "Bupleurum tenuissimum",NA,NA,NA,NA,NA
 "Cakile maritima",NA,NA,NA,NA,NA
 "Calamagrostis",NA,NA,NA,NA,NA
+"Calamagrostis canescens",NA,NA,NA,NA,NA
 "Calamagrostis epigejos",NA,NA,NA,NA,NA
 "Calendula",NA,NA,NA,NA,NA
 "Calendula arvensis",NA,NA,NA,NA,NA
@@ -354,6 +362,7 @@
 "Capsella bursa-pastoris","Capsella bursa-pastoris bursa-pastoris","Blanc",2.543524087,"Autre",42.5
 "Capsella rubella","Capsella bursa-pastoris rubella","Blanc",4,"Autre",45
 "Cardamine","Cardamine","",NA,"Autre",NA
+"Cardamine flexuosa",NA,NA,NA,NA,NA
 "Cardamine hirsuta","Cardamine hirsuta","Blanc",NA,"Autre",20
 "Cardamine pratensis","Cardamine pratensis","Rose",2.089306606,"Autre",35
 "Carduus","Carduus nigrescens vivariensis_Carduus nutans_Carduus pycnocephalus","Rose_Violet",3.5,"Autre",73.3333333333333
@@ -387,6 +396,7 @@
 "Carthamus mitissimus","Carthamus mitissimus","Bleu",4,"Autre",17.5
 "Carum carvi","Carum carvi","Blanc",2.737782859,"Autre",70
 "Caryophyllaceae",NA,NA,NA,NA,NA
+"Castanea sativa",NA,NA,NA,NA,NA
 "Catananche caerulea","Catananche caerulea","",4,"Autre",85
 "Catapodium rigidum",NA,NA,NA,NA,NA
 "Caucalis platycarpos","Caucalis platycarpos","",4,"Autre",25
@@ -446,6 +456,7 @@
 "Chaenorhinum rubrifolium",NA,NA,NA,NA,NA
 "Chaerophyllum","Chaerophyllum","",NA,"Autre",NA
 "Chaerophyllum temulum","Chaerophyllum hirsutum","Blanc",4.998151832,"Autre",90
+"Chamaemelum nobile",NA,NA,NA,NA,NA
 "Chamaenerion angustifolium",NA,NA,NA,NA,NA
 "Chamaenerion fleischeri",NA,NA,NA,NA,NA
 "Chelidonium",NA,NA,NA,NA,NA
@@ -455,6 +466,7 @@
 "Chenopodium","Chenopodium","",NA,"Autre",NA
 "Chenopodium album","Chenopodium album","Blanc",NA,"Autre",82.5
 "Chenopodium album subsp. album","Chenopodium album","Blanc",NA,"Autre",82.5
+"Chenopodium album subsp. opulifolium","Chenopodium album","Blanc",NA,"Autre",82.5
 "Chenopodium ficifolium",NA,NA,NA,NA,NA
 "Chenopodium vulvaria",NA,NA,NA,NA,NA
 "Cherleria laricifolia",NA,NA,NA,NA,NA
@@ -466,6 +478,7 @@
 "Cichorium endivia",NA,NA,NA,NA,NA
 "Cichorium intybus","Cichorium intybus","Violet",3,"Autre",70
 "Cicuta virosa",NA,NA,NA,NA,NA
+"Circaea",NA,NA,NA,NA,NA
 "Cirsium","Cirsium","",NA,"Autre",NA
 "Cirsium arvense","Cirsium arvense","Rose",3.252556245,"Autre",90
 "Cirsium eriophorum","Cirsium eriophorum","Rose",3.815748337,"Autre",100
@@ -494,6 +507,7 @@
 "Coleostephus myconis",NA,NA,NA,NA,NA
 "Commelina",NA,NA,NA,NA,NA
 "Commelina communis",NA,NA,NA,NA,NA
+"Conium",NA,NA,NA,NA,NA
 "Conium maculatum",NA,NA,NA,NA,NA
 "Conopodium majus","Conopodium majus","Blanc",2.302580825,"Autre",50
 "Conringia orientalis",NA,NA,NA,NA,NA
@@ -525,7 +539,8 @@
 "Crambe abyssinica",NA,NA,NA,NA,NA
 "Crambe hispanica abyssinica",NA,NA,NA,NA,NA
 "Crassula tillaea",NA,NA,NA,NA,NA
-"Crataegus","Crataegus monogyna","Blanc",3,"Ligneux",100
+"Crataegus","Crataegus laevigata_Crataegus monogyna","Blanc",3,"Autre_Ligneux",100
+"Crataegus laevigata","Crataegus laevigata","Blanc",3,"Autre",100
 "Crataegus monogyna","Crataegus monogyna","Blanc",3,"Ligneux",100
 "Crataegus x subsphaerica",NA,NA,NA,NA,NA
 "Crepis","Crepis","",NA,"Autre",NA
@@ -552,6 +567,7 @@
 "Cucurbita",NA,NA,NA,NA,NA
 "Cucurbita pepo",NA,NA,NA,NA,NA
 "Cullen americanum",NA,NA,NA,NA,NA
+"Cupressus",NA,NA,NA,NA,NA
 "Cuscuta","Cuscuta","",NA,"Autre",NA
 "Cuscuta campestris",NA,NA,NA,NA,NA
 "Cuscuta epilinum",NA,NA,NA,NA,NA
@@ -562,6 +578,7 @@
 "Cymbalaria muralis",NA,NA,NA,NA,NA
 "Cynanchum acutum",NA,NA,NA,NA,NA
 "Cynara cardunculus",NA,NA,NA,NA,NA
+"Cynodon","Cynodon dactylon","Vert",NA,"Graminées",NA
 "Cynodon dactylon","Cynodon dactylon","Vert",NA,"Graminées",NA
 "Cynoglossum cheirifolium",NA,NA,NA,NA,NA
 "Cynoglossum creticum",NA,NA,NA,NA,NA
@@ -597,6 +614,7 @@
 "Dianthus armeria","Dianthus armeria armeria","Rose",6.92820323,"Autre",35
 "Dianthus carthusianorum","Dianthus carthusianorum","Rose",6.92820323,"Autre",35
 "Dianthus carthusianorum subsp. carthusianorum","Dianthus carthusianorum","Rose",6.92820323,"Autre",35
+"Digitalis","Digitalis purpurea","Pourpre",NA,"Autre",100
 "Digitalis grandiflora",NA,NA,NA,NA,NA
 "Digitalis purpurea","Digitalis purpurea","Pourpre",NA,"Autre",100
 "Digitaria",NA,NA,NA,NA,NA
@@ -615,6 +633,7 @@
 "Dittrichia viscosa",NA,NA,NA,NA,NA
 "Draba","Draba","Blanc",NA,"Autre",NA
 "Draba verna",NA,NA,NA,NA,NA
+"Dryopteris","Dryopteris filix-mas","Vert",4,"Autre",60
 "Dryopteris filix-mas","Dryopteris filix-mas","Vert",4,"Autre",60
 "Dysphania ambrosioides",NA,NA,NA,NA,NA
 "Dysphania aristata",NA,NA,NA,NA,NA
@@ -629,6 +648,8 @@
 "Echium asperrimum",NA,NA,NA,NA,NA
 "Echium plantagineum",NA,NA,NA,NA,NA
 "Echium vulgare","Echium vulgare","Bleu",4.619389395,"Autre",90
+"Eleocharis palustris","Eleocharis palustris","Marron",3.586957343,"Cyperaceae",60
+"Elymus",NA,NA,NA,NA,NA
 "Elymus caninus",NA,NA,NA,NA,NA
 "Elytrigia","Elytrigia repens repens","Vert",6.92820323,"Graminées",NA
 "Elytrigia campestris",NA,NA,NA,NA,NA
@@ -689,6 +710,7 @@
 "Eryngium campestre","Eryngium campestre","Blanc",3.103406132,"Autre",32.5
 "Eryngium maritimum",NA,NA,NA,NA,NA
 "Erysimum cheiranthoides",NA,NA,NA,NA,NA
+"Erysimum cheiri",NA,NA,NA,NA,NA
 "Erysimum incanum subsp. aurigeranum",NA,NA,NA,NA,NA
 "Erysimum repandum",NA,NA,NA,NA,NA
 "Erythranthe moschata",NA,NA,NA,NA,NA
@@ -727,8 +749,10 @@
 "Fabaceae",NA,NA,NA,NA,NA
 "Fagopyrum esculentum",NA,NA,NA,NA,NA
 "Fagopyrum tataricum",NA,NA,NA,NA,NA
+"Fagus",NA,NA,NA,NA,NA
 "Fagus sylvatica",NA,NA,NA,NA,NA
 "Falcaria vulgaris",NA,NA,NA,NA,NA
+"Fallopia",NA,NA,NA,NA,NA
 "Fallopia baldschuanica",NA,NA,NA,NA,NA
 "Fallopia convolvulus",NA,NA,NA,NA,NA
 "Fallopia dumetorum",NA,NA,NA,NA,NA
@@ -755,6 +779,7 @@
 "Filipendula vulgaris","Filipendula vulgaris","Blanc",2.91689926,"Autre",60
 "Foeniculum vulgare",NA,NA,NA,NA,NA
 "Fragaria","Fragaria vesca","Blanc",4,"Autre",17.5
+"Fragaria ananassa",NA,NA,NA,NA,NA
 "Fragaria vesca","Fragaria vesca","Blanc",4,"Autre",17.5
 "Fraxinus","Fraxinus excelsior","Marron",3,"Ligneux",100
 "Fraxinus angustifolia",NA,NA,NA,NA,NA
@@ -843,6 +868,8 @@
 "Gleditsia triacanthos",NA,NA,NA,NA,NA
 "Globularia bisnagarica",NA,NA,NA,NA,NA
 "Glyceria",NA,NA,NA,NA,NA
+"Glyceria declinata",NA,NA,NA,NA,NA
+"Glyceria maxima",NA,NA,NA,NA,NA
 "Glycine max",NA,NA,NA,NA,NA
 "Glycyrrhiza glabra",NA,NA,NA,NA,NA
 "Gnaphalium",NA,NA,NA,NA,NA
@@ -851,6 +878,7 @@
 "Gypsophila repens",NA,NA,NA,NA,NA
 "Gypsophila vaccaria",NA,NA,NA,NA,NA
 "Hainardia cylindrica",NA,NA,NA,NA,NA
+"Hedera","Hedera helix","",NA,"Autre",100
 "Hedera helix","Hedera helix","",NA,"Autre",100
 "Hedypnois rhagadioloides",NA,NA,NA,NA,NA
 "Helianthemum apenninum","Helianthemum apenninum","Blanc",6.92820323,"Autre",27.5
@@ -905,6 +933,8 @@
 "Hordeum vulgare subsp. vulgare",NA,NA,NA,NA,NA
 "Hornungia petraea",NA,NA,NA,NA,NA
 "Humulus lupulus",NA,NA,NA,NA,NA
+"Hyacinthoides",NA,NA,NA,NA,NA
+"Hyacinthoides non-scripta",NA,NA,NA,NA,NA
 "Hyacinthus orientalis",NA,NA,NA,NA,NA
 "Hylotelephium maximum",NA,NA,NA,NA,NA
 "Hylotelephium telephium",NA,NA,NA,NA,NA
@@ -916,6 +946,7 @@
 "Hypecoum pendulum",NA,NA,NA,NA,NA
 "Hypecoum procumbens",NA,NA,NA,NA,NA
 "Hypericum","Hypericum","",NA,"Autre",NA
+"Hypericum androsaemum",NA,NA,NA,NA,NA
 "Hypericum australe",NA,NA,NA,NA,NA
 "Hypericum hirsutum",NA,NA,NA,NA,NA
 "Hypericum humifusum","Hypericum humifusum","Jaune",6.92820323,"Autre",12.5
@@ -931,6 +962,7 @@
 "Hyssopus officinalis",NA,NA,NA,NA,NA
 "Iberis amara",NA,NA,NA,NA,NA
 "Iberis pinnata",NA,NA,NA,NA,NA
+"Ilex aquifolium","Ilex aquifolium","Blanc",NA,"Ligneux",100
 "Illecebrum verticillatum",NA,NA,NA,NA,NA
 "Imbribryum subapiculatum",NA,NA,NA,NA,NA
 "Impatiens glandulifera",NA,NA,NA,NA,NA
@@ -953,6 +985,8 @@
 "Juglans nigra",NA,NA,NA,NA,NA
 "Juglans regia",NA,NA,NA,NA,NA
 "Juncus","Juncus","",NA,"Juncaceae",NA
+"Juncus acutiflorus","Juncus acutiflorus","Marron",1.849362181,"Juncaceae",65
+"Juncus articulatus","Juncus articulatus","Marron",5.464422658,"Juncaceae",35
 "Juncus bufonius","Juncus bufonius","",5,"Juncaceae",32.5
 "Juncus capitatus",NA,NA,NA,NA,NA
 "Juncus conglomeratus","Juncus conglomeratus","Marron",2.654532205,"Juncaceae",65
@@ -974,6 +1008,7 @@
 "Lactuca muralis",NA,NA,NA,NA,NA
 "Lactuca perennis",NA,NA,NA,NA,NA
 "Lactuca saligna",NA,NA,NA,NA,NA
+"Lactuca sativa",NA,NA,NA,NA,NA
 "Lactuca serriola",NA,NA,NA,NA,NA
 "Lactuca viminea",NA,NA,NA,NA,NA
 "Lactuca virosa",NA,NA,NA,NA,NA
@@ -983,11 +1018,13 @@
 "Lamium album",NA,NA,NA,NA,NA
 "Lamium album subsp. album",NA,NA,NA,NA,NA
 "Lamium amplexicaule",NA,NA,NA,NA,NA
+"Lamium galeobdolon",NA,NA,NA,NA,NA
 "Lamium hybridum",NA,NA,NA,NA,NA
 "Lamium maculatum",NA,NA,NA,NA,NA
 "Lamium purpureum","Lamium purpureum","Purpurine",3,"Autre",17.5
 "Laphangium luteoalbum","Laphangium luteoalbum","Blanc",3,"Autre",35
 "Lappula squarrosa",NA,NA,NA,NA,NA
+"Lapsana","Lapsana communis","Jaune",3,"Autre",90
 "Lapsana communis","Lapsana communis","Jaune",3,"Autre",90
 "Larix decidua",NA,NA,NA,NA,NA
 "Lathyrus","Lathyrus","",NA,"Légumineuses",NA
@@ -1019,6 +1056,8 @@
 "Legousia hybrida",NA,NA,NA,NA,NA
 "Legousia speculum-veneris",NA,NA,NA,NA,NA
 "Legousia speculum-veneris subsp. speculum-veneris",NA,NA,NA,NA,NA
+"Lemna minor","Lemna minor","",NA,"Autre",5.5
+"Lemna trisulca",NA,NA,NA,NA,NA
 "Leontodon","Leontodon hispidus","Jaune",1.883358012,"Autre",32.5
 "Leontodon autumnale",NA,NA,NA,NA,NA
 "Leontodon hirtus",NA,NA,NA,NA,NA
@@ -1093,6 +1132,7 @@
 "Lotus pedunculatus","Lotus pedunculatus","Jaune",1.480776746,"Légumineuses",70
 "Lotus rectus",NA,NA,NA,NA,NA
 "Lunaria",NA,NA,NA,NA,NA
+"Lunaria annua",NA,NA,NA,NA,NA
 "Lupinus",NA,NA,NA,NA,NA
 "Lupinus angustifolius",NA,NA,NA,NA,NA
 "Lupinus luteus",NA,NA,NA,NA,NA
@@ -1114,6 +1154,7 @@
 "Lythrum virgatum",NA,NA,NA,NA,NA
 "Malcolmia africana",NA,NA,NA,NA,NA
 "Malcolmia littorea",NA,NA,NA,NA,NA
+"Malus",NA,NA,NA,NA,NA
 "Malus domestica",NA,NA,NA,NA,NA
 "Malus sylvestris",NA,NA,NA,NA,NA
 "Malva","Malva","",NA,"Autre",NA
@@ -1137,6 +1178,7 @@
 "Matricaria chamomilla",NA,NA,NA,NA,NA
 "Matricaria discoidea",NA,NA,NA,NA,NA
 "Matricaria matricarioides",NA,NA,NA,NA,NA
+"Matthiola",NA,NA,NA,NA,NA
 "Medicago","Medicago arabica_Medicago lupulina_Medicago minima_Medicago polymorpha polymorpha_Medicago sativa sativa","Bleu_Jaune",2.6655536846,"Légumineuses",37.5
 "Medicago arabica","Medicago arabica","Jaune",3,"Légumineuses",45
 "Medicago ciliaris",NA,NA,NA,NA,NA
@@ -1195,6 +1237,7 @@
 "Micromeria graeca",NA,NA,NA,NA,NA
 "Micropyrum tenellum",NA,NA,NA,NA,NA
 "Microthlaspi perfoliatum",NA,NA,NA,NA,NA
+"Milium",NA,NA,NA,NA,NA
 "Minuartia montana subsp. wiesneri",NA,NA,NA,NA,NA
 "Misopates orontium",NA,NA,NA,NA,NA
 "Moehringia",NA,NA,NA,NA,NA
@@ -1219,6 +1262,7 @@
 "Myosotis scorpioides","Myosotis scorpioides","Bleu",2.371250302,"Autre",50
 "Myosotis stricta","Myosotis stricta","Bleu",3,"Autre",17.5
 "Myosurus minimus",NA,NA,NA,NA,NA
+"Myrrhis odorata","Myrrhis odorata","Blanc",5,"Autre",100
 "Nardus stricta","Nardus stricta","Rose",3.509966531,"Graminées",NA
 "Nasturtium officinale",NA,NA,NA,NA,NA
 "Neottia ovata","Neottia ovata","Vert",3,"Autre",40
@@ -1319,6 +1363,7 @@
 "Panicum miliaceum subsp. ruderale",NA,NA,NA,NA,NA
 "Panicum virgatum",NA,NA,NA,NA,NA
 "Papaver","Papaver","",NA,"Autre",NA
+"Papaver cambricum",NA,NA,NA,NA,NA
 "Papaver dubium",NA,NA,NA,NA,NA
 "Papaver rhoeas",NA,NA,NA,NA,NA
 "Papaver somniferum",NA,NA,NA,NA,NA
@@ -1330,6 +1375,7 @@
 "Paspalum",NA,NA,NA,NA,NA
 "Paspalum dilatatum",NA,NA,NA,NA,NA
 "Paspalum distichum",NA,NA,NA,NA,NA
+"Pastinaca",NA,NA,NA,NA,NA
 "Pastinaca sativa",NA,NA,NA,NA,NA
 "Pastinaca sativa subsp. urens",NA,NA,NA,NA,NA
 "Persicaria","Persicaria maculosa","Rose",3,"Autre",55
@@ -1340,6 +1386,7 @@
 "Persicaria lapathifolia",NA,NA,NA,NA,NA
 "Persicaria maculosa","Persicaria maculosa","Rose",3,"Autre",55
 "Persicaria minor",NA,NA,NA,NA,NA
+"Petasites hybridus",NA,NA,NA,NA,NA
 "Petrorhagia prolifera",NA,NA,NA,NA,NA
 "Petrorhagia saxifraga",NA,NA,NA,NA,NA
 "Petrosedum sediforme","Sedum sediforme","Jaune",5,"Autre",37.5
@@ -1366,6 +1413,7 @@
 "Phleum phleoides",NA,NA,NA,NA,NA
 "Phleum pratense","Phleum pratense","Vert",2.420793711,"Graminées",NA
 "Phleum subulatum",NA,NA,NA,NA,NA
+"Phragmites",NA,NA,NA,NA,NA
 "Phragmites australis",NA,NA,NA,NA,NA
 "Physalis peruviana",NA,NA,NA,NA,NA
 "Physalis viscosa",NA,NA,NA,NA,NA
@@ -1449,6 +1497,9 @@
 "Populus x canescens",NA,NA,NA,NA,NA
 "Portulaca",NA,NA,NA,NA,NA
 "Portulaca oleracea",NA,NA,NA,NA,NA
+"Potamogeton",NA,NA,NA,NA,NA
+"Potamogeton berchtoldii",NA,NA,NA,NA,NA
+"Potamogeton lucens",NA,NA,NA,NA,NA
 "Potentilla","Potentilla","Jaune",NA,"Autre",NA
 "Potentilla argentea",NA,NA,NA,NA,NA
 "Potentilla crantzii",NA,NA,NA,NA,NA
@@ -1475,8 +1526,11 @@
 "Prunus avium",NA,NA,NA,NA,NA
 "Prunus cerasifera",NA,NA,NA,NA,NA
 "Prunus cerasus",NA,NA,NA,NA,NA
+"Prunus domestica",NA,NA,NA,NA,NA
 "Prunus dulcis",NA,NA,NA,NA,NA
+"Prunus laurocerasus",NA,NA,NA,NA,NA
 "Prunus mahaleb",NA,NA,NA,NA,NA
+"Prunus padus",NA,NA,NA,NA,NA
 "Prunus spinosa","Prunus spinosa","Blanc",3,"Autre",100
 "Psammophiliella muralis",NA,NA,NA,NA,NA
 "Psilurus incurvus",NA,NA,NA,NA,NA
@@ -1488,11 +1542,13 @@
 "Pulicaria vulgaris",NA,NA,NA,NA,NA
 "Pulmonaria",NA,NA,NA,NA,NA
 "Quercus","Quercus","",NA,"Ligneux",NA
+"Quercus cerris",NA,NA,NA,NA,NA
 "Quercus coccifera",NA,NA,NA,NA,NA
 "Quercus ilex",NA,NA,NA,NA,NA
 "Quercus petraea",NA,NA,NA,NA,NA
 "Quercus pubescens","Quercus pubescens","Jaune",3,"Ligneux",100
 "Quercus robur","Quercus robur robur","Jaune",3,"Ligneux",100
+"Quercus rubra",NA,NA,NA,NA,NA
 "Quercus suber",NA,NA,NA,NA,NA
 "Rabelera holostea","Stellaria holostea","Blanc",3,"Autre",30
 "Ranunculus","Ranunculus","Jaune",NA,"Autre",NA
@@ -1500,6 +1556,7 @@
 "Ranunculus acris subsp. friesianus","Ranunculus acris acris_Ranunculus montanus","Jaune",1.297181963,"Autre",42.5
 "Ranunculus arvensis",NA,NA,NA,NA,NA
 "Ranunculus bulbosus","Ranunculus bulbosus bulbosus","Jaune",1.27262257,"Autre",35
+"Ranunculus flammula","Ranunculus flammula","Jaune",2.129588687,"Autre",50
 "Ranunculus gramineus",NA,NA,NA,NA,NA
 "Ranunculus muricatus",NA,NA,NA,NA,NA
 "Ranunculus paludosus",NA,NA,NA,NA,NA
@@ -1534,6 +1591,7 @@
 "Rhinanthus minor","Rhinanthus minor","Jaune",1.964459349,"Autre",35
 "Rhinanthus pumilus","Rhinanthus pumilus","Jaune",2.90937818,"Autre",35
 "Rhizogemma staphylina",NA,NA,NA,NA,NA
+"Ribes uva-crispa",NA,NA,NA,NA,NA
 "Riccia sorocarpa",NA,NA,NA,NA,NA
 "Riccia warnstorfii",NA,NA,NA,NA,NA
 "Ridolfia segetum",NA,NA,NA,NA,NA
@@ -1552,6 +1610,7 @@
 "Rosa","Rosa","",NA,"Autre",NA
 "Rosa arvensis",NA,NA,NA,NA,NA
 "Rosa canina","Rosa canina","Blanc",3,"Autre",100
+"Rosa rubiginosa","Rosa rubiginosa","Rose",NA,"Autre",100
 "Rosa sempervirens",NA,NA,NA,NA,NA
 "Rosaceae",NA,NA,NA,NA,NA
 "Rostraria cristata",NA,NA,NA,NA,NA
@@ -1591,10 +1650,14 @@
 "Ruta graveolens",NA,NA,NA,NA,NA
 "Sabulina tenuifolia",NA,NA,NA,NA,NA
 "Sabulina tenuifolia subsp. laxa",NA,NA,NA,NA,NA
+"Sagina",NA,NA,NA,NA,NA
 "Sagina apetala",NA,NA,NA,NA,NA
 "Sagina procumbens",NA,NA,NA,NA,NA
 "Salix","Salix","",NA,"Ligneux",NA
+"Salix alba",NA,NA,NA,NA,NA
 "Salix caprea",NA,NA,NA,NA,NA
+"Salix cinerea",NA,NA,NA,NA,NA
+"Salix fragilis",NA,NA,NA,NA,NA
 "Salix purpurea",NA,NA,NA,NA,NA
 "Salix triandra",NA,NA,NA,NA,NA
 "Salsola kali",NA,NA,NA,NA,NA
@@ -1643,6 +1706,7 @@
 "Scorpiurus vermiculatus",NA,NA,NA,NA,NA
 "Scorzonera hirsuta",NA,NA,NA,NA,NA
 "Scorzoneroides autumnalis","Scorzoneroides autumnalis","Jaune",5,"Autre",45
+"Scrophularia auriculata",NA,NA,NA,NA,NA
 "Scrophularia nodosa","Scrophularia nodosa","Jaune",3,"Autre",100
 "Scutellaria galericulata","Scutellaria galericulata","Bleu",6.92820323,"Autre",37.5
 "Secale cereale",NA,NA,NA,NA,NA
@@ -1656,6 +1720,7 @@
 "Senecio inaequidens","Senecio inaequidens","",1,"Autre",60
 "Senecio leucanthemifolius",NA,NA,NA,NA,NA
 "Senecio lividus",NA,NA,NA,NA,NA
+"Senecio sylvaticus",NA,NA,NA,NA,NA
 "Senecio vernalis",NA,NA,NA,NA,NA
 "Senecio viscosus",NA,NA,NA,NA,NA
 "Senecio vulgaris","Senecio vulgaris","Jaune",1,"Autre",27.5
@@ -1737,6 +1802,7 @@
 "Sorghum",NA,NA,NA,NA,NA
 "Sorghum bicolor",NA,NA,NA,NA,NA
 "Sorghum halepense",NA,NA,NA,NA,NA
+"Sparganium erectum","Sparganium erectum","Vert",5.190006764,"Autre",100
 "Spergula",NA,NA,NA,NA,NA
 "Spergula arvensis",NA,NA,NA,NA,NA
 "Spergula morisonii",NA,NA,NA,NA,NA
@@ -1758,17 +1824,21 @@
 "Stellaria aquatica",NA,NA,NA,NA,NA
 "Stellaria graminea","Stellaria graminea","Blanc",1.241405665,"Autre",47.5
 "Stellaria media","Stellaria media","Blanc",3,"Autre",42.5
+"Stellaria neglecta",NA,NA,NA,NA,NA
 "Stellaria pallida",NA,NA,NA,NA,NA
 "Stipa capillata",NA,NA,NA,NA,NA
 "Stipellula capensis",NA,NA,NA,NA,NA
 "Succisa pratensis","Succisa pratensis","Bleu",1.939081635,"Autre",75
 "Succowia balearica",NA,NA,NA,NA,NA
+"Symphoricarpos albus",NA,NA,NA,NA,NA
 "Symphyotrichum",NA,NA,NA,NA,NA
 "Symphyotrichum lanceolatum",NA,NA,NA,NA,NA
 "Symphyotrichum squamatum",NA,NA,NA,NA,NA
 "Symphyotrichum subulatum",NA,NA,NA,NA,NA
 "Symphytum",NA,NA,NA,NA,NA
+"Symphytum kurdicum",NA,NA,NA,NA,NA
 "Symphytum officinale",NA,NA,NA,NA,NA
+"Syringa vulgaris",NA,NA,NA,NA,NA
 "Taeniatherum caput-medusae",NA,NA,NA,NA,NA
 "Tagetes minuta",NA,NA,NA,NA,NA
 "Tanacetum corymbosum",NA,NA,NA,NA,NA
@@ -1777,6 +1847,7 @@
 "Taraxacum campylodes","Taraxacum campylodes","Jaune",1.245199657,"Autre",20
 "Taraxacum erythrospermum",NA,NA,NA,NA,NA
 "Taraxacum officinale",NA,NA,NA,NA,NA
+"Taxus baccata",NA,NA,NA,NA,NA
 "Teesdalia nudicaulis",NA,NA,NA,NA,NA
 "Teloxys aristata",NA,NA,NA,NA,NA
 "Teucrium","Teucrium","",NA,"Autre",NA
@@ -1784,6 +1855,7 @@
 "Teucrium chamaedrys","Teucrium chamaedrys","",3,"Autre",12.5
 "Teucrium polium",NA,NA,NA,NA,NA
 "Teucrium scorodonia","Teucrium scorodonia","Jaune",3,"Autre",40
+"Thalictrum flavum",NA,NA,NA,NA,NA
 "Thalictrum lucidum",NA,NA,NA,NA,NA
 "Thalictrum minus",NA,NA,NA,NA,NA
 "Thesium dollineri",NA,NA,NA,NA,NA
@@ -1897,6 +1969,7 @@
 "Tulipa sylvestris subsp. sylvestris","Tulipa sylvestris australis","Jaune",6.92820323,"Autre",22.5
 "Turgenia latifolia",NA,NA,NA,NA,NA
 "Tussilago farfara",NA,NA,NA,NA,NA
+"Typha latifolia","Typha latifolia","Marron",6.92820323,"Autre",100
 "Tyrimnus leucographus",NA,NA,NA,NA,NA
 "Ulex","Ulex europaeus","Jaune",3,"Autre",100
 "Ulex europaeus","Ulex europaeus","Jaune",3,"Autre",100
@@ -1909,7 +1982,8 @@
 "Urtica","Urtica dioica","Vert",1.844439627,"Autre",95
 "Urtica dioica","Urtica dioica","Vert",1.844439627,"Autre",95
 "Urtica urens",NA,NA,NA,NA,NA
-"Valeriana","Valeriana officinalis repens","Blanc",6.92820323,"Autre",100
+"Valeriana","Valeriana dioica_Valeriana officinalis repens","Blanc_Rose",5.0456441835,"Autre",67.5
+"Valeriana dioica","Valeriana dioica","Rose",3.163085137,"Autre",35
 "Valeriana excelsa subsp. sambucifolia",NA,NA,NA,NA,NA
 "Valeriana officinalis","Valeriana officinalis repens","Blanc",6.92820323,"Autre",100
 "Valerianella","Valerianella","Blanc",4.510423271,"Autre",NA
@@ -1936,11 +2010,13 @@
 "Verbascum thapsus","Verbascum thapsus","Jaune",3,"Autre",100
 "Verbena officinalis","Verbena officinalis","Bleu",6.92820323,"Autre",60
 "Verbena supina",NA,NA,NA,NA,NA
-"Veronica","Veronica arvensis_Veronica chamaedrys_Veronica hederifolia_Veronica officinalis_Veronica persica_Veronica serpyllifolia","Blanc_Bleu",2.1871451445,"Autre",27.9166666666667
+"Veronica","Veronica arvensis_Veronica beccabunga_Veronica catenata_Veronica chamaedrys_Veronica hederifolia_Veronica officinalis_Veronica persica_Veronica serpyllifolia","Blanc_Bleu_Rose",2.44531678085714,"Autre",30.9375
 "Veronica acinifolia",NA,NA,NA,NA,NA
 "Veronica agrestis",NA,NA,NA,NA,NA
 "Veronica anagallis-aquatica",NA,NA,NA,NA,NA
 "Veronica arvensis","Veronica arvensis","Bleu",1.421571251,"Autre",17.5
+"Veronica beccabunga","Veronica beccabunga","Bleu",3.994346599,"Autre",45
+"Veronica catenata","Veronica catenata","Rose",NA,"Autre",35
 "Veronica chamaedrys","Veronica chamaedrys","Bleu",1.248534015,"Autre",20
 "Veronica cymbalaria",NA,NA,NA,NA,NA
 "Veronica filiformis",NA,NA,NA,NA,NA
@@ -1973,7 +2049,6 @@
 "Vicia lathyroides",NA,NA,NA,NA,NA
 "Vicia lens",NA,NA,NA,NA,NA
 "Vicia lutea","Vicia lutea hirta","",NA,"Légumineuses",50
-"Vicia lutea subsp. lutea","Vicia lutea hirta","",NA,"Légumineuses",50
 "Vicia monantha",NA,NA,NA,NA,NA
 "Vicia narbonensis",NA,NA,NA,NA,NA
 "Vicia pannonica","Vicia pannonica","Rose",3,"Légumineuses",45

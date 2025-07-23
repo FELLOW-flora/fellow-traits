@@ -30,6 +30,7 @@
 "Aegilops triuncialis","Aegilops triuncialis","Herb","Annual","Graminoid",0.45,0.2,"C3",0.0151783335,NA,NA,"",NA,"","","","","",NA,"",NA,NA,"",NA,NA,NA
 "Aegonychon purpurocaeruleum","Aegonychon purpurocaeruleum","Herb","Perennial","Herb",0.6,0.2,"C3",0.0122383333333333,0.45,NA,"Autochorous",2,"Autochorous","Biotic","Insect","","",NA,"",NA,7.1475,"",NA,NA,370.1
 "Aegopodium podagraria","Aegopodium podagraria","Herb","Perennial","Forb",1,0.5,"C3",0.00188225,0.479,NA,"Autochorous",NA,"Autochorous","Biotic","Insect","","",NA,"",NA,135.00242,"",NA,NA,287.97
+"Aesculus hippocastanum","Aesculus hippocastanum","Tree","Perennial","Tree",30,15,"C3",10.34243662,20.1666666666667,17.5,"",NA,"","Biotic","Insect","Bee","",NA,"",NA,65.287,"",NA,NA,137
 "Aethusa cynapium","Aethusa cynapium","Herb","Annual","Forb",2.2,0.03,"C3",0.0016308335,0.442,NA,"Autochorous",NA,"","Biotic","Insect","","",NA,"",NA,32.07757,"",NA,NA,327.28
 "Aethusa cynapium subsp. cynapium","Aethusa cynapium","Herb","Annual","Forb",2.2,0.03,"C3",0.0016308335,0.442,NA,"Autochorous",NA,"","Biotic","Insect","","",NA,"",NA,32.07757,"",NA,NA,327.28
 "Agrimonia agrimonoides",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -56,6 +57,7 @@
 "Alchemilla","Alchemilla xanthochlora","Herb","Perennial","Forb",0.8,0.15,"C3",0.0003835,0.415,NA,"Hydrochorous",NA,"Hydrochorous","","Other","Other","",NA,"",NA,73.6075,"",NA,NA,195.57
 "Alchemilla xanthochlora","Alchemilla xanthochlora","Herb","Perennial","Forb",0.8,0.15,"C3",0.0003835,0.415,NA,"Hydrochorous",NA,"Hydrochorous","","Other","Other","",NA,"",NA,73.6075,"",NA,NA,195.57
 "Alisma lanceolatum","Alisma lanceolatum","Herb","Perennial","",1.4,0.2,"C3",0.00044,0.275,11,"Hydrochorous",5,"Hydrochorous","Biotic","Insect","Fly","",0.6,"",0.4,17.748,"",NA,NA,282.48
+"Alisma plantago-aquatica","Alisma plantago-aquatica","Herb","Perennial","",1.7,0.3,"C3",0.0003669465,0.611666666666667,7,"Hydrochorous",4.1,"","Biotic","Insect","Fly","",NA,"",NA,119.79417,"",NA,NA,297.25
 "Alkanna matthioli","Alkanna tinctoria","Herb","Perennial","",NA,NA,"",0.003625,NA,NA,"",NA,"","","","","",NA,"",NA,NA,"",NA,NA,NA
 "Alkekengi officinarum","Alkekengi officinarum","Herb","Perennial","Forb",1,0.2,"C3",0.001585,NA,10,"",5,"","Biotic","Insect","Insect","",NA,"",NA,NA,"",NA,NA,NA
 "Alliaria petiolata","Alliaria petiolata","Herb","Biennial","",1.2,0.12,"C3",0.00260120825,0.583333333333333,NA,"",5.8,"","Biotic","Insect","","",NA,"",NA,75.14,"",NA,NA,412
@@ -79,6 +81,7 @@
 "Allium subhirsutum","Allium subhirsutum","Herb","Perennial","Herb",NA,NA,"C3",NA,NA,NA,"",NA,"","","","","",NA,"",NA,NA,"",NA,NA,NA
 "Allium triquetrum","Allium triquetrum","Herb","Perennial","",0.5,0.1,"C3",0.0041,0.35,NA,"Unspecialized",NA,"","Biotic","Insect","Insect","",NA,"",NA,NA,"",NA,NA,239
 "Allium vineale","Allium vineale","Herb","Perennial","",0.8,0.3,"C3",0.007386,0.375,NA,"",NA,"","Biotic","Insect","Insect","",0.35,"",0.28,11.95,"Cyme",NA,NA,187
+"Alnus glutinosa","Alnus glutinosa","Tree","Perennial","Tree",25,3,"C3",0.002033712,9.6,NA,"Anemochorous",6,"Anemochorous","Abiotic","Wind","Wind","",NA,"",NA,34.6295,"",NA,NA,147.56
 "Alopecurus","Alopecurus geniculatus_Alopecurus myosuroides_Alopecurus pratensis_Alopecurus rendlei_Alopecurus utriculatus","Herb","Annual_Perennial","Graminoid",0.825,0.1625,"C3",0.0009455894375,0.4475,NA,"Unspecialized_Zoochorous",0.2,"Zoochorous","Abiotic","Wind","Wind","",0.43,"",0.325,6.31791666666667,"Panicle",NA,NA,266.193333333333
 "Alopecurus geniculatus","Alopecurus geniculatus","Herb","Perennial","",0.6,0.15,"C3",0.00042846875,0.37,NA,"Unspecialized",0.2,"","Abiotic","Wind","Wind","",0.26,"",0.2,2.6025,"Panicle",NA,NA,275.55
 "Alopecurus myosuroides","Alopecurus myosuroides","Herb","Annual","",0.8,0.1,"C3",0.001387,0.5,NA,"Unspecialized",NA,"","Abiotic","Wind","Wind","",0.6,"",0.45,5.47,"Panicle",NA,NA,272.67
@@ -179,6 +182,8 @@
 "Arenaria leptoclados",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Arenaria serpyllifolia","Arenaria serpyllifolia","Herb","Annual","",0.5,0.02,"C3",6.4525e-05,0.13875,0.8,"",0.2,"","Biotic","Insect","","",0.4,"White",0.25,0.107475,"",NA,NA,231.145
 "Argentina anserina","Argentina anserina","Herb","Perennial","",0.8,0.03,"C3",0.0053052,0.141,1.75,"",0.75,"","Biotic","Insect","","",2,"",1.5,67.00333,"",NA,NA,230.7
+"Argentina anserina subsp. anserina","Potentilla sericea","Herb","Perennial","Herb",0.2,0.05,"",NA,NA,NA,"",NA,"","","","","",NA,"",NA,NA,"",NA,NA,NA
+"Aria edulis","Aria edulis","Tree","Perennial","Tree",20,5,"C3",0.101925555666667,10.75,NA,"Zoochorous",NA,"","Biotic","Insect","Insect","",0.7,"White",0.6,55.48375,"",NA,NA,185.14
 "Arisarum simorrhinum","Arisarum simorrhinum","Herb","Perennial","",0.4,0.1,"",NA,NA,NA,"",NA,"","","","","",6,"",2,NA,"",3.5,0.7,NA
 "Arisarum vulgare","Arisarum vulgare","Herb","Perennial","Herb",0.3,NA,"C3",0.01,NA,NA,"Zoochorous",NA,"Endozoochorous","Biotic","Insect","","",NA,"",NA,NA,"",NA,NA,NA
 "Aristolochia clematitis","Aristolochia clematitis","Herb","Perennial","Forb",0.9,0.2,"C3",0.032437,0.35,NA,"Anemochorous",NA,"","Biotic","Insect","Fly","",NA,"",NA,85.34625,"",NA,NA,168.85
@@ -236,6 +241,7 @@
 "Avena sterilis","Avena sterilis","Herb","Annual","",1.6,0.2,"C3",0.037986,0.27,NA,"Zoochorous",0.9,"Zoochorous","Abiotic","Wind","","",4,"",2.5,5.6075,"Panicle",NA,NA,331.8
 "Avena sterilis subsp. ludoviciana","Avena sterilis","Herb","Annual","",1.6,0.2,"C3",0.037986,0.27,NA,"Zoochorous",0.9,"Zoochorous","Abiotic","Wind","","",4,"",2.5,5.6075,"Panicle",NA,NA,331.8
 "Avena strigosa","Avena strigosa","Herb","Annual","",1.5,0.4,"C3",0.013106,1.05,NA,"",0.9,"","Abiotic","Wind","","",1.7,"",1.2,19.78,"Panicle",NA,NA,286.7
+"Avenella flexuosa","Avenella flexuosa","Herb","Perennial","",0.75,0.05,"C3",0.000515041666666667,0.471666666666667,NA,"",NA,"","Abiotic","Wind","Wind","",NA,"",NA,0.40575,"",NA,NA,175.05
 "Avenula pubescens","Avenula pubescens","Herb","Perennial","Graminoid",1.3,0.3,"C3",0.0017935,0.6,NA,"Anemochorous",NA,"","Abiotic","Wind","Wind","",NA,"",NA,8.55,"",NA,NA,207.42
 "Ballota nigra","Ballota nigra","Herb","Perennial","",2,0.25,"C3",0.00093515,0.8125,NA,"Zoochorous",0.3,"Epizoochorous","Biotic","Insect","Bee","",NA,"",NA,7.17,"",NA,NA,212.5
 "Barbarea","Barbarea intermedia_Barbarea stricta_Barbarea vulgaris","Herb","Biennial","Herb",0.9,0.2,"C3",0.000404875,0.528666666666667,NA,"Unspecialized",3.73333333333333,"","Biotic","Insect","Insect","",NA,"",NA,26.9677766666667,"",NA,NA,313.956666666667
@@ -257,6 +263,7 @@
 "Beta vulgaris subsp. vulgaris","Beta perennis_Beta vulgaris","Herb","","",1.6,0.35,"C3",0.0181631856666667,0.983333333333333,NA,"Hydrochorous",15,"Hydrochorous","Abiotic","Wind","Wind","",NA,"",NA,184.96,"",NA,NA,211.06
 "Betonica alopecuros","Betonica alopecuros","Herb","Perennial","Herb",0.5,0.2,"C3",0.0011185,0.225,NA,"",NA,"","","","","",NA,"",NA,NA,"",NA,NA,NA
 "Betonica officinalis","Betonica officinalis","Herb","Perennial","Forb",1,0.3,"C3",0.0063774,0.308,NA,"Hydrochorous",NA,"","Biotic","Insect","Bee","",NA,"",NA,22.81375,"",NA,NA,197.16
+"Betula","Betula pendula_Betula pubescens","Tree","Perennial","Tree",25,3.5,"C3",0.000277779755555556,23.208375,NA,"Anemochorous",1.5,"Anemochorous","Abiotic","Wind","Wind","",NA,"",NA,11.811,"",NA,NA,161.445
 "Betula pendula","Betula pendula","Tree","Perennial","Tree",30,6,"C3",0.000323488111111111,21.41675,NA,"Anemochorous",1.5,"Anemochorous","Abiotic","Wind","Wind","",NA,"",NA,11.811,"",NA,NA,178.97
 "Betula pubescens","Betula pubescens","Tree","Perennial","Tree",20,1,"C3",0.0002320714,25,NA,"Anemochorous",NA,"Anemochorous","Abiotic","Wind","Wind","",NA,"",NA,NA,"",NA,NA,143.92
 "Bidens","Bidens bipinnata_Bidens subalternans_Bidens tripartita","Herb","Annual","Forb_Herb",1.56666666666667,0.015,"C3",0.002357016625,0.870833333333334,9,"Zoochorous",NA,"","Biotic","Insect","Insect","",NA,"",NA,24.17083,"",NA,NA,325.32
@@ -330,7 +337,8 @@
 "Bupleurum subovatum","Bupleurum subovatum","Herb","Annual","Herb",0.75,0.15,"",0.007596667,NA,NA,"",NA,"","Biotic","Insect","Insect","",NA,"",NA,NA,"",NA,NA,NA
 "Bupleurum tenuissimum","Bupleurum tenuissimum","Herb","Annual","Herb",0.7,0.1,"C3",0.0013795,0.238,NA,"Unspecialized",NA,"","Biotic","Insect","Insect","",NA,"",NA,0.63,"",NA,NA,339.1
 "Cakile maritima","Cakile maritima","Herb","Annual","",0.6,0.1,"C3",0.0233238786666667,0.204,NA,"Hydrochorous",1.5,"Hydrochorous","Biotic","Insect","","",1,"",0.4,8.8575,"",NA,NA,168.37
-"Calamagrostis","Calamagrostis epigejos","Herb","Perennial","Graminoid",2,0.6,"C3",7.15e-05,1,NA,"Anemochorous",NA,"","Abiotic","Wind","Wind","",NA,"",NA,49.945,"",NA,NA,130.48
+"Calamagrostis","Calamagrostis canescens_Calamagrostis epigejos","Herb","Perennial","Graminoid",1.75,0.55,"C3",7.2e-05,1,NA,"Anemochorous",NA,"","Abiotic","Wind","Wind","",NA,"",NA,28.66,"",NA,NA,162.875
+"Calamagrostis canescens","Calamagrostis canescens","Herb","Perennial","Graminoid",1.5,0.5,"C3",7.25e-05,1,NA,"",NA,"","Abiotic","Wind","Wind","",NA,"",NA,7.375,"",NA,NA,195.27
 "Calamagrostis epigejos","Calamagrostis epigejos","Herb","Perennial","Graminoid",2,0.6,"C3",7.15e-05,1,NA,"Anemochorous",NA,"","Abiotic","Wind","Wind","",NA,"",NA,49.945,"",NA,NA,130.48
 "Calendula","Calendula arvensis_Calendula officinalis","Herb","Annual","",0.625,0.1,"C3",0.00489296666666667,0.266666666666666,10,"",1.5,"","Biotic","Insect","Insect","",1.45,"",0.875,9.48,"",4,2.35,293.3
 "Calendula arvensis","Calendula arvensis","Herb","Annual","",0.5,0.05,"C3",0.00534166666666667,0.15,NA,"",1,"","Biotic","Insect","Insect","",0.4,"",0.25,9.48,"",2.5,0.7,293.3
@@ -353,7 +361,8 @@
 "Cannabis sativa","Cannabis sativa","Herb","Annual","Forb",5,0.2,"C3",0.01029,1.925,11,"",1.25,"","Abiotic","","Wind","",NA,"",NA,48.65875,"",NA,NA,286
 "Capsella bursa-pastoris","Capsella bursa-pastoris","Herb","Annual","",0.8,0.05,"C3",0.00396589733333333,0.23925,0.575,"",3.5,"","Biotic","Insect","Insect","",NA,"White",NA,18.42667,"",NA,NA,300.18
 "Capsella rubella","Capsella rubella","Herb","Annual","Herb",0.8,0.05,"C3",1e-04,NA,NA,"Unspecialized",NA,"","Biotic","Insect","","",NA,"",NA,NA,"",NA,NA,NA
-"Cardamine","Cardamine hirsuta_Cardamine pratensis","Herb","Annual_Perennial","Forb",0.5,0.075,"C3",0.000352261166666667,0.263416666666667,1.25,"Autochorous_Unspecialized",NA,"","Biotic","Insect","","",0.35,"White",0.25,6.82,"Cyme",NA,NA,240.685
+"Cardamine","Cardamine flexuosa_Cardamine hirsuta_Cardamine pratensis","Herb","Annual_Perennial","Forb",0.5,0.0666666666666667,"C3",0.000273590777777778,0.258611111111111,1.25,"Autochorous_Unspecialized",NA,"","Biotic","Insect","","",0.35,"White",0.25,6.75,"Cyme",NA,NA,297.956666666667
+"Cardamine flexuosa","Cardamine flexuosa","Herb","","",0.5,0.05,"C3",0.00011625,0.249,NA,"",NA,"","","","","",NA,"",NA,6.61,"",NA,NA,412.5
 "Cardamine hirsuta","Cardamine hirsuta","Herb","Annual","",0.4,0.05,"C3",0.000108633333333333,0.179333333333333,NA,"Unspecialized",NA,"","Biotic","","","",0.35,"White",0.25,3.37,"Cyme",NA,NA,277.83
 "Cardamine pratensis","Cardamine pratensis","Herb","Perennial","Forb",0.6,0.1,"C3",0.000595889,0.3475,1.25,"Autochorous",NA,"","Biotic","Insect","","",NA,"",NA,10.27,"",NA,NA,203.54
 "Carduus","Carduus acanthoides_Carduus crispus_Carduus nutans_Carduus pycnocephalus_Carduus tenuiflorus","Herb","Annual_Biennial","Forb",1.9,0.23,"C3",0.0266063221666666,0.848333333333333,21.25,"Anemochorous",7.75,"Anemochorous","Biotic","Insect","Insect","",0.65,"Violet",0.475,53.1525,"",0.9,0.675,198.883333333333
@@ -387,6 +396,7 @@
 "Carthamus mitissimus","Carthamus mitissimus","","","Herb",NA,NA,"",NA,NA,NA,"",NA,"","","","","",NA,"",NA,NA,"",NA,NA,NA
 "Carum carvi","Carum carvi","Herb","","Forb",0.8,0.3,"C3",0.0654925556666667,0.475,NA,"",NA,"","Biotic","Insect","","",NA,"",NA,12.5493,"",NA,NA,255.83
 "Caryophyllaceae",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Castanea sativa","Castanea sativa","Tree","Perennial","Tree",35,10,"C3",7.593432,30,NA,"Unspecialized",NA,"","","","","Brown",NA,"",NA,72.59433,"Panicle",NA,NA,147
 "Catananche caerulea","Catananche caerulea","","Perennial","Forb",NA,NA,"C3",0.00328,NA,NA,"",NA,"","","","","",NA,"",NA,NA,"",NA,NA,156
 "Catapodium rigidum","Catapodium rigidum","Herb","Annual","",0.44,0.02,"C3",0.000216,0.12,NA,"Unspecialized",0.2,"","Abiotic","Wind","Wind","",0.25,"",0.15,0.305,"Panicle",NA,NA,196.75
 "Caucalis platycarpos","Caucalis platycarpos","Herb","Annual","",0.6,0.1,"C3",0.0173325,0.175,NA,"",NA,"","Biotic","Insect","Insect","",NA,"",NA,NA,"",NA,NA,NA
@@ -446,15 +456,17 @@
 "Chaenorhinum rubrifolium","Chaenorhinum rubrifolium","Herb","Annual","",NA,NA,"",NA,NA,NA,"",NA,"","","","","",NA,"",NA,NA,"",NA,NA,NA
 "Chaerophyllum","Chaerophyllum temulum","Herb","","Forb",1.2,0.3,"C3",0.00191355566666667,0.492,NA,"Anemochorous",NA,"","Biotic","Insect","","",NA,"",NA,203.41,"",NA,NA,275.67
 "Chaerophyllum temulum","Chaerophyllum temulum","Herb","","Forb",1.2,0.3,"C3",0.00191355566666667,0.492,NA,"Anemochorous",NA,"","Biotic","Insect","","",NA,"",NA,203.41,"",NA,NA,275.67
+"Chamaemelum nobile","Chamaemelum nobile","Herb","Perennial","Forb",0.3,0.1,"C3",0.0001065,0.225,3.5,"",0.95,"","Biotic","Insect","","",NA,"",NA,NA,"",NA,NA,NA
 "Chamaenerion angustifolium","Epilobium angustifolium","Herb","Perennial","Forb",1.5,0.2,"C3",0.000547914285714286,1.1,NA,"Anemochorous",NA,"","Biotic","Insect","Bee","Red",1.8,"",1,38.11,"Raceme",3,2,226.08
 "Chamaenerion fleischeri","Epilobium denticulatum_Epilobium fleischeri","Herb","Perennial","Herb",0.4,0.1,"C3",0.00017,0.275,NA,"",NA,"","","","","",NA,"",NA,NA,"",NA,NA,NA
 "Chelidonium","Chelidonium majus","Herb","Perennial","",1,0.3,"C3",0.000732889,0.505666666666667,5,"Zoochorous",8,"Myrmecochorous","Biotic","Insect","","",1.2,"Yellow",0.7,92.26,"",NA,NA,426.08
 "Chelidonium majus","Chelidonium majus","Herb","Perennial","",1,0.3,"C3",0.000732889,0.505666666666667,5,"Zoochorous",8,"Myrmecochorous","Biotic","Insect","","",1.2,"Yellow",0.7,92.26,"",NA,NA,426.08
 "Chenopodiastrum hybridum","Chenopodiastrum hybridum","Herb","Annual","Herb",1,0.15,"",0.0015483335,0.381,NA,"",NA,"","Abiotic","Wind","Wind","",NA,"",NA,23.3675,"",NA,NA,359.03
 "Chenopodiastrum murale","Chenopodiastrum murale","Herb","Annual","",1.5,0.1,"C3",0.000609111,0.619,NA,"Unspecialized",4,"","Abiotic","Wind","Wind","",NA,"",NA,NA,"Cyme",NA,NA,NA
-"Chenopodium","Chenopodium album_Chenopodium ficifolium_Chenopodium giganteum_Chenopodium vulvaria","Herb","Annual","Herb",1.875,0.3275,"C3",0.00386220099999999,0.8779,NA,"Unspecialized",4,"","Abiotic","Wind","Wind","",NA,"",NA,15.8985,"Panicle",NA,NA,206.085
+"Chenopodium","Chenopodium album_Chenopodium erosum_Chenopodium ficifolium_Chenopodium giganteum_Chenopodium opulifolium_Chenopodium vulvaria","Herb","Annual","Forb_Herb",2.1,0.312,"C3",0.00321272749999999,1.01304444444445,NA,"Unspecialized",3.5,"","Abiotic","Wind","Wind","",NA,"",NA,15.8985,"Panicle",NA,NA,206.085
 "Chenopodium album","Chenopodium album","Herb","Annual","",3,0.1,"C3",0.0139754833333333,0.7666,NA,"Unspecialized",2.5,"","Abiotic","Wind","Wind","",NA,"",NA,23.9,"Panicle",NA,NA,222.14
 "Chenopodium album subsp. album","Chenopodium giganteum","Herb","Annual","Herb",3,1,"C3",0.0007225,2,NA,"",8,"","Abiotic","Wind","Wind","",NA,"",NA,NA,"",NA,NA,NA
+"Chenopodium album subsp. opulifolium","Chenopodium erosum_Chenopodium opulifolium","Herb","Annual","Forb_Herb",3,0.25,"C3",0.0006148335,1.28333333333333,NA,"",2,"","Abiotic","Wind","","",NA,"",NA,NA,"",NA,NA,NA
 "Chenopodium ficifolium","Chenopodium ficifolium","Herb","Annual","",0.9,0.2,"C3",0.000343,0.52,NA,"",NA,"","Abiotic","Wind","Wind","",NA,"",NA,7.897,"",NA,NA,190.03
 "Chenopodium vulvaria","Chenopodium vulvaria","Herb","Annual","",0.6,0.01,"C3",0.000407820666666667,0.225,NA,"",1.5,"","Abiotic","Wind","Wind","",NA,"",NA,NA,"Panicle",NA,NA,NA
 "Cherleria laricifolia","Cherleria laricifolia","","Perennial","Subshrub",0.3,0.08,"C3",0.000365,NA,NA,"Autochorous",NA,"Autochorous","","","","",NA,"",NA,NA,"",NA,NA,NA
@@ -466,6 +478,7 @@
 "Cichorium endivia","Cichorium endivia","Herb","","Forb",1.5,0.3,"C3",0.0013975,0.75,NA,"Autochorous",NA,"Autochorous","Biotic","Insect","","",NA,"",NA,NA,"",NA,NA,NA
 "Cichorium intybus","Cichorium intybus","Herb","Perennial","",11.5,0.15,"C3",0.00366666675,0.68375,24.5,"",3,"","Biotic","Insect","Bee","",NA,"",NA,175.37,"",NA,NA,264.3
 "Cicuta virosa","Cicuta virosa","Herb","Perennial","Forb",1.5,0.5,"C3",0.00126733333333333,0.7625,1.5,"",NA,"","Biotic","Insect","","",NA,"",NA,171.22417,"",NA,NA,209.6
+"Circaea",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Cirsium","Cirsium arvense_Cirsium eriophorum_Cirsium erisithales_Cirsium heterophyllum_Cirsium oleraceum_Cirsium palustre_Cirsium tuberosum_Cirsium vulgare","Herb","Biennial_Perennial","Forb_Herb",1.5875,0.43125,"C3",0.00342724601388889,0.845111111111111,11.25,"Anemochorous",7.75,"Anemochorous","Biotic","Insect","","",5,"",3,67.46876,"",NA,NA,174.391666666667
 "Cirsium arvense","Cirsium arvense","Herb","Perennial","",1.5,0.2,"C3",0.00150064275,0.720666666666667,10,"Anemochorous",3.75,"Anemochorous","Biotic","Insect","","",NA,"",NA,38.575,"",NA,NA,154.02
 "Cirsium eriophorum","Cirsium eriophorum","","Biennial","",1.2,0.6,"C3",0.0091495,1.3,NA,"",NA,"","Biotic","Insect","","",NA,"",NA,105.38,"",NA,NA,133.5
@@ -494,6 +507,7 @@
 "Coleostephus myconis","Coleostephus myconis","Herb","Annual","Herb",0.8,0.1,"",0.00051,0.25,6,"Unspecialized",NA,"Anthropochorous","Biotic","Insect","","",NA,"Yellow",NA,NA,"",3.5,1.7,NA
 "Commelina","Commelina communis","Herb","Annual","Forb",0.7,0.2,"C3",0.00848,NA,NA,"",NA,"","","","","",NA,"",NA,NA,"",NA,NA,NA
 "Commelina communis","Commelina communis","Herb","Annual","Forb",0.7,0.2,"C3",0.00848,NA,NA,"",NA,"","","","","",NA,"",NA,NA,"",NA,NA,NA
+"Conium","Conium maculatum","Herb","","",3,0.5,"C3",0.00265247933333333,1.79166666666667,2,"Unspecialized",0.75,"","Biotic","Insect","Insect","",0.15,"",NA,544.19815,"Umbel",0.1,NA,240.2
 "Conium maculatum","Conium maculatum","Herb","","",3,0.5,"C3",0.00265247933333333,1.79166666666667,2,"Unspecialized",0.75,"","Biotic","Insect","Insect","",0.15,"",NA,544.19815,"Umbel",0.1,NA,240.2
 "Conopodium majus","Conopodium majus","Herb","Perennial","",0.7,0.2,"C3",0.002401,0.217,NA,"Zoochorous",NA,"Zoochorous","Biotic","Insect","","",NA,"",NA,4.46,"",NA,NA,225
 "Conringia orientalis","Conringia orientalis","Herb","Annual","Forb",0.72,0.1,"C3",0.002285,0.265,NA,"Unspecialized",NA,"Anthropochorous","Biotic","Insect","Insect","",NA,"",NA,47.465,"",NA,NA,303.5
@@ -525,7 +539,8 @@
 "Crambe abyssinica",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Crambe hispanica abyssinica","Crambe hispanica","Herb","Annual","Herb",1,0.25,"C3",0.0058088885,1,NA,"",NA,"","Biotic","Insect","Insect","",NA,"",NA,NA,"",NA,NA,NA
 "Crassula tillaea","Crassula tillaea","Herb","Annual","",0.05,0.01,"",1e-05,0.02,NA,"",NA,"","Biotic","Insect","Insect","",0.15,"",0.12,NA,"",NA,NA,NA
-"Crataegus","Crataegus monogyna_Crataegus rhipidophylla","","Perennial","Tree",7,1.9,"C3",0.0893103969166666,6.33083333333333,NA,"Zoochorous",4,"Endozoochorous","Biotic","Insect","Insect","Red",0.8,"White",0.4,4.9114,"",1.5,0.8,113.36
+"Crataegus","Crataegus laevigata_Crataegus monogyna_Crataegus rhipidophylla","","Perennial","Tree",6.66666666666667,1.86666666666667,"C3",0.112820375722222,6.22055555555556,NA,"Zoochorous",4,"Endozoochorous","Biotic","Insect","Insect","Red",0.8,"White",0.4,6.1057,"",1.5,0.8,154.23
+"Crataegus laevigata","Crataegus laevigata","","Perennial","",6,1.8,"C3",0.159840333333333,6,NA,"Zoochorous",NA,"","Biotic","Insect","Insect","",NA,"",NA,7.3,"",NA,NA,195.1
 "Crataegus monogyna","Crataegus monogyna","","Perennial","Tree",10,1.8,"C3",0.0901174608333333,5.66166666666667,NA,"Zoochorous",4,"","Biotic","Insect","Insect","Red",0.8,"White",0.4,4.9114,"",1.5,0.8,113.36
 "Crataegus x subsphaerica","Crataegus rhipidophylla","","Perennial","Tree",4,2,"C3",0.088503333,7,NA,"Zoochorous",NA,"Endozoochorous","Biotic","Insect","","",NA,"",NA,NA,"",NA,NA,NA
 "Crepis","Crepis biennis_Crepis bursifolia_Crepis capillaris_Crepis foetida_Crepis leontodontoides_Crepis marschallii_Crepis micrantha_Crepis neglecta_Crepis pulchra_Crepis pygmaea_Crepis rubra_Crepis sancta_Crepis setosa_Crepis tectorum_Crepis vesicaria","Herb","Annual_Biennial_Perennial","Forb_Herb",0.825,0.118333333333333,"C3",0.000627510333333333,0.383571428571429,7.5,"Anemochorous",3.11,"Anemochorous","Biotic","Insect","Insect","Brown",0.933333333333333,"Yellow",0.75,29.17889,"",NA,NA,244.24
@@ -552,6 +567,7 @@
 "Cucurbita","Cucurbita pepo","Herb","Annual","Forb",10,2,"C3",0.171336666666667,3.05,NA,"Hydrochorous",30,"","Biotic","Insect","","",NA,"Yellow",NA,289.65,"",11,NA,176.2
 "Cucurbita pepo","Cucurbita pepo","Herb","Annual","Forb",10,2,"C3",0.171336666666667,3.05,NA,"Hydrochorous",30,"","Biotic","Insect","","",NA,"Yellow",NA,289.65,"",11,NA,176.2
 "Cullen americanum","Cullen americanum","Herb","Perennial","",NA,NA,"",NA,NA,NA,"",NA,"","","","","",NA,"",NA,NA,"",NA,NA,NA
+"Cupressus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Cuscuta","Cuscuta campestris_Cuscuta epilinum_Cuscuta monogyna","Herb","Annual","Forb_Herb",0.6,0.155,"",0.00237683333333333,NA,NA,"Anemochorous",NA,"","Biotic","Insect","Insect","",NA,"White",NA,NA,"",0.3,0.15,NA
 "Cuscuta campestris","Cuscuta campestris","Herb","Annual","",0.6,0.01,"",0.0008095,NA,NA,"",NA,"","Biotic","Insect","Insect","",NA,"White",NA,NA,"",0.3,0.15,NA
 "Cuscuta epilinum","Cuscuta epilinum","Herb","Annual","Forb",0.6,0.3,"",0.000586,NA,NA,"Anemochorous",NA,"","Biotic","Insect","Insect","",NA,"",NA,NA,"",NA,NA,NA
@@ -562,6 +578,7 @@
 "Cymbalaria muralis","Cymbalaria muralis","Herb","","",0.6,0.1,"C3",0.000181,0.175,NA,"Unspecialized",2.3,"","Biotic","Insect","","",NA,"",NA,8.755,"",NA,NA,248.67
 "Cynanchum acutum","Cynanchum acutum","Herb","Perennial","Herb",NA,NA,"C3",0.00445966666666667,NA,NA,"",NA,"","","","","Brown",0.72,"",0.49,NA,"",NA,NA,NA
 "Cynara cardunculus","Cynara cardunculus","Herb","Perennial","",2,0.2,"C3",0.038329167,1.2,50,"Anemochorous",42.5,"Anemochorous","","","","",NA,"",NA,NA,"",6,4,NA
+"Cynodon","Cynodon dactylon","Herb","Perennial","",0.5,0,"C4",0.00019876925,0.308,NA,"",0.2,"","Abiotic","Wind","Wind","",0.25,"",0.2,1.1625,"Spike",NA,NA,306.3
 "Cynodon dactylon","Cynodon dactylon","Herb","Perennial","",0.5,0,"C4",0.00019876925,0.308,NA,"",0.2,"","Abiotic","Wind","Wind","",0.25,"",0.2,1.1625,"Spike",NA,NA,306.3
 "Cynoglossum cheirifolium","Pardoglossum cheirifolium","Herb","Biennial","",NA,NA,"",NA,NA,NA,"",NA,"","","","","",NA,"",NA,NA,"",NA,NA,NA
 "Cynoglossum creticum","Cynoglossum creticum","Herb","Biennial","Herb",0.75,0.3,"C3",0.0236391666666667,NA,NA,"Zoochorous",NA,"Epizoochorous","Biotic","Insect","","",0.7,"",0.5,NA,"",0.6,0.3,NA
@@ -597,6 +614,7 @@
 "Dianthus armeria","Dianthus armeria","Herb","","",0.6,0.1,"C3",0.000365,0.3625,NA,"",0.5,"","Biotic","Insect","Butterfly","",NA,"",NA,2.31,"",NA,NA,148.8
 "Dianthus carthusianorum","Dianthus carthusianorum","Herb","Perennial","Forb",0.6,0.2,"C3",0.001399,0.26,NA,"Anemochorous",NA,"","Biotic","Insect","Butterfly","",NA,"",NA,NA,"",NA,NA,163.55
 "Dianthus carthusianorum subsp. carthusianorum","Dianthus carthusianorum","Herb","Perennial","Forb",0.6,0.2,"C3",0.001399,0.26,NA,"Anemochorous",NA,"","Biotic","Insect","Butterfly","",NA,"",NA,NA,"",NA,NA,163.55
+"Digitalis","Digitalis grandiflora_Digitalis purpurea","Herb","Perennial","Forb",1.85,0.35,"C3",0.000130999916666667,0.8105,10,"Anemochorous",7.8,"","Biotic","Insect","Bee","",5,"",4,198.0975,"",NA,NA,214.62
 "Digitalis grandiflora","Digitalis grandiflora","Herb","Perennial","Forb",1.2,0.4,"C3",0.0001741665,0.525,NA,"Anemochorous",NA,"","Biotic","Insect","","",NA,"",NA,74.155,"",NA,NA,261.91
 "Digitalis purpurea","Digitalis purpurea","Herb","","",2.5,0.3,"C3",8.78333333333333e-05,1.096,10,"",7.8,"","Biotic","Insect","Bee","",5,"",4,322.04,"",NA,NA,167.33
 "Digitaria","Digitaria ischaemum_Digitaria sanguinalis","Herb","Annual","",0.825,0.075,"C4",0.0006457,0.2,NA,"Zoochorous",0.5,"","Abiotic","Wind","Wind","",NA,"Brown",NA,2.000625,"Spike",NA,NA,379.325
@@ -615,6 +633,7 @@
 "Dittrichia viscosa","Dittrichia viscosa","Herb","Perennial","",1.5,0.3,"C3",0.000341666666666667,NA,NA,"Anemochorous",NA,"Anemochorous","Biotic","Insect","","",1.2,"",0.65,NA,"",1.5,NA,NA
 "Draba","Draba verna","Herb","Annual","",0.27,0.02,"C3",0.0009069,0.03825,NA,"",0.5,"","Biotic","Insect","Insect","",NA,"",NA,1.185,"",NA,NA,348.41
 "Draba verna","Draba verna","Herb","Annual","",0.27,0.02,"C3",0.0009069,0.03825,NA,"",0.5,"","Biotic","Insect","Insect","",NA,"",NA,1.185,"",NA,NA,348.41
+"Dryopteris","Dryopteris filix-mas","Herb","Perennial","",1.3,0.3,"C3",NA,0.75,NA,"Anemochorous",NA,"Anemochorous","Abiotic","Wind","Wind","",NA,"",NA,956.17,"",NA,NA,242
 "Dryopteris filix-mas","Dryopteris filix-mas","Herb","Perennial","",1.3,0.3,"C3",NA,0.75,NA,"Anemochorous",NA,"Anemochorous","Abiotic","Wind","Wind","",NA,"",NA,956.17,"",NA,NA,242
 "Dysphania ambrosioides","Dysphania ambrosioides","Herb","","",1.8,0.2,"C3",0.000530375,0.774,NA,"Unspecialized",3,"","Abiotic","Wind","Wind","",NA,"",NA,12.0125,"",NA,NA,277.9
 "Dysphania aristata",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -629,6 +648,8 @@
 "Echium asperrimum","Echium asperrimum","Herb","Biennial","",NA,NA,"C3",NA,NA,NA,"",NA,"","","","","",NA,"",NA,NA,"",NA,NA,NA
 "Echium plantagineum","Echium plantagineum","Herb","","",1.2,0.1,"C3",0.003786,0.35,NA,"",3.5,"","Biotic","Insect","","",3,"",2,NA,"",NA,NA,328.5
 "Echium vulgare","Echium vulgare","Herb","Biennial","",1.2,0.2,"C3",0.0030420715,0.4375,NA,"Anemochorous",5,"","Biotic","Insect","","",NA,"",NA,45.23,"",NA,NA,144.5
+"Eleocharis palustris","Eleocharis palustris","Herb","Perennial","Graminoid",1.2,0.05,"C3",0.00099495825,0.4625,NA,"Zoochorous",NA,"","Abiotic","Wind","","",0.5,"",0.3,NA,"",NA,NA,103.1
+"Elymus","Elymus caninus","Herb","Perennial","Graminoid",2,0.5,"C3",0.0037995,0.675,NA,"",NA,"","Abiotic","Wind","Wind","",NA,"",NA,11.565,"",NA,NA,278.5
 "Elymus caninus","Elymus caninus","Herb","Perennial","Graminoid",2,0.5,"C3",0.0037995,0.675,NA,"",NA,"","Abiotic","Wind","Wind","",NA,"",NA,11.565,"",NA,NA,278.5
 "Elytrigia","Elymus haifensis_Elymus pungens_Elymus repens_Lolium subulatum_Thinopyrum elongatum_Thinopyrum intermedium_Thinopyrum junceum","Herb","Annual_Perennial","Graminoid_Herb",0.98,0.375,"C3",0.00563647142857143,0.845,NA,"Zoochorous",0.7,"","Abiotic","Wind","Wind","",1.2,"",0.8,12.935835,"Spike",NA,NA,162.42
 "Elytrigia campestris","Elymus pungens","Herb","Perennial","Herb",0.8,NA,"C3",0.0048355,NA,NA,"",NA,"","","","","",NA,"",NA,NA,"",NA,NA,NA
@@ -689,6 +710,7 @@
 "Eryngium campestre","Eryngium campestre","Herb","Perennial","Forb",0.7,0.15,"C3",0.0015793335,0.281,NA,"Unspecialized",NA,"","Biotic","Insect","","",NA,"",NA,320.0042,"",NA,NA,93.8
 "Eryngium maritimum","Eryngium maritimum","Herb","Perennial","Forb",0.7,0.3,"C3",0.0211125,0.308,NA,"",NA,"","Biotic","Insect","","",NA,"",NA,66.2563,"",NA,NA,106.17
 "Erysimum cheiranthoides","Erysimum cheiranthoides","Herb","Annual","",1.2,0.15,"C3",0.000554,0.3165,4,"",1.5,"","Biotic","Insect","","",NA,"",NA,12.16667,"",NA,NA,220.14
+"Erysimum cheiri","Erysimum elatum","Herb","","",NA,NA,"",NA,NA,NA,"",NA,"","","","","",NA,"",NA,NA,"",NA,NA,NA
 "Erysimum incanum subsp. aurigeranum","Erysimum incanum","Herb","Annual","",NA,NA,"",NA,NA,NA,"",NA,"","","","","",NA,"",NA,NA,"",NA,NA,NA
 "Erysimum repandum","Erysimum repandum","Herb","Annual","",0.6,0.08,"C3",0.00024,0.1875,4.5,"",NA,"","Biotic","Insect","Insect","",NA,"",NA,NA,"",NA,NA,NA
 "Erythranthe moschata","Erythranthe moschata","Herb","Perennial","",0.4,0.05,"C3",1.33333333333333e-05,0.1375,NA,"",1.7,"","Biotic","Insect","Water","",NA,"",NA,3.42,"",NA,NA,479
@@ -727,8 +749,10 @@
 "Fabaceae",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Fagopyrum esculentum","Fagopyrum esculentum","Herb","Annual","Forb",0.7,0.15,"C3",0.025273,0.828333333333333,4.75,"Unspecialized",6,"Anthropochorous","Biotic","Insect","Bee","",0.4,"",0.2,NA,"Panicle",NA,NA,NA
 "Fagopyrum tataricum","Fagopyrum tataricum","Herb","Annual","Forb",0.8,0.3,"C3",0.020186,0.465,4.5,"Unspecialized",NA,"Anthropochorous","Biotic","Insect","Insect","",NA,"",NA,NA,"",NA,NA,NA
+"Fagus","Fagus sylvatica","Tree","Perennial","Tree",50,20,"C3",0.2128102855,31.071,NA,"",NA,"","Abiotic","Wind","Wind","",NA,"",NA,20.27675,"",NA,NA,173.92
 "Fagus sylvatica","Fagus sylvatica","Tree","Perennial","Tree",50,20,"C3",0.2128102855,31.071,NA,"",NA,"","Abiotic","Wind","Wind","",NA,"",NA,20.27675,"",NA,NA,173.92
 "Falcaria vulgaris","Falcaria vulgaris","Herb","Perennial","Forb",0.9,0.3,"C3",0.0009366665,0.425,NA,"",NA,"","Biotic","Insect","Insect","",NA,"",NA,65.03125,"",NA,NA,130.37
+"Fallopia","Fallopia baldschuanica_Fallopia convolvulus_Fallopia dumetorum","Herb","Annual_Perennial","Forb_Herb",9.33333333333333,0.8,"C3",0.00385395833333334,2.021,4.25,"Zoochorous",2.9375,"","Biotic","Insect","Insect","Black",0.5,"",0.2,10.66572,"",NA,NA,286.24
 "Fallopia baldschuanica","Fallopia baldschuanica","Herb","Perennial","Herb",15,2,"C3",NA,3.5,NA,"",NA,"","","","","",NA,"",NA,NA,"",NA,NA,NA
 "Fallopia convolvulus","Fallopia convolvulus","Herb","Annual","",10,0.2,"C3",0.00476191666666667,0.688,4,"Zoochorous",3.125,"","Biotic","Insect","Insect","Black",0.5,"",0.2,6.02667,"",NA,NA,238.75
 "Fallopia dumetorum","Fallopia dumetorum","Herb","Annual","Forb",3,0.2,"C3",0.002946,1.875,4.5,"Zoochorous",2.75,"","Biotic","","Insect","",NA,"",NA,15.30477,"",NA,NA,333.73
@@ -755,6 +779,7 @@
 "Filipendula vulgaris","Filipendula vulgaris","Herb","Perennial","Forb",0.8,0.3,"C3",0.000810952333333333,0.325,NA,"",3,"","Biotic","Insect","","",NA,"",NA,35.2,"",NA,NA,183.94
 "Foeniculum vulgare","Foeniculum vulgare","Herb","Perennial","",3,0.4,"C3",0.0144815125,1.07933333333333,3.5,"",NA,"","Biotic","Insect","Insect","",0.16,"Yellow",0.13,94.45,"Umbel",NA,NA,86
 "Fragaria","Fragaria vesca","Herb","Perennial","",0.3,0.05,"C3",0.0042429526,0.1415,3,"Zoochorous",2.3,"","Biotic","Insect","","Red",NA,"White",NA,23.935,"",NA,NA,231.7
+"Fragaria ananassa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Fragaria vesca","Fragaria vesca","Herb","Perennial","",0.3,0.05,"C3",0.0042429526,0.1415,3,"Zoochorous",2.3,"","Biotic","Insect","","Red",NA,"White",NA,23.935,"",NA,NA,231.7
 "Fraxinus","Fraxinus angustifolia_Fraxinus excelsior_Fraxinus ornus","Tree","Perennial","Tree",28.3333333333333,6.66666666666667,"C3",0.060044672,17.55,NA,"Anemochorous",3,"Anemochorous","Abiotic_Biotic","Insect_Wind","Wind","",NA,"",NA,14.2654,"",NA,NA,113.45
 "Fraxinus angustifolia","Fraxinus angustifolia","Tree","Perennial","Tree",25,6,"C3",0.070997,NA,NA,"",NA,"","","","","",NA,"",NA,NA,"",NA,NA,139.94
@@ -842,7 +867,9 @@
 "Glechoma hirsuta","Glechoma hirsuta","Herb","Perennial","Herb",0.8,0.2,"C3",NA,NA,NA,"",NA,"","","","","",NA,"",NA,NA,"",NA,NA,NA
 "Gleditsia triacanthos","Gleditsia triacanthos","Tree","Perennial","Tree",40,3,"C3",0.1764548886,27.16,NA,"Zoochorous",NA,"","","","","",0.3,"",0.25,NA,"Raceme",NA,NA,NA
 "Globularia bisnagarica","Globularia bisnagarica","Herb","Perennial","Herb",0.25,0.05,"C3",0.000595255666666667,0.102,NA,"Autochorous",NA,"Autochorous","Biotic","Insect","","",NA,"",NA,4.5975,"",NA,NA,81.35
-"Glyceria",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Glyceria","Glyceria declinata_Glyceria maxima","Herb","Perennial","Graminoid",1.75,0.2,"C3",0.000672333333333335,0.7975,NA,"Hydrochorous",1.25,"Hydrochorous","Abiotic","Wind","Wind","",NA,"",NA,51.495,"Panicle",NA,NA,268.74
+"Glyceria declinata","Glyceria declinata","Herb","Perennial","Graminoid",1,0.1,"C3",0.00111366666666667,0.295,NA,"Hydrochorous",0.5,"Hydrochorous","Abiotic","Wind","","",NA,"",NA,4.36,"Panicle",NA,NA,339.6
+"Glyceria maxima","Glyceria maxima","Herb","Perennial","Graminoid",2.5,0.3,"C3",0.000231,1.3,NA,"",2,"","Abiotic","Wind","Wind","",NA,"",NA,98.63,"",NA,NA,197.88
 "Glycine max","Glycine max","Herb","Annual","Forb",2,0.3,"C3",0.109805797,1.17,NA,"Unspecialized",NA,"Anthropochorous","Biotic","Insect","","",NA,"",NA,NA,"",NA,NA,NA
 "Glycyrrhiza glabra","Glycyrrhiza glabra","Herb","Perennial","",1,0.5,"C3",0.0049325,NA,NA,"",NA,"","","","","",NA,"",NA,NA,"",NA,NA,NA
 "Gnaphalium","Gnaphalium uliginosum","Herb","Annual","Forb",0.35,0.05,"C3",1.88333333333333e-05,0.151666666666667,2.66666666666667,"Anemochorous",0.266666666666667,"","Biotic","Insect","Insect","",NA,"",NA,0.68812,"",NA,NA,378.33
@@ -851,6 +878,7 @@
 "Gypsophila repens","Gypsophila repens","Herb","Perennial","Forb",0.2,0.08,"C3",0.0007705,0.14,NA,"",NA,"","","","","",NA,"",NA,0.55,"",NA,NA,158.4
 "Gypsophila vaccaria","Gypsophila vaccaria","Herb","Annual","",1,0.15,"C3",0.0060254,0.532,NA,"Anemochorous",NA,"","Biotic","Insect","Butterfly","",NA,"",NA,26.8436,"",NA,NA,187.3
 "Hainardia cylindrica","Parapholis cylindrica","Herb","Annual","",0.7,0.05,"C3",0.00082,0.3,NA,"Unspecialized",0.1,"Anthropochorous","Abiotic","Wind","","",NA,"",NA,NA,"",NA,NA,NA
+"Hedera","Hedera helix","Shrub","Perennial","",30,0.03,"C3",0.0402986666666667,6.925,NA,"Zoochorous",9,"","Biotic","Insect","","Black",0.35,"",0.28,17.36533,"Umbel",NA,NA,117.73
 "Hedera helix","Hedera helix","Shrub","Perennial","",30,0.03,"C3",0.0402986666666667,6.925,NA,"Zoochorous",9,"","Biotic","Insect","","Black",0.35,"",0.28,17.36533,"Umbel",NA,NA,117.73
 "Hedypnois rhagadioloides","Hedypnois rhagadioloides","Herb","Annual","",0.6,0.03,"C3",0.01015235725,NA,NA,"Zoochorous",NA,"Epizoochorous","Biotic","Insect","","",NA,"Yellow",NA,NA,"",NA,NA,NA
 "Helianthemum apenninum","Helianthemum apenninum","","Perennial","Subshrub",0.4,0.2,"C3",0.0012335,0.112,NA,"Autochorous",NA,"Autochorous","Biotic","Insect","","",NA,"",NA,NA,"",NA,NA,134
@@ -905,6 +933,8 @@
 "Hordeum vulgare subsp. vulgare","Hordeum distichon_Hordeum vulgare","Herb","Annual","",1.3,0.275,"C3",0.0441541666666666,0.778,NA,"",0.9,"","Abiotic","Wind","Wind","",1,"",0.5,23.009165,"Spike",NA,NA,186.97
 "Hornungia petraea","Hornungia petraea","Herb","Annual","Herb",0.15,0.02,"C3",0.0001388335,0.062,NA,"Anemochorous",NA,"","","","","",NA,"",NA,0.14,"",NA,NA,190
 "Humulus lupulus","Humulus lupulus","Herb","Perennial","Forb",8,2,"C3",0.0036835,5.5,7.5,"Anemochorous",6,"","Abiotic","Wind","Wind","",NA,"",NA,77.11,"",NA,NA,239.67
+"Hyacinthoides","Hyacinthoides non-scripta","Herb","Perennial","Forb",0.5,0.15,"C3",0.00568802766666667,0.22,NA,"",1.6,"","Biotic","Insect","","",NA,"",NA,34.995,"",NA,NA,212.33
+"Hyacinthoides non-scripta","Hyacinthoides non-scripta","Herb","Perennial","Forb",0.5,0.15,"C3",0.00568802766666667,0.22,NA,"",1.6,"","Biotic","Insect","","",NA,"",NA,34.995,"",NA,NA,212.33
 "Hyacinthus orientalis","Hyacinthus orientalis","Herb","Perennial","Forb",0.5,0.2,"C3",NA,0.275,NA,"Zoochorous",NA,"Zoochorous","Biotic","Insect","Insect","",NA,"",NA,NA,"",NA,NA,NA
 "Hylotelephium maximum","Hylotelephium maximum","Herb","Perennial","Herb",0.8,0.25,"Cam",NA,NA,NA,"",NA,"","Biotic","Insect","","",NA,"",NA,NA,"",NA,NA,NA
 "Hylotelephium telephium","Hylotelephium telephium","Herb","Perennial","Forb",1,0.1,"Cam",5.375e-05,0.45,NA,"Unspecialized",NA,"","Biotic","Insect","","",NA,"",NA,10.56375,"",NA,NA,186.31
@@ -915,7 +945,8 @@
 "Hypecoum imberbe","Hypecoum imberbe","Herb","Annual","Forb",0.2,0.1,"",NA,NA,NA,"",NA,"","","","","",NA,"",NA,NA,"",NA,NA,NA
 "Hypecoum pendulum","Hypecoum pendulum","Herb","Annual","Forb",0.4,0.05,"C3",NA,0.15,NA,"",NA,"","","","","",NA,"",NA,NA,"",NA,NA,NA
 "Hypecoum procumbens","Hypecoum procumbens","Herb","Annual","Herb",NA,NA,"C3",NA,NA,NA,"",NA,"","","","","",NA,"",NA,NA,"",NA,NA,NA
-"Hypericum","Hypericum australe_Hypericum hirsutum_Hypericum humifusum_Hypericum linariifolium_Hypericum maculatum_Hypericum perfoliatum_Hypericum perforatum_Hypericum tetrapterum_Hypericum triquetrifolium","Herb","Perennial","Forb_Herb_Subshrub",0.7375,0.163333333333333,"C3",0.000197460095238095,0.393583333333333,NA,"Anemochorous_Unspecialized",0.366666666666667,"Unspecialized","Biotic","Insect","","Red",1.2,"Yellow",0.7,3.029416,"",NA,NA,274.204
+"Hypericum","Hypericum androsaemum_Hypericum australe_Hypericum hirsutum_Hypericum humifusum_Hypericum linariifolium_Hypericum maculatum_Hypericum perfoliatum_Hypericum perforatum_Hypericum tetrapterum_Hypericum triquetrifolium","Herb_Shrub","Perennial","Forb_Herb_Subshrub",0.822222222222222,0.182857142857143,"C3",0.000184035395833333,0.426642857142857,NA,"Anemochorous_Unspecialized_Zoochorous",0.375,"Endozoochorous_Unspecialized","Biotic","Insect","","Red",1.2,"Yellow",0.7,3.029416,"",NA,NA,274.204
+"Hypericum androsaemum","Hypericum androsaemum","Shrub","Perennial","",1.5,0.3,"C3",9.00625e-05,0.625,NA,"Zoochorous",0.4,"Endozoochorous","Biotic","Insect","","",NA,"",NA,NA,"",NA,NA,NA
 "Hypericum australe","Hypericum australe","Herb","Perennial","",NA,NA,"",NA,NA,NA,"",NA,"","","","","",NA,"",NA,NA,"",NA,NA,NA
 "Hypericum hirsutum","Hypericum hirsutum","Herb","Perennial","",1,0.4,"C3",0.0001299,0.575,NA,"Anemochorous",NA,"","Biotic","Insect","","",NA,"",NA,3.705,"",NA,NA,272
 "Hypericum humifusum","Hypericum humifusum","Herb","Perennial","",0.3,0.03,"C3",4.05666666666667e-05,0.1305,NA,"",0.4,"","Biotic","Insect","","",0.9,"Yellow",0.4,0.42875,"",NA,NA,227.55
@@ -931,6 +962,7 @@
 "Hyssopus officinalis","Hyssopus officinalis","","Perennial","",0.8,0.2,"C3",0.000949916666666667,0.375,NA,"",NA,"","Biotic","Insect","","",NA,"",NA,1.675,"",NA,NA,215.5
 "Iberis amara","Iberis amara","Herb","Annual","",0.4,0.07,"C3",0.0022353335,0.199,2,"",NA,"","Biotic","Insect","","",NA,"",NA,NA,"",NA,NA,NA
 "Iberis pinnata","Iberis pinnata","Herb","Annual","",0.3,0.1,"C3",NA,NA,NA,"",NA,"","","","","",NA,"",NA,NA,"",NA,NA,NA
+"Ilex aquifolium","Ilex aquifolium","","Perennial","",12,1,"C3",0.06708166675,10.75,NA,"Zoochorous",NA,"","Biotic","Insect","","",NA,"",NA,15.76525,"",NA,NA,66
 "Illecebrum verticillatum","Illecebrum verticillatum","Herb","Annual","Forb",0.3,0.05,"C3",6.6e-05,0.108,NA,"",NA,"","Biotic","Insect","Insect","Brown",0.25,"",0.15,0.0415,"",NA,NA,579.6
 "Imbribryum subapiculatum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Impatiens glandulifera","Impatiens glandulifera","Herb","Annual","",2.5,0.6,"C3",0.011906,1.25,NA,"",4,"","Biotic","Insect","Insect","",NA,"",NA,119.1,"",NA,NA,383
@@ -952,7 +984,9 @@
 "Juglans","Juglans nigra_Juglans regia","Tree","Perennial","Tree",30,12.5,"C3",10.06392343125,23.705,NA,"Zoochorous",8,"","Abiotic","Wind","Wind","",NA,"",NA,39.097,"",NA,NA,146
 "Juglans nigra","Juglans nigra","Tree","Perennial","Tree",30,15,"C3",11.55433398,30.91,NA,"Zoochorous",NA,"","","","","",NA,"",NA,NA,"",NA,NA,NA
 "Juglans regia","Juglans regia","Tree","Perennial","Tree",30,10,"C3",8.5735128825,16.5,NA,"Zoochorous",8,"","Abiotic","Wind","Wind","",NA,"",NA,39.097,"",NA,NA,146
-"Juncus","Juncus bufonius_Juncus capitatus_Juncus conglomeratus_Juncus effusus_Juncus inflexus_Juncus tenuis","Herb","Annual_Perennial","Graminoid",1.60833333333333,0.12,"C3",0.000219520138888889,0.503500000000001,NA,"Zoochorous",0.266666666666667,"","Abiotic","Wind","Wind","Brown",0.45,"",0.2825,16.9675,"Panicle",NA,NA,101.694
+"Juncus","Juncus acutiflorus_Juncus articulatus_Juncus bufonius_Juncus capitatus_Juncus conglomeratus_Juncus effusus_Juncus inflexus_Juncus tenuis","Herb","Annual_Perennial","Graminoid",1.41875,0.14625,"C3",0.000168277604166667,0.502520833333334,NA,"Zoochorous",0.266666666666667,"","Abiotic","Wind","Wind","Brown",0.43,"Brown",0.276,14.5274114285714,"Panicle",NA,NA,116.535714285714
+"Juncus acutiflorus","Juncus acutiflorus","Herb","Perennial","Graminoid",1,0.3,"C3",9.66666666666667e-06,0.5875,NA,"",NA,"","Abiotic","Wind","Wind","",NA,"",NA,12,"",NA,NA,113.5
+"Juncus articulatus","Juncus articulatus","Herb","Perennial","Graminoid",0.7,0.15,"C3",1.94333333333333e-05,0.411666666666667,NA,"Zoochorous",NA,"","Abiotic","Wind","Wind","",0.35,"Brown",0.25,4.85438,"",NA,NA,193.78
 "Juncus bufonius","Juncus bufonius","Herb","Annual","",0.5,0.01,"C3",0.0004943,0.225,NA,"Zoochorous",NA,"","Abiotic","Wind","","",0.7,"",0.5,0.805,"Panicle",NA,NA,178.69
 "Juncus capitatus","Juncus capitatus","Herb","Annual","",0.15,0.01,"C3",1.93333333333333e-05,0.0716666666666667,NA,"Zoochorous",NA,"","Abiotic","Wind","Wind","",0.45,"",0.2,NA,"",NA,NA,NA
 "Juncus conglomeratus","Juncus conglomeratus","Herb","Perennial","",1,0.2,"C3",2.04e-05,0.61,NA,"",0.3,"","Abiotic","Wind","Wind","",NA,"",NA,23.93,"",NA,NA,49
@@ -968,26 +1002,29 @@
 "Knautia arvensis","Knautia arvensis","Herb","Perennial","",0.8,0.15,"C3",0.0040089,0.433,NA,"Zoochorous",NA,"","Biotic","Insect","","",NA,"",NA,28.71333,"",NA,NA,197.06
 "Knautia collina","Knautia collina","Herb","Perennial","",NA,NA,"",NA,NA,NA,"",NA,"","","","","",NA,"",NA,NA,"",NA,NA,NA
 "Knautia integrifolia","Knautia integrifolia","Herb","Annual","Herb",NA,NA,"C3",NA,NA,NA,"",NA,"","","","","",NA,"",NA,NA,"",NA,NA,NA
-"Knautia timeroyi",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Knautia timeroyi","Knautia involucrata_Scabiosa canescens","Herb","Biennial_Perennial","Herb",0.65,0.35,"C3",0.001039,0.2,NA,"Anemochorous",NA,"Anemochorous","Biotic","Insect","","",NA,"",NA,3.075,"",NA,NA,98.4
 "Krubera peregrina","Krubera peregrina","Herb","Annual","",NA,NA,"",NA,NA,NA,"",NA,"","","","","",NA,"",NA,NA,"",NA,NA,NA
-"Lactuca","Lactuca muralis_Lactuca perennis_Lactuca saligna_Lactuca serriola_Lactuca viminea_Lactuca virosa","Herb","Perennial","Forb_Herb",1.53333333333333,0.238333333333333,"C3",0.000797371208333333,0.615444444444444,11,"Anemochorous_Zoochorous",5.90625,"Anemochorous","Biotic","Insect","Insect","",NA,"Yellow",NA,52.4001,"Panicle",NA,NA,278.565
+"Lactuca","Lactuca muralis_Lactuca perennis_Lactuca saligna_Lactuca sativa_Lactuca serriola_Lactuca viminea_Lactuca virosa","Herb","Perennial","Forb_Herb",1.45714285714286,0.24,"C3",0.000838341964285714,0.604904761904762,10.75,"Anemochorous_Zoochorous",5.525,"Anemochorous","Biotic","Insect","Insect","",2,"Yellow",1.5,52.4001,"Panicle",NA,NA,263.892
 "Lactuca muralis","Lactuca muralis","Herb","Perennial","Forb",1.5,0.15,"C3",0.0001615,0.625,NA,"Anemochorous",6.5,"","Biotic","Insect","","",NA,"",NA,NA,"",NA,NA,464.27
 "Lactuca perennis","Lactuca perennis","Herb","Perennial","Herb",0.6,0.3,"C3",0.00146,0.25,NA,"",NA,"","Biotic","Insect","","",NA,"",NA,23.3633,"",NA,NA,256.8
 "Lactuca saligna","Lactuca saligna","Herb","","",1,0.03,"C3",0.000615,0.4,NA,"",1.5,"","Biotic","Insect","Insect","",NA,"",NA,NA,"",NA,NA,NA
+"Lactuca sativa","Lactuca sativa","Herb","","",1,0.25,"C3",0.0010841665,0.541666666666667,10.5,"Anemochorous",4,"","Biotic","Insect","Insect","",2,"",1.5,NA,"",NA,NA,205.2
 "Lactuca serriola","Lactuca serriola","Herb","","",2.5,0.3,"C3",0.00052572725,0.741666666666667,11,"Anemochorous",4.125,"Anemochorous","Biotic","Insect","Insect","",NA,"Yellow",NA,59.93,"Panicle",NA,NA,165.86
 "Lactuca viminea","Lactuca viminea","Herb","","Herb",0.8,0.15,"C3",0.001156,0.3,NA,"Zoochorous",NA,"","Biotic","Insect","","",NA,"",NA,NA,"",NA,NA,NA
 "Lactuca virosa","Lactuca virosa","Herb","","",2.8,0.5,"C3",0.000866,1.376,NA,"Anemochorous",11.5,"","Biotic","Insect","Insect","",NA,"",NA,73.907,"",NA,NA,227.33
 "Lagurus ovatus","Lagurus ovatus","Herb","Annual","",0.8,0.05,"C3",0.00051,0.43,NA,"",0.7,"","Abiotic","Wind","Wind","",NA,"",NA,NA,"Panicle",NA,NA,NA
 "Lamiaceae",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Lamium","Lamium album_Lamium amplexicaule_Lamium hybridum_Lamium maculatum_Lamium purpureum","Herb","Annual_Perennial","Forb_Herb",1.17,0.078,"C3",0.001088165,0.2465,NA,"Autochorous_Unspecialized_Zoochorous",2.4,"","Biotic","Insect","Bee","",1.6,"Red",1.05,9.276904,"",NA,NA,301.944
+"Lamium","Lamium album_Lamium amplexicaule_Lamium galeobdolon_Lamium hybridum_Lamium maculatum_Lamium purpureum","Herb","Annual_Perennial","Forb_Herb",1.075,0.0983333333333333,"C3",0.00121608194444445,0.269916666666667,NA,"Autochorous_Unspecialized_Zoochorous",2.8,"","Biotic","Insect","Bee","",1.6,"Red",1.05,10.33742,"",NA,NA,293.87
 "Lamium album","Lamium album","Herb","Perennial","Forb",1.4,0.1,"C3",0.0015555,0.317,NA,"Zoochorous",3.5,"","Biotic","Insect","Bee","",NA,"",NA,19.70514,"",NA,NA,359.02
 "Lamium album subsp. album","Lamium album","Herb","Perennial","Forb",1.4,0.1,"C3",0.0015555,0.317,NA,"Zoochorous",3.5,"","Biotic","Insect","Bee","",NA,"",NA,19.70514,"",NA,NA,359.02
 "Lamium amplexicaule","Lamium amplexicaule","Herb","Annual","",0.4,0.04,"C3",0.000578625,0.1415,NA,"",1.3,"","Biotic","Insect","","",2,"",1.3,1.67,"",NA,NA,197
+"Lamium galeobdolon","Lamium galeobdolon","Herb","Perennial","Forb",0.6,0.2,"C3",0.00185566666666667,0.387,NA,"",4,"","Biotic","Insect","Bee","",NA,"",NA,15.64,"",NA,NA,253.5
 "Lamium hybridum","Lamium hybridum","Herb","Annual","Herb",0.45,0.05,"C3",0.0009225,0.188,NA,"",NA,"","","","","",NA,"",NA,5.92,"",NA,NA,253
 "Lamium maculatum","Lamium maculatum","Herb","Perennial","Forb",0.6,0.15,"C3",0.00167,0.375,NA,"Autochorous",NA,"","Biotic","Insect","Bee","",NA,"",NA,13.7144,"",NA,NA,316.2
 "Lamium purpureum","Lamium purpureum","Herb","Annual","",3,0.05,"C3",0.0007142,0.211,NA,"Unspecialized",2.4,"","Biotic","Insect","","",1.2,"Red",0.8,5.37498,"",NA,NA,384.5
 "Laphangium luteoalbum","Helichrysum luteoalbum_Pseudognaphalium luteoalbum","Herb","Annual","Herb",0.7,0.03,"C3",1.51875e-05,0.15,NA,"Anemochorous",0.4,"Anemochorous","Biotic","Insect","Insect","",0.25,"",0.2,1.32125,"",NA,NA,383.2
 "Lappula squarrosa","Lappula squarrosa","Herb","","Forb",0.8,0.1,"C3",0.00155,0.454,3.5,"Zoochorous",0.45,"","Biotic","Insect","Insect","",NA,"",NA,6.93,"",NA,NA,304.1
+"Lapsana","Lapsana communis","Herb","Annual","",1.8,0.1,"C3",0.000944666666666667,0.54,NA,"",5.5,"","Biotic","Insect","","",0.7,"Yellow",NA,49.66,"Panicle",NA,NA,487.33
 "Lapsana communis","Lapsana communis","Herb","Annual","",1.8,0.1,"C3",0.000944666666666667,0.54,NA,"",5.5,"","Biotic","Insect","","",0.7,"Yellow",NA,49.66,"Panicle",NA,NA,487.33
 "Larix decidua","Larix decidua","Tree","Perennial","Tree",35,10,"C3",0.00641066666666667,32.5,NA,"Anemochorous",0.1,"Anemochorous","Abiotic","Wind","Wind","",NA,"",NA,0.20125,"",NA,NA,102.41
 "Lathyrus","Lathyrus angulatus_Lathyrus annuus_Lathyrus aphaca_Lathyrus cicera_Lathyrus clymenum_Lathyrus hirsutus_Lathyrus inconspicuus_Lathyrus latifolius_Lathyrus linifolius_Lathyrus niger_Lathyrus nissolia_Lathyrus ochrus_Lathyrus odoratus_Lathyrus palustris_Lathyrus pratensis_Lathyrus sativus_Lathyrus setifolius_Lathyrus sphaericus_Lathyrus sylvestris_Lathyrus tuberosus","Herb","Annual_Perennial","Forb_Herb",1.095,0.276315789473684,"C3",0.053710267390625,0.745583333333333,NA,"Autochorous_Unspecialized_Zoochorous",1,"Autochorous_Unspecialized_Zoochorous","Biotic","Insect","Bee_Insect","Green",NA,"Blue_Red_Yellow",NA,21.4158428571429,"",NA,NA,253.831428571429
@@ -1019,6 +1056,8 @@
 "Legousia hybrida","Legousia hybrida","Herb","Annual","",0.35,0.1,"C3",0.00025375,0.12,NA,"",NA,"","Biotic","Insect","","",0.8,"Violet",0.5,0.9325,"Cyme",1.5,0.6,583.15
 "Legousia speculum-veneris","Legousia speculum-veneris","Herb","Annual","Forb",0.3,0.1,"C3",0.000194,0.172,NA,"Anemochorous",NA,"","Biotic","Insect","Bee","",NA,"",NA,1.0375,"",NA,NA,651.3
 "Legousia speculum-veneris subsp. speculum-veneris","Legousia speculum-veneris","Herb","Annual","Forb",0.3,0.1,"C3",0.000194,0.172,NA,"Anemochorous",NA,"","Biotic","Insect","Bee","",NA,"",NA,1.0375,"",NA,NA,651.3
+"Lemna minor","Lemna minor","Herb","Perennial","Forb",0.01,NA,"C3",0,0.007,0.325,"Zoochorous",0.25,"","Biotic","Insect","","",NA,"",NA,0.09,"",NA,NA,187
+"Lemna trisulca","Lemna trisulca","Herb","Perennial","Forb",0.01,NA,"C3",NA,0.0475,NA,"",NA,"","Biotic","Insect","","",NA,"",NA,0.04135,"",NA,NA,166.5
 "Leontodon","Leontodon asperrimus_Leontodon hirtus_Leontodon hispidus_Leontodon saxatilis","Herb","Perennial","Forb_Herb",0.516666666666667,0.1,"C3",0.0016878905,0.20875,NA,"Anemochorous",1.1,"Anemochorous","Biotic","Insect","Bee","",NA,"",NA,13.404585,"",NA,NA,219.055
 "Leontodon autumnale",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Leontodon hirtus","Leontodon hirtus","Herb","Perennial","Herb",NA,NA,"",NA,NA,NA,"",NA,"","","","","",NA,"",NA,NA,"",NA,NA,NA
@@ -1092,7 +1131,8 @@
 "Lotus parviflorus","Lotus parviflorus","Herb","Annual","Forb",0.4,0.3,"C3",0.00026,NA,NA,"Autochorous",NA,"Autochorous","Biotic","Insect","","",0.7,"",0.5,NA,"",NA,NA,NA
 "Lotus pedunculatus","Lotus pedunculatus","Herb","Perennial","",1,0.1,"C3",0.002544,0.321,NA,"Autochorous",NA,"Autochorous","Biotic","Insect","Bee","Brown",1.5,"Yellow",1,5.11,"",NA,NA,257.62
 "Lotus rectus","Lotus rectus","Herb","Perennial","",NA,NA,"C3",0.001066667,NA,NA,"",NA,"","","","","",NA,"",NA,NA,"",NA,NA,NA
-"Lunaria",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Lunaria","Lunaria annua","Herb","","",1,0.3,"C3",0.0172665,0.45,NA,"Anemochorous",4,"","Biotic","Insect","","",2,"",1.2,78.97833,"",NA,NA,372.35
+"Lunaria annua","Lunaria annua","Herb","","",1,0.3,"C3",0.0172665,0.45,NA,"Anemochorous",4,"","Biotic","Insect","","",2,"",1.2,78.97833,"",NA,NA,372.35
 "Lupinus","Lupinus angustifolius_Lupinus luteus","Herb","Annual","",1.25,0.175,"C3",0.149018758875,0.665,NA,"Autochorous_Unspecialized",NA,"Anthropochorous_Autochorous","Biotic","Insect","Bee","",NA,"Blue_Yellow",NA,40.1049,"",NA,NA,239.4
 "Lupinus angustifolius","Lupinus angustifolius","Herb","Annual","",1.5,0.15,"C3",0.1703197955,0.825,NA,"Autochorous",NA,"Autochorous","Biotic","Insect","Bee","",NA,"Blue",NA,NA,"",NA,NA,225.1
 "Lupinus luteus","Lupinus luteus","Herb","Annual","",1,0.2,"C3",0.12771772225,0.505,NA,"Unspecialized",NA,"Anthropochorous","Biotic","Insect","Bee","",NA,"Yellow",NA,40.1049,"",NA,NA,253.7
@@ -1114,6 +1154,7 @@
 "Lythrum virgatum","Lythrum virgatum","Herb","Perennial","",1,0.3,"C3",NA,NA,NA,"",NA,"","","","","",NA,"",NA,NA,"",NA,NA,NA
 "Malcolmia africana","Malcolmia africana","Herb","Annual","Forb",0.4,0.08,"C3",0.00027,0.215,4.75,"",NA,"","","","","",NA,"",NA,NA,"",NA,NA,NA
 "Malcolmia littorea","Marcus-kochia littorea","","Perennial","Herb",0.4,0.1,"",0.00013,NA,NA,"",NA,"","","","","",1.8,"",1.5,NA,"",NA,NA,NA
+"Malus","Malus domestica_Malus sylvestris","Tree","Perennial","Tree",12,2,"C3",0.02573321675,10.1666666666667,7.875,"Zoochorous",NA,"","Biotic","Insect","Insect","",3.5,"",3,29.1014,"",NA,NA,222.955
 "Malus domestica","Malus domestica","Tree","Perennial","",14,2,"C3",0.0258599335,11,7.875,"Zoochorous",NA,"","Biotic","Insect","","",3.5,"",3,NA,"",NA,NA,258.4
 "Malus sylvestris","Malus sylvestris","Tree","Perennial","Tree",10,2,"C3",0.0256065,9.33333333333333,NA,"Zoochorous",NA,"","Biotic","Insect","Insect","",NA,"",NA,29.1014,"",NA,NA,187.51
 "Malva","Malva alcea_Malva arborea_Malva moschata_Malva multiflora_Malva neglecta_Malva nicaeensis_Malva olbia_Malva parviflora_Malva punctata_Malva pusilla_Malva setigera_Malva sylvestris_Malva thuringiaca","Herb_Shrub","Annual_Perennial","Forb_Herb_Shrub_Subshrub",1.42692307692308,0.204166666666667,"C3",0.0047478065,0.688041666666666,13.5,"Autochorous_Unspecialized_Zoochorous",8.5,"Autochorous_Epizoochorous_Unspecialized","Biotic","Insect","Bee_Insect","",1.68333333333333,"Pink_Violet",0.908333333333333,26.905334,"",NA,NA,218.856666666667
@@ -1137,6 +1178,7 @@
 "Matricaria chamomilla","Matricaria chamomilla","Herb","Annual","",0.6,0.1,"C3",5.18e-05,0.235,3.5,"",NA,"","Biotic","Insect","Insect","",NA,"",NA,3.34,"",2.5,1.2,385.5
 "Matricaria discoidea","Matricaria discoidea","Herb","Annual","",0.4,0.05,"C3",0.000155916666666667,0.1525,NA,"Unspecialized",1.3,"","Biotic","Insect","Fly","",NA,"",NA,3.56,"",NA,NA,240.43
 "Matricaria matricarioides",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Matthiola",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Medicago","Medicago arabica_Medicago ciliaris_Medicago disciformis_Medicago doliata_Medicago laciniata_Medicago littoralis_Medicago lupulina_Medicago minima_Medicago monspeliaca_Medicago murex_Medicago orbicularis_Medicago polyceratia_Medicago polymorpha_Medicago praecox_Medicago rigidula_Medicago rugosa_Medicago sativa_Medicago scutellata_Medicago suffruticosa_Medicago truncatula_Medicago turbinata","Herb","Annual_Perennial","Forb_Herb",0.518461538461538,0.113333333333333,"C3",0.00771860049122807,0.374,NA,"Anemochorous_Zoochorous",1.35,"Epizoochorous_Zoochorous","Biotic","Insect","Bee","Black",0.613636363636364,"Violet_Yellow",0.43,7.85042,"",NA,NA,254.582
 "Medicago arabica","Medicago arabica","Herb","Annual","",0.75,0.2,"C3",0.003109,0.308,NA,"Zoochorous",NA,"","Biotic","Insect","Bee","",0.75,"Yellow",0.45,6.75585,"",NA,NA,303.37
 "Medicago ciliaris","Medicago ciliaris","","Annual","Herb",NA,NA,"C3",0.012016667,NA,NA,"Zoochorous",NA,"Zoochorous","","","","",0.8,"",0.5,NA,"",NA,NA,NA
@@ -1195,6 +1237,7 @@
 "Micromeria graeca","Micromeria graeca","","Perennial","",NA,NA,"",0.00014,NA,NA,"",NA,"","","","","",NA,"",NA,NA,"",NA,NA,NA
 "Micropyrum tenellum","Festuca lachenalii","Herb","Annual","Graminoid",0.5,0.1,"C3",0.0006405,0.16,NA,"Unspecialized",NA,"Anthropochorous","","","","",NA,"",NA,NA,"",NA,NA,NA
 "Microthlaspi perfoliatum","Noccaea perfoliata_Thlaspi rotundifolium","Herb","Annual","Forb_Herb",0.35,0.05,"C3",0.00113745825,0.092,NA,"Hydrochorous",NA,"","Biotic","Insect","Insect","",NA,"",NA,NA,"",NA,NA,NA
+"Milium",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Minuartia montana subsp. wiesneri","Minuartia montana","Herb","Annual","Herb",0.07,0.04,"",1e-04,NA,NA,"",NA,"","","","","",NA,"",NA,NA,"",NA,NA,NA
 "Misopates orontium","Misopates orontium","Herb","Annual","",0.75,0.08,"C3",0.000138,0.343,NA,"Anemochorous",0.3,"","Biotic","Insect","Bee","",1.7,"Pink",0.9,2.02625,"",NA,NA,308.55
 "Moehringia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -1219,6 +1262,7 @@
 "Myosotis scorpioides","Myosotis scorpioides","Herb","Perennial","",0.7,0.06,"C3",0.000875666666666667,0.369,NA,"Hydrochorous",2,"","Biotic","Insect","","",NA,"",NA,10.86062,"",NA,NA,430.63
 "Myosotis stricta","Myosotis stricta","Herb","Annual","",0.3,0.03,"C3",0.000223666666666667,0.06,NA,"",0.8,"","Biotic","Insect","Insect","",NA,"",NA,0.3525,"",NA,NA,269.7
 "Myosurus minimus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Myrrhis odorata","Myrrhis odorata","Herb","Perennial","Forb",1.2,0.5,"C3",0.0385004165,0.883,NA,"",NA,"","Biotic","Insect","","",NA,"",NA,1425.26,"",NA,NA,392.25
 "Nardus stricta","Nardus stricta","Herb","Perennial","Graminoid",0.4,0.1,"C3",0.000378333333333333,0.17,NA,"",0.1,"","Abiotic","Wind","Wind","",NA,"",NA,0.9491,"",NA,NA,103.94
 "Nasturtium officinale","Nasturtium officinale","Herb","Perennial","",1,0.1,"C3",0.0002684166,0.385,2.5,"",4,"","Biotic","Insect","","",0.45,"White",0.34,14.35,"",NA,NA,422.25
 "Neottia ovata","Neottia ovata","Herb","Perennial","Forb",0.6,0.2,"C3",NA,0.14,NA,"Anemochorous",NA,"Anemochorous","Biotic","Insect","","",NA,"",NA,37.20667,"",NA,NA,280.3
@@ -1318,7 +1362,8 @@
 "Panicum miliaceum subsp. miliaceum","Panicum miliaceum","Herb","Annual","",1.2,0.2,"C4",0.0044735,0.69,NA,"Anemochorous",1.3,"","Abiotic","Wind","Wind","",NA,"",NA,NA,"Panicle",NA,NA,NA
 "Panicum miliaceum subsp. ruderale","Panicum miliaceum","Herb","Annual","",1.2,0.2,"C4",0.0044735,0.69,NA,"Anemochorous",1.3,"","Abiotic","Wind","Wind","",NA,"",NA,NA,"Panicle",NA,NA,NA
 "Panicum virgatum","Panicum virgatum","Herb","Perennial","Graminoid",NA,NA,"C4",0.001527,1.65,NA,"",NA,"","Abiotic","Wind","Wind","",NA,"",NA,NA,"",NA,NA,NA
-"Papaver","Papaver dubium_Papaver rhoeas_Papaver somniferum","Herb","Annual","",1.16666666666667,0.166666666666667,"C3",0.000206584466666667,0.471833333333333,12.5,"Anemochorous",5.83333333333333,"","Biotic","Insect","","",6,"",2,66.705,"",6.33333333333333,2.33333333333333,317.62
+"Papaver","Papaver cambricum_Papaver dubium_Papaver rhoeas_Papaver somniferum","Herb","Annual_Perennial","Herb",1.025,0.166666666666667,"C3",0.00020756335,0.447625,12.5,"Anemochorous_Unspecialized",5.83333333333333,"","Biotic","Insect","","",6,"",2,55.9125,"",6.33333333333333,2.33333333333333,326.965
+"Papaver cambricum","Papaver cambricum","Herb","Perennial","Herb",0.6,NA,"C3",0.0002105,0.375,NA,"Unspecialized",NA,"","Biotic","Insect","","",NA,"",NA,23.535,"",NA,NA,355
 "Papaver dubium","Papaver dubium","Herb","Annual","",1,0.2,"C3",0.0001172534,0.362,NA,"Anemochorous",4.5,"","Biotic","Insect","","",NA,"",NA,46.27,"",6,2,239.86
 "Papaver rhoeas","Papaver rhoeas","Herb","Annual","",1,0.1,"C3",0.000159,0.4035,9,"",4.5,"","Biotic","Insect","","",6,"",2,49.865,"",6,3,330.7
 "Papaver somniferum","Papaver somniferum","Herb","Annual","",1.5,0.2,"C3",0.0003435,0.65,16,"",8.5,"","Biotic","Insect","","",6,"",2,103.98,"",7,2,382.3
@@ -1330,6 +1375,7 @@
 "Paspalum","Paspalum nervosum","Herb","","Graminoid",NA,NA,"",NA,NA,NA,"",NA,"","","","","",NA,"",NA,NA,"",NA,NA,NA
 "Paspalum dilatatum","Paspalum dilatatum","Herb","Perennial","",2,0.15,"C4",0.00152242866666667,0.655,NA,"",0.7,"Anthropochorous","Abiotic","Wind","","",0.2,"",NA,NA,"",NA,NA,NA
 "Paspalum distichum","Paspalum distichum","Herb","Perennial","",0.6,0.05,"C4",0.002227,0.385,NA,"Unspecialized",0.8,"","Abiotic","Wind","Wind","",0.32,"",0.18,NA,"Panicle",NA,NA,NA
+"Pastinaca","Pastinaca sativa","Herb","Biennial","",16,0.3,"C3",0.0039862,3.53333333333333,NA,"Anemochorous",10,"","Biotic","Insect","","",NA,"",NA,149.145,"",NA,NA,329.33
 "Pastinaca sativa","Pastinaca sativa","Herb","Biennial","",16,0.3,"C3",0.0039862,3.53333333333333,NA,"Anemochorous",10,"","Biotic","Insect","","",NA,"",NA,149.145,"",NA,NA,329.33
 "Pastinaca sativa subsp. urens","Pastinaca sativa","Herb","Biennial","",16,0.3,"C3",0.0039862,3.53333333333333,NA,"Anemochorous",10,"","Biotic","Insect","","",NA,"",NA,149.145,"",NA,NA,329.33
 "Persicaria","Persicaria acuminata_Persicaria amphibia_Persicaria hydropiper_Persicaria lapathifolia_Persicaria maculosa_Persicaria minor_Polygonum alpinum","Herb","Annual_Perennial","Herb",1.48333333333333,0.146,"C3",0.00182940916666667,0.592770833333333,8.875,"Hydrochorous",1.93333333333333,"Hydrochorous","Biotic","Insect","Insect","Black",0.3,"",0.2,22.1002133333333,"Panicle",NA,NA,279.233333333333
@@ -1340,6 +1386,7 @@
 "Persicaria lapathifolia","Persicaria lapathifolia","Herb","Annual","",3,0.03,"C3",0.00164730625,0.925,10,"",2,"","Biotic","Insect","Insect","",NA,"",NA,NA,"",NA,NA,NA
 "Persicaria maculosa","Persicaria maculosa","Herb","Annual","",1,0.2,"C3",0.00183996875,0.644333333333333,9.5,"",2.6,"","Biotic","Insect","","Black",0.3,"",0.2,23.475,"Panicle",NA,NA,257.29
 "Persicaria minor","Persicaria minor","Herb","Annual","",0.4,0.1,"C3",0.00087,NA,NA,"",NA,"","","","","",NA,"",NA,NA,"",NA,NA,NA
+"Petasites hybridus","Petasites hybridus","Herb","Perennial","Forb",1.2,0.15,"C3",0.000214,0.575,NA,"",NA,"","Biotic","Insect","","",NA,"",NA,1398.75,"",NA,NA,220.4
 "Petrorhagia prolifera","Petrorhagia prolifera","Herb","Annual","",0.6,0.1,"C3",0.000317909,0.319,NA,"Anemochorous",0.3,"","Biotic","Insect","Insect","",NA,"",NA,0.5825,"",NA,NA,176.3
 "Petrorhagia saxifraga","Petrorhagia saxifraga","Herb","Perennial","",0.5,0.1,"C3",0.000145,0.2375,1.2,"",NA,"","Biotic","Insect","","",NA,"",NA,NA,"",NA,NA,NA
 "Petrosedum sediforme","Petrosedum sediforme","Shrub","Perennial","Subshrub",NA,NA,"",8e-05,NA,NA,"",NA,"","","","","",NA,"",NA,NA,"",NA,NA,NA
@@ -1366,6 +1413,7 @@
 "Phleum phleoides","Phleum phleoides","Herb","Perennial","Graminoid",0.9,0.3,"C3",0.0001605,0.3,NA,"Anemochorous",NA,"","Abiotic","Wind","","",NA,"",NA,3.2275,"",NA,NA,175.2
 "Phleum pratense","Phleum pratense","Herb","Perennial","",1.5,0.1,"C3",0.000425798666666667,0.660333333333333,NA,"Unspecialized",0.4,"","Abiotic","Wind","Wind","",NA,"",NA,3.8,"",NA,NA,258.15
 "Phleum subulatum","Phleum subulatum","Herb","Annual","Graminoid",1,0.5,"C3",NA,NA,NA,"",NA,"","","","","",NA,"",NA,NA,"",NA,NA,NA
+"Phragmites","Phragmites australis","Herb","Perennial","",9,0.8,"C3",0.00042729175,3.075,NA,"Anemochorous",3,"","Abiotic","Wind","Wind","",1.2,"",0.7,69.25875,"Panicle",NA,NA,163.03
 "Phragmites australis","Phragmites australis","Herb","Perennial","",9,0.8,"C3",0.00042729175,3.075,NA,"Anemochorous",3,"","Abiotic","Wind","Wind","",1.2,"",0.7,69.25875,"Panicle",NA,NA,163.03
 "Physalis peruviana","Physalis peruviana","Herb","Perennial","",2,0.3,"C3",0.0008498335,0.945,10.5,"Zoochorous",6.5,"","Biotic","Insect","","Yellow",NA,"Yellow",NA,NA,"",2.5,1.5,445.5
 "Physalis viscosa","Physalis viscosa","Herb","Perennial","",0.5,0.05,"C3",0.000445,0.6,NA,"",NA,"","Biotic","Insect","Insect","",NA,"",NA,NA,"",NA,NA,NA
@@ -1449,6 +1497,9 @@
 "Populus x canescens",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Portulaca","Portulaca oleracea","Herb","Annual","",0.5,0.05,"C4",0.000242700666666667,0.22,2,"",0.5,"","Biotic","Insect","","",1,"Yellow",0.4,0.25725,"",NA,NA,185.05
 "Portulaca oleracea","Portulaca oleracea","Herb","Annual","",0.5,0.05,"C4",0.000242700666666667,0.22,2,"",0.5,"","Biotic","Insect","","",1,"Yellow",0.4,0.25725,"",NA,NA,185.05
+"Potamogeton","Potamogeton berchtoldii_Potamogeton lucens","Herb","Perennial","Forb",2,0.35,"C3",0.003072,NA,NA,"Hydrochorous",NA,"Hydrochorous","Abiotic","Wind","","",NA,"",NA,11.2375,"",NA,NA,590.45
+"Potamogeton berchtoldii","Potamogeton berchtoldii","Herb","Perennial","Forb",1,0.1,"C3",0.000949,NA,NA,"Hydrochorous",NA,"Hydrochorous","Abiotic","","","",NA,"",NA,0.26,"",NA,NA,495
+"Potamogeton lucens","Potamogeton lucens","Herb","Perennial","",3,0.6,"C3",0.005195,NA,NA,"",NA,"","Abiotic","Wind","","",NA,"",NA,22.215,"",NA,NA,685.9
 "Potentilla","Potentilla argentea_Potentilla crantzii_Potentilla erecta_Potentilla indica_Potentilla micrantha_Potentilla norvegica_Potentilla recta_Potentilla reptans_Potentilla sterilis_Potentilla supina_Potentilla verna","Herb","Perennial","Forb_Herb",0.581818181818182,0.0618181818181818,"C3",0.000320241196969697,0.222636363636364,2.5,"Unspecialized_Zoochorous",1.17,"","Biotic","Insect","Insect","Red",1.5,"Yellow",0.6,11.0744525,"",2.5,2,214.6
 "Potentilla argentea","Potentilla argentea","Herb","Perennial","Forb",0.5,0.1,"C3",8.975e-05,0.252,2,"",0.75,"","Biotic","Insect","","",NA,"",NA,5.27,"",NA,NA,167
 "Potentilla crantzii","Potentilla crantzii","Herb","Perennial","Herb",0.25,0.05,"C3",0.0003795,0.136,NA,"Unspecialized",NA,"","Biotic","Insect","","",NA,"",NA,2.59812,"",NA,NA,154.38
@@ -1471,12 +1522,15 @@
 "Primulaceae",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Prunella laciniata","Prunella laciniata","Herb","Perennial","Forb",0.4,0.05,"C3",0.001179,0.123,NA,"",NA,"","Biotic","Insect","","",NA,"",NA,NA,"",NA,NA,NA
 "Prunella vulgaris","Prunella vulgaris","Herb","Perennial","",0.6,0.05,"C3",0.000884807142857143,0.251,NA,"",1.5,"","Biotic","Insect","Bee","",1.2,"",1.1,6.75333,"",NA,NA,295.45
-"Prunus","Prunus amygdalus_Prunus avium_Prunus cerasifera_Prunus cerasus_Prunus mahaleb_Prunus spinosa","Shrub_Tree","Perennial","Shrub_Tree",13.5,1.73333333333333,"C3",0.801433132326389,7.66211111111111,5.04166666666667,"Zoochorous",3,"Endozoochorous_Zoochorous","Biotic","Insect","Insect","Red",2.16666666666667,"White",1.33333333333333,12.1634166666667,"Umbel",NA,NA,163.99
+"Prunus","Prunus amygdalus_Prunus avium_Prunus cerasifera_Prunus cerasus_Prunus domestica_Prunus laurocerasus_Prunus mahaleb_Prunus padus_Prunus spinosa","Shrub_Tree","Perennial","Shrub_Tree",13.5555555555556,1.75,"C3",0.634060712560185,7.26179629629629,5.32142857142857,"Zoochorous",3.25,"Endozoochorous_Zoochorous","Biotic","Insect","Insect","Red",2,"White",1.25,25.114916,"Umbel",NA,NA,157.005
 "Prunus avium","Prunus avium","Tree","Perennial","Tree",25,3,"C3",0.2380964545,15.4133333333333,8,"Zoochorous",4.25,"","Biotic","Insect","Insect","",NA,"",NA,NA,"",NA,NA,134.5
 "Prunus cerasifera","Prunus cerasifera","Tree","Perennial","Tree",15,3,"C3",0.477831770875,6.5,4.5,"Zoochorous",3,"Zoochorous","Biotic","Insect","Insect","",2.5,"",2,NA,"",NA,NA,NA
 "Prunus cerasus","Prunus cerasus","Tree","Perennial","Tree",10,0.2,"C3",0.209217,6.83333333333333,6,"Zoochorous",3.8,"","Biotic","Insect","Insect","Red",2.5,"White",1,24.23375,"Umbel",NA,NA,209.11
+"Prunus domestica","Prunus domestica","Tree","Perennial","Tree",15,3,"C3",0.54581,6.8335,7,"Zoochorous",3.75,"","Biotic","Insect","Insect","",1.5,"",1,NA,"",NA,NA,NA
 "Prunus dulcis","Prunus amygdalus","Tree","Perennial","Tree",10,2,"C3",3.493747,6.25,4.5,"",NA,"","","","","",NA,"",NA,NA,"",NA,NA,NA
+"Prunus laurocerasus","Prunus laurocerasus","","Perennial","Tree",10,NA,"C3",0.256888333333333,4,NA,"",4,"","","","","",NA,"",NA,58.63875,"",NA,NA,69.25
 "Prunus mahaleb","Prunus mahaleb","","Perennial","Shrub",13,1.2,"C3",0.08435333325,7,4.25,"Zoochorous",2.65,"","Biotic","Insect","Insect","",NA,"",NA,7.534,"",NA,NA,168.62
+"Prunus padus","Prunus padus","Tree","Perennial","Tree",16,0.6,"C3",0.09524928575,8.55,NA,"Zoochorous",NA,"Endozoochorous","Biotic","Insect","Insect","",NA,"",NA,30.44558,"",NA,NA,216.82
 "Prunus spinosa","Prunus spinosa","Shrub","Perennial","",8,1,"C3",0.305353235333333,3.976,3,"Zoochorous",1.3,"Endozoochorous","Biotic","Insect","Insect","",1.5,"",1,4.7225,"",NA,NA,143.73
 "Psammophiliella muralis","Psammophiliella muralis","Herb","Annual","Forb",0.2,0.05,"C3",3.1e-05,0.1225,1.5,"Anemochorous",NA,"","Biotic","Insect","","",NA,"",NA,NA,"",NA,NA,NA
 "Psilurus incurvus","Festuca incurva","Herb","Annual","Graminoid",0.4,0.07,"C3",NA,NA,NA,"",NA,"","","","","",NA,"",NA,NA,"",NA,NA,NA
@@ -1487,19 +1541,22 @@
 "Pulicaria odora","Pulicaria odora","","Perennial","",NA,NA,"",NA,NA,NA,"",NA,"","","","","",NA,"",NA,NA,"",NA,NA,NA
 "Pulicaria vulgaris","Pulicaria vulgaris","Herb","Annual","Herb",0.45,0.1,"C3",0.000113423,0.2925,2,"Anemochorous",0.5,"","Biotic","Insect","Insect","",NA,"",NA,2.6201,"",NA,NA,288.45
 "Pulmonaria",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Quercus","Quercus coccifera_Quercus ilex_Quercus petraea_Quercus pubescens_Quercus robur_Quercus suber","Tree","Perennial","Tree",27.5,5.25,"C3",2.60191189583333,25.721,NA,"Zoochorous",4.25,"Zoochorous","Abiotic","Wind","Wind","",8,"",3,25.924645,"",NA,NA,89.975
+"Quercus","Quercus cerris_Quercus coccifera_Quercus ilex_Quercus petraea_Quercus pubescens_Quercus robur_Quercus rubra_Quercus suber","Tree","Perennial","Tree",28.125,7.66666666666667,"C3",2.828074899375,27.4319333333333,NA,"Zoochorous",6.125,"Zoochorous","Abiotic","Wind","Wind","",8,"",3,30.6235966666667,"",NA,NA,97.21875
+"Quercus cerris","Quercus cerris","Tree","Perennial","Tree",35,15,"C3",3.648245875,35,NA,"",5,"","Abiotic","Wind","Wind","",NA,"",NA,29.194,"",NA,NA,99
 "Quercus coccifera","Quercus coccifera","","Perennial","Tree",18,5,"C3",3.6489,NA,NA,"Zoochorous",NA,"Zoochorous","","","","",NA,"",NA,NA,"",NA,NA,51.1
 "Quercus ilex","Quercus ilex","Tree","Perennial","Tree",27,NA,"C3",2.7251166665,NA,NA,"Zoochorous",2.5,"","Abiotic","Wind","","",8,"",3,8.51,"",NA,NA,58.87
 "Quercus petraea","Quercus petraea","Tree","Perennial","Tree",30,10,"C3",1.6668993335,35.663,NA,"",NA,"","Abiotic","Wind","Wind","",NA,"",NA,35.00325,"",NA,NA,125.76
 "Quercus pubescens","Quercus pubescens","Tree","Perennial","Tree",20,2,"C3",0.6337,11.5,NA,"Zoochorous",NA,"","Abiotic","Wind","","",NA,"",NA,39.45,"",NA,NA,102.31
 "Quercus robur","Quercus robur","Tree","Perennial","Tree",50,4,"C3",3.432486625,30,NA,"",6,"","Abiotic","Wind","Wind","",NA,"",NA,20.73533,"",NA,NA,148.43
+"Quercus rubra","Quercus rubra","Tree","Perennial","Tree",25,10,"C3",3.364881945,24.9966666666667,NA,"Zoochorous",11,"","Abiotic","Wind","Wind","",NA,"",NA,50.849,"",NA,NA,138.9
 "Quercus suber","Quercus suber","Tree","Perennial","Tree",20,NA,"C3",3.50436875,NA,NA,"Zoochorous",NA,"Zoochorous","","","","",NA,"",NA,NA,"",NA,NA,53.38
 "Rabelera holostea","Rabelera holostea","Herb","Perennial","Forb",0.5,0.15,"C3",0.002728,0.233,NA,"",NA,"","Biotic","Insect","","",NA,"",NA,2.16,"",NA,NA,273.38
-"Ranunculus","Ranunculus acris_Ranunculus arvensis_Ranunculus bulbosus_Ranunculus gramineus_Ranunculus muricatus_Ranunculus paludosus_Ranunculus parviflorus_Ranunculus repens_Ranunculus sardous_Ranunculus sceleratus","Herb","Annual_Perennial","Forb_Herb",0.74375,0.11375,"C3",0.00473683596296296,0.3116875,2.5,"Hydrochorous_Unspecialized_Zoochorous",6.4375,"","Biotic","Insect","Fly_Insect","Brown",0.8875,"Yellow",0.475,12.869115,"",2.125,1.2,269.943333333333
+"Ranunculus","Ranunculus acris_Ranunculus arvensis_Ranunculus bulbosus_Ranunculus flammula_Ranunculus gramineus_Ranunculus muricatus_Ranunculus paludosus_Ranunculus parviflorus_Ranunculus repens_Ranunculus sardous_Ranunculus sceleratus","Herb","Annual_Perennial","Forb_Herb",0.738888888888889,0.112222222222222,"C3",0.00475141069166667,0.315018518518519,2.5,"Hydrochorous_Unspecialized_Zoochorous",5.94444444444444,"","Biotic","Insect","Fly_Insect","Brown",0.8875,"Yellow",0.475,11.9686457142857,"",2.125,1.2,255.647142857143
 "Ranunculus acris","Ranunculus acris","Herb","Perennial","Forb",1.2,0.3,"C3",0.001611857,0.517,NA,"Zoochorous",12,"","Biotic","Insect","","",NA,"",NA,6.20705,"",NA,NA,231.17
 "Ranunculus acris subsp. friesianus","Ranunculus acris","Herb","Perennial","Forb",1.2,0.3,"C3",0.001611857,0.517,NA,"Zoochorous",12,"","Biotic","Insect","","",NA,"",NA,6.20705,"",NA,NA,231.17
 "Ranunculus arvensis","Ranunculus arvensis","Herb","Annual","",0.6,0.12,"C3",0.012374,0.269333333333333,2.5,"Zoochorous",3,"","Biotic","Insect","Insect","",NA,"Yellow",NA,5.76,"",1.3,0.6,274
 "Ranunculus bulbosus","Ranunculus bulbosus","Herb","Perennial","Forb",0.9,0.15,"C3",0.00238725,0.2375,NA,"",8,"","Biotic","Insect","","",NA,"",NA,10.81333,"",NA,NA,181.41
+"Ranunculus flammula","Ranunculus flammula","Herb","Perennial","Forb",0.7,0.1,"C3",0.00488258325,0.341666666666667,NA,"",2,"","Biotic","Insect","","",NA,"",NA,6.56583,"",NA,NA,169.87
 "Ranunculus gramineus","Ranunculus gramineus","","","Herb",NA,NA,"C3",NA,NA,NA,"",NA,"","","","","",NA,"",NA,NA,"",NA,NA,NA
 "Ranunculus muricatus","Ranunculus muricatus","Herb","Annual","",0.5,0.04,"C3",0.0115945,0.2,NA,"",4,"","Biotic","Insect","","Brown",1,"Yellow",0.45,NA,"",2,1,NA
 "Ranunculus paludosus","Ranunculus paludosus","","Perennial","Herb",NA,NA,"C3",0.000209,NA,NA,"",NA,"","","","","",NA,"",NA,NA,"",NA,NA,NA
@@ -1534,6 +1591,7 @@
 "Rhinanthus minor","Rhinanthus minor","Herb","Annual","Forb",0.6,0.04,"C3",0.00248229166666667,0.379,4,"Anemochorous",NA,"","Biotic","Insect","Bee","",NA,"",NA,3.60333,"",NA,NA,198.01
 "Rhinanthus pumilus","Rhinanthus pumilus","Herb","Annual","",0.4,0.2,"",NA,NA,NA,"",NA,"","","","","",NA,"",NA,NA,"",NA,NA,NA
 "Rhizogemma staphylina",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Ribes uva-crispa","Ribes uva-crispa","Shrub","Perennial","Shrub",2.5,0.6,"C3",0.00409766666666667,0.8665,NA,"Zoochorous",5,"","Biotic","Insect","","",NA,"",NA,8.03075,"",NA,NA,227.86
 "Riccia sorocarpa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Riccia warnstorfii",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Ridolfia segetum","Ridolfia segetum","Herb","Annual","Herb",1.5,0.5,"C3",0.0004975,NA,NA,"Unspecialized",NA,"Anthropochorous","Biotic","Insect","","",0.2,"Yellow",NA,NA,"Umbel",NA,NA,NA
@@ -1549,9 +1607,10 @@
 "Rorippa palustris","Rorippa palustris","Herb","","",1,0.1,"C3",6.5e-05,0.387,NA,"Unspecialized",0.3,"","Biotic","Insect","Fly","",NA,"",NA,21.67988,"",NA,NA,412.51
 "Rorippa sylvestris","Rorippa sylvestris","Herb","Perennial","",0.8,0.15,"C3",0.000485,0.36075,NA,"Unspecialized",4,"","Biotic","Insect","Fly","",NA,"",NA,11.54333,"",NA,NA,339.03
 "Rorippa x armoracioides",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Rosa","Rosa arvensis_Rosa canina_Rosa sempervirens","Shrub","Perennial","Subshrub",3.5,0.65,"C3",0.0825969894444443,1.41666666666667,NA,"Zoochorous",1.8,"Zoochorous","Biotic","Insect","","Red",2,"",1.2,3.29833,"",4,2.5,171.165
+"Rosa","Rosa arvensis_Rosa canina_Rosa rubiginosa_Rosa sempervirens","Shrub","Perennial","Subshrub",4,0.6,"C3",0.0656951706666666,1.5,NA,"Zoochorous",2.9,"Endozoochorous_Zoochorous","Biotic","Insect","","Red",2,"",1.2,6.23559,"",4,2.5,152.11
 "Rosa arvensis","Rosa arvensis","Shrub","Perennial","",2,0.3,"C3",0.096032,1,NA,"Zoochorous",NA,"","Biotic","Insect","","",NA,"",NA,3.29833,"",NA,NA,219.75
 "Rosa canina","Rosa canina","Shrub","Perennial","",5,1,"C3",0.139688968333333,1.75,NA,"Zoochorous",1.8,"","Biotic","Insect","","Red",2,"",1.2,NA,"",4,2.5,122.58
+"Rosa rubiginosa","Rosa rubiginosa","Shrub","Perennial","",5,0.5,"C3",0.0149897143333333,1.75,NA,"Zoochorous",4,"Endozoochorous","Biotic","Insect","","",NA,"",NA,9.17285,"",NA,NA,114
 "Rosa sempervirens","Rosa sempervirens","Shrub","Perennial","Subshrub",NA,NA,"C3",0.01207,1.5,NA,"Zoochorous",NA,"Zoochorous","","","","",NA,"",NA,NA,"",NA,NA,NA
 "Rosaceae",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Rostraria cristata","Rostraria cristata","Herb","Annual","",0.7,0.05,"C3",0.0051783125,NA,NA,"Zoochorous",NA,"","Abiotic","Wind","","",0.4,"",0.3,NA,"Panicle",NA,NA,NA
@@ -1591,10 +1650,14 @@
 "Ruta graveolens","Ruta graveolens","Herb","Perennial","",1.5,0.2,"C3",0.0020936665,0.375,NA,"",NA,"","Biotic","Insect","","",0.7,"Yellow",0.6,NA,"Cyme",NA,NA,NA
 "Sabulina tenuifolia","Sabulina tenuifolia","Herb","Annual","Herb",0.25,0.03,"C3",0.000102333333333333,0.072,NA,"Anemochorous",0.7,"","Biotic","Insect","Insect","",NA,"",NA,0.0358,"",NA,NA,219.8
 "Sabulina tenuifolia subsp. laxa","Sabulina tenuifolia","Herb","Annual","Herb",0.25,0.03,"C3",0.000102333333333333,0.072,NA,"Anemochorous",0.7,"","Biotic","Insect","Insect","",NA,"",NA,0.0358,"",NA,NA,219.8
+"Sagina","Sagina apetala_Sagina procumbens","Herb","Annual_Perennial","",0.3,0.015,"C3",1.375e-05,0.0652083333333334,0.6,"",0.1,"","Biotic","Insect","Insect","",0.86,"",0.31,0.0627425,"",0.7,0.4,201.4
 "Sagina apetala","Sagina apetala","Herb","Annual","",0.4,0.02,"C3",1.04166666666667e-05,0.0516666666666667,NA,"",0.1,"","Biotic","Insect","Insect","",0.22,"",0.12,0.045485,"",NA,NA,210.3
 "Sagina procumbens","Sagina procumbens","Herb","Perennial","",0.2,0.01,"C3",1.70833333333333e-05,0.07875,0.6,"",0.1,"","Biotic","Insect","Insect","",1.5,"",0.5,0.08,"",0.7,0.4,192.5
-"Salix","Salix caprea_Salix purpurea_Salix triandra","Shrub","Perennial","Shrub",8,0.966666666666667,"C3",8.02755555555557e-05,5.8195,6,"Anemochorous",3.25,"Anemochorous","Biotic","Insect","Insect","",NA,"",NA,13.37329,"",NA,NA,119.803333333333
+"Salix","Salix alba_Salix caprea_Salix cinerea_Salix purpurea_Salix triandra","Shrub_Tree","Perennial","Shrub_Tree",13.8,1.98,"C3",7.88653333333334e-05,8.03755,7.16666666666667,"Anemochorous",2.16666666666667,"Anemochorous","Biotic","Insect","Insect","",NA,"",NA,10.85154,"",NA,NA,116.03
+"Salix alba","Salix alba","Tree","Perennial","Tree",30,5,"C3",0.00012,19.04175,8.5,"",2,"Anemochorous","Biotic","Insect","Insect","",NA,"",NA,7.82125,"",NA,NA,118.94
 "Salix caprea","Salix caprea","","Perennial","Shrub",10,1,"C3",0.000130826666666667,8,6,"Anemochorous",3.25,"Anemochorous","Biotic","Insect","Insect","",NA,"",NA,20.46325,"",NA,NA,148.3
+"Salix cinerea","Salix cinerea","Shrub","Perennial","",15,2,"C3",3.35e-05,3.6875,7,"",1.25,"","Biotic","Insect","Insect","",NA,"",NA,8.83833,"",NA,NA,101.8
+"Salix fragilis",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Salix purpurea","Salix purpurea","Shrub","Perennial","",8,0.9,"C3",9e-05,2.167,NA,"Anemochorous",NA,"Anemochorous","Biotic","Insect","Insect","",NA,"",NA,NA,"",NA,NA,94.97
 "Salix triandra","Salix triandra","Shrub","Perennial","Shrub",6,1,"C3",2e-05,7.2915,NA,"Anemochorous",NA,"Anemochorous","Biotic","Insect","Insect","",NA,"",NA,6.28333,"",NA,NA,116.14
 "Salsola kali","Salsola kali","Herb","Annual","",1,0.02,"C4",0.008058875,0.512,NA,"Anemochorous",NA,"","Abiotic","Wind","","",NA,"Yellow",NA,0.625,"",0.6,0.4,95.5
@@ -1643,6 +1706,7 @@
 "Scorpiurus vermiculatus","Scorpiurus vermiculatus","Herb","Annual","Herb",0.3,NA,"C3",0.00652,NA,NA,"",NA,"","","","","",NA,"",NA,NA,"",NA,NA,NA
 "Scorzonera hirsuta",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Scorzoneroides autumnalis","Scorzoneroides autumnalis","Herb","Perennial","",0.75,0.07,"C3",0.0007467,0.2835,NA,"",3.5,"","Biotic","Insect","","",NA,"",NA,3.0003,"",NA,NA,264.24
+"Scrophularia auriculata","Scrophularia auriculata","Herb","Perennial","",1.5,0.3,"C3",0.000111333333333333,0.394,NA,"Hydrochorous",NA,"Hydrochorous","Biotic","Insect","Bee","",0.9,"",NA,158.75667,"",NA,NA,228.25
 "Scrophularia nodosa","Scrophularia nodosa","Herb","Perennial","Forb",1.25,0.3,"C3",9.9e-05,0.583,NA,"Anemochorous",6,"","Biotic","Insect","Bee","",NA,"",NA,81.66,"",NA,NA,260
 "Scutellaria galericulata","Scutellaria galericulata","Herb","Perennial","Forb",0.5,0.08,"C3",0.0007065,0.242,NA,"Hydrochorous",NA,"","Biotic","Insect","","",NA,"",NA,6.40417,"",NA,NA,395.07
 "Secale cereale","Secale cereale","Herb","Annual","Graminoid",2,0.5,"C3",0.0281875,1.05,NA,"",1.1,"","Abiotic","Wind","Wind","",1.5,"",0.8,NA,"Spike",NA,NA,NA
@@ -1651,11 +1715,12 @@
 "Sedum album","Sedum album","Herb","Perennial","Forb",0.2,0.05,"C3",2.4875e-05,0.1025,NA,"Unspecialized",0.3,"","Biotic","Insect","","",NA,"",NA,0.235,"",NA,NA,150.8
 "Sedum anglicum","Sedum anglicum","Herb","Perennial","Herb",NA,NA,"Cam",3.7e-05,0.028,NA,"Hydrochorous",NA,"Hydrochorous","","","","",NA,"",NA,NA,"",NA,NA,398
 "Sedum rubens","Sedum rubens","Herb","Annual","Herb",0.15,0.05,"C3",2.2e-05,0.07,NA,"",NA,"","","","","",0.5,"",NA,0.1525,"",NA,NA,337.2
-"Senecio","Senecio gallicus_Senecio inaequidens_Senecio leucanthemifolius_Senecio lividus_Senecio vernalis_Senecio viscosus_Senecio vulgaris","Herb","Annual","Forb_Herb",0.59,0.09,"C3",0.0003518125,0.37,NA,"Anemochorous",2,"Anemochorous","Biotic","Insect","Insect","",0.75,"Yellow",0.8,9.5480625,"Cyme_Panicle",0.575,0.4,246.855
+"Senecio","Senecio gallicus_Senecio inaequidens_Senecio leucanthemifolius_Senecio lividus_Senecio sylvaticus_Senecio vernalis_Senecio viscosus_Senecio vulgaris","Herb","Annual","Forb_Herb",0.691666666666667,0.0833333333333333,"C3",0.000331183333333333,0.3735,NA,"Anemochorous",2.5,"Anemochorous","Biotic","Insect","Insect","",0.75,"Yellow",0.8,18.31045,"Cyme_Panicle",0.575,0.4,256.484
 "Senecio gallicus","Senecio gallicus","Herb","Annual","Herb",NA,NA,"",NA,NA,NA,"Anemochorous",NA,"Anemochorous","","","","",NA,"",NA,NA,"",NA,NA,NA
 "Senecio inaequidens","Senecio inaequidens","","","",1.1,0.2,"C3",0.00025,0.6,NA,"",NA,"","Biotic","Insect","Insect","",NA,"",NA,2.81375,"",NA,NA,224.45
 "Senecio leucanthemifolius","Senecio leucanthemifolius","Herb","Annual","",0.3,0.05,"",NA,NA,NA,"",NA,"","","","","",0.5,"Yellow",NA,NA,"Cyme",0.7,NA,NA
 "Senecio lividus","Senecio lividus","","Annual","",NA,NA,"",NA,NA,NA,"",NA,"","","","","",NA,"",NA,NA,"",NA,NA,NA
+"Senecio sylvaticus","Senecio sylvaticus","Herb","Annual","",1.2,0.05,"C3",0.000248666666666667,0.3875,NA,"Anemochorous",3,"","Biotic","Insect","","",NA,"",NA,53.36,"",NA,NA,295
 "Senecio vernalis","Senecio vernalis","Herb","Annual","Herb",0.45,0.1,"C3",0.000179,0.26,NA,"",NA,"","Biotic","Insect","Insect","",NA,"",NA,14.6485,"",NA,NA,240.1
 "Senecio viscosus","Senecio viscosus","Herb","Annual","Forb",0.6,0.05,"C3",0.000518,0.3,NA,"",NA,"","Biotic","Insect","","",NA,"",NA,15.6,"",NA,NA,224.67
 "Senecio vulgaris","Senecio vulgaris","Herb","Annual","",0.5,0.05,"C3",0.00046025,0.32,NA,"Anemochorous",2,"Anemochorous","Biotic","Insect","","",1,"Yellow",0.8,5.13,"Panicle",0.45,0.4,298.2
@@ -1737,6 +1802,7 @@
 "Sorghum","Sorghum bicolor_Sorghum halepense","Herb","Annual_Perennial","Graminoid",4.5,0.2,"C4",0.00783052783333335,2.20833333333333,NA,"Unspecialized",3.25,"","Abiotic","Wind","Wind","",0.35,"",NA,NA,"Panicle",NA,NA,228.1
 "Sorghum bicolor","Sorghum bicolor","Herb","Annual","Graminoid",5,0.1,"C4",0.0120415556666667,2.86666666666667,NA,"Unspecialized",5,"","Abiotic","Wind","Wind","",NA,"",NA,NA,"Panicle",NA,NA,228.1
 "Sorghum halepense","Sorghum halepense","Herb","Perennial","",4,0.3,"C4",0.0036195,1.55,NA,"Unspecialized",1.5,"","Abiotic","Wind","Wind","",0.35,"",NA,NA,"Panicle",NA,NA,NA
+"Sparganium erectum","Sparganium erectum","Herb","Perennial","Forb",1.5,0.25,"C3",0.0170125,0.375,NA,"",NA,"","Abiotic","Wind","Wind","",NA,"",NA,138.62,"",NA,NA,194.93
 "Spergula","Spergula arvensis_Spergula morisonii_Spergula pentandra","Herb","Annual","Forb",0.633333333333333,0.05,"C3",0.000235976166666667,0.13,2.75,"Anemochorous",0.1,"Anemochorous","Biotic","Insect","Insect","",0.525,"White",0.375,0.08105,"",NA,NA,152.81
 "Spergula arvensis","Spergula arvensis","Herb","Annual","",1.2,0.05,"C3",0.0004079285,0.215,2.75,"",0.1,"","Biotic","Insect","","",0.6,"White",0.5,0.115,"",NA,NA,188.82
 "Spergula morisonii","Spergula morisonii","Herb","Annual","Forb",0.3,0.05,"C3",0.000161,0.1,NA,"Anemochorous",NA,"Anemochorous","Biotic","Insect","Insect","",NA,"",NA,0.0471,"",NA,NA,116.8
@@ -1754,21 +1820,25 @@
 "Stachys palustris","Stachys palustris","Herb","Perennial","Forb",1.2,0.2,"C3",0.00103033333333333,0.684,NA,"",2,"","Biotic","Insect","","",NA,"",NA,9.3772,"",NA,NA,359.99
 "Stachys recta","Stachys recta","Herb","Perennial","Forb",1,0.2,"C3",0.001505111,0.325,NA,"Zoochorous",NA,"","Biotic","Insect","","",NA,"",NA,7.405,"",NA,NA,285.35
 "Stachys sylvatica","Stachys sylvatica","Herb","Perennial","Forb",1.2,0.3,"C3",0.0011995,0.646,NA,"",4.5,"","Biotic","Insect","Bee","",NA,"",NA,21.395,"",NA,NA,418.02
-"Stellaria","Stellaria aquatica_Stellaria graminea_Stellaria media","Herb","Annual_Perennial","Forb",0.966666666666667,0.103333333333333,"C3",0.00100225738888889,0.318444444444445,2.75,"Anemochorous",1.5,"","Biotic","Insect","","",0.6,"White",0.3,5.37444333333333,"",NA,NA,477.346666666667
+"Stellaria","Stellaria aquatica_Stellaria graminea_Stellaria media_Stellaria neglecta","Herb","Annual_Perennial","Forb",0.925,0.1275,"C3",0.000952568041666667,0.361708333333334,2.6875,"Anemochorous",1.5,"","Biotic","Insect","Insect","",0.6,"White",0.3,5.0708325,"",NA,NA,518.26
 "Stellaria aquatica","Stellaria aquatica","Herb","Perennial","Forb",1.2,0.2,"C3",0.000184666666666667,0.4,4,"Anemochorous",2,"","Biotic","Insect","","",NA,"",NA,10.48,"",NA,NA,605.73
 "Stellaria graminea","Stellaria graminea","Herb","Perennial","",0.9,0.1,"C3",0.00029875,0.352666666666667,2.25,"",NA,"","Biotic","Insect","","",NA,"",NA,0.76333,"",NA,NA,289.5
 "Stellaria media","Stellaria media","Herb","Annual","",0.8,0.01,"C3",0.0025233555,0.202666666666667,2,"",1,"","Biotic","Insect","","",0.6,"White",0.3,4.88,"",NA,NA,536.81
+"Stellaria neglecta","Stellaria neglecta","Herb","","Forb",0.8,0.2,"C3",0.0008035,0.4915,2.5,"Anemochorous",NA,"","Biotic","Insect","Insect","",NA,"",NA,4.16,"",NA,NA,641
 "Stellaria pallida",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Stipa capillata","Stipa capillata","Herb","Perennial","Graminoid",1,0.3,"C3",0.008049,0.525,NA,"Anemochorous",NA,"Anemochorous","Abiotic","Wind","","",NA,"",NA,4.26,"",NA,NA,75.6
 "Stipellula capensis","Stipellula capensis","Herb","Annual","",1,0.1,"",0.001076667,NA,NA,"",NA,"","","","","",0.7,"",0.5,NA,"Panicle",NA,NA,NA
 "Succisa pratensis","Succisa pratensis","Herb","Perennial","Forb",0.9,0.15,"C3",0.0013427085,0.342,NA,"",NA,"","Biotic","Insect","","",NA,"",NA,48.60667,"",NA,NA,179.37
 "Succowia balearica","Succowia balearica","Herb","Annual","",4,NA,"",NA,NA,NA,"",NA,"","","","","",NA,"",NA,NA,"",NA,NA,NA
+"Symphoricarpos albus","Symphoricarpos albus","Shrub","Perennial","Shrub",2.5,1,"C3",0.00674688883333333,1.205,NA,"Zoochorous",2.3,"","Biotic","Insect","Insect","",NA,"",NA,22.7425,"",NA,NA,195.52
 "Symphyotrichum","Aster asteroides_Symphyotrichum lanceolatum_Symphyotrichum subulatum","Herb","Perennial","Forb_Herb",1.46666666666667,0.226666666666667,"C3",0.000350333333333334,1.4025,2.5,"Anemochorous",0.75,"Anemochorous","Biotic","Insect","Insect","",0.8,"",0.6,NA,"",2,1.5,NA
 "Symphyotrichum lanceolatum","Symphyotrichum lanceolatum","Herb","Perennial","Forb",1.2,0.6,"",0.000418,1.8,NA,"",0.9,"","Biotic","Insect","Insect","",0.8,"",0.6,NA,"",2,1.5,NA
 "Symphyotrichum squamatum","Aster asteroides","Herb","Perennial","Herb",0.2,0.03,"C3",NA,NA,2.5,"Anemochorous",NA,"Anemochorous","","","","",NA,"",NA,NA,"",NA,NA,NA
 "Symphyotrichum subulatum","Symphyotrichum subulatum","Herb","","",3,0.05,"",0.000282666666666667,1.005,NA,"Anemochorous",0.6,"Anemochorous","Biotic","Insect","","",NA,"",NA,NA,"",NA,NA,NA
-"Symphytum","Symphytum officinale","Herb","Perennial","",1.5,0.3,"C3",0.0097245,0.5835,NA,"Zoochorous",NA,"","Biotic","Insect","Bee","",NA,"",NA,88.1625,"",NA,NA,250.23
+"Symphytum","Symphytum officinale_Symphytum orientale_Symphytum tauricum","Herb","Perennial","Herb",1.5,0.3,"C3",0.0097245,0.64175,NA,"Unspecialized_Zoochorous",NA,"Anthropochorous","Biotic","Insect","Bee","",NA,"",NA,90.56125,"",NA,NA,273.615
+"Symphytum kurdicum","Symphytum orientale_Symphytum tauricum","Herb","Perennial","Herb",NA,NA,"C3",NA,0.7,NA,"Unspecialized",NA,"Anthropochorous","","","","",NA,"",NA,92.96,"",NA,NA,297
 "Symphytum officinale","Symphytum officinale","Herb","Perennial","",1.5,0.3,"C3",0.0097245,0.5835,NA,"Zoochorous",NA,"","Biotic","Insect","Bee","",NA,"",NA,88.1625,"",NA,NA,250.23
+"Syringa vulgaris","Syringa vulgaris","Shrub","Perennial","Shrub",10,1.5,"C3",0.00531833333333333,6.05,NA,"",8,"","Biotic","Insect","Insect","",NA,"",NA,23.39167,"",NA,NA,133.59
 "Taeniatherum caput-medusae","Taeniatherum caput-medusae","Herb","Annual","",0.4,0.1,"C3",0.00475433325,NA,NA,"Zoochorous",NA,"Zoochorous","","","","",1.2,"",0.4,NA,"Spike",NA,NA,NA
 "Tagetes minuta","Tagetes minuta","Herb","Annual","",3,0.1,"C3",0.001182,1.85,NA,"Anemochorous",NA,"Anemochorous","Biotic","Insect","Insect","",0.3,"",0.1,NA,"Umbel",NA,NA,NA
 "Tanacetum corymbosum","Tanacetum corymbosum","Herb","Perennial","Forb",1.5,0.25,"C3",0.0004783335,0.675,NA,"",NA,"","Biotic","Insect","","",NA,"",NA,10.9388,"",NA,NA,174.2
@@ -1777,6 +1847,7 @@
 "Taraxacum campylodes","Taraxacum campylodes","","Perennial","Forb",NA,NA,"",NA,NA,NA,"",NA,"","","","","",NA,"",NA,NA,"",NA,NA,NA
 "Taraxacum erythrospermum","Taraxacum erythrospermum","Herb","Perennial","",0.25,0.05,"C3",0.0004015,0.15,NA,"",NA,"","","","","",NA,"",NA,NA,"",NA,NA,NA
 "Taraxacum officinale","Taraxacum subdissimile","","","",NA,NA,"C3",NA,NA,NA,"",NA,"","","","","",NA,"",NA,NA,"",NA,NA,NA
+"Taxus baccata","Taxus baccata","Tree","Perennial","",20,3,"C3",0.0588403333333333,14.75,NA,"Zoochorous",0.1,"","Abiotic","Wind","Wind","",NA,"",NA,0.5185,"",NA,NA,78.72
 "Teesdalia nudicaulis","Teesdalia nudicaulis","Herb","Annual","",0.2,0.03,"C3",0.0002988335,0.127,NA,"Anemochorous",NA,"","Biotic","Insect","Insect","",NA,"",NA,1.045,"",NA,NA,289.5
 "Teloxys aristata","Teloxys aristata","Herb","Annual","Forb",0.3,0.05,"C3",NA,NA,NA,"",NA,"","","","","",NA,"",NA,NA,"",NA,NA,NA
 "Teucrium","Teucrium botrys_Teucrium chamaedrys_Teucrium polium_Teucrium scorodonia","Herb_Shrub","Annual_Perennial","Forb_Subshrub",0.5375,0.125,"C3",0.0012026084375,0.193666666666667,NA,"Anemochorous_Unspecialized_Zoochorous",3,"","Biotic","Insect","Bee","",NA,"",NA,4.32666666666667,"",NA,NA,244.773333333333
@@ -1784,6 +1855,7 @@
 "Teucrium chamaedrys","Teucrium chamaedrys","Shrub","Perennial","Subshrub",0.45,0.08,"C3",0.00116566666666667,0.14,NA,"Anemochorous",NA,"","Biotic","Insect","","",NA,"",NA,1.34,"",NA,NA,163.1
 "Teucrium polium","Teucrium polium","Shrub","Perennial","Subshrub",0.4,0.05,"",0.00170053575,NA,NA,"",NA,"","","","","",NA,"",NA,NA,"",NA,NA,NA
 "Teucrium scorodonia","Teucrium scorodonia","Herb","Perennial","",0.7,0.3,"C3",0.000816481333333333,0.258,NA,"Unspecialized",3,"","Biotic","Insect","Bee","",NA,"",NA,9.39,"",NA,NA,177.82
+"Thalictrum flavum","Thalictrum flavum","Herb","Perennial","",1.5,0.45,"C3",0.001361,1.05,5.5,"Hydrochorous",1.8,"","","","","",NA,"",NA,325.425,"",NA,NA,261
 "Thalictrum lucidum","Thalictrum lucidum","","Perennial","Herb",1.5,0.5,"C3",0.0005835,0.675,NA,"",NA,"","","","","",NA,"",NA,NA,"",NA,NA,NA
 "Thalictrum minus","Thalictrum minus","Herb","Perennial","Forb",1.5,0.1,"C3",0.001511125,0.475,1.1,"Anemochorous",0.85,"","","","","",NA,"",NA,119.34417,"",NA,NA,167.33
 "Thesium dollineri","Thesium dollineri","","Variable","",0.15,0.06,"",NA,NA,NA,"",NA,"","","","","",NA,"",NA,NA,"",NA,NA,NA
@@ -1897,6 +1969,7 @@
 "Tulipa sylvestris subsp. sylvestris","Tulipa sylvestris","Herb","Perennial","Forb",0.5,0.1,"C3",0.006367,0.3,NA,"Anemochorous",NA,"","Biotic","Insect","Insect","",NA,"",NA,NA,"",NA,NA,NA
 "Turgenia latifolia","Turgenia latifolia","Herb","Annual","Forb",0.6,0.15,"C3",0.0286925,0.2925,NA,"Zoochorous",NA,"","Biotic","Insect","","",NA,"",NA,28.8931,"",NA,NA,261.3
 "Tussilago farfara","Tussilago farfara","Herb","Perennial","Forb",0.35,0.05,"C3",0.00027875,0.185,NA,"Anemochorous",11,"","Biotic","Insect","","",NA,"",NA,489.975,"",NA,NA,196.25
+"Typha latifolia","Typha latifolia","Herb","Perennial","",25,1,"C3",9.24165e-05,5.75,70,"",1,"Anemochorous","Abiotic","Wind","Wind","",NA,"",NA,175.22,"",NA,NA,115.94
 "Tyrimnus leucographus","Tyrimnus leucographus","","Annual","",NA,NA,"",NA,NA,NA,"",NA,"","","","","",NA,"",NA,NA,"",NA,NA,NA
 "Ulex","Ulex europaeus","Shrub","Perennial","Shrub",3,0.5,"C3",0.006435361,1.1165,NA,"",0.3,"","Biotic","Insect","","",NA,"Yellow",NA,0.145,"",NA,NA,82.03
 "Ulex europaeus","Ulex europaeus","Shrub","Perennial","Shrub",3,0.5,"C3",0.006435361,1.1165,NA,"",0.3,"","Biotic","Insect","","",NA,"Yellow",NA,0.145,"",NA,NA,82.03
@@ -1909,7 +1982,8 @@
 "Urtica","Urtica dioica_Urtica urens","Herb","Annual_Perennial","",1.95,0.2,"C3",0.00030475,0.637416666666667,5.3,"",3.25,"","Abiotic","Wind","Wind","",0.05,"",NA,21.4875,"",NA,NA,247.4
 "Urtica dioica","Urtica dioica","Herb","Perennial","",3,0.3,"C3",9.2e-05,0.987333333333333,7,"",3.25,"","Abiotic","Wind","Wind","",NA,"",NA,38.415,"",NA,NA,284.8
 "Urtica urens","Urtica urens","Herb","Annual","",0.9,0.1,"C3",0.0005175,0.2875,3.6,"",NA,"","Abiotic","Wind","Wind","",0.05,"",NA,4.56,"",NA,NA,210
-"Valeriana","Valeriana calvescens_Valeriana officinalis","Herb","Perennial","Forb_Herb",2.1,0.3,"C3",0.00090625,0.525,NA,"Anemochorous",NA,"","Biotic","Insect","","",NA,"",NA,123.33,"",NA,NA,411.975
+"Valeriana","Valeriana calvescens_Valeriana dioica_Valeriana officinalis","Herb","Perennial","Forb_Herb",1.25,0.165,"C3",0.00079120825,0.3525,NA,"Anemochorous",NA,"Anemochorous","Biotic","Insect","","",NA,"",NA,65.66,"",NA,NA,357.4875
+"Valeriana dioica","Valeriana dioica","Herb","Perennial","Forb",0.4,0.03,"C3",0.0006761665,0.18,NA,"Anemochorous",NA,"Anemochorous","Biotic","Insect","","",NA,"",NA,7.99,"",NA,NA,303
 "Valeriana excelsa subsp. sambucifolia","Valeriana calvescens","Herb","Perennial","Herb",NA,NA,"",NA,NA,NA,"",NA,"","","","","",NA,"",NA,NA,"",NA,NA,NA
 "Valeriana officinalis","Valeriana officinalis","Herb","Perennial","Forb",2.1,0.3,"C3",0.00090625,0.525,NA,"Anemochorous",NA,"","Biotic","Insect","","",NA,"",NA,123.33,"",NA,NA,411.975
 "Valerianella","Valeriana dentata_Valeriana discoidea_Valeriana echinata_Valeriana ibika_Valeriana locusta_Valeriana pumila_Valerianella abyssinica_Valerianella eriocarpa_Valerianella multidentata","Herb","Annual","Forb_Herb",0.391666666666667,0.0866666666666667,"C3",0.00094861111111111,0.1705,NA,"Unspecialized",0.8,"","Biotic","Insect","Insect","",0.183333333333333,"Blue",0.133333333333333,1.45125,"",NA,NA,309.475
@@ -1936,11 +2010,13 @@
 "Verbascum thapsus","Verbascum thapsus","Herb","Biennial","",2,0.3,"",0.000101975,1.14433333333333,15,"Anemochorous",6,"","Biotic","Insect","","",NA,"Yellow",NA,216.28333,"",2.3,1.5,169.18
 "Verbena officinalis","Verbena officinalis","Herb","Perennial","Forb",1,0.3,"C3",0.0003456875,0.471333333333333,NA,"Unspecialized",2.5,"","Biotic","Insect","","",NA,"",NA,3.7725,"Spike",NA,NA,142
 "Verbena supina","Verbena supina","Herb","Annual","Forb",0.5,0.050800102,"",0.00035,NA,NA,"",NA,"","","","","",0.45,"",0.25,NA,"",NA,NA,NA
-"Veronica","Veronica acinifolia_Veronica agrestis_Veronica anagallis-aquatica_Veronica arvensis_Veronica chamaedrys_Veronica cymbalaria_Veronica filiformis_Veronica hederifolia_Veronica officinalis_Veronica opaca_Veronica persica_Veronica polita_Veronica praecox_Veronica prostrata_Veronica serpyllifolia_Veronica spicata_Veronica triloba_Veronica triphyllos_Veronica verna","Herb","Annual_Perennial","Forb_Herb",0.371052631578947,0.0442105263157895,"C3",0.00065062825,0.173343137254902,2.21666666666667,"Unspecialized_Zoochorous",1.95454545454545,"Anthropochorous_Zoochorous","Biotic","Insect","Fly_Insect","",NA,"Blue",NA,3.51230769230769,"",0.742857142857143,0.516666666666667,302.505384615385
+"Veronica","Veronica acinifolia_Veronica agrestis_Veronica anagallis-aquatica_Veronica arvensis_Veronica beccabunga_Veronica catenata_Veronica chamaedrys_Veronica cymbalaria_Veronica filiformis_Veronica hederifolia_Veronica officinalis_Veronica opaca_Veronica persica_Veronica polita_Veronica praecox_Veronica prostrata_Veronica serpyllifolia_Veronica spicata_Veronica triloba_Veronica triphyllos_Veronica verna","Herb","Annual_Perennial","Forb_Herb",0.392857142857143,0.0495238095238095,"C3",0.000595286212962963,0.185149122807018,2.21666666666667,"Unspecialized_Zoochorous",1.95454545454545,"Anthropochorous_Zoochorous","Biotic","Insect","Fly_Insect","",NA,"Blue",NA,3.81761133333333,"",0.7625,0.5,301.500666666667
 "Veronica acinifolia","Veronica acinifolia","Herb","Annual","Herb",0.2,0.02,"C3",NA,0.08,NA,"Unspecialized",NA,"Anthropochorous","","","","",NA,"",NA,NA,"",NA,NA,NA
 "Veronica agrestis","Veronica agrestis","Herb","Annual","Forb",0.3,0.03,"C3",0.000482333333333333,0.25,NA,"Unspecialized",10.5,"","Biotic","Insect","","",NA,"",NA,1.47,"",0.6,0.5,552
 "Veronica anagallis-aquatica","Veronica anagallis-aquatica","Herb","","",1.2,0.05,"C3",5e-05,0.279,6,"Unspecialized",2.25,"","Biotic","Insect","Fly","",NA,"Blue",NA,22.85,"",0.7,0.4,332
 "Veronica arvensis","Veronica arvensis","Herb","Annual","",0.3,0.02,"C3",0.000118896666666667,0.142666666666667,1,"",0.7,"","Biotic","Insect","","",NA,"",NA,1.51667,"",0.3,NA,257.45
+"Veronica beccabunga","Veronica beccabunga","Herb","Perennial","",0.6,0.05,"C3",0.0002656665,0.3,NA,"",NA,"","Biotic","Insect","","",NA,"",NA,7.98667,"",0.9,0.4,247.8
+"Veronica catenata","Veronica catenata","Herb","Perennial","Forb",0.6,0.15,"C3",3.94333333333333e-05,0.271,NA,"",NA,"","Biotic","Insect","Fly","",NA,"",NA,3.6175,"",NA,NA,342.14
 "Veronica chamaedrys","Veronica chamaedrys","Herb","Perennial","",0.5,0.1,"C3",0.0002123,0.255,2.5,"Unspecialized",1.75,"","Biotic","Insect","","",NA,"",NA,3.555,"",NA,NA,316.18
 "Veronica cymbalaria","Veronica cymbalaria","Herb","Annual","Forb",0.3,0.1,"C3",0.00268,NA,NA,"Zoochorous",NA,"Zoochorous","","","","",NA,"",NA,NA,"",NA,NA,NA
 "Veronica filiformis","Veronica filiformis","Herb","Perennial","Forb",0.3,0.02,"C3",0.000278,0.175,NA,"Unspecialized",0.6,"","Biotic","Insect","Insect","",NA,"",NA,0.525,"",NA,NA,359.25
@@ -1973,7 +2049,6 @@
 "Vicia lathyroides","Vicia lathyroides","Herb","Annual","Forb",0.3,0.05,"C3",0.002121,0.103,NA,"Autochorous",NA,"","Biotic","Insect","","",NA,"",NA,1.84,"",NA,NA,258
 "Vicia lens","Vicia lens","Herb","Annual","Forb",0.75,0.15,"C3",0.035175,0.3125,NA,"",NA,"","Biotic","Insect","Insect","",0.9,"White",0.4,NA,"",NA,NA,NA
 "Vicia lutea","Vicia lutea","Herb","Annual","Forb",0.8,0.2,"C3",0.0293126666666667,0.4425,NA,"Autochorous",NA,"Autochorous","Biotic","Insect","Bee","",NA,"",NA,NA,"",NA,NA,NA
-"Vicia lutea subsp. lutea","Vicia lutea","Herb","Annual","Forb",0.8,0.2,"C3",0.0293126666666667,0.4425,NA,"Autochorous",NA,"Autochorous","Biotic","Insect","Bee","",NA,"",NA,NA,"",NA,NA,NA
 "Vicia monantha","Vicia monantha","Herb","Annual","Forb",0.3,0.05,"C3",0.0306883335,NA,NA,"",NA,"","","","","",NA,"",NA,NA,"",NA,NA,NA
 "Vicia narbonensis","Vicia narbonensis","Herb","Annual","Forb",0.6,0.4,"C3",0.1983625,NA,NA,"",NA,"","","","","",NA,"",NA,NA,"",NA,NA,NA
 "Vicia pannonica","Vicia pannonica","Herb","Annual","Forb",0.8,0.2,"C3",0.0396091665,0.45,NA,"Autochorous",NA,"Autochorous","Biotic","Insect","Bee","",NA,"",NA,NA,"",NA,NA,NA

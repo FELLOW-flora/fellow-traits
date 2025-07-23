@@ -30,6 +30,7 @@
 "Aegilops triuncialis","Aegilops triuncialis","None","Plenty","Green",3.5,3.5,"Actinomorphe","Not applicable","Wind flowers",1,1,1,2.458076092,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Aegonychon purpurocaeruleum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Aegopodium podagraria","Aegopodium podagraria","Present","Present","White",3.5,3.5,"Actinomorphe","Disk flowers with nectar open","Flowers with open nectar",4.638654512,3.886983048,5.225195199,6.23151492,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Aesculus hippocastanum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Aethusa cynapium","Aethusa cynapium","Plenty","Plenty","White",3.5,3.5,"Zygomorphe","Disk flowers with nectar open","Flowers with open nectar",1,3.93,4.77,5.33,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Aethusa cynapium subsp. cynapium","Aethusa cynapium","Plenty","Plenty","White",3.5,3.5,"Zygomorphe","Disk flowers with nectar open","Flowers with open nectar",1,3.93,4.77,5.33,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Agrimonia agrimonoides",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -56,6 +57,7 @@
 "Alchemilla",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Alchemilla xanthochlora",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Alisma lanceolatum","Alisma lanceolatum","Present","Little","Pink",11.5,3.5,"Actinomorphe","Disk flowers with nectar hidden nectaries at base of stamens","Flowers with partly hidden nectar",4.872296112,4.443195114,5.015672458,6.698541342,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Alisma plantago-aquatica","Alisma plantago-aquatica","Present","Little","White",11.5,11.5,"Actinomorphe","Disk flowers with nectar hidden nectaries at base of stamens","Flowers with partly hidden nectar",5.039439178,4.50982742,5.293153451,6.833937216,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Alkanna matthioli",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Alkekengi officinarum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Alliaria petiolata","Alliaria petiolata","Present","Present","White",3.5,3.5,"Actinomorphe","Disk flowers with nectar hidden nectaries at base of stamens","Flowers with partly hidden nectar",4.91478646,3.883413673,5.830232254,6.387027383,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -79,6 +81,7 @@
 "Allium subhirsutum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Allium triquetrum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Allium vineale","Allium vineale","Plenty","Plenty","Purple",11.5,3.5,"Actinomorphe","Disk flowers with nectar hidden","Flowers with totally hidden nectar",4.505505649,4.005247982,4.783098911,6.226434282,"Allium vineale",100,"6","Na","Na","Géophytes à bulbe","S-r",NA,NA,NA,NA
+"Alnus glutinosa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Alopecurus","Alopecurus myosuroides_Alopecurus pratensis","None","Plenty","Green_Yellow",3.5,3.5,"Actinomorphe","Not applicable","Wind flowers",1,1,1,2.006000213,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Alopecurus geniculatus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Alopecurus myosuroides","Alopecurus myosuroides","None","Plenty","Green",3.5,3.5,"Actinomorphe","Not applicable","Wind flowers",1,1,1,1.09,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -179,6 +182,8 @@
 "Arenaria leptoclados",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Arenaria serpyllifolia","Arenaria serpyllifolia","Present","Plenty","White",11.5,11.5,"Actinomorphe","Disk flowers with nectar hidden nectaries at base of stamens","Flowers with partly hidden nectar",4.68,1,5.1,5.21,"Arenaria serpyllifolia",15,"5","0?","12","Thérophytes estivaux","S-r","Arenaria serpyllifolia","Sr","A","H"
 "Argentina anserina","Argentina anserina","Present","Plenty","Yellow",33.5,3.5,"Actinomorphe","Disk flowers with nectar hidden in centre of flower","Flowers with partly hidden nectar",5.07,1,6,7.21,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Argentina anserina subsp. anserina","Argentina anserina","Present","Plenty","Yellow",33.5,3.5,"Actinomorphe","Disk flowers with nectar hidden in centre of flower","Flowers with partly hidden nectar",5.07,1,6,7.21,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Aria edulis","Sorbus aria","Present","Present","White",11.5,3.5,"Actinomorphe","Disk flowers with nectar hidden in centre of flower","Flowers with partly hidden nectar",5.035554917,4.135243091,5.767953959,6.607032973,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Arisarum simorrhinum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Arisarum vulgare","Arisarum vulgare","Present","Plenty","Brown",11.5,3.5,"Zygomorphe","Flag blossom, fabaceae type","Flowers with totally hidden nectar",4.062797061,4.513187381,3.165169496,6.278353152,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Aristolochia clematitis","Aristolochia clematitis","Little","Plenty","Yellow",11.5,3.5,"Zygomorphe","Vessel trap flowers","Trap flowers",1,1,1,6.14,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -236,6 +241,7 @@
 "Avena sterilis","Avena sterilis","None","Plenty","Green",3.5,3.5,"Actinomorphe","Not applicable","Wind flowers",1,1,1,2.465159203,"Avena sterilis",100,"5","7","3","Thérophytes estivaux","C-r",NA,NA,NA,NA
 "Avena sterilis subsp. ludoviciana","Avena sterilis subsp. ludoviciana","None","Plenty","Green",3.5,3.5,"Actinomorphe","Not applicable","Wind flowers",1,1,1,2.465159203,"Avena sterilis",100,"5","7","3","Thérophytes estivaux","C-r",NA,NA,NA,NA
 "Avena strigosa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Avenella flexuosa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Avenula pubescens","Avenula pubescens","None","Plenty","White",3.5,3.5,"Actinomorphe","Not applicable","Wind flowers",1,1,1,2.978752011,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Ballota nigra",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Ballota nigra","C","P","H"
 "Barbarea","Barbarea intermedia_Barbarea vulgaris","Present","Little_Plenty","Yellow",33.5,3.5,"Actinomorphe","Disk flowers with nectar hidden nectaries at base of stamens","Flowers with partly hidden nectar",4.729905333,2.424829282,5.3762466805,6.8648415555,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -257,6 +263,7 @@
 "Beta vulgaris subsp. vulgaris","Beta vulgaris","Present","Plenty","Green",3.5,3.5,"Actinomorphe","Not applicable","Wind flowers occassionally visited by insect",2.492072257,2.043495889,2.935841633,3.900178076,"Beta maritima",NA,"6","Na","Na","Hémicryptophytes bisannuels","S-r",NA,NA,NA,NA
 "Betonica alopecuros",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Betonica officinalis",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Betula",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Betula pendula",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Betula pubescens",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Bidens","Bidens subalternans_Bidens tripartita","Present","Plenty","Brown_Yellow",3.5,3.5,"Actinomorphe","Flower heads, asteraceae, only disk flowers_Not applicable","Flowers with totally hidden nectar",4.855125596,4.185775843,5.703221507,5.872391231,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -331,6 +338,7 @@
 "Bupleurum tenuissimum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Cakile maritima",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Calamagrostis",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Calamagrostis epigejos","C","P","G"
+"Calamagrostis canescens",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Calamagrostis epigejos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Calamagrostis epigejos","C","P","G"
 "Calendula","Calendula arvensis","Present","Plenty","Yellow",33.5,3.5,"Actinomorphe","Flower heads, asteraceae, ray and disk flowers","Flowers with totally hidden nectar",6.71,5.82,7.96,6.74,"Calendula arvensis",50,"10-5(-9)","0?","12","Thérophytes estivaux","S-r","Calendula arvensis","R","A","H"
 "Calendula arvensis","Calendula arvensis","Present","Plenty","Yellow",33.5,3.5,"Actinomorphe","Flower heads, asteraceae, ray and disk flowers","Flowers with totally hidden nectar",6.71,5.82,7.96,6.74,"Calendula arvensis",50,"10-5(-9)","0?","12","Thérophytes estivaux","S-r","Calendula arvensis","R","A","H"
@@ -353,7 +361,8 @@
 "Cannabis sativa","Cannabis sativa","Present","Little","White",3.5,3.5,"Actinomorphe","Not applicable","Wind flowers",3.292579136,2.898678917,3.573234481,4.870179383,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Capsella bursa-pastoris","Capsella bursa-pastoris","Present","Present","White",11.5,11.5,"Actinomorphe","Disk flowers with nectar hidden nectaries at base of stamens","Flowers with partly hidden nectar",4.41,1,4.98,6.28,NA,NA,NA,NA,NA,NA,NA,"Capsella bursa-pastoris","R","A","H"
 "Capsella rubella","Capsella bursa-pastoris subsp. rubella","Present","Plenty","White",11.5,3.5,"Actinomorphe","Disk flowers with nectar hidden nectaries at base of stamens","Flowers with partly hidden nectar",4.817582532,3.93255444,5.555472286,6.36100629,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Cardamine","Cardamine hirsuta","Present","Plenty","White",11.5,11.5,"Actinomorphe","Disk flowers with nectar hidden nectaries at base of stamens","Flowers with partly hidden nectar",4.27,4.32,4.11,6.35,NA,NA,NA,NA,NA,NA,NA,"Cardamine hirsuta","Sr","A","H"
+"Cardamine","Cardamine flexuosa_Cardamine hirsuta","Present","Little_Plenty","White",11.5,11.5,"Actinomorphe","Disk flowers with nectar hidden nectaries at base of stamens","Flowers with partly hidden nectar",4.71841642,4.375869218,4.890452454,6.604915355,NA,NA,NA,NA,NA,NA,NA,"Cardamine hirsuta","Sr","A","H"
+"Cardamine flexuosa","Cardamine flexuosa","Present","Little","White",11.5,11.5,"Actinomorphe","Disk flowers with nectar hidden nectaries at base of stamens","Flowers with partly hidden nectar",5.16683284,4.431738436,5.670904908,6.85983071,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Cardamine hirsuta","Cardamine hirsuta","Present","Plenty","White",11.5,11.5,"Actinomorphe","Disk flowers with nectar hidden nectaries at base of stamens","Flowers with partly hidden nectar",4.27,4.32,4.11,6.35,NA,NA,NA,NA,NA,NA,NA,"Cardamine hirsuta","Sr","A","H"
 "Cardamine pratensis",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Carduus","Carduus crispus_Carduus nutans_Carduus pycnocephalus_Carduus tenuiflorus","Present","None_Plenty_Present","Purple_Rose",3.5,3.5,"Actinomorphe","Flower heads, asteraceae, only disk flowers_Not applicable","Flowers with totally hidden nectar",4.6879669535,4.49793631725,4.7237948065,6.598779821,"Carduus sp.",NA,"-","-","-","Thérophyte","","Carduus acanthoides","Cr","P","H"
@@ -387,6 +396,7 @@
 "Carthamus mitissimus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Carum carvi",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Caryophyllaceae",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Castanea sativa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Catananche caerulea",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Catapodium rigidum","Catapodium rigidum","None","Plenty","Green",3.5,3.5,"Actinomorphe","Not applicable","Wind flowers",1,1,1,2.458076092,"Catapodium rigidum",35,"5","1","1","Thérophytes estivaux","S-r",NA,NA,NA,NA
 "Caucalis platycarpos","Caucalis platycarpos","None","Plenty","White",3.5,3.5,"Zygomorphe","Disk flowers with nectar open","Flowers with open nectar",1,4.4,5.16,6.31,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -446,6 +456,7 @@
 "Chaenorhinum rubrifolium",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Chaerophyllum","Chaerophyllum temulum","Present","Little","White",3.5,3.5,"Actinomorphe","Disk flowers with nectar open","Flowers with open nectar",4.372127401,3.837669672,4.709266665,6.049765584,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Chaerophyllum temulum","Chaerophyllum temulum","Present","Little","White",3.5,3.5,"Actinomorphe","Disk flowers with nectar open","Flowers with open nectar",4.372127401,3.837669672,4.709266665,6.049765584,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Chamaemelum nobile",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Chamaenerion angustifolium","Epilobium angustifolium","None","Plenty","Purple",11.5,11.5,"Actinomorphe","Disk flowers with nectar hidden in centre of flower","Flowers with totally hidden nectar",3.986676378,3.602765629,4.174173485,5.688795705,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Chamaenerion fleischeri",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Chelidonium","Chelidonium majus","Present","Plenty","Yellow",33.5,3.5,"Actinomorphe","Pollen flower","Pollen flowers",4.469099433,3.615258015,5.207057015,5.971721356,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -455,6 +466,7 @@
 "Chenopodium","Chenopodium album_Chenopodium album subsp. opulifolium_Chenopodium ficifolium_Chenopodium vulvaria","None","Plenty","Green",5.5,3.5,"Actinomorphe","Not applicable","Wind flowers occassionally visited by insect",1.5616895455,1.26323851375,2.73497554375,3.1803731205,"Chenopodium album",100,"6","7","6","Thérophytes estivaux","C - r","Chenopodium album","Cr","A","H"
 "Chenopodium album","Chenopodium album","None","Plenty","Green",11.5,3.5,"Actinomorphe","Not applicable","Wind flowers occassionally visited by insect",1,1,4.3,3.54,"Chenopodium album",100,"6","7","6","Thérophytes estivaux","C - r","Chenopodium album","Cr","A","H"
 "Chenopodium album subsp. album","Chenopodium album_Chenopodium album subsp. opulifolium","None","Plenty","Green",7.5,3.5,"Actinomorphe","Not applicable","Wind flowers occassionally visited by insect",1.374459697,1.1754923425,3.2566503625,3.300248747,"Chenopodium album",100,"6","7","6","Thérophytes estivaux","C - r","Chenopodium album","Cr","A","H"
+"Chenopodium album subsp. opulifolium","Chenopodium album subsp. opulifolium","None","Plenty","Green",3.5,3.5,"Actinomorphe","Not applicable","Wind flowers occassionally visited by insect",1.748919394,1.350984685,2.213300725,3.060497494,"Chenopodium album",100,"6","7","6","Thérophytes estivaux","C - r","Chenopodium album","Cr","A","H"
 "Chenopodium ficifolium","Chenopodium ficifolium","None","Plenty","Green",3.5,3.5,"Actinomorphe","Not applicable","Wind flowers occassionally visited by insect",1.748919394,1.350984685,2.213300725,3.060497494,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Chenopodium vulvaria","Chenopodium vulvaria","None","Plenty","Green",3.5,3.5,"Actinomorphe","Not applicable","Wind flowers occassionally visited by insect",1.748919394,1.350984685,2.213300725,3.060497494,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Cherleria laricifolia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -466,6 +478,7 @@
 "Cichorium endivia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Cichorium intybus","Cichorium intybus","Present","Present","Blue",33.5,21.5,"Actinomorphe","Flower heads, asteraceae, only ray flowers","Flowers with totally hidden nectar",5.379125674,5.237949961,5.092439362,7.46462532,"Cichorium intybus",200,"5","1","3","Hémicryptophytes érigé","C-s-r","Cichorium intybus","C","P","H"
 "Cicuta virosa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Circaea",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Cirsium","Cirsium arvense_Cirsium vulgare","Plenty_Present","Little_Plenty","Pink_Purple",3.5,3.5,"Actinomorphe","Flower heads, asteraceae, only disk flowers","Flowers with totally hidden nectar",3.25,7.005,1,8.965,NA,NA,NA,NA,NA,NA,NA,"Cirsium arvense_Cirsium vulgare","C_Cr","P","H"
 "Cirsium arvense","Cirsium arvense","Plenty","Plenty","Pink",3.5,3.5,"Actinomorphe","Flower heads, asteraceae, only disk flowers","Flowers with totally hidden nectar",5.5,6.58,1,9.45,NA,NA,NA,NA,NA,NA,NA,"Cirsium arvense","C","P","H"
 "Cirsium eriophorum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -494,6 +507,7 @@
 "Coleostephus myconis","Coleostephus myconis","Present","Plenty","Yellow",3.5,3.5,"Actinomorphe","Not applicable","Flowers with totally hidden nectar",3.852504624,3.215377701,4.382189471,5.379825761,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Commelina",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Commelina communis",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Conium","Conium maculatum","Present","Plenty","White",11.5,11.5,"Actinomorphe","Disk flowers with nectar open","Flowers with open nectar",4.68756427,4.10669815,5.048094785,6.391230739,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Conium maculatum","Conium maculatum","Present","Plenty","White",11.5,11.5,"Actinomorphe","Disk flowers with nectar open","Flowers with open nectar",4.68756427,4.10669815,5.048094785,6.391230739,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Conopodium majus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Conringia orientalis","Conringia orientalis","Present","Plenty","White",11.5,11.5,"Actinomorphe","Disk flowers with nectar hidden nectaries at base of stamens","Flowers with partly hidden nectar",4.56,1,5.45,5.87,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -526,6 +540,7 @@
 "Crambe hispanica abyssinica",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Crassula tillaea",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Crataegus","Crataegus monogyna","Plenty","Little","White",3.5,3.5,"Actinomorphe","Disk flowers with nectar hidden in centre of flower","Flowers with partly hidden nectar",4.305165663,3.45118923,5.062256037,5.779712547,NA,NA,NA,NA,NA,NA,NA,"Crataegus sp.","C","P","T"
+"Crataegus laevigata",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Crataegus monogyna","Crataegus monogyna","Plenty","Little","White",3.5,3.5,"Actinomorphe","Disk flowers with nectar hidden in centre of flower","Flowers with partly hidden nectar",4.305165663,3.45118923,5.062256037,5.779712547,NA,NA,NA,NA,NA,NA,NA,"Crataegus monogyna","C","P","T"
 "Crataegus x subsphaerica",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Crepis","Crepis bellidifolia_Crepis capillaris_Crepis foetida_Crepis pulchra_Crepis sancta_Crepis setosa_Crepis vesicaria_Crepis vesicaria subsp. taraxacifolia","Plenty_Present","Plenty_Present","Yellow",17.75,3.5,"Actinomorphe_Zygomorphe","Disk flowers with nectar hidden nectaries at base of stamens_Flower heads, asteraceae, only ray flowers","Flowers with totally hidden nectar",5.823653254375,5.029987277375,6.68175802575,6.6230912195,"Crepis sp. 1_Crepis sp. 2",NA,"-","-","-","Na","","Crepis sp.","Na","Na","H"
@@ -552,6 +567,7 @@
 "Cucurbita",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Cucurbita pepo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Cullen americanum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Cupressus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Cuscuta","Cuscuta epilinum","Present","Plenty","White",11.5,3.5,"Actinomorphe","Bell shaped flowers","Flowers with totally hidden nectar",4.43421181,3.896457553,4.768423946,4.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Cuscuta campestris",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Cuscuta epilinum","Cuscuta epilinum","Present","Plenty","White",11.5,3.5,"Actinomorphe","Bell shaped flowers","Flowers with totally hidden nectar",4.43421181,3.896457553,4.768423946,4.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -562,6 +578,7 @@
 "Cymbalaria muralis",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Cynanchum acutum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Cynara cardunculus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Cynodon","Cynodon dactylon","None","Plenty","Yellow",3.5,3.5,"Actinomorphe","Not applicable","Wind flowers",1,1,1,1.13,NA,NA,NA,NA,NA,NA,NA,"Cynodon dactylon","Cs","P","G"
 "Cynodon dactylon","Cynodon dactylon","None","Plenty","Yellow",3.5,3.5,"Actinomorphe","Not applicable","Wind flowers",1,1,1,1.13,NA,NA,NA,NA,NA,NA,NA,"Cynodon dactylon","Cs","P","G"
 "Cynoglossum cheirifolium",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Cynoglossum creticum","Cynoglossum creticum","Present","Plenty","Blue",11.5,3.5,"Actinomorphe","Flag blossom, fabaceae type","Flowers with totally hidden nectar",4.407841283,4.626285691,3.769540594,5.79,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -597,6 +614,7 @@
 "Dianthus armeria","Dianthus armeria","Present","Plenty","Purple",3.5,3.5,"Actinomorphe","Stalk disc flowers, stamina and pistil outside tube","Butterfly flowers",3.943864476,3.526751211,4.179146847,5.618757219,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Dianthus carthusianorum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Dianthus carthusianorum subsp. carthusianorum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Digitalis",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Digitalis grandiflora",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Digitalis purpurea",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Digitaria","Digitaria ischaemum_Digitaria sanguinalis","None","Plenty","Red_Rose",3.5,3.5,"Actinomorphe","Not applicable","Wind flowers",1,1,1,2.867932109,NA,NA,NA,NA,NA,NA,NA,"Digitaria sanguinalis","R","A","G"
@@ -615,6 +633,7 @@
 "Dittrichia viscosa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Draba","Draba verna","Little","Plenty","White",11.5,3.5,"Actinomorphe","Disk flowers with nectar hidden nectaries at base of stamens","Flowers with partly hidden nectar",4.740319208,4.122164685,5.142854027,6.430627674,"Erophila verna",15,"2","1","3","Thérophytes vernaux","S-r","Erophila verna","Sr","A","H"
 "Draba verna","Draba verna","Little","Plenty","White",11.5,3.5,"Actinomorphe","Disk flowers with nectar hidden nectaries at base of stamens","Flowers with partly hidden nectar",4.740319208,4.122164685,5.142854027,6.430627674,"Erophila verna",15,"2","1","3","Thérophytes vernaux","S-r","Erophila verna","Sr","A","H"
+"Dryopteris",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Dryopteris filix-mas",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Dysphania ambrosioides",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Dysphania aristata",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -629,6 +648,8 @@
 "Echium asperrimum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Echium plantagineum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Echium vulgare","Echium vulgare","Plenty","Plenty","Pink",53,53,"Zygomorphe","Lip flowers","Hymenoptere flowers",5.88,6.87,1,9.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Eleocharis palustris",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Elymus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Elymus caninus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Elytrigia","Elytrigia campestris_Elytrigia repens","None","Plenty","Green",3.5,3.5,"Actinomorphe","Not applicable","Wind flowers",1,1,1,1.856359295,NA,NA,NA,NA,NA,NA,NA,"Elymus repens","C","P","G"
 "Elytrigia campestris","Elytrigia campestris","None","Plenty","Green",3.5,3.5,"Actinomorphe","Not applicable","Wind flowers",1,1,1,2.45271859,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -689,6 +710,7 @@
 "Eryngium campestre","Eryngium campestre","Plenty","Present","White",11.5,11.5,"Actinomorphe","Flower heads, non-asteraceae","Flowers with totally hidden nectar",4.78,4.78,5.53,7.96,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Eryngium maritimum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Erysimum cheiranthoides","Erysimum cheiranthoides","Present","Little","Yellow",33.5,3.5,"Actinomorphe","Disk flowers with nectar hidden nectaries at base of stamens","Flowers with partly hidden nectar",5.08,1,5.85,6.33,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Erysimum cheiri",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Erysimum incanum subsp. aurigeranum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Erysimum repandum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Erythranthe moschata",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -727,8 +749,10 @@
 "Fabaceae",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Fabaceae",NA,"-","-","-","Na","",NA,NA,NA,NA
 "Fagopyrum esculentum","Fagopyrum esculentum","Present","Plenty","White",21.5,21.5,"Actinomorphe","Disk flowers with nectar open","Flowers with partly hidden nectar",4.60819319,3.749151976,5.33677305,6.131448387,NA,NA,NA,NA,NA,NA,NA,"Fagopyrum esculentum","Cr","A","H"
 "Fagopyrum tataricum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Fagus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Fagus sylvatica",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Falcaria vulgaris","Falcaria vulgaris","Present","Plenty","White",11.5,11.5,"Actinomorphe","Disk flowers with nectar open","Flowers with open nectar",1,4.75,6.39,6.67,NA,NA,NA,NA,NA,NA,NA,"Falcaria vulgaris","Sr","P","H"
+"Fallopia","Fallopia convolvulus","Little","Little","Green",11.5,11.5,"Actinomorphe","Bell shaped flowers","Flowers with totally hidden nectar",4.31,4.07,4.97,5.15,"Fallopia convolvulus",NA,"5","7","1","Thérophytes estivaux","R / c-r","Fallopia convolvulus","Cr","A","H"
 "Fallopia baldschuanica",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Fallopia convolvulus","Fallopia convolvulus","Little","Little","Green",11.5,11.5,"Actinomorphe","Bell shaped flowers","Flowers with totally hidden nectar",4.31,4.07,4.97,5.15,"Fallopia convolvulus",NA,"5","7","1","Thérophytes estivaux","R / c-r","Fallopia convolvulus","Cr","A","H"
 "Fallopia dumetorum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -755,6 +779,7 @@
 "Filipendula vulgaris",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Filipendula vulgaris","Csr","P","H"
 "Foeniculum vulgare","Foeniculum vulgare","Present","Present","Yellow",11.5,3.5,"Actinomorphe","Disk flowers with nectar open","Flowers with open nectar",4.97065998,4.31398872,5.396246317,6.677198992,"Foeniculum vulgare",NA,"7","Na","Na","Hémicryptophytes érigé","S-c / c-s-r",NA,NA,NA,NA
 "Fragaria","Fragaria vesca","Present","Little","White",3.5,3.5,"Actinomorphe","Disk flowers with nectar hidden in centre of flower","Flowers with partly hidden nectar",4.400504398,3.643406347,5.021587439,5.949442217,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Fragaria ananassa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Fragaria vesca","Fragaria vesca","Present","Little","White",3.5,3.5,"Actinomorphe","Disk flowers with nectar hidden in centre of flower","Flowers with partly hidden nectar",4.400504398,3.643406347,5.021587439,5.949442217,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Fraxinus","Fraxinus excelsior","Present","Plenty","Brown",3.5,3.5,"Actinomorphe","Not applicable","Wind flowers",2.971592126,3.056949835,2.671084261,4.781852069,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Fraxinus angustifolia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -843,6 +868,8 @@
 "Gleditsia triacanthos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Globularia bisnagarica",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Glyceria",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Glyceria declinata",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Glyceria maxima",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Glycine max",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Glycyrrhiza glabra",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Gnaphalium","Gnaphalium uliginosum","Plenty","Plenty","Yellow",3.5,3.5,"Actinomorphe","Flower heads, asteraceae, only disk flowers","Flowers with totally hidden nectar",4.16884719,3.367904839,4.873283909,5.651927116,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -851,6 +878,7 @@
 "Gypsophila repens",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Gypsophila vaccaria","Vaccaria hispanica","Present","Plenty","Pink",76,76,"Actinomorphe","Stalk disc flowers, stamina and pistil outside tube","Butterfly flowers",1,1,1,6.68,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Hainardia cylindrica",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Hedera","Hedera helix","Present","Plenty","Green",11.5,11.5,"Actinomorphe","Disk flowers with nectar open","Flowers with open nectar",1,4.96,6.37,7.41,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Hedera helix","Hedera helix","Present","Plenty","Green",11.5,11.5,"Actinomorphe","Disk flowers with nectar open","Flowers with open nectar",1,4.96,6.37,7.41,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Hedypnois rhagadioloides","Hedypnois rhagadioloides","Present","Plenty","Yellow",11.5,3.5,"Actinomorphe","Disk flowers with nectar hidden nectaries at base of stamens","Flowers with totally hidden nectar",4.651096552,3.96664705,5.149476123,6.286403306,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Helianthemum apenninum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -905,6 +933,8 @@
 "Hordeum vulgare subsp. vulgare","Hordeum vulgare","None","Plenty","Yellow",3.5,3.5,"Actinomorphe","Not applicable","Wind flowers",1,1,1,1.09,NA,NA,NA,NA,NA,NA,NA,"Hordeum vulgare","Cr","A","G"
 "Hornungia petraea",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Humulus lupulus","Humulus lupulus","None","Little","Green",3.5,3.5,"Actinomorphe","Not applicable","Wind flowers",1.947722618,1.694392081,2.202560707,3.379987024,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Hyacinthoides",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Hyacinthoides non-scripta",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Hyacinthus orientalis",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Hylotelephium maximum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Hylotelephium telephium",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -916,6 +946,7 @@
 "Hypecoum pendulum","Hypecoum pendulum","Present","Plenty","Yellow",11.5,3.5,"Zygomorphe","Flag blossom, fabaceae type","Flowers with totally hidden nectar",4.344048383,4.483819158,3.814621093,5.48,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Hypecoum procumbens",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Hypericum","Hypericum hirsutum_Hypericum humifusum_Hypericum perforatum","None_Present","Plenty","Yellow",36.5,3.5,"Actinomorphe","Pollen flower","Pollen flowers",4.16459527733333,2.28461054,4.91916769566667,4.791992156,"Hypericum perforatum",NA,"6","7","3","Hémicryptophytes érigé","C-r / c-s-r","Hypericum perforatum","C","P","H"
+"Hypericum androsaemum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Hypericum australe",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Hypericum hirsutum","Hypericum hirsutum","None","Plenty","Yellow",53,3.5,"Actinomorphe","Pollen flower","Pollen flowers",3.498209104,2.785203559,4.166757583,4.91951497,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Hypericum humifusum","Hypericum humifusum","Present","Plenty","Yellow",3.5,3.5,"Actinomorphe","Pollen flower","Pollen flowers",3.755576728,3.068628061,4.360745504,5.236461498,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -931,6 +962,7 @@
 "Hyssopus officinalis",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Iberis amara","Iberis amara","Present","Little","White",11.5,11.5,"Actinomorphe","Disk flowers with nectar hidden nectaries at base of stamens","Flowers with partly hidden nectar",5.163618826,4.442808511,5.649634863,6.86463587,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Iberis pinnata","Iberis pinnata","Present","Plenty","White",11.5,3.5,"Zygomorphe","Disk flowers with nectar hidden nectaries at base of stamens","Flowers with partly hidden nectar",4.820929472,4.210260645,5.204484673,5.87,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Ilex aquifolium",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Illecebrum verticillatum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Imbribryum subapiculatum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Impatiens glandulifera",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -953,6 +985,8 @@
 "Juglans nigra",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Juglans regia","Juglans regia","Present","Plenty","Green",3.5,3.5,"Actinomorphe","Not applicable","Wind flowers",2.152181126,1.805613804,2.503657621,3.563433631,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Juncus","Juncus bufonius_Juncus effusus","Present","Plenty","Green_White",3.5,3.5,"Actinomorphe","Not applicable","Wind flowers",1.527422172,1.365353112,1.694321003,2.2814644395,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Juncus acutiflorus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Juncus articulatus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Juncus bufonius","Juncus bufonius","Present","Plenty","White",3.5,3.5,"Actinomorphe","Not applicable","Wind flowers",1,1,1,1.1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Juncus capitatus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Juncus conglomeratus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -974,6 +1008,7 @@
 "Lactuca muralis","Mycelis muralis","Present","Plenty","Yellow",3.5,3.5,"Actinomorphe","Flower heads, asteraceae, only ray flowers","Flowers with totally hidden nectar",6.33,5.47,6.95,7.74,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Lactuca perennis","Lactuca perennis","None","Plenty","Blue",76,3.5,"Actinomorphe","Flower heads, asteraceae, only ray flowers","Flowers with totally hidden nectar",8.22,7.58,7.02,6.82,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Lactuca saligna",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Lactuca saligna","Cr","B","H"
+"Lactuca sativa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Lactuca serriola","Lactuca serriola","Present","Plenty","Yellow",53,3.5,"Zygomorphe","Flower heads, asteraceae, only ray flowers","Flowers with totally hidden nectar",6.85,6.5,8.06,6.29,"Lactuca serriola",200,"(6)-7","1","3","Thérophytes estivaux","C - r","Lactuca serriola","Cr","B","H"
 "Lactuca viminea",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Lactuca virosa","Lactuca virosa","Present","Plenty","Yellow",53,3.5,"Actinomorphe","Flower heads, asteraceae, only ray flowers","Flowers with totally hidden nectar",4.798179457,3.977937369,5.454733518,6.377150391,"Lactuca virosa",250,"6","1","3","Hémicryptophytes bisannuels","C - r",NA,NA,NA,NA
@@ -983,11 +1018,13 @@
 "Lamium album","Lamium album","None","None","White",11.5,3.5,"Zygomorphe","True lip flowers","Hymenoptere flowers",6.2,6.71,1,8.06,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Lamium album subsp. album","Lamium album","None","None","White",11.5,3.5,"Zygomorphe","True lip flowers","Hymenoptere flowers",6.2,6.71,1,8.06,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Lamium amplexicaule","Lamium amplexicaule","Present","Little","Purple",11.5,3.5,"Zygomorphe","True lip flowers","Hymenoptere flowers",6.31,6.85,1,8.1,"Lamium amplexicaule",30,"3","0?","12","Thérophytes estivaux","R","Lamium amplexicaule","R","A","H"
+"Lamium galeobdolon",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Lamium hybridum","Lamium hybridum","None","Plenty","Purple",11.5,3.5,"Zygomorphe","True lip flowers","Hymenoptere flowers",3.679662403,5.021480712,1.676323389,6.364497182,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Lamium maculatum","Lamium maculatum","None","Little","Purple",11.5,3.5,"Zygomorphe","True lip flowers","Hymenoptere flowers",3.87984941,5.33087713,1.712469464,6.664375987,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Lamium purpureum","Lamium purpureum","Present","Present","Purple",11.5,3.5,"Zygomorphe","True lip flowers","Hymenoptere flowers",6.43,7,1,8.14,NA,NA,NA,NA,NA,NA,NA,"Lamium purpureum","R","A","H"
 "Laphangium luteoalbum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Lappula squarrosa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Lappula squarrosa","Csr","A","H"
+"Lapsana","Lapsana communis","Present","Little","Yellow",53,3.5,"Zygomorphe","Flower heads, asteraceae, only ray flowers","Flowers with totally hidden nectar",6.71,6.37,7.71,6.91,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Lapsana communis","Lapsana communis","Present","Little","Yellow",53,3.5,"Zygomorphe","Flower heads, asteraceae, only ray flowers","Flowers with totally hidden nectar",6.71,6.37,7.71,6.91,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Larix decidua",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Lathyrus","Lathyrus angulatus_Lathyrus annuus_Lathyrus aphaca_Lathyrus cicera_Lathyrus hirsutus_Lathyrus nissolia_Lathyrus ochrus_Lathyrus pratensis_Lathyrus sphaericus_Lathyrus tuberosus","None_Present","Little_Plenty_Present","Pink_Red_Rose_Violet_Yellow",15.65,3.5,"Zygomorphe","Flag blossom, fabaceae type","Hymenoptere flowers",5.041353574,5.9517036001,2.1180460472,7.2413227315,NA,NA,NA,NA,NA,NA,NA,"Lathyrus nissolia_Lathyrus sylvestris_Lathyrus tuberosus","C_Cr","A_P","L"
@@ -1019,6 +1056,8 @@
 "Legousia hybrida","Legousia hybrida","Present","Plenty","Purple",76,3.5,"Actinomorphe","Disk flowers with nectar hidden in centre of flower","Flowers with totally hidden nectar",6.07,5.3,5.16,4.35,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Legousia speculum-veneris","Legousia speculum-veneris","Present","Plenty","Violet",76,3.5,"Actinomorphe","Disk flowers with nectar hidden in centre of flower","Flowers with totally hidden nectar",6.37,5.54,5.36,5.96,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Legousia speculum-veneris subsp. speculum-veneris","Legousia speculum-veneris","Present","Plenty","Violet",76,3.5,"Actinomorphe","Disk flowers with nectar hidden in centre of flower","Flowers with totally hidden nectar",6.37,5.54,5.36,5.96,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Lemna minor","Lemna minor","Present","Plenty","Green",11.5,3.5,"Zygomorphe","Not applicable","Flowers with totally hidden nectar",3.480495061,3.533421481,3.1629728,5.358204282,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Lemna trisulca",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Leontodon",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Leontodon autumnale",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Leontodon hirtus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -1093,6 +1132,7 @@
 "Lotus pedunculatus","Lotus pedunculatus","Present","Present","Yellow",21.5,3.5,"Zygomorphe","Flag blossom, fabaceae type","Bee flowers",4.946423291,5.568196843,3.725506747,7.415671943,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Lotus rectus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Lunaria",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Lunaria annua",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Lupinus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Lupinus angustifolius",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Lupinus luteus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -1114,6 +1154,7 @@
 "Lythrum virgatum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Malcolmia africana",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Malcolmia littorea",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Malus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Malus domestica",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Malus sylvestris",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Malva","Malva alcea_Malva moschata_Malva multiflora_Malva neglecta_Malva parviflora_Malva setigera_Malva sylvestris","None_Plenty_Present","Plenty_Present","Pink_Purple_White",35.5714285714286,8.07142857142857,"Actinomorphe","Disk flowers with nectar hidden nectaries at base of stamens","Flowers with partly hidden nectar_Flowers with totally hidden nectar",4.89468031042857,4.24612456985714,5.35463970228571,6.65176965028571,"Malva sylvestris",NA,"6","0?","12","Hémicryptophytes érigé","C - r","Malva sp.","Na","Na","H"
@@ -1137,6 +1178,7 @@
 "Matricaria chamomilla","Matricaria chamomilla","Present","Plenty","White",11.5,11.5,"Actinomorphe","Flower heads, asteraceae, ray and disk flowers","Flowers with totally hidden nectar",6.54,5.68,7.86,4.95,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Matricaria discoidea","Matricaria discoidea","Present","Plenty","Green",3.5,3.5,"Actinomorphe","Flower heads, asteraceae, only disk flowers","Flowers with totally hidden nectar",5.87,5.1,5.55,6.75,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Matricaria matricarioides",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Matricaria matricarioides","R","A","H"
+"Matthiola",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Medicago","Medicago arabica_Medicago lupulina_Medicago minima_Medicago monspeliaca_Medicago orbicularis_Medicago polymorpha_Medicago rigidula_Medicago sativa_Medicago scutellata_Medicago truncatula","None_Plenty_Present","None_Plenty_Present","Blue_Yellow",9.1,3.5,"Zygomorphe","Flag blossom, fabaceae type","Hymenoptere flowers",4.4356120501,5.3742376688,2.1129345954,6.8326083912,"Medicago (cultivée)_Medicago sp. (rigidula)_Medicago sp. 2",50,"-_4_5","-_1","-_12","Na_Thérophytes estivaux (hémicryptophytes bisannuels)","S-r","Medicago sp.","Na","Na","L"
 "Medicago arabica","Medicago arabica","None","None","Yellow",11.5,3.5,"Zygomorphe","Flag blossom, fabaceae type","Hymenoptere flowers",3.720090409,5.409090252,1.264181385,6.62007844,"Medicago arabica",60,"5","1","12","Thérophytes estivaux","S-r","Medicago arabica","R","A","L"
 "Medicago ciliaris",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -1195,6 +1237,7 @@
 "Micromeria graeca",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Micropyrum tenellum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Microthlaspi perfoliatum","Microthlaspi perfoliatum","Present","Plenty","White",11.5,11.5,"Actinomorphe","Disk flowers with nectar hidden nectaries at base of stamens","Flowers with partly hidden nectar",4.39,4.11,5,6.14,NA,NA,NA,NA,NA,NA,NA,"Thlaspi perfoliatum","Sr","A","H"
+"Milium",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Minuartia montana subsp. wiesneri",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Misopates orontium","Misopates orontium","Present","Little","Pink",3.5,3.5,"Zygomorphe","Lip flowers","Hymenoptere flowers",4.38,5.26,1,8.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Moehringia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -1219,6 +1262,7 @@
 "Myosotis scorpioides",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Myosotis stricta","Myosotis stricta","Present","Plenty","Blue",11.5,3.5,"Actinomorphe","Stalk disc flowers, stamina and pistil within tube","Flowers with totally hidden nectar",4.47574334,4.515229627,4.060461569,6.515343761,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Myosurus minimus","Myosurus minimus","None","Plenty","Green",11.5,11.5,"Actinomorphe","Disk flowers with nectar open","Flowers with open nectar",1,4.65,4.65,6.14,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Myrrhis odorata",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Nardus stricta",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Nasturtium officinale",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Neottia ovata",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -1319,6 +1363,7 @@
 "Panicum miliaceum subsp. ruderale","Panicum miliaceum","None","Plenty","White",3.5,3.5,"Actinomorphe","Not applicable","Wind flowers",1,1,1,2.953722087,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Panicum virgatum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Papaver","Papaver dubium_Papaver rhoeas","None_Present","Plenty","Red",54.75,27.5,"Actinomorphe","Pollen flower","Pollen flowers",4.6610311345,2.353911535,4.83698069,4.7988105185,"Papaver rhoeas",90,"3","1","9","Thérophytes estivaux","R","Papaver sp.","R","A","H"
+"Papaver cambricum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Papaver dubium","Papaver dubium","Present","Plenty","Red",76,21.5,"Actinomorphe","Pollen flower","Pollen flowers",4.242062269,3.70782307,4.59396138,5.897621037,NA,NA,NA,NA,NA,NA,NA,"Papaver dubium","R","A","H"
 "Papaver rhoeas","Papaver rhoeas","None","Plenty","Red",33.5,33.5,"Actinomorphe","Pollen flower","Pollen flowers",5.08,1,5.08,3.7,"Papaver rhoeas",90,"3","1","9","Thérophytes estivaux","R","Papaver rhoeas","R","A","H"
 "Papaver somniferum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -1330,6 +1375,7 @@
 "Paspalum","Paspalum dilatatum_Paspalum distichum","None","Plenty","Green_Yellow",3.5,3.5,"Zygomorphe","Not applicable","Wind flowers",1,1,1,2.923193298,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Paspalum dilatatum","Paspalum dilatatum","None","Plenty","Yellow",3.5,3.5,"Zygomorphe","Not applicable","Wind flowers",1,1,1,3.146325249,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Paspalum distichum","Paspalum distichum","None","Plenty","Green",3.5,3.5,"Zygomorphe","Not applicable","Wind flowers",1,1,1,2.700061347,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Pastinaca","Pastinaca sativa","Present","Little","Yellow",11.5,11.5,"Actinomorphe","Disk flowers with nectar open","Flowers with open nectar",1,5.74,7.05,7.17,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Pastinaca sativa","Pastinaca sativa","Present","Little","Yellow",11.5,11.5,"Actinomorphe","Disk flowers with nectar open","Flowers with open nectar",1,5.74,7.05,7.17,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Pastinaca sativa subsp. urens","Pastinaca sativa","Present","Little","Yellow",11.5,11.5,"Actinomorphe","Disk flowers with nectar open","Flowers with open nectar",1,5.74,7.05,7.17,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Persicaria","Persicaria amphibia_Persicaria hydropiper_Persicaria lapathifolia_Persicaria maculosa","Little_Present","Little_Plenty","Green_Pink",9.5,9.5,"Actinomorphe","Bell shaped flowers","Flowers with totally hidden nectar",3.67324533,3.59060167575,3.705048207,5.8611271795,NA,NA,NA,NA,NA,NA,NA,"Polygonum persicaria","Cr","A","H"
@@ -1340,6 +1386,7 @@
 "Persicaria lapathifolia","Persicaria lapathifolia","Little","Little","Pink",11.5,11.5,"Actinomorphe","Bell shaped flowers","Flowers with totally hidden nectar",3.58,3.58,3.58,6.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Persicaria maculosa","Persicaria maculosa","Little","Little","Pink",11.5,11.5,"Actinomorphe","Bell shaped flowers","Flowers with totally hidden nectar",3.62,3.62,3.62,5.41,NA,NA,NA,NA,NA,NA,NA,"Polygonum persicaria","Cr","A","H"
 "Persicaria minor",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Petasites hybridus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Petrorhagia prolifera","Petrorhagia prolifera","Present","Plenty","Pink",11.5,3.5,"Actinomorphe","Stalk disc flowers, stamina and pistil outside tube","Butterfly flowers",1,4.27,4.52,7.89,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Petrorhagia saxifraga",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Petrosedum sediforme","Sedum sediforme","Present","Present","Yellow",11.5,3.5,"Actinomorphe","Disk flowers with nectar hidden nectaries at base of stamens","Flowers with partly hidden nectar",5.277085795,4.292540543,6.090220777,6.839283067,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -1366,6 +1413,7 @@
 "Phleum phleoides",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Phleum pratense","Phleum pratense","None","Plenty","Yellow",3.5,3.5,"Actinomorphe","Not applicable","Wind flowers",1,1,1,1.26,NA,NA,NA,NA,NA,NA,NA,"Phleum pratense","Csr","P","G"
 "Phleum subulatum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Phragmites","Phragmites australis","None","Plenty","White",3.5,3.5,"Actinomorphe","Not applicable","Wind flowers",1,1,1,1.09,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Phragmites australis","Phragmites australis","None","Plenty","White",3.5,3.5,"Actinomorphe","Not applicable","Wind flowers",1,1,1,1.09,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Physalis peruviana",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Physalis viscosa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -1449,6 +1497,9 @@
 "Populus x canescens",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Portulaca","Portulaca oleracea","Present","Plenty","Yellow",53,3.5,"Actinomorphe","Disk flowers with nectar hidden nectaries at base of stamens","Flowers with partly hidden nectar",4.640429609,3.711607789,5.455304489,6.127333202,NA,NA,NA,NA,NA,NA,NA,"Portulaca oleracea","R","A","H"
 "Portulaca oleracea","Portulaca oleracea","Present","Plenty","Yellow",53,3.5,"Actinomorphe","Disk flowers with nectar hidden nectaries at base of stamens","Flowers with partly hidden nectar",4.640429609,3.711607789,5.455304489,6.127333202,NA,NA,NA,NA,NA,NA,NA,"Portulaca oleracea","R","A","H"
+"Potamogeton",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Potamogeton berchtoldii",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Potamogeton lucens",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Potentilla","Potentilla argentea_Potentilla reptans","None_Present","Plenty","Yellow",43.25,3.5,"Actinomorphe","Disk flowers with nectar hidden in centre of flower","Flowers with partly hidden nectar",5.045,1,5.78,6.835,NA,NA,NA,NA,NA,NA,NA,"Potentilla sp.","Na","Na","H"
 "Potentilla argentea","Potentilla argentea","None","Plenty","Yellow",33.5,3.5,"Actinomorphe","Disk flowers with nectar hidden in centre of flower","Flowers with partly hidden nectar",5.04,1,5.68,6.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Potentilla crantzii",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -1475,8 +1526,11 @@
 "Prunus avium","Prunus avium","Present","Plenty","White",11.5,11.5,"Actinomorphe","Disk flowers with nectar hidden in centre of flower","Flowers with partly hidden nectar",4.681913011,3.869318053,5.342047585,6.245616746,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Prunus cerasifera","Prunus cerasifera","Plenty","Plenty","White",3.5,3.5,"Actinomorphe","Disk flowers with nectar hidden in centre of flower","Flowers with partly hidden nectar",4.130034182,3.171351523,5.042458363,5.511869001,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Prunus cerasus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Prunus domestica",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Prunus dulcis",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Prunus laurocerasus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Prunus mahaleb",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Prunus padus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Prunus spinosa","Prunus spinosa","None","Present","White",11.5,11.5,"Actinomorphe","Disk flowers with nectar hidden in centre of flower","Flowers with partly hidden nectar",4.44938692,3.604467137,5.178114525,5.953994104,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Psammophiliella muralis","Gypsophila muralis","None","Plenty","Pink",11.5,11.5,"Actinomorphe","Funnel flowers","Flowers with totally hidden nectar",3.840262968,3.577967906,3.887797599,5.590328723,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Psilurus incurvus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -1488,11 +1542,13 @@
 "Pulicaria vulgaris",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Pulmonaria",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Quercus","Quercus petraea_Quercus robur","Plenty_Present","Plenty","Green",3.5,3.5,"Actinomorphe","Not applicable","Wind flowers",2.105654308,1.7057416285,2.531331721,3.4769635905,NA,NA,NA,NA,NA,NA,NA,"Quercus robur","C","P","T"
+"Quercus cerris",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Quercus coccifera",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Quercus ilex",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Quercus petraea","Quercus petraea","Present","Plenty","Green",3.5,3.5,"Actinomorphe","Not applicable","Wind flowers",2.143073492,1.780228291,2.516603157,3.543006792,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Quercus pubescens",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Quercus robur","Quercus robur","Plenty","Plenty","Green",3.5,3.5,"Actinomorphe","Not applicable","Wind flowers",2.068235124,1.631254966,2.546060285,3.410920389,NA,NA,NA,NA,NA,NA,NA,"Quercus robur","C","P","T"
+"Quercus rubra",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Quercus suber",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Rabelera holostea","Stellaria holostea","Present","Little","White",21.5,3.5,"Actinomorphe","Disk flowers with nectar hidden nectaries at base of stamens","Flowers with partly hidden nectar",4.82762499,4.076254111,5.391923842,6.452935129,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Ranunculus","Ranunculus acris_Ranunculus arvensis_Ranunculus bulbosus_Ranunculus muricatus_Ranunculus parviflorus_Ranunculus repens_Ranunculus sardous","Plenty_Present","Plenty","Yellow",22.2857142857143,10.5714285714286,"Actinomorphe","Disk flowers with nectar hidden_Disk flowers with nectar hidden nectaries at base of stamens","Flowers with partly hidden nectar_Flowers with totally hidden nectar",4.93918065342857,2.41517844485714,5.57769185428571,7.47137201885714,NA,NA,NA,NA,NA,NA,NA,"Ranunculus bulbosus_Ranunculus parviflorus","Csr_Sr","A_P","H"
@@ -1500,6 +1556,7 @@
 "Ranunculus acris subsp. friesianus","Ranunculus acris","Plenty","Plenty","Yellow",21.5,3.5,"Actinomorphe","Disk flowers with nectar hidden","Flowers with partly hidden nectar",5.08,1,6,8.04,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Ranunculus arvensis","Ranunculus arvensis","Present","Plenty","Yellow",33.5,3.5,"Actinomorphe","Disk flowers with nectar hidden","Flowers with partly hidden nectar",5.21,1,5.72,7.49,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Ranunculus bulbosus","Ranunculus bulbosus","Present","Plenty","Yellow",3.5,3.5,"Actinomorphe","Disk flowers with nectar hidden","Flowers with partly hidden nectar",4.94,1,5.71,8.25,NA,NA,NA,NA,NA,NA,NA,"Ranunculus bulbosus","Csr","P","H"
+"Ranunculus flammula",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Ranunculus gramineus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Ranunculus muricatus","Ranunculus muricatus","Present","Plenty","Yellow",11.5,3.5,"Actinomorphe","Disk flowers with nectar hidden nectaries at base of stamens","Flowers with totally hidden nectar",4.517132287,3.983124557,4.83692149,6.219802066,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Ranunculus paludosus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -1534,6 +1591,7 @@
 "Rhinanthus minor",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Rhinanthus pumilus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Rhizogemma staphylina",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Ribes uva-crispa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Riccia sorocarpa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Riccia warnstorfii",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Ridolfia segetum","Ridolfia segetum","Present","Plenty","Yellow",11.5,3.5,"Actinomorphe","Not applicable","Flowers with totally hidden nectar",4.140968346,3.649444789,4.449451847,5.38,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -1552,6 +1610,7 @@
 "Rosa","Rosa arvensis_Rosa canina","Plenty_Present","Plenty","Pink_White",3.5,3.5,"Actinomorphe","Pollen flower","Pollen flowers",4.435268278,2.038013879,4.8123306225,4.733976691,NA,NA,NA,NA,NA,NA,NA,"Rosa sp.","C","P","T"
 "Rosa arvensis","Rosa arvensis","Present","Plenty","White",3.5,3.5,"Actinomorphe","Pollen flower","Pollen flowers",3.890536556,3.076027758,4.644661245,5.317953382,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Rosa canina","Rosa canina","Plenty","Plenty","Pink",3.5,3.5,"Actinomorphe","Pollen flower","Pollen flowers",4.98,1,4.98,4.15,NA,NA,NA,NA,NA,NA,NA,"Rosa canina","C","P","T"
+"Rosa rubiginosa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Rosa sempervirens",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Rosaceae",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Rostraria cristata","Rostraria cristata","None","Plenty","Green",3.5,3.5,"Actinomorphe","Not applicable","Wind flowers",1,1,1,2.458076092,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -1591,10 +1650,14 @@
 "Ruta graveolens",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Sabulina tenuifolia","Minuartia hybrida","Present","Plenty","White",11.5,11.5,"Actinomorphe","Disk flowers with nectar hidden nectaries at base of stamens","Flowers with partly hidden nectar",4.707469593,3.977929064,5.257501111,6.325355946,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Sabulina tenuifolia subsp. laxa","Minuartia hybrida","Present","Plenty","White",11.5,11.5,"Actinomorphe","Disk flowers with nectar hidden nectaries at base of stamens","Flowers with partly hidden nectar",4.707469593,3.977929064,5.257501111,6.325355946,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Sagina","Sagina apetala_Sagina procumbens","Plenty","Plenty","White",11.5,7.5,"Actinomorphe","Disk flowers with nectar hidden nectaries at base of stamens","Flowers with partly hidden nectar",4.542188855,3.718125162,5.2332779185,6.075153396,NA,NA,NA,NA,NA,NA,NA,"Sagina apetala","Sr","A","H"
 "Sagina apetala","Sagina apetala","Plenty","Plenty","White",11.5,3.5,"Actinomorphe","Disk flowers with nectar hidden nectaries at base of stamens","Flowers with partly hidden nectar",4.469718233,3.639205768,5.177507859,5.98643921,NA,NA,NA,NA,NA,NA,NA,"Sagina apetala","Sr","A","H"
 "Sagina procumbens","Sagina procumbens","Plenty","Plenty","White",11.5,11.5,"Actinomorphe","Disk flowers with nectar hidden nectaries at base of stamens","Flowers with partly hidden nectar",4.614659477,3.797044556,5.289047978,6.163867582,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Salix","Salix caprea","Plenty","Plenty","Yellow",11.5,3.5,"Actinomorphe","Brush flowers","Flowers with partly hidden nectar",4.458910857,3.660163885,5.126970065,5.992840186,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Salix alba",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Salix caprea","Salix caprea","Plenty","Plenty","Yellow",11.5,3.5,"Actinomorphe","Brush flowers","Flowers with partly hidden nectar",4.458910857,3.660163885,5.126970065,5.992840186,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Salix cinerea",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Salix fragilis",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Salix purpurea",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Salix triandra",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Salsola kali",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -1643,6 +1706,7 @@
 "Scorpiurus vermiculatus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Scorzonera hirsuta",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Scorzoneroides autumnalis","Scorzoneroides autumnalis","Present","Plenty","Yellow",3.5,3.5,"Actinomorphe","Not applicable","Flowers with totally hidden nectar",3.852504624,3.215377701,4.382189471,5.379825761,NA,NA,NA,NA,NA,NA,NA,"Leontodon autumnalis","Csr","P","H"
+"Scrophularia auriculata","Scrophularia auriculata","None","None","Brown",11.5,3.5,"Zygomorphe","Lip flowers","Flowers with totally hidden nectar",3.548877834,5.082601241,1.313089404,6.326489525,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Scrophularia nodosa","Scrophularia nodosa","Present","Little","Brown",11.5,21.5,"Zygomorphe","Lip flowers","Hymenoptere flowers",4.504674518,5.609024256,2.712279775,7.187951442,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Scutellaria galericulata",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Secale cereale","Secale cereale","None","Plenty","Yellow",3.5,3.5,"Actinomorphe","Not applicable","Wind flowers",1,1,1,2.952106576,NA,NA,NA,NA,NA,NA,NA,"Secale cereale","R","A","G"
@@ -1656,6 +1720,7 @@
 "Senecio inaequidens","Senecio inaequidens","Present","Present","Yellow",3.5,3.5,"Actinomorphe","Flower heads, asteraceae, ray and disk flowers","Flowers with totally hidden nectar",4.780548801,3.941356489,5.46358926,6.345142152,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Senecio leucanthemifolius",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Senecio lividus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Senecio sylvaticus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Senecio vernalis","Senecio vernalis","Present","Plenty","Yellow",53,3.5,"Actinomorphe","Flower heads, asteraceae, ray and disk flowers","Flowers with totally hidden nectar",4.755707268,3.922782904,5.433534399,6.319818266,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Senecio viscosus","Senecio viscosus","Present","Plenty","Yellow",53,3.5,"Actinomorphe","Flower heads, asteraceae, ray and disk flowers","Flowers with totally hidden nectar",5.58,4.84,6.03,6.71,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Senecio vulgaris","Senecio vulgaris","Present","Little","Yellow",3.5,3.5,"Actinomorphe","Flower heads, asteraceae, ray and disk flowers","Flowers with totally hidden nectar",5.58,4.84,6.03,6.71,"Senecio vulgaris",40,"(1-)3-6(-12)","0?","12","Thérophytes estivaux","R","Senecio vulgaris","R","A","H"
@@ -1737,6 +1802,7 @@
 "Sorghum","Sorghum halepense","None","Plenty","Yellow",3.5,3.5,"Actinomorphe","Not applicable","Wind flowers",1,1,1,2.952106576,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Sorghum bicolor",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Sorghum halepense","Sorghum halepense","None","Plenty","Yellow",3.5,3.5,"Actinomorphe","Not applicable","Wind flowers",1,1,1,2.952106576,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Sparganium erectum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Spergula","Spergula arvensis","Present","Little","White",11.5,11.5,"Actinomorphe","Disk flowers with nectar hidden nectaries at base of stamens","Flowers with partly hidden nectar",4.68,1,5.1,5.21,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Spergula arvensis","Spergula arvensis","Present","Little","White",11.5,11.5,"Actinomorphe","Disk flowers with nectar hidden nectaries at base of stamens","Flowers with partly hidden nectar",4.68,1,5.1,5.21,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Spergula morisonii",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -1758,17 +1824,21 @@
 "Stellaria aquatica",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Stellaria graminea","Stellaria graminea","Present","Little","White",11.5,3.5,"Actinomorphe","Disk flowers with nectar hidden nectaries at base of stamens","Flowers with partly hidden nectar",4.775614495,4.137640848,5.199635893,6.460062053,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Stellaria media","Stellaria media","Present","Present","White",11.5,11.5,"Actinomorphe","Disk flowers with nectar hidden nectaries at base of stamens","Flowers with partly hidden nectar",4.65,1,5.09,5.21,"Stellaria media",30,"1-12","0?","12","Thérophytes estivaux (hémicryptophytes érigé)","R","Stellaria media","R","A","H"
+"Stellaria neglecta",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Stellaria pallida",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Stipa capillata",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Stipellula capensis",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Succisa pratensis",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Succowia balearica",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Symphoricarpos albus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Symphyotrichum","Symphyotrichum squamatum","Present","Plenty","Yellow",3.5,3.5,"Actinomorphe","Not applicable","Flowers with totally hidden nectar",3.852504624,3.215377701,4.382189471,5.379825761,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Symphyotrichum lanceolatum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Symphyotrichum squamatum","Symphyotrichum squamatum","Present","Plenty","Yellow",3.5,3.5,"Actinomorphe","Not applicable","Flowers with totally hidden nectar",3.852504624,3.215377701,4.382189471,5.379825761,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Symphyotrichum subulatum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Symphytum","Symphytum officinale","Plenty","Present","Violet",3.5,3.5,"Actinomorphe","Bell shaped flowers","Bumble bee flowers",4.521695222,4.650489504,3.98588407,6.622712123,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Symphytum kurdicum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Symphytum officinale","Symphytum officinale","Plenty","Present","Violet",3.5,3.5,"Actinomorphe","Bell shaped flowers","Bumble bee flowers",4.521695222,4.650489504,3.98588407,6.622712123,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Syringa vulgaris",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Taeniatherum caput-medusae",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Tagetes minuta",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Tanacetum corymbosum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -1777,6 +1847,7 @@
 "Taraxacum campylodes",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Taraxacum erythrospermum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Taraxacum officinale","Taraxacum officinale","Present","Plenty","Yellow",33.5,3.5,"Zygomorphe","Disk flowers with nectar hidden nectaries at base of stamens","Flowers with totally hidden nectar",6.61,5.61,7.58,8.14,NA,NA,NA,NA,NA,NA,NA,"Taraxacum officinale agg.","Cr","P","H"
+"Taxus baccata",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Teesdalia nudicaulis","Teesdalia nudicaulis","Plenty","Plenty","White",11.5,11.5,"Actinomorphe","Disk flowers with nectar hidden nectaries at base of stamens","Flowers with partly hidden nectar",4.880573431,3.932570954,5.69242089,6.396979925,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Teloxys aristata",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Teucrium","Teucrium botrys_Teucrium chamaedrys","None","Plenty","Red",7.5,7.5,"Zygomorphe","True lip flowers","Bumble bee flowers_Hymenoptere flowers",3.3083409235,4.620862084,1.3857403785,5.912193927,NA,NA,NA,NA,NA,NA,NA,"Teucrium chamaedrys","Csr","P","H"
@@ -1784,6 +1855,7 @@
 "Teucrium chamaedrys","Teucrium chamaedrys","None","Plenty","Red",11.5,11.5,"Zygomorphe","True lip flowers","Bumble bee flowers",3.543005229,4.884172152,1.556310686,6.204113106,NA,NA,NA,NA,NA,NA,NA,"Teucrium chamaedrys","Csr","P","H"
 "Teucrium polium",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Teucrium scorodonia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Thalictrum flavum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Thalictrum lucidum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Thalictrum minus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Thesium dollineri",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -1897,6 +1969,7 @@
 "Tulipa sylvestris subsp. sylvestris","Tulipa sylvestris","None","Plenty","Yellow",3.5,3.5,"Actinomorphe","Pollen flower","Pollen flowers",6.05,1,7.19,6.21,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Turgenia latifolia","Turgenia latifolia","None","None","Pink",11.5,3.5,"Zygomorphe","Disk flowers with nectar open","Flowers with open nectar",1,4.75,4.75,8.04,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Tussilago farfara","Tussilago farfara","Present","Present","Yellow",53,3.5,"Actinomorphe","Flower heads, asteraceae, ray and disk flowers","Flowers with totally hidden nectar",6.35,5.49,7.2,7.54,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Typha latifolia","Typha latifolia","Present","Plenty","Brown",3.5,3.5,"Actinomorphe","Not applicable","Wind flowers",2.346370892,2.201363175,2.415360184,3.911685414,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Tyrimnus leucographus","Tyrimnus leucographus","Present","Plenty","Rose",3.5,3.5,"Actinomorphe","Not applicable","Flowers with totally hidden nectar",3.7130989,3.132781291,4.185616746,5.25069038,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Ulex",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Ulex europaeus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -1910,6 +1983,7 @@
 "Urtica dioica","Urtica dioica","None","Plenty","Green",3.5,3.5,"Actinomorphe","Not applicable","Wind flowers",2.07,1.22,3.86,5.67,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Urtica urens","Urtica urens","Present","Plenty","Green",3.5,3.5,"Actinomorphe","Not applicable","Wind flowers",2.395957624,1.943177025,2.856266289,3.785128664,NA,NA,NA,NA,NA,NA,NA,"Urtica urens","R","A","H"
 "Valeriana","Valeriana officinalis","Present","Present","Pink",11.5,11.5,"Actinomorphe","Funnel flowers","Flowers with totally hidden nectar",5.281795401,4.982278893,5.210638637,7.255697083,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Valeriana dioica",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Valeriana excelsa subsp. sambucifolia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Valeriana officinalis","Valeriana officinalis","Present","Present","Pink",11.5,11.5,"Actinomorphe","Funnel flowers","Flowers with totally hidden nectar",5.281795401,4.982278893,5.210638637,7.255697083,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Valerianella","Valerianella coronata_Valerianella dentata_Valerianella discoidea_Valerianella echinata_Valerianella eriocarpa_Valerianella locusta","Little_Present","Plenty","Blue_Rose_White",11.5,4.83333333333333,"Actinomorphe","Disk flowers with nectar hidden nectaries at base of stamens_Funnel flowers","Flowers with totally hidden nectar",4.44828644816667,4.3556155665,4.9109054815,5.8636467175,NA,NA,NA,NA,NA,NA,NA,"Valerianella carinata","R","A","H"
@@ -1941,6 +2015,8 @@
 "Veronica agrestis","Veronica agrestis","Present","Plenty","White",11.5,3.5,"Zygomorphe","Lip flowers, verbascum type","Flowers with totally hidden nectar",4.55702606,5.038537123,3.562093422,6.875646001,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Veronica anagallis-aquatica","Veronica anagallis-aquatica","Present","Plenty","Violet",11.5,3.5,"Zygomorphe","Lip flowers, verbascum type","Flowers with totally hidden nectar",5.48,5.48,5.22,7.39,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Veronica arvensis","Veronica arvensis","Present","None","Blue",53,3.5,"Zygomorphe","Lip flowers, verbascum type","Flowers with totally hidden nectar",5.56,5.56,5.15,6.11,"Veronica arvensis",40,"3","0?","12","Thérophytes vernaux (thérophytes estivaux)","S-r","Veronica arvensis","Sr","A","H"
+"Veronica beccabunga",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Veronica catenata",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Veronica chamaedrys","Veronica chamaedrys","Present","Present","Blue",53,3.5,"Zygomorphe","Lip flowers, verbascum type","Syrphid flowers",5.103894122,5.717729948,3.875006756,7.595271908,NA,NA,NA,NA,NA,NA,NA,"Veronica chamaedrys","Csr","P","H"
 "Veronica cymbalaria","Veronica cymbalaria","Present","Plenty","Blue",11.5,3.5,"Zygomorphe","Flag blossom, fabaceae type","Hymenoptere flowers",4.424632949,5.478753879,2.706294415,7.064112922,"Veronica cymbalaria",80,"12-4","Na","Na","Thérophytes estivaux (thérophytes vernaux)","R",NA,NA,NA,NA
 "Veronica filiformis",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -1973,7 +2049,6 @@
 "Vicia lathyroides",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Vicia lens","Lens culinaris","Present","Plenty","White",11.5,3.5,"Zygomorphe","Flag blossom, fabaceae type","Hymenoptere flowers",4.431810883,5.33884671,2.902394904,6.984290666,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Vicia lutea","Vicia lutea","Present","Plenty","Yellow",11.5,3.5,"Zygomorphe","Flag blossom, fabaceae type","Hymenoptere flowers",4.407742753,5.372586393,2.806533061,6.990787364,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Vicia lutea subsp. lutea","Vicia lutea","Present","Plenty","Yellow",11.5,3.5,"Zygomorphe","Flag blossom, fabaceae type","Hymenoptere flowers",4.407742753,5.372586393,2.806533061,6.990787364,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Vicia monantha",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Vicia narbonensis","Vicia narbonensis","Present","Plenty","Red",11.5,3.5,"Zygomorphe","Flag blossom, fabaceae type","Hymenoptere flowers",4.249422913,5.379072979,2.453907865,6.904287822,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Vicia pannonica","Vicia pannonica","Present","Plenty","White",11.5,3.5,"Zygomorphe","Flag blossom, fabaceae type","Hymenoptere flowers",7.41,8.41,1,8.98,NA,NA,NA,NA,NA,NA,NA,"Vicia pannonica","Cr","A","L"

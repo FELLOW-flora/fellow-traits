@@ -30,6 +30,7 @@
 "Aegilops triuncialis",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Aegonychon purpurocaeruleum","Buglossoides purpurocaerulea",15,0.6,"",NA,"","Buglossoides purpurocaerulea",NA,NA,"","","","",18.5,NA,""
 "Aegopodium podagraria","Aegopodium podagraria",1.99,0.7,"",NA,"","Aegopodium podagraria",NA,NA,"","","","",3.5,NA,""
+"Aesculus hippocastanum","Aesculus hippocastanum",NA,19.625,"",NA,"","Aesculus hippocastanum",10594.8166666667,25,"","","","",11.5,NA,""
 "Aethusa cynapium","Aethusa cynapium",1.64,0.625,"",NA,"","Aethusa cynapium",NA,NA,"","","","",3.5,NA,""
 "Aethusa cynapium subsp. cynapium","Aethusa cynapium",1.64,0.625,"",NA,"","Aethusa cynapium",NA,NA,"","","","",3.5,NA,""
 "Agrimonia agrimonoides",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -56,6 +57,7 @@
 "Alchemilla","Alchemilla xanthochlora",NA,NA,"",NA,"","Alchemilla xanthochlora",NA,NA,"","","","",NA,NA,""
 "Alchemilla xanthochlora","Alchemilla xanthochlora",NA,NA,"",NA,"","Alchemilla xanthochlora",NA,NA,"","","","",NA,NA,""
 "Alisma lanceolatum","Alisma lanceolatum",NA,1,"",NA,"","Alisma lanceolatum",NA,NA,"","","","",NA,NA,""
+"Alisma plantago-aquatica","Alisma plantago-aquatica",0.27,0.466666666666667,"",NA,"","Alisma plantago-aquatica",NA,NA,"","","","",11.5,NA,""
 "Alkanna matthioli",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Alkekengi officinarum",NA,NA,NA,NA,NA,NA,"Alkekengi officinarum",1.558,1.85,"","","","",NA,NA,""
 "Alliaria petiolata","Alliaria petiolata",2.25,0.533333333333333,"",NA,"","Alliaria petiolata",2.55933333333333,3.31,"","","","",3.5,NA,""
@@ -79,6 +81,7 @@
 "Allium subhirsutum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Allium triquetrum","Allium triquetrum",5.79,0.35,"",NA,"",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Allium vineale","Allium vineale",0.5,0.7,"",0.3,"","Allium vineale",NA,NA,"","","","",NA,NA,""
+"Alnus glutinosa","Alnus glutinosa",1.37,14,"",NA,"","Alnus glutinosa",NA,NA,"","","","",NA,NA,""
 "Alopecurus","Alopecurus geniculatus_Alopecurus myosuroides_Alopecurus pratensis",0.906666666666667,0.513888888888889,"",1.5,"","Alopecurus geniculatus_Alopecurus myosuroides_Alopecurus pratensis_Alopecurus rendlei",NA,NA,"","","","",NA,NA,""
 "Alopecurus geniculatus","Alopecurus geniculatus",0.04,0.275,"",NA,"","Alopecurus geniculatus",NA,NA,"","","","",NA,NA,""
 "Alopecurus myosuroides","Alopecurus myosuroides",2,0.566666666666667,"",1.5,"","Alopecurus myosuroides",NA,NA,"","","","",NA,NA,""
@@ -178,7 +181,9 @@
 "Arenaria hispanica",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Arenaria leptoclados",NA,NA,NA,NA,NA,NA,"Arenaria leptoclados",0.039,0.486666666666667,"","","","",NA,NA,""
 "Arenaria serpyllifolia","Arenaria serpyllifolia",0.06,0.03,"",0.9,"","Arenaria serpyllifolia",0.0513333333333333,0.533333333333333,"","","","",11.5,NA,""
-"Argentina anserina","Potentilla anserina",0.8,0.056,"",0.3,"","Potentilla anserina",NA,NA,"","","","",18.5,NA,""
+"Argentina anserina",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Argentina anserina subsp. anserina",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Aria edulis","Sorbus aria",163.666666666667,17.5,"",NA,"","Sorbus aria",22,6,"","","","",NA,NA,""
 "Arisarum simorrhinum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Arisarum vulgare",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Aristolochia clematitis","Aristolochia clematitis",NA,0.5,"",NA,"","Aristolochia clematitis",NA,10,"","","","",11.5,NA,""
@@ -236,6 +241,7 @@
 "Avena sterilis","Avena sterilis",NA,0.65,"",NA,"","Avena sterilis",NA,NA,"","","","",NA,NA,""
 "Avena sterilis subsp. ludoviciana","Avena sterilis",NA,0.65,"",NA,"","Avena sterilis",NA,NA,"","","","",NA,NA,""
 "Avena strigosa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Avenella flexuosa","Deschampsia flexuosa",0.43,0.533333333333333,"",0.75,"","Deschampsia flexuosa",NA,NA,"","","","",NA,NA,""
 "Avenula pubescens","Helictotrichon pubescens",2.1,0.675,"",0.05,"","Helictotrichon pubescens",NA,NA,"","","","",NA,NA,""
 "Ballota nigra","Ballota nigra",0.98,0.7,"",1.5,"","Ballota nigra",NA,NA,"","","","",11.5,NA,""
 "Barbarea","Barbarea intermedia_Barbarea stricta_Barbarea vulgaris",0.5,0.59,"",NA,"","Barbarea intermedia_Barbarea stricta_Barbarea vulgaris",0.585166666666667,1.68333333333333,"","","","",18.5,NA,""
@@ -257,6 +263,7 @@
 "Beta vulgaris subsp. vulgaris","Beta vulgaris",NA,2,"",NA,"","Beta vulgaris",NA,1.96666666666667,"","","","",NA,NA,""
 "Betonica alopecuros",NA,NA,NA,NA,NA,NA,"Stachys alopecuros",NA,NA,"","","","",NA,NA,""
 "Betonica officinalis","Stachys officinalis",1.37,0.375,"",NA,"","Stachys officinalis",NA,NA,"","","","",21.5,NA,""
+"Betula","Betula pendula_Betula pubescens",0.210833333333333,25,"",NA,"","Betula pendula_Betula pubescens",NA,NA,"","","","",NA,NA,""
 "Betula pendula","Betula pendula",0.15,27.5,"",NA,"","Betula pendula",NA,NA,"","","","",NA,NA,""
 "Betula pubescens","Betula pubescens",0.271666666666667,22.5,"",NA,"","Betula pubescens",NA,NA,"","","","",NA,NA,""
 "Bidens","Bidens tripartita",2.61,0.562,"",NA,"","Bidens tripartita",NA,NA,"","","","",3.5,NA,""
@@ -330,7 +337,8 @@
 "Bupleurum subovatum",NA,NA,NA,NA,NA,NA,"Bupleurum longifolium",NA,NA,"","","","",NA,NA,""
 "Bupleurum tenuissimum","Bupleurum tenuissimum",NA,0.325,"",NA,"","Bupleurum tenuissimum",NA,NA,"","","","",NA,NA,""
 "Cakile maritima","Cakile maritima",30.2333333333333,0.3,"",1.5,"","Cakile maritima",NA,NA,"","","","",NA,NA,""
-"Calamagrostis","Calamagrostis epigejos",NA,1.3,"",NA,"","Calamagrostis epigejos",NA,NA,"","","","",NA,NA,""
+"Calamagrostis","Calamagrostis canescens_Calamagrostis epigejos",NA,1.15,"",NA,"","Calamagrostis canescens_Calamagrostis epigejos",NA,NA,"","","","",NA,NA,""
+"Calamagrostis canescens","Calamagrostis canescens",NA,1,"",NA,"","Calamagrostis canescens",NA,NA,"","","","",NA,NA,""
 "Calamagrostis epigejos","Calamagrostis epigejos",NA,1.3,"",NA,"","Calamagrostis epigejos",NA,NA,"","","","",NA,NA,""
 "Calendula",NA,NA,NA,NA,NA,NA,"Calendula arvensis_Calendula officinalis",NA,NA,"","","","",11,NA,""
 "Calendula arvensis",NA,NA,NA,NA,NA,NA,"Calendula arvensis",NA,NA,"","","","",18.5,NA,""
@@ -353,7 +361,8 @@
 "Cannabis sativa",NA,NA,NA,NA,NA,NA,"Cannabis sativa",NA,NA,"","","","",NA,NA,""
 "Capsella bursa-pastoris","Capsella bursa-pastoris",0.125,0.215,"",NA,"","Capsella bursa-pastoris",0.13,0.95,"","","","",11.5,NA,""
 "Capsella rubella",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Cardamine","Cardamine hirsuta_Cardamine pratensis",0.3925,0.28,"",NA,"","Cardamine hirsuta_Cardamine pratensis",0.135666666666667,1.28833333333333,"","","","",7.5,NA,""
+"Cardamine","Cardamine flexuosa_Cardamine hirsuta_Cardamine pratensis",0.305,0.286666666666667,"",NA,"","Cardamine flexuosa_Cardamine hirsuta_Cardamine pratensis",0.132833333333333,1.26444444444444,"","","","",8.83333333333333,NA,""
+"Cardamine flexuosa","Cardamine flexuosa",0.13,0.3,"",NA,"","Cardamine flexuosa",0.13,1.21666666666667,"","","","",11.5,NA,""
 "Cardamine hirsuta","Cardamine hirsuta",0.135,0.185,"",NA,"","Cardamine hirsuta",0.135666666666667,1,"","","","",11.5,NA,""
 "Cardamine pratensis","Cardamine pratensis",0.65,0.375,"",NA,"","Cardamine pratensis",NA,1.57666666666667,"","","","",3.5,NA,""
 "Carduus","Carduus crispus_Carduus nutans_Carduus tenuiflorus",3.13,0.754166666666667,"",1.5,"","Carduus acanthoides_Carduus crispus_Carduus nutans",NA,NA,"","","","",3.5,NA,""
@@ -387,6 +396,7 @@
 "Carthamus mitissimus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Carum carvi",NA,NA,NA,NA,NA,NA,"Carum carvi",NA,NA,"","","","",3.5,NA,""
 "Caryophyllaceae",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Castanea sativa","Castanea sativa",4050,30,"",NA,"","Castanea sativa",NA,NA,"","","","",NA,NA,""
 "Catananche caerulea",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Catapodium rigidum","Catapodium rigidum",0.19,0.115,"",0.05,"","Catapodium rigidum",NA,NA,"","","","",NA,NA,""
 "Caucalis platycarpos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -446,15 +456,17 @@
 "Chaenorhinum rubrifolium",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Chaerophyllum","Chaerophyllum temulum",2.21,0.65,"",NA,"","Chaerophyllum temulum",NA,NA,"","","","",3.5,NA,""
 "Chaerophyllum temulum","Chaerophyllum temulum",2.21,0.65,"",NA,"","Chaerophyllum temulum",NA,NA,"","","","",3.5,NA,""
+"Chamaemelum nobile","Chamaemelum nobile",0.12,0.2,"",NA,"","Chamaemelum nobile",NA,NA,"","","","",NA,NA,""
 "Chamaenerion angustifolium","Epilobium angustifolium",0.05,1.1575,"",0.3,"","Epilobium angustifolium",0.077,3.9475,"","","","",11.5,NA,""
 "Chamaenerion fleischeri",NA,NA,NA,NA,NA,NA,"Epilobium fleischeri",0.145,1.66,"","","","",NA,NA,""
 "Chelidonium","Chelidonium majus",0.7,0.6,"",NA,"","Chelidonium majus",0.772888888888889,1.32,"","","","",18.5,NA,""
 "Chelidonium majus","Chelidonium majus",0.7,0.6,"",NA,"","Chelidonium majus",0.772888888888889,1.32,"","","","",18.5,NA,""
 "Chenopodiastrum hybridum","Chenopodiastrum hybridum",NA,0.4,"",NA,"","Chenopodiastrum hybridum",1.369,NA,"","","","",NA,NA,""
 "Chenopodiastrum murale","Chenopodiastrum murale",NA,0.9,"",NA,"","Chenopodiastrum murale",NA,NA,"","","","",NA,NA,""
-"Chenopodium","Chenopodium album_Chenopodium ficifolium_Chenopodium vulvaria",1.0175,0.598,"",NA,"","Chenopodium album_Chenopodium ficifolium_Chenopodium vulvaria",0.562785714285714,1.12444444444444,"","","","",11.5,NA,""
+"Chenopodium","Chenopodium album_Chenopodium ficifolium_Chenopodium opulifolium_Chenopodium vulvaria",1.0175,0.6735,"",NA,"","Chenopodium album_Chenopodium ficifolium_Chenopodium opulifolium_Chenopodium vulvaria",0.56952380952381,1.14583333333333,"","","","",11.5,NA,""
 "Chenopodium album","Chenopodium album",1.0175,0.844,"",NA,"","Chenopodium album",0.791571428571429,1.17666666666667,"","","","",11.5,NA,""
-"Chenopodium album subsp. album","Chenopodium album",1.0175,0.844,"",NA,"","Chenopodium album",0.791571428571429,1.17666666666667,"","","","",11.5,NA,""
+"Chenopodium album subsp. album","Chenopodium album_Chenopodium opulifolium",1.0175,0.872,"",NA,"","Chenopodium album_Chenopodium opulifolium",0.687285714285714,1.19333333333333,"","","","",11.5,NA,""
+"Chenopodium album subsp. opulifolium","Chenopodium opulifolium",NA,0.9,"",NA,"","Chenopodium opulifolium",0.583,1.21,"","","","",NA,NA,""
 "Chenopodium ficifolium","Chenopodium ficifolium",NA,0.6,"",NA,"","Chenopodium ficifolium",0.334,0.99,"","","","",NA,NA,""
 "Chenopodium vulvaria","Chenopodium vulvaria",NA,0.35,"",NA,"","Chenopodium vulvaria",NA,1.20666666666667,"","","","",NA,NA,""
 "Cherleria laricifolia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -466,6 +478,7 @@
 "Cichorium endivia",NA,NA,NA,NA,NA,NA,"Cichorium endivia",NA,NA,"","","","",NA,NA,""
 "Cichorium intybus","Cichorium intybus",1.5,0.75,"",NA,"","Cichorium intybus",NA,NA,"","","","",33.625,NA,""
 "Cicuta virosa","Cicuta virosa",1.7,0.9,"",NA,"","Cicuta virosa",NA,NA,"","","","",NA,NA,""
+"Circaea",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Cirsium","Cirsium arvense_Cirsium eriophorum_Cirsium heterophyllum_Cirsium palustre_Cirsium tuberosum_Cirsium vulgare",4.12133333333333,0.945833333333333,"",1.5,"","Cirsium arvense_Cirsium eriophorum_Cirsium helenioides_Cirsium oleraceum_Cirsium palustre_Cirsium tuberosum_Cirsium vulgare",NA,NA,"","","","",3.5,NA,""
 "Cirsium arvense","Cirsium arvense",1.2,0.75,"",1.5,"","Cirsium arvense",NA,NA,"","","","",3.5,NA,""
 "Cirsium eriophorum","Cirsium eriophorum",11.6,1.05,"",NA,"","Cirsium eriophorum",NA,NA,"","","","",NA,NA,""
@@ -494,6 +507,7 @@
 "Coleostephus myconis",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Commelina",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Commelina communis",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Conium","Conium maculatum",1.925,3,"",NA,"","Conium maculatum",NA,NA,"","","","",11.5,NA,""
 "Conium maculatum","Conium maculatum",1.925,3,"",NA,"","Conium maculatum",NA,NA,"","","","",11.5,NA,""
 "Conopodium majus","Conopodium majus",2.26,0.7,"",NA,"","Conopodium majus",NA,NA,"","","","",NA,NA,""
 "Conringia orientalis",NA,NA,NA,NA,NA,NA,"Conringia orientalis",1.98233333333333,2.48333333333333,"","","","",NA,NA,""
@@ -525,7 +539,8 @@
 "Crambe abyssinica",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Crambe hispanica abyssinica",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Crassula tillaea","Crassula tillaea",0.01,0.03,"",NA,"","Crassula tillaea",NA,0.4,"","","","",NA,NA,""
-"Crataegus","Crataegus monogyna",112.4,6,"",NA,"","Crataegus monogyna_Crataegus rhipidophylla",64.8726666666667,6.84333333333333,"","","","",3.5,NA,""
+"Crataegus","Crataegus laevigata_Crataegus monogyna",86.25,6,"",NA,"","Crataegus laevigata_Crataegus monogyna_Crataegus rhipidophylla",52.8363333333333,6.485,"","","","",3.5,NA,""
+"Crataegus laevigata","Crataegus laevigata",60.1,6,"",NA,"","Crataegus laevigata",40.8,6.12666666666667,"","","","",3.5,NA,""
 "Crataegus monogyna","Crataegus monogyna",112.4,6,"",NA,"","Crataegus monogyna",64.8726666666667,6.84333333333333,"","","","",3.5,NA,""
 "Crataegus x subsphaerica",NA,NA,NA,NA,NA,NA,"Crataegus rhipidophylla",NA,NA,"","","","",NA,NA,""
 "Crepis","Crepis biennis_Crepis capillaris_Crepis foetida_Crepis vesicaria",0.305,0.54375,"",NA,"","Crepis biennis_Crepis capillaris_Crepis foetida_Crepis pulchra_Crepis setosa_Crepis tectorum_Crepis vesicaria",NA,NA,"","","","",18.5,NA,""
@@ -552,6 +567,7 @@
 "Cucurbita",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Cucurbita pepo",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Cullen americanum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Cupressus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Cuscuta",NA,NA,NA,NA,NA,NA,"Cuscuta epilinum_Cuscuta monogyna_Cuscuta pentagona",0.607666666666667,1.20166666666667,"","","","",NA,NA,""
 "Cuscuta campestris",NA,NA,NA,NA,NA,NA,"Cuscuta pentagona",NA,1.26,"","","","",NA,NA,""
 "Cuscuta epilinum",NA,NA,NA,NA,NA,NA,"Cuscuta epilinum",0.607666666666667,1.14333333333333,"","","","",NA,NA,""
@@ -562,6 +578,7 @@
 "Cymbalaria muralis","Cymbalaria muralis",NA,NA,"",NA,"","Cymbalaria muralis",0.139,0.796666666666667,"","","","",3.5,NA,""
 "Cynanchum acutum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Cynara cardunculus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Cynodon","Cynodon dactylon",NA,0.2,"",NA,"","Cynodon dactylon",NA,NA,"","","","",NA,NA,""
 "Cynodon dactylon","Cynodon dactylon",NA,0.2,"",NA,"","Cynodon dactylon",NA,NA,"","","","",NA,NA,""
 "Cynoglossum cheirifolium",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Cynoglossum creticum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -597,6 +614,7 @@
 "Dianthus armeria","Dianthus armeria",2.58,0.4,"",NA,"","Dianthus armeria",0.276333333333333,1.3,"","","","",3.5,NA,""
 "Dianthus carthusianorum",NA,NA,NA,NA,NA,NA,"Dianthus carthusianorum",1.026,2.2,"","","","",3.5,NA,""
 "Dianthus carthusianorum subsp. carthusianorum",NA,NA,NA,NA,NA,NA,"Dianthus carthusianorum",1.026,2.2,"","","","",3.5,NA,""
+"Digitalis","Digitalis purpurea",0.09,1,"",NA,"","Digitalis grandiflora_Digitalis purpurea",0.120833333333333,0.928333333333333,"","","","",11.5,NA,""
 "Digitalis grandiflora",NA,NA,NA,NA,NA,NA,"Digitalis grandiflora",0.168666666666667,1.04333333333333,"","","","",11.5,NA,""
 "Digitalis purpurea","Digitalis purpurea",0.09,1,"",NA,"","Digitalis purpurea",0.073,0.813333333333333,"","","","",11.5,NA,""
 "Digitaria","Digitaria ischaemum",5.1,0.175,"",NA,"","Digitaria ischaemum_Digitaria sanguinalis",NA,NA,"","","","",NA,NA,""
@@ -615,6 +633,7 @@
 "Dittrichia viscosa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Draba","Draba verna",3.59,0.105,"",0.05,"","Draba verna",0.022,0.446666666666667,"","","","",7.5,NA,""
 "Draba verna","Draba verna",3.59,0.105,"",0.05,"","Draba verna",0.022,0.446666666666667,"","","","",7.5,NA,""
+"Dryopteris","Dryopteris filix-mas",NA,1.05,"",NA,"","Dryopteris filix-mas",NA,NA,"","","","",NA,NA,""
 "Dryopteris filix-mas","Dryopteris filix-mas",NA,1.05,"",NA,"","Dryopteris filix-mas",NA,NA,"","","","",NA,NA,""
 "Dysphania ambrosioides",NA,NA,NA,NA,NA,NA,"Dysphania ambrosioides",NA,0.713333333333333,"","","","",NA,NA,""
 "Dysphania aristata",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -629,6 +648,8 @@
 "Echium asperrimum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Echium plantagineum","Echium plantagineum",3.8,0.4,"",NA,"",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Echium vulgare","Echium vulgare",2.7,0.55,"",1.125,"","Echium vulgare",NA,NA,"","","","",53,NA,""
+"Eleocharis palustris","Eleocharis palustris",0.96,0.45,"",NA,"","Eleocharis palustris",NA,NA,"","","","",NA,NA,""
+"Elymus","Elymus caninus",4.04,0.65,"",NA,"","Elymus caninus",NA,NA,"","","","",NA,NA,""
 "Elymus caninus","Elymus caninus",4.04,0.65,"",NA,"","Elymus caninus",NA,NA,"","","","",NA,NA,""
 "Elytrigia","Elymus repens_Thinopyrum junceum",2.02,0.575,"",1.5,"","Elymus repens_Thinopyrum elongatum_Thinopyrum intermedium",NA,NA,"","","","",NA,NA,""
 "Elytrigia campestris",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -689,6 +710,7 @@
 "Eryngium campestre","Eryngium campestre",NA,0.45,"",NA,"","Eryngium campestre",NA,NA,"","","","",11.5,NA,""
 "Eryngium maritimum","Eryngium maritimum",14.4,0.375,"",1.5,"","Eryngium maritimum",NA,NA,"","","","",8,NA,""
 "Erysimum cheiranthoides","Erysimum cheiranthoides",0.265,0.525,"",NA,"","Erysimum cheiranthoides",NA,1.10666666666667,"","","","",18.5,NA,""
+"Erysimum cheiri","Erysimum cheiri_x",NA,0.4,"",NA,"","Erysimum cheiri_x",NA,3.04333333333333,"","","","",3.5,NA,""
 "Erysimum incanum subsp. aurigeranum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Erysimum repandum",NA,NA,NA,NA,NA,NA,"Erysimum repandum",NA,1.43,"","","","",NA,NA,""
 "Erythranthe moschata","Erythranthe moschata",NA,0.25,"",NA,"","Erythranthe moschata",0.015,0.183333333333333,"","","","",NA,NA,""
@@ -727,8 +749,10 @@
 "Fabaceae",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Fagopyrum esculentum",NA,NA,NA,NA,NA,NA,"Fagopyrum esculentum",NA,NA,"","","","",21.5,NA,""
 "Fagopyrum tataricum",NA,NA,NA,NA,NA,NA,"Fagopyrum tataricum",NA,NA,"","","","",NA,NA,""
+"Fagus","Fagus sylvatica",22.5,28,"",NA,"","Fagus sylvatica",NA,NA,"","","","",NA,NA,""
 "Fagus sylvatica","Fagus sylvatica",22.5,28,"",NA,"","Fagus sylvatica",NA,NA,"","","","",NA,NA,""
 "Falcaria vulgaris",NA,NA,NA,NA,NA,NA,"Falcaria vulgaris",NA,NA,"","","","",11.5,NA,""
+"Fallopia","Fallopia convolvulus_Fallopia dumetorum",1.28,1.375,"",NA,"","Fallopia baldschuanica_Fallopia convolvulus_Fallopia dumetorum",NA,NA,"","","","",11.5,NA,""
 "Fallopia baldschuanica",NA,NA,NA,NA,NA,NA,"Fallopia baldschuanica",NA,NA,"","","","",11.5,NA,""
 "Fallopia convolvulus","Fallopia convolvulus",1.28,0.75,"",NA,"","Fallopia convolvulus",NA,NA,"","","","",11.5,NA,""
 "Fallopia dumetorum","Fallopia dumetorum",NA,2,"",NA,"","Fallopia dumetorum",NA,NA,"","","","",11.5,NA,""
@@ -754,7 +778,8 @@
 "Filipendula ulmaria","Filipendula ulmaria",0.99,0.9,"",NA,"","Filipendula ulmaria",NA,NA,"","","","",11.5,NA,""
 "Filipendula vulgaris","Filipendula vulgaris",NA,0.2725,"",0.4,"","Filipendula vulgaris",NA,NA,"","","","",3.5,NA,""
 "Foeniculum vulgare","Foeniculum vulgare",7.1,2.5,"",NA,"","Foeniculum vulgare",NA,NA,"","","","",NA,NA,""
-"Fragaria","Fragaria vesca",0.31,0.05,"",0.05,"","Fragaria vesca",NA,NA,"","","","",3.5,NA,""
+"Fragaria","Fragaria vesca",0.31,0.05,"",0.05,"","Fragaria ananassa_x_Fragaria vesca",NA,NA,"","","","",3.5,NA,""
+"Fragaria ananassa",NA,NA,NA,NA,NA,NA,"Fragaria ananassa_x",NA,NA,"","","","",NA,NA,""
 "Fragaria vesca","Fragaria vesca",0.31,0.05,"",0.05,"","Fragaria vesca",NA,NA,"","","","",3.5,NA,""
 "Fraxinus","Fraxinus excelsior",29.3,27.6666666666667,"",NA,"","Fraxinus excelsior_Fraxinus ornus",NA,NA,"","","","",NA,NA,""
 "Fraxinus angustifolia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -842,7 +867,9 @@
 "Glechoma hirsuta",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Gleditsia triacanthos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Globularia bisnagarica",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Glyceria",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Glyceria","Glyceria declinata_Glyceria maxima",0.7,0.833333333333333,"",0.3,"","Glyceria declinata_Glyceria maxima",NA,NA,"","","","",NA,NA,""
+"Glyceria declinata","Glyceria declinata",NA,0.6,"",NA,"","Glyceria declinata",NA,NA,"","","","",NA,NA,""
+"Glyceria maxima","Glyceria maxima",0.7,1.06666666666667,"",0.3,"","Glyceria maxima",NA,NA,"","","","",NA,NA,""
 "Glycine max",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Glycyrrhiza glabra",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Gnaphalium","Gnaphalium uliginosum",0.07,0.12,"",NA,"","Gnaphalium uliginosum",NA,NA,"","","","",3.5,NA,""
@@ -851,6 +878,7 @@
 "Gypsophila repens",NA,NA,NA,NA,NA,NA,"Gypsophila repens",0.715,1.5,"","","","",NA,NA,""
 "Gypsophila vaccaria",NA,NA,NA,NA,NA,NA,"Vaccaria hispanica",7.53833333333333,2.16666666666667,"","","","",76,NA,""
 "Hainardia cylindrica",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Hedera","Hedera helix",27.7,15.075,"",NA,"","Hedera helix",20.43,4.70666666666667,"","","","",11.5,NA,""
 "Hedera helix","Hedera helix",27.7,15.075,"",NA,"","Hedera helix",20.43,4.70666666666667,"","","","",11.5,NA,""
 "Hedypnois rhagadioloides",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Helianthemum apenninum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -905,6 +933,8 @@
 "Hordeum vulgare subsp. vulgare",NA,NA,NA,NA,NA,NA,"Hordeum vulgare",NA,NA,"","","","",NA,NA,""
 "Hornungia petraea","Hornungia petraea",NA,0.0833333333333333,"",0.05,"","Hornungia petraea",0.07,0.726666666666667,"","","","",NA,NA,""
 "Humulus lupulus","Humulus lupulus",NA,8,"",NA,"","Humulus lupulus",NA,NA,"","","","",NA,NA,""
+"Hyacinthoides","Hyacinthoides non-scripta",7.975,0.35,"",0.3,"","Hyacinthoides non-scripta",5.8,2.4,"","","","",33.5,NA,""
+"Hyacinthoides non-scripta","Hyacinthoides non-scripta",7.975,0.35,"",0.3,"","Hyacinthoides non-scripta",5.8,2.4,"","","","",33.5,NA,""
 "Hyacinthus orientalis",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Hylotelephium maximum",NA,NA,NA,NA,NA,NA,"Sedum maximum",0.0526666666666667,1.04666666666667,"","","","",NA,NA,""
 "Hylotelephium telephium","Hylotelephium telephium",0.18,0.3,"",NA,"","Hylotelephium telephium",0.0656666666666667,1.18333333333333,"","","","",11.5,NA,""
@@ -915,7 +945,8 @@
 "Hypecoum imberbe",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Hypecoum pendulum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Hypecoum procumbens",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Hypericum","Hypericum hirsutum_Hypericum humifusum_Hypericum linariifolium_Hypericum maculatum_Hypericum perforatum_Hypericum tetrapterum",0.168333333333333,0.459722222222222,"",0.575,"","Hypericum hirsutum_Hypericum humifusum_Hypericum maculatum_Hypericum perforatum_Hypericum pulchrum_Hypericum tetrapterum",0.133,0.965,"","","","",28.25,NA,""
+"Hypericum","Hypericum androsaemum_Hypericum hirsutum_Hypericum humifusum_Hypericum linariifolium_Hypericum maculatum_Hypericum perforatum_Hypericum tetrapterum",0.152857142857143,0.479761904761905,"",0.575,"","Hypericum hirsutum_Hypericum humifusum_Hypericum maculatum_Hypericum perforatum_Hypericum pulchrum_Hypericum tetrapterum",0.133,0.965,"","","","",28.25,NA,""
+"Hypericum androsaemum","Hypericum androsaemum",0.06,0.6,"",NA,"",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Hypericum australe",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Hypericum hirsutum","Hypericum hirsutum",0.09,0.7,"",0.3,"","Hypericum hirsutum",0.0726666666666667,1.11333333333333,"","","","",28.25,NA,""
 "Hypericum humifusum","Hypericum humifusum",0.06,0.175,"",NA,"","Hypericum humifusum",0.043,0.583333333333333,"","","","",NA,NA,""
@@ -931,6 +962,7 @@
 "Hyssopus officinalis",NA,NA,NA,NA,NA,NA,"Hyssopus officinalis",NA,NA,"","","","",11.5,NA,""
 "Iberis amara","Iberis amara",2.5,0.2,"",NA,"","Iberis amara",NA,2.25,"","","","",NA,NA,""
 "Iberis pinnata",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Ilex aquifolium","Ilex aquifolium",NA,12,"",NA,"","Ilex aquifolium",NA,NA,"","","","",NA,NA,""
 "Illecebrum verticillatum","Illecebrum verticillatum",NA,0.125,"",NA,"","Illecebrum verticillatum",0.078,0.73,"","","","",11.5,NA,""
 "Imbribryum subapiculatum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Impatiens glandulifera","Impatiens glandulifera",7.3,1.83333333333333,"",0.3,"","Impatiens glandulifera",17.1243333333333,4.81666666666667,"","","","",21.5,NA,""
@@ -952,7 +984,9 @@
 "Juglans",NA,NA,NA,NA,NA,NA,"Juglans regia",NA,NA,"","","","",NA,NA,""
 "Juglans nigra",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Juglans regia",NA,NA,NA,NA,NA,NA,"Juglans regia",NA,NA,"","","","",NA,NA,""
-"Juncus","Juncus bufonius_Juncus capitatus_Juncus conglomeratus_Juncus effusus_Juncus inflexus_Juncus tenuis",0.0186,0.460833333333333,"",0.3,"","Juncus bufonius_Juncus capitatus_Juncus conglomeratus_Juncus effusus_Juncus inflexus_Juncus tenuis",0.0197333333333333,0.423888888888889,"","","","",NA,NA,""
+"Juncus","Juncus acutiflorus_Juncus articulatus_Juncus bufonius_Juncus capitatus_Juncus conglomeratus_Juncus effusus_Juncus inflexus_Juncus tenuis",0.0175714285714286,0.494375,"",0.3,"","Juncus acutiflorus_Juncus articulatus_Juncus bufonius_Juncus capitatus_Juncus conglomeratus_Juncus effusus_Juncus inflexus_Juncus tenuis",0.0190952380952381,0.444166666666667,"","","","",NA,NA,""
+"Juncus acutiflorus","Juncus acutiflorus",0.01,0.65,"",NA,"","Juncus acutiflorus",0.017,0.453333333333333,"","","","",NA,NA,""
+"Juncus articulatus","Juncus articulatus",0.02,0.54,"",NA,"","Juncus articulatus",0.018,0.556666666666667,"","","","",NA,NA,""
 "Juncus bufonius","Juncus bufonius",0.02,0.21,"",NA,"","Juncus bufonius",0.0246666666666667,0.396666666666667,"","","","",NA,NA,""
 "Juncus capitatus","Juncus capitatus",NA,0.03,"",NA,"","Juncus capitatus",NA,0.3,"","","","",NA,NA,""
 "Juncus conglomeratus","Juncus conglomeratus",0.02,0.9,"",0.3,"","Juncus conglomeratus",0.017,0.626666666666667,"","","","",NA,NA,""
@@ -968,26 +1002,29 @@
 "Knautia arvensis","Knautia arvensis",6.7,0.625,"",0.75,"","Knautia arvensis",NA,NA,"","","","",3.5,NA,""
 "Knautia collina",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Knautia integrifolia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Knautia timeroyi",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Knautia timeroyi",NA,NA,NA,NA,NA,NA,"Scabiosa canescens",NA,NA,"","","","",NA,NA,""
 "Krubera peregrina",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Lactuca","Lactuca muralis_Lactuca saligna_Lactuca serriola_Lactuca virosa",0.54625,0.990625,"",0.3,"","Lactuca muralis_Lactuca perennis_Lactuca saligna_Lactuca serriola_Lactuca viminea_Lactuca virosa",NA,NA,"","","","",32.0833333333333,NA,""
 "Lactuca muralis","Lactuca muralis",0.34,0.625,"",0.3,"","Lactuca muralis",NA,NA,"","","","",NA,NA,""
 "Lactuca perennis",NA,NA,NA,NA,NA,NA,"Lactuca perennis",NA,NA,"","","","",39.75,NA,""
 "Lactuca saligna","Lactuca saligna",0.45,0.65,"",NA,"","Lactuca saligna",NA,NA,"","","","",NA,NA,""
+"Lactuca sativa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Lactuca serriola","Lactuca serriola",0.45,1.1375,"",NA,"","Lactuca serriola",NA,NA,"","","","",28.25,NA,""
 "Lactuca viminea",NA,NA,NA,NA,NA,NA,"Lactuca viminea",NA,NA,"","","","",NA,NA,""
 "Lactuca virosa","Lactuca virosa",0.945,1.55,"",NA,"","Lactuca virosa",NA,NA,"","","","",28.25,NA,""
 "Lagurus ovatus","Lagurus ovatus",NA,0.285,"",NA,"",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Lamiaceae",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Lamium","Lamium album_Lamium amplexicaule_Lamium purpureum",0.906666666666667,0.255555555555556,"",1.5,"","Lamium album_Lamium amplexicaule_Lamium maculatum_Lamium purpureum",NA,NA,"","","","",7.5,NA,""
+"Lamium","Lamium album_Lamium amplexicaule_Lamium galeobdolon_Lamium purpureum",1.18,0.279166666666667,"",0.9,"","Lamium album_Lamium amplexicaule_Lamium galeobdolon_Lamium maculatum_Lamium purpureum",NA,NA,"","","","",9.7,NA,""
 "Lamium album","Lamium album",1.47666666666667,0.4,"",NA,"","Lamium album",NA,NA,"","","","",7.5,NA,""
 "Lamium album subsp. album","Lamium album",1.47666666666667,0.4,"",NA,"","Lamium album",NA,NA,"","","","",7.5,NA,""
 "Lamium amplexicaule","Lamium amplexicaule",0.543333333333333,0.15,"",1.5,"","Lamium amplexicaule",NA,NA,"","","","",7.5,NA,""
+"Lamium galeobdolon","Lamium galeobdolon",2,0.35,"",0.3,"","Lamium galeobdolon",NA,NA,"","","","",18.5,NA,""
 "Lamium hybridum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Lamium maculatum",NA,NA,NA,NA,NA,NA,"Lamium maculatum",NA,NA,"","","","",7.5,NA,""
 "Lamium purpureum","Lamium purpureum",0.7,0.216666666666667,"",NA,"","Lamium purpureum",NA,NA,"","","","",7.5,NA,""
 "Laphangium luteoalbum","Gnaphalium luteoalbum",0.02,0.265,"",NA,"","Gnaphalium luteoalbum",NA,NA,"","","","",NA,NA,""
 "Lappula squarrosa",NA,NA,NA,NA,NA,NA,"Lappula squarrosa",NA,NA,"","","","",NA,NA,""
+"Lapsana","Lapsana communis",1.43333333333333,0.7,"",NA,"","Lapsana communis",NA,NA,"","","","",28.25,NA,""
 "Lapsana communis","Lapsana communis",1.43333333333333,0.7,"",NA,"","Lapsana communis",NA,NA,"","","","",28.25,NA,""
 "Larix decidua","Larix decidua",5.25,48,"",NA,"","Larix decidua",NA,4.33333333333333,"","","","",NA,NA,""
 "Lathyrus","Lathyrus aphaca_Lathyrus linifolius_Lathyrus niger_Lathyrus nissolia_Lathyrus palustris_Lathyrus pratensis_Lathyrus sylvestris",14.6983333333333,0.853571428571429,"",NA,"","Lathyrus aphaca_Lathyrus hirsutus_Lathyrus latifolius_Lathyrus linifolius_Lathyrus niger_Lathyrus nissolia_Lathyrus odoratus_Lathyrus palustris_Lathyrus pratensis_Lathyrus sativus_Lathyrus sphaericus_Lathyrus sylvestris_Lathyrus tuberosus",57.6448888888889,3.95692307692308,"","","","",24.375,NA,""
@@ -1019,6 +1056,8 @@
 "Legousia hybrida","Legousia hybrida",0.34,0.133333333333333,"",0.75,"","Legousia hybrida",0.18,1.27,"","","","",39.75,NA,""
 "Legousia speculum-veneris",NA,NA,NA,NA,NA,NA,"Legousia speculum-veneris",0.194333333333333,1.29333333333333,"","","","",39.75,NA,""
 "Legousia speculum-veneris subsp. speculum-veneris",NA,NA,NA,NA,NA,NA,"Legousia speculum-veneris",0.194333333333333,1.29333333333333,"","","","",39.75,NA,""
+"Lemna minor","Lemna minor",NA,NA,"",NA,"","Lemna minor",NA,NA,"","","","",NA,NA,""
+"Lemna trisulca","Lemna trisulca",NA,NA,"",NA,"","Lemna trisulca",NA,NA,"","","","",NA,NA,""
 "Leontodon","Leontodon hispidus",1.05,0.35,"",NA,"","Leontodon hispidus",NA,NA,"","","","",28.25,NA,""
 "Leontodon autumnale",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Leontodon hirtus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -1092,7 +1131,8 @@
 "Lotus parviflorus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Lotus pedunculatus","Lotus pedunculatus",0.4,0.583333333333333,"",NA,"","Lotus pedunculatus",0.581,1.00333333333333,"","","","",12.5,NA,""
 "Lotus rectus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Lunaria",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Lunaria","Lunaria annua",NA,0.533333333333333,"",NA,"","Lunaria annua",18.933,7.48333333333333,"","","","",18.5,NA,""
+"Lunaria annua","Lunaria annua",NA,0.533333333333333,"",NA,"","Lunaria annua",18.933,7.48333333333333,"","","","",18.5,NA,""
 "Lupinus",NA,NA,NA,NA,NA,NA,"Lupinus angustifolius_Lupinus luteus",148.093666666667,7.025,"","","","",NA,NA,""
 "Lupinus angustifolius",NA,NA,NA,NA,NA,NA,"Lupinus angustifolius",153.552333333333,7.025,"","","","",NA,NA,""
 "Lupinus luteus",NA,NA,NA,NA,NA,NA,"Lupinus luteus",142.635,NA,"","","","",NA,NA,""
@@ -1114,6 +1154,7 @@
 "Lythrum virgatum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Malcolmia africana",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Malcolmia littorea",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Malus","Malus pumila_Malus sylvestris",25.775,8,"",NA,"","Malus domestica_Malus sylvestris",30,6.78166666666667,"","","","",11.5,NA,""
 "Malus domestica","Malus pumila",22.2,10,"",NA,"","Malus domestica",NA,6.81333333333333,"","","","",NA,NA,""
 "Malus sylvestris","Malus sylvestris",29.35,6,"",NA,"","Malus sylvestris",30,6.75,"","","","",11.5,NA,""
 "Malva","Malva arborea_Malva moschata_Malva multiflora_Malva neglecta_Malva sylvestris",1.85535,0.8,"",0.3,"","Malva alcea_Malva moschata_Malva neglecta_Malva olbia_Malva pusilla_Malva sylvestris",1.837,2.01666666666667,"","","","",27.375,NA,""
@@ -1137,6 +1178,7 @@
 "Matricaria chamomilla","Matricaria chamomilla",0.06,0.375,"",NA,"","Matricaria chamomilla",NA,NA,"","","","",11.5,NA,""
 "Matricaria discoidea","Matricaria discoidea",0.08,0.2,"",NA,"","Matricaria discoidea",NA,NA,"","","","",3.5,NA,""
 "Matricaria matricarioides",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Matthiola",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Medicago","Medicago arabica_Medicago lupulina_Medicago minima_Medicago polymorpha_Medicago sativa",2.1875,0.393333333333333,"",1.0125,"","Medicago arabica_Medicago lupulina_Medicago minima_Medicago polymorpha",1.45311111111111,2.21555555555556,"","","","",3.5,NA,""
 "Medicago arabica","Medicago arabica",2.3,0.5,"",NA,"","Medicago arabica",1.62566666666667,2.92666666666667,"","","","",NA,NA,""
 "Medicago ciliaris",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -1195,6 +1237,7 @@
 "Micromeria graeca",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Micropyrum tenellum",NA,NA,NA,NA,NA,NA,"Micropyrum tenellum",NA,NA,"","","","",NA,NA,""
 "Microthlaspi perfoliatum","Noccaea perfoliata",NA,0.15,"",NA,"","Noccaea perfoliata",0.251666666666667,1.29666666666667,"","","","",11.5,NA,""
+"Milium",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Minuartia montana subsp. wiesneri",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Misopates orontium","Misopates orontium",0.18,0.5,"",NA,"","Misopates orontium",0.137666666666667,1.04333333333333,"","","","",3.5,NA,""
 "Moehringia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -1219,6 +1262,7 @@
 "Myosotis scorpioides","Myosotis scorpioides",0.28,0.533333333333333,"",NA,"","Myosotis scorpioides",NA,NA,"","","","",7.5,NA,""
 "Myosotis stricta",NA,NA,NA,NA,NA,NA,"Myosotis stricta",NA,NA,"","","","",NA,NA,""
 "Myosurus minimus","Myosurus minimus",NA,0.075,"",NA,"","Myosurus minimus",0.150666666666667,0.8,"","","","",11.5,NA,""
+"Myrrhis odorata","Myrrhis odorata",35.01,1.3,"",NA,"","Myrrhis odorata",NA,NA,"","","","",3.5,NA,""
 "Nardus stricta","Nardus stricta",0.38,0.366666666666667,"",0.3,"","Nardus stricta",NA,NA,"","","","",NA,NA,""
 "Nasturtium officinale","Nasturtium officinale",0.19,0.893333333333333,"",NA,"","Nasturtium officinale",0.197666666666667,0.883333333333333,"","","","",3.5,NA,""
 "Neottia ovata","Neottia ovata",NA,0.466666666666667,"",NA,"","Neottia ovata",NA,0.6,"","","","",11.5,NA,""
@@ -1318,7 +1362,8 @@
 "Panicum miliaceum subsp. miliaceum",NA,NA,NA,NA,NA,NA,"Panicum miliaceum",NA,NA,"","","","",NA,NA,""
 "Panicum miliaceum subsp. ruderale",NA,NA,NA,NA,NA,NA,"Panicum miliaceum",NA,NA,"","","","",NA,NA,""
 "Panicum virgatum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Papaver","Papaver dubium_Papaver rhoeas_Papaver somniferum",0.1325,0.41047619047619,"",NA,"","Papaver dubium_Papaver rhoeas_Papaver somniferum",0.225666666666667,0.883333333333333,"","","","",34.5833333333333,NA,""
+"Papaver","Papaver cambricum_Papaver dubium_Papaver rhoeas_Papaver somniferum",0.168333333333333,0.420357142857143,"",NA,"","Papaver alpinum_Papaver dubium_Papaver rhoeas_Papaver somniferum",0.225666666666667,0.883333333333333,"","","","",34.5833333333333,NA,""
+"Papaver cambricum","Papaver cambricum",0.24,0.45,"",NA,"","Papaver alpinum",NA,NA,"","","","",NA,NA,""
 "Papaver dubium","Papaver dubium",0.125,0.271428571428571,"",NA,"","Papaver dubium",0.121333333333333,0.683333333333333,"","","","",48.75,NA,""
 "Papaver rhoeas","Papaver rhoeas",0.14,0.36,"",NA,"","Papaver rhoeas",0.112666666666667,0.75,"","","","",33.5,NA,""
 "Papaver somniferum","Papaver somniferum",NA,0.6,"",NA,"","Papaver somniferum",0.443,1.21666666666667,"","","","",21.5,NA,""
@@ -1330,6 +1375,7 @@
 "Paspalum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Paspalum dilatatum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Paspalum distichum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Pastinaca","Pastinaca sativa",3.6,1.05,"",0.05,"","Pastinaca sativa",NA,NA,"","","","",11.5,NA,""
 "Pastinaca sativa","Pastinaca sativa",3.6,1.05,"",0.05,"","Pastinaca sativa",NA,NA,"","","","",11.5,NA,""
 "Pastinaca sativa subsp. urens","Pastinaca sativa",3.6,1.05,"",0.05,"","Pastinaca sativa",NA,NA,"","","","",11.5,NA,""
 "Persicaria","Persicaria amphibia_Persicaria hydropiper_Persicaria lapathifolia_Persicaria laxiflora_Persicaria maculosa_Persicaria minor",3.78166666666667,0.505333333333333,"",NA,"","Persicaria amphibia_Persicaria dubia_Persicaria hydropiper_Persicaria lapathifolia_Persicaria maculosa_Persicaria minor",NA,NA,"","","","",8.83333333333333,NA,""
@@ -1340,6 +1386,7 @@
 "Persicaria lapathifolia","Persicaria lapathifolia",6.39,1,"",NA,"","Persicaria lapathifolia",NA,NA,"","","","",NA,NA,""
 "Persicaria maculosa","Persicaria maculosa",2.49666666666667,0.372,"",NA,"","Persicaria maculosa",NA,NA,"","","","",NA,NA,""
 "Persicaria minor","Persicaria minor",NA,0.3,"",NA,"","Persicaria minor",NA,NA,"","","","",11.5,NA,""
+"Petasites hybridus","Petasites hybridus",0.26,0.45,"",NA,"","Petasites hybridus",NA,NA,"","","","",11.5,NA,""
 "Petrorhagia prolifera","Petrorhagia prolifera",NA,0.5,"",NA,"","Petrorhagia prolifera",NA,1.54333333333333,"","","","",7.5,NA,""
 "Petrorhagia saxifraga",NA,NA,NA,NA,NA,NA,"Petrorhagia saxifraga",0.16,1.22666666666667,"","","","",7.5,NA,""
 "Petrosedum sediforme",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -1366,6 +1413,7 @@
 "Phleum phleoides","Phleum phleoides",NA,0.25,"",NA,"","Phleum phleoides",NA,NA,"","","","",NA,NA,""
 "Phleum pratense","Phleum pratense",0.45,1.5,"",0.75,"","Phleum pratense",NA,NA,"","","","",NA,NA,""
 "Phleum subulatum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Phragmites","Phragmites australis",0.12,1.542,"",NA,"","Phragmites australis",NA,NA,"","","","",NA,NA,""
 "Phragmites australis","Phragmites australis",0.12,1.542,"",NA,"","Phragmites australis",NA,NA,"","","","",NA,NA,""
 "Physalis peruviana",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Physalis viscosa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -1449,6 +1497,9 @@
 "Populus x canescens",NA,NA,NA,NA,NA,NA,"Populus canescens_x",NA,NA,"","","","",NA,NA,""
 "Portulaca","Portulaca oleracea",0.13,0.2,"",NA,"","Portulaca oleracea",0.296666666666667,0.76,"","","","",28.25,NA,""
 "Portulaca oleracea","Portulaca oleracea",0.13,0.2,"",NA,"","Portulaca oleracea",0.296666666666667,0.76,"","","","",28.25,NA,""
+"Potamogeton","Potamogeton berchtoldii_Potamogeton lucens",NA,NA,"",NA,"","Potamogeton berchtoldii_Potamogeton lucens",NA,NA,"","","","",NA,NA,""
+"Potamogeton berchtoldii","Potamogeton berchtoldii",NA,NA,"",NA,"","Potamogeton berchtoldii",NA,NA,"","","","",NA,NA,""
+"Potamogeton lucens","Potamogeton lucens",NA,NA,"",NA,"","Potamogeton lucens",NA,NA,"","","","",NA,NA,""
 "Potentilla","Potentilla argentea_Potentilla crantzii_Potentilla erecta_Potentilla norvegica_Potentilla recta_Potentilla reptans_Potentilla sterilis_Potentilla tabernaemontani",0.35,0.296056547619048,"",0.2875,"","Potentilla argentea_Potentilla crantzii_Potentilla erecta_Potentilla incana_Potentilla indica_Potentilla micrantha_Potentilla norvegica_Potentilla recta_Potentilla reptans_Potentilla sterilis_Potentilla supina_Potentilla tabernaemontani",NA,NA,"","","","",25.4375,NA,""
 "Potentilla argentea","Potentilla argentea",NA,0.325,"",NA,"","Potentilla argentea",NA,NA,"","","","",18.5,NA,""
 "Potentilla crantzii","Potentilla crantzii",0.17,0.116666666666667,"",NA,"","Potentilla crantzii",NA,NA,"","","","",NA,NA,""
@@ -1471,12 +1522,15 @@
 "Primulaceae",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Prunella laciniata","Prunella laciniata",NA,0.175,"",NA,"","Prunella laciniata",NA,NA,"","","","",NA,NA,""
 "Prunella vulgaris","Prunella vulgaris",0.6,0.133333333333333,"",NA,"","Prunella vulgaris",NA,NA,"","","","",25.625,NA,""
-"Prunus","Prunus avium_Prunus mahaleb_Prunus spinosa",156.033333333333,3.51666666666667,"",NA,"","Prunus avium_Prunus cerasifera_Prunus cerasus_Prunus mahaleb_Prunus spinosa",NA,NA,"","","","",11.5,NA,""
+"Prunus","Prunus avium_Prunus domestica_Prunus laurocerasus_Prunus mahaleb_Prunus padus_Prunus spinosa",221.12,5.48055555555556,"",NA,"","Prunus avium_Prunus cerasifera_Prunus cerasus_Prunus domestica_Prunus mahaleb_Prunus padus_Prunus spinosa",NA,NA,"","","","",11.5,NA,""
 "Prunus avium","Prunus avium",232.5,0.05,"",NA,"","Prunus avium",NA,NA,"","","","",11.5,NA,""
 "Prunus cerasifera",NA,NA,NA,NA,NA,NA,"Prunus cerasifera",NA,NA,"","","","",NA,NA,""
 "Prunus cerasus",NA,NA,NA,NA,NA,NA,"Prunus cerasus",NA,NA,"","","","",NA,NA,""
+"Prunus domestica","Prunus domestica",NA,6.66666666666667,"",NA,"","Prunus domestica",NA,NA,"","","","",11.5,NA,""
 "Prunus dulcis",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Prunus laurocerasus","Prunus laurocerasus",340,4,"",NA,"",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Prunus mahaleb","Prunus mahaleb",83.3,8,"",NA,"","Prunus mahaleb",NA,NA,"","","","",11.5,NA,""
+"Prunus padus","Prunus padus",297.5,11.6666666666667,"",NA,"","Prunus padus",NA,NA,"","","","",11.5,NA,""
 "Prunus spinosa","Prunus spinosa",152.3,2.5,"",NA,"","Prunus spinosa",NA,NA,"","","","",11.5,NA,""
 "Psammophiliella muralis",NA,NA,NA,NA,NA,NA,"Gypsophila muralis",0.032,0.343333333333333,"","","","",11.5,NA,""
 "Psilurus incurvus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -1487,19 +1541,22 @@
 "Pulicaria odora",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Pulicaria vulgaris","Pulicaria vulgaris",0.141666666666667,0.1725,"",NA,"","Pulicaria vulgaris",NA,NA,"","","","",NA,NA,""
 "Pulmonaria",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Quercus","Quercus petraea_Quercus robur",3071.5,32.5,"",0.3,"","Quercus petraea_Quercus pubescens_Quercus robur",NA,NA,"","","","",NA,NA,""
+"Quercus","Quercus cerris_Quercus petraea_Quercus robur",3071.5,33.3333333333333,"",0.3,"","Quercus cerris_Quercus petraea_Quercus pubescens_Quercus robur_Quercus rubra",NA,NA,"","","","",NA,NA,""
+"Quercus cerris","Quercus cerris",NA,35,"",NA,"","Quercus cerris",NA,NA,"","","","",NA,NA,""
 "Quercus coccifera",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Quercus ilex",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Quercus petraea","Quercus petraea",2290,30,"",0.3,"","Quercus petraea",NA,NA,"","","","",NA,NA,""
 "Quercus pubescens",NA,NA,NA,NA,NA,NA,"Quercus pubescens",NA,NA,"","","","",NA,NA,""
 "Quercus robur","Quercus robur",3853,35,"",0.3,"","Quercus robur",NA,NA,"","","","",NA,NA,""
+"Quercus rubra",NA,NA,NA,NA,NA,NA,"Quercus rubra",NA,NA,"","","","",NA,NA,""
 "Quercus suber",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Rabelera holostea","Stellaria holostea",2.1,0.375,"",NA,"","Stellaria holostea",3.06966666666667,2.27,"","","","",12.5,NA,""
-"Ranunculus","Ranunculus acris_Ranunculus arvensis_Ranunculus bulbosus_Ranunculus muricatus_Ranunculus parviflorus_Ranunculus repens_Ranunculus sardous_Ranunculus sceleratus",3.34222222222222,0.365625,"",0.175,"","Ranunculus acris_Ranunculus arvensis_Ranunculus bulbosus_Ranunculus illyricus_Ranunculus repens_Ranunculus sardous_Ranunculus sceleratus",NA,NA,"","","","",25.8928571428571,NA,""
+"Ranunculus","Ranunculus acris_Ranunculus arvensis_Ranunculus bulbosus_Ranunculus flammula_Ranunculus muricatus_Ranunculus parviflorus_Ranunculus repens_Ranunculus sardous_Ranunculus sceleratus",2.91761904761905,0.377222222222222,"",0.175,"","Ranunculus acris_Ranunculus arvensis_Ranunculus bulbosus_Ranunculus flammula_Ranunculus illyricus_Ranunculus repens_Ranunculus sardous_Ranunculus sceleratus",NA,NA,"","","","",24.96875,NA,""
 "Ranunculus acris","Ranunculus acris",1.9,0.583333333333333,"",NA,"","Ranunculus acris",NA,NA,"","","","",12.5,NA,""
 "Ranunculus acris subsp. friesianus","Ranunculus acris",1.9,0.583333333333333,"",NA,"","Ranunculus acris",NA,NA,"","","","",12.5,NA,""
 "Ranunculus arvensis","Ranunculus arvensis",12,0.375,"",NA,"","Ranunculus arvensis",NA,NA,"","","","",18.5,NA,""
 "Ranunculus bulbosus","Ranunculus bulbosus",3.33333333333333,0.275,"",NA,"","Ranunculus bulbosus",NA,NA,"","","","",3.5,NA,""
+"Ranunculus flammula","Ranunculus flammula",0.37,0.47,"",NA,"","Ranunculus flammula",NA,NA,"","","","",18.5,NA,""
 "Ranunculus gramineus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Ranunculus muricatus","Ranunculus muricatus",NA,0.5,"",NA,"",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Ranunculus paludosus",NA,NA,NA,NA,NA,NA,"Ranunculus illyricus",NA,NA,"","","","",53,NA,""
@@ -1534,6 +1591,7 @@
 "Rhinanthus minor","Rhinanthus minor",2.84,0.28,"",0.05,"","Rhinanthus minor",2.92,4.57666666666667,"","","","",3.5,NA,""
 "Rhinanthus pumilus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Rhizogemma staphylina",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Ribes uva-crispa","Ribes uva-crispa",6.915,1,"",NA,"","Ribes uva-crispa",NA,3.56,"","","","",NA,NA,""
 "Riccia sorocarpa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Riccia warnstorfii",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Ridolfia segetum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -1549,9 +1607,10 @@
 "Rorippa palustris","Rorippa palustris",0.1,0.228,"",NA,"","Rorippa palustris",0.065,0.783333333333333,"","","","",12.5,NA,""
 "Rorippa sylvestris","Rorippa sylvestris",0.08,0.35,"",NA,"","Rorippa sylvestris",0.064,0.633333333333333,"","","","",28.25,NA,""
 "Rorippa x armoracioides",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Rosa","Rosa arvensis_Rosa canina",19,1.58333333333333,"",NA,"","Rosa arvensis_Rosa canina",NA,NA,"","","","",3.5,NA,""
+"Rosa","Rosa arvensis_Rosa canina_Rosa rubiginosa",16.1,1.55555555555556,"",NA,"","Rosa arvensis_Rosa canina_Rosa rubiginosa",NA,NA,"","","","",3.5,NA,""
 "Rosa arvensis","Rosa arvensis",NA,1.16666666666667,"",NA,"","Rosa arvensis",NA,NA,"","","","",3.5,NA,""
 "Rosa canina","Rosa canina",19,2,"",NA,"","Rosa canina",NA,NA,"","","","",3.5,NA,""
+"Rosa rubiginosa","Rosa rubiginosa",13.2,1.5,"",NA,"","Rosa rubiginosa",NA,NA,"","","","",3.5,NA,""
 "Rosa sempervirens",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Rosaceae",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Rostraria cristata",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -1591,10 +1650,14 @@
 "Ruta graveolens",NA,NA,NA,NA,NA,NA,"Ruta graveolens",1.98166666666667,2,"","","","",11.5,NA,""
 "Sabulina tenuifolia","Sabulina tenuifolia",0.04,0.0525,"",NA,"","Sabulina tenuifolia",NA,0.45,"","","","",11.5,NA,""
 "Sabulina tenuifolia subsp. laxa","Sabulina tenuifolia",0.04,0.0525,"",NA,"","Sabulina tenuifolia",NA,0.45,"","","","",11.5,NA,""
+"Sagina","Sagina apetala_Sagina procumbens",0.015,0.108333333333333,"",NA,"","Sagina apetala_Sagina procumbens",0.01,0.361666666666667,"","","","",11.5,NA,""
 "Sagina apetala","Sagina apetala",0.01,0.106666666666667,"",NA,"","Sagina apetala",0.001,0.313333333333333,"","","","",NA,NA,""
 "Sagina procumbens","Sagina procumbens",0.02,0.11,"",NA,"","Sagina procumbens",0.019,0.41,"","","","",11.5,NA,""
-"Salix","Salix caprea_Salix purpurea_Salix triandra",0.09,4.94444444444444,"",NA,"","Salix caprea_Salix purpurea_Salix triandra",0.102666666666667,6.95388888888889,"","","","",NA,NA,""
+"Salix","Salix alba_Salix caprea_Salix cinerea_Salix fragilis_x_Salix purpurea_Salix triandra",0.09,10.0666666666667,"",NA,"","Salix alba_Salix caprea_Salix cinerea_Salix fragilis_x_Salix purpurea_Salix triandra",0.103222222222222,3.43022222222222,"","","","",NA,NA,""
+"Salix alba","Salix alba",NA,21.6666666666667,"",NA,"","Salix alba",NA,0.9,"","","","",NA,NA,""
 "Salix caprea","Salix caprea",0.09,6.5,"",NA,"","Salix caprea",0.102666666666667,13.2977777777778,"","","","",NA,NA,""
+"Salix cinerea","Salix cinerea",0.09,11.4,"",NA,"","Salix cinerea",0.09,1.44333333333333,"","","","",NA,NA,""
+"Salix fragilis","Salix fragilis_x",NA,12.5,"",NA,"","Salix fragilis_x",0.117,0.9,"","","","",NA,NA,""
 "Salix purpurea","Salix purpurea",NA,3.16666666666667,"",NA,"","Salix purpurea",NA,NA,"","","","",NA,NA,""
 "Salix triandra","Salix triandra",NA,5.16666666666667,"",NA,"","Salix triandra",NA,0.61,"","","","",NA,NA,""
 "Salsola kali","Kali turgidum",NA,0.6,"",0.3,"","Kali turgidum",NA,NA,"","","","",NA,NA,""
@@ -1643,6 +1706,7 @@
 "Scorpiurus vermiculatus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Scorzonera hirsuta",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Scorzoneroides autumnalis","Scorzoneroides autumnalis",0.7,0.416666666666667,"",NA,"","Scorzoneroides autumnalis",NA,NA,"","","","",28.25,NA,""
+"Scrophularia auriculata","Scrophularia auriculata",0.11,0.525,"",NA,"","Scrophularia auriculata",0.096,0.62,"","","","",NA,NA,""
 "Scrophularia nodosa","Scrophularia nodosa",NA,0.6,"",NA,"","Scrophularia nodosa",0.093,0.79,"","","","",16.5,NA,""
 "Scutellaria galericulata","Scutellaria galericulata",0.7,0.325,"",NA,"","Scutellaria galericulata",NA,NA,"","","","",7.5,NA,""
 "Secale cereale",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -1651,11 +1715,12 @@
 "Sedum album","Sedum album",NA,0.11,"",NA,"","Sedum album",0.02,0.853333333333333,"","","","",21.5,NA,""
 "Sedum anglicum","Sedum anglicum",NA,0.141428571428571,"",NA,"","Sedum anglicum",0.066,0.876666666666667,"","","","",33.5,NA,""
 "Sedum rubens",NA,NA,NA,NA,NA,NA,"Sedum rubens",0.022,0.5,"","","","",NA,NA,""
-"Senecio","Senecio vernalis_Senecio viscosus_Senecio vulgaris",0.413333333333333,0.331666666666667,"",0.05,"","Senecio inaequidens_Senecio vernalis_Senecio viscosus_Senecio vulgaris",NA,NA,"","","","",20,NA,""
+"Senecio","Senecio sylvaticus_Senecio vernalis_Senecio viscosus_Senecio vulgaris",0.392222222222222,0.37375,"",0.05,"","Senecio inaequidens_Senecio sylvaticus_Senecio vernalis_Senecio viscosus_Senecio vulgaris",NA,NA,"","","","",22.0625,NA,""
 "Senecio gallicus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Senecio inaequidens",NA,NA,NA,NA,NA,NA,"Senecio inaequidens",NA,NA,"","","","",NA,NA,""
 "Senecio leucanthemifolius",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Senecio lividus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Senecio sylvaticus","Senecio sylvaticus",0.35,0.5,"",NA,"","Senecio sylvaticus",NA,NA,"","","","",28.25,NA,""
 "Senecio vernalis","Senecio vernalis",NA,0.38,"",NA,"","Senecio vernalis",NA,NA,"","","","",28.25,NA,""
 "Senecio viscosus","Senecio viscosus",0.6,0.35,"",NA,"","Senecio viscosus",NA,NA,"","","","",28.25,NA,""
 "Senecio vulgaris","Senecio vulgaris",0.226666666666667,0.265,"",0.05,"","Senecio vulgaris",NA,NA,"","","","",3.5,NA,""
@@ -1737,6 +1802,7 @@
 "Sorghum",NA,NA,NA,NA,NA,NA,"Sorghum halepense",NA,NA,"","","","",NA,NA,""
 "Sorghum bicolor",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Sorghum halepense",NA,NA,NA,NA,NA,NA,"Sorghum halepense",NA,NA,"","","","",NA,NA,""
+"Sparganium erectum","Sparganium erectum",18.71,1.33333333333333,"",0.3,"","Sparganium erectum",NA,NA,"","","","",NA,NA,""
 "Spergula","Spergula arvensis",0.906666666666667,0.1875,"",0.05,"","Spergula arvensis_Spergula morisonii_Spergula pentandra",0.271666666666667,1.69222222222222,"","","","",11.5,NA,""
 "Spergula arvensis","Spergula arvensis",0.906666666666667,0.1875,"",0.05,"","Spergula arvensis",0.382,1.14,"","","","",11.5,NA,""
 "Spergula morisonii",NA,NA,NA,NA,NA,NA,"Spergula morisonii",0.161333333333333,1.43666666666667,"","","","",11.5,NA,""
@@ -1754,21 +1820,25 @@
 "Stachys palustris","Stachys palustris",1.3425,0.7,"",NA,"","Stachys palustris",NA,NA,"","","","",11.5,NA,""
 "Stachys recta",NA,NA,NA,NA,NA,NA,"Stachys recta",NA,NA,"","","","",11.5,NA,""
 "Stachys sylvatica","Stachys sylvatica",1.4,0.65,"",NA,"","Stachys sylvatica",NA,NA,"","","","",11.5,NA,""
-"Stellaria","Stellaria aquatica_Stellaria graminea_Stellaria media_Stellaria pallida",0.355,0.5075,"",0.3,"","Stellaria aquatica_Stellaria graminea_Stellaria media_Stellaria pallida",0.336555555555556,0.915,"","","","",7.5,NA,""
+"Stellaria","Stellaria aquatica_Stellaria graminea_Stellaria media_Stellaria neglecta_Stellaria pallida",0.355,0.521,"",0.3,"","Stellaria aquatica_Stellaria graminea_Stellaria media_Stellaria neglecta_Stellaria pallida",0.336555555555556,1.02866666666667,"","","","",7.5,NA,""
 "Stellaria aquatica","Stellaria aquatica",0.2,0.6,"",NA,"","Stellaria aquatica",0.199,0.893333333333333,"","","","",3.5,NA,""
 "Stellaria graminea","Stellaria graminea",NA,0.55,"",NA,"","Stellaria graminea",0.305333333333333,0.913333333333333,"","","","",7.5,NA,""
 "Stellaria media","Stellaria media",0.51,0.38,"",0.3,"","Stellaria media",0.505333333333333,1.14333333333333,"","","","",11.5,NA,""
+"Stellaria neglecta","Stellaria neglecta",NA,0.575,"",NA,"","Stellaria neglecta",NA,1.48333333333333,"","","","",NA,NA,""
 "Stellaria pallida","Stellaria pallida",NA,0.5,"",0.3,"","Stellaria pallida",NA,0.71,"","","","",NA,NA,""
 "Stipa capillata",NA,NA,NA,NA,NA,NA,"Stipa capillata",NA,NA,"","","","",NA,NA,""
 "Stipellula capensis",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Succisa pratensis","Succisa pratensis",1.54,0.575,"",NA,"","Succisa pratensis",NA,NA,"","","","",3.5,NA,""
 "Succowia balearica",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Symphoricarpos albus","Symphoricarpos albus",11.8,2,"",NA,"","Symphoricarpos albus",9.81066666666667,4.5,"","","","",11.5,NA,""
 "Symphyotrichum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Symphyotrichum lanceolatum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Symphyotrichum squamatum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Symphyotrichum subulatum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Symphytum","Symphytum officinale",NA,1,"",NA,"","Symphytum officinale",NA,NA,"","","","",3.5,NA,""
+"Symphytum","Symphytum officinale_Symphytum orientale",NA,0.85,"",NA,"","Symphytum officinale",NA,NA,"","","","",3.5,NA,""
+"Symphytum kurdicum","Symphytum orientale",NA,0.7,"",NA,"",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Symphytum officinale","Symphytum officinale",NA,1,"",NA,"","Symphytum officinale",NA,NA,"","","","",3.5,NA,""
+"Syringa vulgaris","Syringa vulgaris",NA,7,"",NA,"","Syringa vulgaris",NA,7.38888888888889,"","","","",12.5,NA,""
 "Taeniatherum caput-medusae",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Tagetes minuta",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Tanacetum corymbosum",NA,NA,NA,NA,NA,NA,"Tanacetum corymbosum",NA,NA,"","","","",3.5,NA,""
@@ -1777,6 +1847,7 @@
 "Taraxacum campylodes","Taraxacum campylodes",0.6,1.51,"",NA,"",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Taraxacum erythrospermum",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Taraxacum officinale",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Taxus baccata","Taxus baccata",40,24,"",NA,"","Taxus baccata",51.54,7.725,"","","","",NA,NA,""
 "Teesdalia nudicaulis","Teesdalia nudicaulis",0.2,0.203333333333333,"",0.05,"","Teesdalia nudicaulis",0.270333333333333,1.05666666666667,"","","","",11.5,NA,""
 "Teloxys aristata",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Teucrium","Teucrium botrys_Teucrium scorodonia",0.935,0.20125,"",0.05,"","Teucrium botrys_Teucrium chamaedrys_Teucrium scorodonia",NA,NA,"","","","",8.83333333333333,NA,""
@@ -1784,6 +1855,7 @@
 "Teucrium chamaedrys",NA,NA,NA,NA,NA,NA,"Teucrium chamaedrys",NA,NA,"","","","",11.5,NA,""
 "Teucrium polium",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Teucrium scorodonia","Teucrium scorodonia",0.87,0.2625,"",NA,"","Teucrium scorodonia",NA,NA,"","","","",11.5,NA,""
+"Thalictrum flavum","Thalictrum flavum",NA,0.75,"",NA,"","Thalictrum flavum",NA,NA,"","","","",NA,NA,""
 "Thalictrum lucidum",NA,NA,NA,NA,NA,NA,"Thalictrum lucidum",NA,NA,"","","","",NA,NA,""
 "Thalictrum minus","Thalictrum minus",NA,0.825,"",NA,"","Thalictrum minus",NA,NA,"","","","",NA,NA,""
 "Thesium dollineri",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -1897,6 +1969,7 @@
 "Tulipa sylvestris subsp. sylvestris","Tulipa sylvestris",NA,0.45,"",NA,"","Tulipa sylvestris",8.78633333333333,6.01666666666667,"","","","",3.5,NA,""
 "Turgenia latifolia",NA,NA,NA,NA,NA,NA,"Turgenia latifolia",NA,NA,"","","","",NA,NA,""
 "Tussilago farfara","Tussilago farfara",0.25,0.0833333333333333,"",NA,"","Tussilago farfara",NA,NA,"","","","",28.25,NA,""
+"Typha latifolia","Typha latifolia",0.03,2,"",NA,"","Typha latifolia",NA,NA,"","","","",NA,NA,""
 "Tyrimnus leucographus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Ulex","Ulex europaeus",6.59,1.06666666666667,"",NA,"","Ulex europaeus",6.2,2.89666666666667,"","","","",12.5,NA,""
 "Ulex europaeus","Ulex europaeus",6.59,1.06666666666667,"",NA,"","Ulex europaeus",6.2,2.89666666666667,"","","","",12.5,NA,""
@@ -1909,7 +1982,8 @@
 "Urtica","Urtica dioica_Urtica urens",0.35,1.195,"",NA,"","Urtica dioica_Urtica urens",NA,NA,"","","","",NA,NA,""
 "Urtica dioica","Urtica dioica",0.2,2,"",NA,"","Urtica dioica",NA,NA,"","","","",NA,NA,""
 "Urtica urens","Urtica urens",0.5,0.39,"",NA,"","Urtica urens",NA,NA,"","","","",NA,NA,""
-"Valeriana","Valeriana officinalis",0.95,0.85,"",NA,"","Valeriana officinalis",NA,NA,"","","","",11.5,NA,""
+"Valeriana","Valeriana dioica_Valeriana officinalis",0.95,0.583333333333333,"",NA,"","Valeriana dioica_Valeriana officinalis",NA,NA,"","","","",11.5,NA,""
+"Valeriana dioica","Valeriana dioica",NA,0.316666666666667,"",NA,"","Valeriana dioica",NA,NA,"","","","",11.5,NA,""
 "Valeriana excelsa subsp. sambucifolia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Valeriana officinalis","Valeriana officinalis",0.95,0.85,"",NA,"","Valeriana officinalis",NA,NA,"","","","",11.5,NA,""
 "Valerianella","Valerianella dentata_Valerianella eriocarpa_Valerianella locusta",1,0.189166666666667,"",0.05,"","Valerianella coronata_Valerianella dentata_Valerianella eriocarpa_Valerianella locusta",NA,NA,"","","","",11.5,NA,""
@@ -1936,11 +2010,13 @@
 "Verbascum thapsus","Verbascum thapsus",0.0556666666666667,1.15,"",0.05,"","Verbascum thapsus",0.0923333333333333,0.82,"","","","",28.25,NA,""
 "Verbena officinalis","Verbena officinalis",0.4,0.45,"",NA,"","Verbena officinalis",NA,NA,"","","","",11.5,NA,""
 "Verbena supina",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Veronica","Veronica agrestis_Veronica anagallis-aquatica_Veronica arvensis_Veronica chamaedrys_Veronica filiformis_Veronica hederifolia_Veronica officinalis_Veronica persica_Veronica polita_Veronica praecox_Veronica serpyllifolia_Veronica spicata_Veronica triphyllos_Veronica verna",0.7614,0.221282051282051,"",0.05,"","Veronica acinifolia_Veronica agrestis_Veronica anagallis-aquatica_Veronica arvensis_Veronica chamaedrys_Veronica filiformis_Veronica hederifolia_Veronica officinalis_Veronica opaca_Veronica persica_Veronica polita_Veronica praecox_Veronica prostrata_Veronica serpyllifolia_Veronica spicata_Veronica triphyllos_Veronica verna",0.447615384615385,1.27208333333333,"","","","",16.625,NA,""
+"Veronica","Veronica agrestis_Veronica anagallis-aquatica_Veronica arvensis_Veronica beccabunga_Veronica catenata_Veronica chamaedrys_Veronica filiformis_Veronica hederifolia_Veronica officinalis_Veronica persica_Veronica polita_Veronica praecox_Veronica serpyllifolia_Veronica spicata_Veronica triphyllos_Veronica verna",0.692833333333333,0.235111111111111,"",0.05,"","Veronica acinifolia_Veronica agrestis_Veronica anagallis-aquatica_Veronica arvensis_Veronica beccabunga_Veronica catenata_Veronica chamaedrys_Veronica filiformis_Veronica hederifolia_Veronica officinalis_Veronica opaca_Veronica persica_Veronica polita_Veronica praecox_Veronica prostrata_Veronica serpyllifolia_Veronica spicata_Veronica triphyllos_Veronica verna",0.418547619047619,1.23450980392157,"","","","",17.6818181818182,NA,""
 "Veronica acinifolia",NA,NA,NA,NA,NA,NA,"Veronica acinifolia",NA,0.626666666666667,"","","","",NA,NA,""
 "Veronica agrestis","Veronica agrestis",0.6,0.3,"",NA,"","Veronica agrestis",0.261,1.63666666666667,"","","","",7.5,NA,""
 "Veronica anagallis-aquatica","Veronica anagallis-aquatica",NA,0.25,"",NA,"","Veronica anagallis-aquatica",NA,0.55,"","","","",NA,NA,""
 "Veronica arvensis","Veronica arvensis",0.12,0.116666666666667,"",0.05,"","Veronica arvensis",0.101,1.13,"","","","",28.25,NA,""
+"Veronica beccabunga","Veronica beccabunga",0.34,0.4,"",NA,"","Veronica beccabunga",0.0406666666666667,0.633333333333333,"","","","",28.25,NA,""
+"Veronica catenata","Veronica catenata",0.36,0.25,"",NA,"","Veronica catenata",NA,NA,"","","","",NA,NA,""
 "Veronica chamaedrys","Veronica chamaedrys",0.25,0.3,"",0.05,"","Veronica chamaedrys",0.215,1.19333333333333,"","","","",28.25,NA,""
 "Veronica cymbalaria",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Veronica filiformis","Veronica filiformis",NA,NA,"",NA,"","Veronica filiformis",0.278,1.35666666666667,"","","","",NA,NA,""
@@ -1973,7 +2049,6 @@
 "Vicia lathyroides","Vicia lathyroides",2.4,0.0875,"",0.05,"","Vicia lathyroides",2.875,1.64,"","","","",NA,NA,""
 "Vicia lens",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Vicia lutea","Vicia lutea",72.82,0.383333333333333,"",NA,"","Vicia lutea",67.043,4.31,"","","","",NA,NA,""
-"Vicia lutea subsp. lutea","Vicia lutea",72.82,0.383333333333333,"",NA,"","Vicia lutea",67.043,4.31,"","","","",NA,NA,""
 "Vicia monantha",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Vicia narbonensis",NA,NA,NA,NA,NA,NA,"Vicia narbonensis",245.033333333333,7.44666666666667,"","","","",NA,NA,""
 "Vicia pannonica",NA,NA,NA,NA,NA,NA,"Vicia pannonica",37.685,4.03333333333333,"","","","",NA,NA,""

@@ -33,7 +33,7 @@ at_secbivit <- readxl::read_xlsx(
 df2 <- data.frame(
   "taxa" = at_secbivit$Species.name,
   "original_ID" = NA,
-  "database_ID" = "AT_SECBIVIT"
+  "database_ID" = "AT_VIN_SECBIVIT"
 )
 
 # aby
@@ -94,7 +94,7 @@ deepi <- readxl::read_xlsx(
 df7 <- data.frame(
   "taxa" = deepi$Species.names,
   "original_ID" = deepi$EPPO,
-  "database_ID" = "FR_DeepImpact"
+  "database_ID" = "FR_ANN_DEEPIMPACT"
 )
 
 #ENIVTH
@@ -105,7 +105,7 @@ enivth <- readxl::read_xlsx(
 df8 <- data.frame(
   "taxa" = enivth$Code,
   "original_ID" = NA,
-  "database_ID" = "FR_ENIVTH"
+  "database_ID" = "FR_SUN_ENIVTH"
 )
 
 #FENAY
@@ -119,7 +119,7 @@ fenay <- readxl::read_xlsx(
 df9 <- data.frame(
   "taxa" = fenay$PrefName,
   "original_ID" = fenay$EPPO,
-  "database_ID" = "FR_FENAY"
+  "database_ID" = "FR_ANN_FENAY_GFPHD"
 )
 
 #FLAVI
@@ -130,7 +130,7 @@ flavi <- readxl::read_xlsx(
 df10 <- data.frame(
   "taxa" = flavi$species,
   "original_ID" = flavi$id_flavi,
-  "database_ID" = "FR_FLAVI"
+  "database_ID" = "FR_VIN_FLAVI"
 )
 
 #fr_secbivit
@@ -152,7 +152,7 @@ lgenty <- readxl::read_xlsx(
 df12 <- data.frame(
   "taxa" = gsub("_", " ", lgenty$Espece),
   "original_ID" = NA,
-  "database_ID" = "FR_LGENTY"
+  "database_ID" = "FR_OLI_GENTY"
 )
 
 
@@ -187,7 +187,7 @@ de_secbivit <- readxl::read_xlsx(
 df15 <- data.frame(
   "taxa" = de_secbivit$Species,
   "original_ID" = NA,
-  "database_ID" = "DE_SECBIVIT"
+  "database_ID" = "DE_VIN_SECBIVIT"
 )
 
 #ro_secbivit
@@ -199,7 +199,7 @@ ro_secbivit <- readxl::read_xlsx(
 df16 <- data.frame(
   "taxa" = ro_secbivit[, 1],
   "original_ID" = NA,
-  "database_ID" = "RO_SECBIVIT"
+  "database_ID" = "RO_VIN_SECBIVIT"
 )
 # not sure why, but can't assign name in data.frame for the first column
 names(df16)[1] <- "taxa"
@@ -255,7 +255,7 @@ ann_caspar <- readxl::read_xlsx(
 df21 <- data.frame(
   "taxa" = ann_caspar$NOM_VALIDE,
   "original_ID" = ann_caspar$CD_NOM,
-  "database_ID" = "FR_ANN_CASPAR"
+  "database_ID" = "FR_ANN_CASDAR"
 )
 
 #ANN_MP
@@ -275,7 +275,7 @@ ann_vine <- readxl::read_xlsx(
 df23 <- data.frame(
   "taxa" = ann_vine$Name,
   "original_ID" = NA,
-  "database_ID" = "FR_ANN_VINE_500_ENI"
+  "database_ID" = "FR_ALL_500_ENI"
 )
 
 #Vine_ALPES
@@ -285,9 +285,18 @@ ann_vine <- readxl::read_xlsx(
 df24 <- data.frame(
   "taxa" = ann_vine$nom_reconnu,
   "original_ID" = ann_vine$cd_ref,
-  "database_ID" = "FR_VINE_ALPES"
+  "database_ID" = "FR_VIN_ALPES"
 )
 
+#UK_ANN_Boundary_Margin_Verge
+uk_ann <- readxl::read_xlsx(
+  here::here(spfolder, "UK_ANN_Boundary_Margin_Verge_Species_List.xlsx")
+)
+df25 <- data.frame(
+  "taxa" = uk_ann$Species,
+  "original_ID" = NA,
+  "database_ID" = "UK_ANN_Boundary_Margin_Verge"
+)
 
 ## merge species list ------------------
 fulldf <- rbind(
@@ -314,7 +323,8 @@ fulldf <- rbind(
   df21,
   df22,
   df23,
-  df24
+  df24,
+  df25
 )
 
 write.csv(
