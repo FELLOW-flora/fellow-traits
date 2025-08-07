@@ -7,7 +7,7 @@ paste_unique <- function(x) {
   paste(sort(unique(tolower(x))), collapse = "_")
 }
 
-panel.cor <- function(x, y, digits = 2, prefix = "", cex.cor) {
+panel.cor <- function(x, y, digits = 2, prefix = "", cex.cor, ...) {
   #usr <- par("usr")
   usr <- par()$usr
   on.exit(par(usr = usr))
@@ -15,7 +15,9 @@ panel.cor <- function(x, y, digits = 2, prefix = "", cex.cor) {
   r <- cor(x, y, use = "complete.obs")
   txt <- format(c(r, 0.123456789), digits = digits)[1]
   txt <- paste(prefix, txt, sep = "")
-  if (missing(cex.cor)) cex <- 0.5 / strwidth(txt)
+  if (missing(cex.cor)) {
+    cex <- 0.5 / strwidth(txt)
+  }
 
   test <- cor.test(x, y, use = "complete.obs")
   # borrowed from printCoefmat
@@ -27,6 +29,10 @@ panel.cor <- function(x, y, digits = 2, prefix = "", cex.cor) {
     symbols = c("***", "**", "*", ".", " ")
   )
 
-  text(0.5, 0.5, txt, cex = cex * abs(r))
-  text(.8, .8, Signif, cex = cex, col = 2)
+  xtxt <- ifelse(par()$xlog, 10^0.5, 0.5)
+  ytxt <- ifelse(par()$ylog, 10^0.5, 0.5)
+  xstar <- ifelse(par()$xlog, 10^0.8, 0.8)
+  ystar <- ifelse(par()$ylog, 10^0.8, 0.8)
+  text(xtxt, ytxt, txt, cex = cex * abs(r))
+  text(xstar, ystar, Signif, cex = cex, col = 2)
 }

@@ -50,6 +50,8 @@ source(here::here("analyses", "03i_get_traits_TRYdb.R"))
 source(here::here("analyses", "03j_get_traits_Groot.R"))
 # CLO-PLA
 source(here::here("analyses", "03k_get_traits_CLOPLA.R"))
+# Ladouceur 2019
+source(here::here("analyses", "03l_get_traits_Ladouceur2019.R"))
 
 # 4 Merge traits
 source(here::here("analyses", "04_merge_traits.R"))

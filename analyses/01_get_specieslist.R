@@ -217,7 +217,6 @@ df17 <- data.frame(
 )
 df17 <- df17[!duplicated(df17), ]
 
-# new dataset
 #ANN_37
 ann_37 <- readxl::read_xlsx(
   here::here(spfolder, "FR_ANN_37_species_list.xlsx")
@@ -298,6 +297,16 @@ df25 <- data.frame(
   "database_ID" = "UK_ANN_Boundary_Margin_Verge"
 )
 
+#UK_ANN_Boundary_Margin_Verge
+be_ann <- readxl::read_xlsx(
+  here::here(spfolder, "BE_ANN_EXPLORE_species_list.xlsx")
+)
+df26 <- data.frame(
+  "taxa" = be_ann$Species_name,
+  "original_ID" = be_ann$EPPO_code,
+  "database_ID" = "BE_ANN_EXPLORE"
+)
+
 ## merge species list ------------------
 fulldf <- rbind(
   df1,
@@ -324,7 +333,8 @@ fulldf <- rbind(
   df22,
   df23,
   df24,
-  df25
+  df25,
+  df26
 )
 
 write.csv(

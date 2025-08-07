@@ -17,6 +17,8 @@ clean_taxo <- function(x) {
   x <- gsub("\\((.+?)\\)", "", x)
   # or square bracket
   x <- gsub("\\[(.+?)\\]", "", x)
+  # simplify alphabet
+  x <- gsub("×", "x ", x)
   x <- gsub("\\\"", "", x)
   x <- gsub("\\.", "", x)
   x <- gsub("\\*", "", x)

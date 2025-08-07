@@ -53,7 +53,7 @@ spclean <- spclean[!spclean %in% rmClass]
 # harmonize the species names
 spclean <- sort(unique(spclean))
 print(paste("Number of unique taxa:", length(spclean)))
-# 2373
+# 2396
 
 # 2. get accepted name from Taxref --------------
 # could use rtaxref to use the online API but takes too long and unstable
@@ -72,7 +72,7 @@ taxref$accepted_name <- ifelse(accepted, taxref$clean_name, NA)
 mtr <- match(spclean, taxref$accepted_name)
 # else match on all taxref
 mtr2 <- match(spclean, taxref$clean_name)
-# table(is.na(mtr), is.na(mtr2)) # 1589 exact, 198 synonyms, 97 not found
+# table(is.na(mtr), is.na(mtr2)) # 1987 exact, 283 synonyms, 126 not found
 mtr <- ifelse(is.na(mtr), mtr2, mtr)
 
 # for synonyms, make sure to get the accepted information
@@ -100,7 +100,10 @@ df <- df[!is.na(df$accepted_taxref), ]
 # focus on taxa not found
 no_taxref <- spclean[is.na(mtr)]
 print(paste("Taxa with no exact match in Taxref:", length(no_taxref)))
-# 115 taxa (previously 49, then 97)
+# 124 taxa
+
+# to check taxref synonyms:
+# taxref[which(taxref$clean_name == "Elymus repens"),]
 
 # try fuzzy match with stringdist package and Jaro-Winkler distance
 # even if TRY use the Levenshtein distance (number of edits)
@@ -239,13 +242,16 @@ full_df <- cbind(full_df, gbif_df)
 # 4. deal with missing taxa from Taxref --------------
 # focus on taxa not found in TaxRef
 miss <- spclean[!spclean %in% full_df$original_taxa]
-print(paste("Taxa not found in Taxref:", length(miss))) # 53 taxa (previously 9, then 46)
+print(paste("Taxa not found in Taxref:", length(miss))) # 55 taxa
 
 addgbif <- rgbif::name_backbone_checklist(miss, strict = TRUE)
 # strict = TRUE else weird match
-table(addgbif$status, addgbif$matchType, useNA = "ifany") # 6 not found
-miss[is.na(addgbif$status)]
+table(addgbif$status, addgbif$matchType, useNA = "ifany") # 4 not found
+# miss[is.na(addgbif$status)]
+# two genus: Anisantha bromus, Ornithogalum muscari, Picris helminthotheca, Festuca schedonorus
+#
 # keep only the EXACT match
+
 # addgbif <- addgbif[addgbif$matchType == "EXACT", ]
 gbif_add <- data.frame(
   accepted_gbif = addgbif$canonicalName,
@@ -376,7 +382,7 @@ short_df <- all_df[, c("accepted_taxa", "full_name", "accepted_rank")]
 short_df <- short_df[!duplicated(short_df), ]
 short_df <- short_df[complete.cases(short_df), ]
 short_df <- short_df[order(short_df$accepted_taxa), ]
-dim(short_df) # remain 2027 taxa (instead of 1241, then 1705)
+dim(short_df) # remain 2113 taxa
 write.csv(
   short_df,
   here::here("data", "derived-data", "species_short_list.csv"),
@@ -388,6 +394,23 @@ write.csv(
 # write.csv(tbc, here::here("data", "derived-data","species_tobechecked.csv"), row.names=FALSE)
 # sp[match(tbc$original_taxa[tbc$taxref_status=="NOT FOUND"], sp$taxa),-2]
 
+# might be good to give information back to data provider
+# about identified_misspelt_species, per dataset?
+length(sp$clean_taxo)
+sp$acc_taxo <- all_df$accepted_taxa[match(sp$clean_taxo, all_df$original_taxa)]
+misspelt <- sp[which(sp$acc_taxo != sp$clean_taxo | is.na(sp$clean_taxo)), ]
+names(misspelt) <- c(
+  "original_taxa",
+  "original_ID",
+  "database_ID",
+  "simplified_taxa",
+  "accepted_taxa"
+)
+write.csv(
+  misspelt,
+  here::here("data", "derived-data", "identified_misspelt_species.csv"),
+  row.names = FALSE
+)
 # 6. create a list of known synonyms ---------------------
 
 # from gbif

@@ -181,7 +181,7 @@ barx <- barplot(
 barax <- c(barx - mean(diff(barx) / 2), max(barx) + mean(diff(barx) / 2))
 axis(1, at = barax, seq(0, 120, by = 10))
 legend(
-  "topright",
+  "topleft",
   legend = firstup(row.names(tdf)),
   fill = hcl.colors(5, "viridis")
 )
@@ -227,7 +227,7 @@ nodata <- traits$accepted_taxa[sp_na >= max(sp_na)]
 print(nodata)
 ```
 
-Open question:  
+*Open question:*  
 
 **How to deal with families taxa?**  
 
@@ -278,7 +278,8 @@ There are three sources of information for Specific leaf area (SLA) : Hodgson et
 sla <- data.frame(
   "Hodgson" = traits$SLA.mm2.mg.1_Hodgson2023,
   "GIFT" = traits$SLA_cm2.g.1_GIFT / 10,
-  "BIEN" = traits$SLA_m2.kg.1_BIEN
+  "BIEN" = traits$SLA_m2.kg.1_BIEN,
+  "Ladouceur" = traits$SLA_cm2.g.1_Ladouceur2019 / 10
 )
 
 pairs(sla, lower.panel = panel.smooth, upper.panel = panel.cor)
@@ -288,12 +289,12 @@ Values are highly correlated, so we could imagine filling the missing values (us
 
 **Number of NAs:**  
 ```{r fillsla}
-# sla$average <- apply(sla, 1, mean, na.rm = TRUE)
-sla$filled <- ifelse(
-  is.na(sla$GIFT),
-  ifelse(is.na(sla$BIEN), sla$Hodgson, sla$BIEN),
-  sla$GIFT
-)
+sla$filled <- apply(sla, 1, mean, na.rm = TRUE)
+# sla$filled <- ifelse(
+#   is.na(sla$GIFT),
+#   ifelse(is.na(sla$BIEN), sla$Hodgson, sla$BIEN),
+#   sla$GIFT
+# )
 
 print(apply(is.na(sla), 2, sum))
 ```
@@ -308,7 +309,7 @@ There are six sources of information for plant height.
 ```{r height}
 #| fig-height: 5
 
-# names(traits)[grep("Height", names(traits))]
+# names(traits)[grep("height", names(traits))]
 
 # transform height in FlorealData
 traits$Plant.height_cm_FlorealData <- ifelse(
@@ -319,6 +320,7 @@ traits$Plant.height_cm_FlorealData <- ifelse(
 height <- data.frame(
   "SpVignes" = traits$Plant.height_cm_SPVignes / 100,
   "FlorealData" = traits$Plant.height_cm_FlorealData / 100,
+  "Ladouceur" = traits$Plant.height_cm_Ladouceur2019 / 100,
   "Lososova" = traits$Plant.height_m_Lososova2023,
   "BIEN" = traits$Plant.height_m_BIEN,
   "GIFT" = traits$Plant.height_mean_m_GIFT,
@@ -329,7 +331,7 @@ pairs(height, lower.panel = panel.smooth, upper.panel = panel.cor)
 ```
 
 
-SPVignes and FlorealData are limited to small plants (<1m) (no trees) *but FlorealData>100cm must be clean*.
+SPVignes, FlorealData, and Ladouceur_2019 are limited to small plants (<1m) (no trees) *but FlorealData>100cm must be clean*.
 
 
 **Number of NAs:**  
@@ -349,17 +351,20 @@ There are five sources of information for seed mass
 
 ```{r seed}
 #| fig-height: 5
-# names(traits)[grep("seed", names(traits))]
+# names(traits)[grep("Seed", names(traits))]
 
 seed <- data.frame(
   "Lososova" = traits$Seed.mass_mg_Lososova2023,
   "BIEN" = traits$Seed.mass_mg_BIEN,
   "GIFT" = traits$Seed.mass_g_GIFT * 1000,
   "Ecoflora" = traits$Seed.mass_mg_Ecoflora,
-  "Biolflor" = traits$Seed.mass_mg_Biolflor
+  "Biolflor" = traits$Seed.mass_mg_Biolflor,
+  "Ladouceur" = traits$Seed.mass_g_Ladouceur2019
 )
 
-pairs(seed, lower.panel = panel.smooth, upper.panel = panel.cor)
+pairs(seed, lower.panel = panel.smooth, upper.panel = panel.cor, log = "xy") |>
+  suppressWarnings()
+
 ```
 
 **Number of NAs:**  
