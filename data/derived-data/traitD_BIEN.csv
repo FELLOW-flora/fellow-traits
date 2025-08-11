@@ -34,7 +34,6 @@
 "Aesculus hippocastanum","Aesculus hippocastanum","",6528.7,10.960002739726,NA,NA,251.5,24,"5",13737.6212314286,"Tree",23.8
 "Aethusa cynapium","Aethusa cynapium","",3207.7575,33.31,NA,0.16344036125,186.759090909091,NA,"6",1.35,"Herb",0.490625
 "Aethusa cynapium subsp. cynapium","Aethusa cynapium","",3207.7575,33.31,NA,0.16344036125,186.759090909091,NA,"6",1.35,"Herb",0.490625
-"Agrimonia agrimonoides",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Agrimonia eupatoria","Agrimonia eupatoria","",8461,18.69215021375,NA,0.4945374475,357.635481133333,NA,"6",7.6941,"Herb",0.313560606060909
 "Agropyron",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Agrostemma githago","Agrostemma githago","",999.75,17.818,NA,0.058196,207.238,NA,"6_7",12.2004,"Herb",0.744615384615385
@@ -131,7 +130,7 @@
 "Androsace elongata","Androsace elongata","",NA,NA,NA,NA,NA,NA,"4",NA,"Herb",0.015
 "Androsace maxima","Androsace maxima","",87.75,24.21,NA,0.00413,139.18,NA,"4",1.155,"Herb",0.0141666666666667
 "Andryala integrifolia","Andryala integrifolia","",NA,NA,NA,NA,NA,NA,"",0.19,"",NA
-"Andryala laxiflora",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Andryala rothia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Anemone coronaria","Anemone coronaria","",NA,NA,NA,NA,NA,NA,"",0.45,"Herb",NA
 "Anemone hortensis",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Anethum graveolens","Anethum graveolens","",781.265,18.295,NA,0.053713,166.723,NA,"7",1.7,"Herb",0.632857142857143
@@ -180,6 +179,7 @@
 "Arctium lappa","Arctium lappa","",25226.8333333333,17.4017445605882,NA,1.5388256,192.0846482,NA,"7",9.96833333333333,"Herb",0.852962962966667
 "Arctium minus","Arctium minus","",117000,24.0666666666667,NA,4.104936905,177.333333333333,NA,"7_8",8.71027777777778,"Forb_herb",1.12
 "Arctium tomentosum","Arctium tomentosum","",NA,34.493012715,NA,NA,203.10472345,NA,"7",NA,"Herb",0.529
+"Aremonia agrimonoides agrimonoides",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Arenaria hispanica",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Arenaria leptoclados","Arenaria leptoclados","",NA,NA,NA,NA,NA,NA,"5",NA,"Herb",NA
 "Arenaria serpyllifolia","Arenaria serpyllifolia","",11.43076,20.99235875,NA,0.00045149,242.923125,NA,"5",0.066891380952381,"Forb_herb",0.164715875
@@ -224,14 +224,14 @@
 "Astragalus glycyphyllos","Astragalus glycyphyllos","",2720.5,26.2353846153846,NA,0.1155815325,272.5,NA,"6",5.43891666666667,"Herb",0.579166666666667
 "Astragalus hamosus","Astragalus hamosus","",NA,NA,NA,NA,NA,NA,"",2.81,"Herb",NA
 "Atocion armeria",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Atriplex","Atriplex halimus_Atriplex hortensis_Atriplex littoralis_Atriplex oblongifolia_Atriplex patula_Atriplex prostrata_Atriplex sagittata_Atriplex tatarica","",1113.17391666667,17.0257338564444,13.4575,0.0701134376388889,182.974293650794,38.45,"7_7_8",2.83321057142857,"Forb_herb_Herb_Herb*_shrub_Shrub",0.696243386243386
+"Atriplex","Atriplex calotheca_Atriplex halimus_Atriplex hortensis_Atriplex littoralis_Atriplex oblongifolia_Atriplex patula_Atriplex prostrata_Atriplex sagittata_Atriplex tatarica","",1261.2205,17.0598921243889,13.4575,0.0785668036904762,185.171394557823,38.45,"6_7_7_8",2.83321057142857,"Forb_herb_Herb_Herb*_shrub_Shrub",0.7018820861678
+"Atriplex calotheca","Atriplex calotheca","",2149.5,17.299,NA,0.129287,198.354,NA,"6",NA,"Herb",0.735714285714286
 "Atriplex halimus","Atriplex halimus","",NA,11.431110884,9.772,NA,NA,52,"",1.935,"Shrub",NA
 "Atriplex hortensis","Atriplex hortensis","",1225,17.388,NA,0.086117,216.66,NA,"7",5.6,"Herb",0.6
 "Atriplex littoralis","Atriplex littoralis","",868.75,15.045625,NA,0.0802101073333333,147.541428571429,24.9,"7",1.555,"Herb*_shrub",0.728888888888889
 "Atriplex oblongifolia","Atriplex oblongifolia","",319.16,16.775,17.143,0.019668,200.892,NA,"7",NA,"Herb",0.625
 "Atriplex patula","Atriplex patula","",1222.5,17.375,NA,0.0685331045,164.25,NA,"7_8",1.3445,"Forb_herb",0.946428571428571
 "Atriplex prostrata","Atriplex prostrata","",2638.006,20.9269011111111,NA,0.139779414,144.333333333333,NA,"7",5.991974,"Forb_herb",0.885714285714286
-"Atriplex prostrata calotheca","Atriplex prostrata","",2638.006,20.9269011111111,NA,0.139779414,144.333333333333,NA,"7",5.991974,"Forb_herb",0.885714285714286
 "Atriplex sagittata","Atriplex sagittata","",NA,NA,NA,NA,NA,NA,"7",2.656,"",NA
 "Atriplex tatarica","Atriplex tatarica","",405.6275,20.2385,NA,0.026373,224.169,NA,"7",0.75,"Herb",0.391428571428571
 "Avena","Avena barbata_Avena fatua_Avena sativa_Avena sterilis_Avena strigosa","Yellow",2742.58374801865,31.2670950931892,10.5704901944444,0.105930875342857,200.9086,44.432158034188,"6_6_7",15.9882538234848,"Grass_herb_Herb",0.758760666666667
@@ -538,8 +538,7 @@
 "Cota austriaca",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Cota segetalis",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Cota tinctoria","Cota tinctoria","",NA,NA,NA,NA,NA,NA,"",NA,"Herb",NA
-"Crambe abyssinica",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Crambe hispanica abyssinica","Crambe abyssinica","",NA,NA,NA,NA,NA,NA,"",5.692,"",NA
+"Crambe hispanica abyssinica",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Crassula tillaea","Crassula tillaea","",NA,NA,NA,NA,NA,NA,"5",0.009864,"Herb",0.025
 "Crataegus","Crataegus laevigata_Crataegus monogyna","Purple",616.676661111111,15.6167378989637,10.7423333333333,0.038575,343.065428571429,18.1033585714286,"5",107.572689473684,"Shrub_tree_tree*_Shrub_tree_woody",6.20171588888889
 "Crataegus laevigata","Crataegus laevigata","",730,20.3416666666667,NA,0.038575,349.988,NA,"5",51.324,"Shrub_tree_tree*",6
@@ -638,7 +637,6 @@
 "Dryopteris","Dryopteris filix-mas","",11785.4444444444,24.2,NA,3.95316974,295,NA,"",NA,"Fern_herb",0.75
 "Dryopteris filix-mas","Dryopteris filix-mas","",11785.4444444444,24.2,NA,3.95316974,295,NA,"",NA,"Fern_herb",0.75
 "Dysphania ambrosioides","Dysphania ambrosioides","",NA,NA,NA,NA,NA,NA,"",NA,"Herb",NA
-"Dysphania aristata",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Ecballium elaterium","Ecballium elaterium","",NA,NA,NA,NA,NA,NA,"",5.9,"Forb_herb",NA
 "Echinaria capitata","Echinaria capitata","",NA,NA,NA,NA,NA,NA,"",1.1,"Herb",NA
 "Echinochloa","Echinochloa colona","Green",NA,NA,NA,NA,NA,NA,"",1,"Grass_herb",NA
@@ -1063,7 +1061,6 @@
 "Lemna minor","Lemna minor","Green",9,18.7,NA,0.000481395,107,NA,"5",NA,"Herb",0.004
 "Lemna trisulca","Lemna trisulca","Green",4.135,15.6428571428571,NA,0.000112406,159,NA,"6",NA,"Herb",0.0075
 "Leontodon","Leontodon hirtus_Leontodon hispidus_Leontodon saxatilis","",4359.49954851818,24.2823352773333,NA,0.0649969058974359,149.73298357619,NA,"6_7",0.841278166666667,"Forb_herb_Herb",0.0632303921558824
-"Leontodon autumnale",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Leontodon hirtus","Leontodon hirtus","",NA,NA,NA,NA,NA,NA,"",NA,"Herb",NA
 "Leontodon hispidus","Leontodon hispidus","",4359.49954851818,24.2823352773333,NA,0.0649969058974359,149.73298357619,NA,"6",1.2038,"Forb_herb",0.0632303921558824
 "Leontodon hispidus subsp. hispidus","Leontodon hispidus","",4359.49954851818,24.2823352773333,NA,0.0649969058974359,149.73298357619,NA,"6",1.2038,"Forb_herb",0.0632303921558824
@@ -1183,7 +1180,7 @@
 "Matricaria discoidea","Matricaria discoidea","",356,23.325,NA,0.0136375,134.666666666667,NA,"6",NA,"Herb",0.175
 "Matricaria matricarioides","Matricaria matricarioides","",NA,NA,NA,NA,NA,NA,"5_6",0.08,"Forb_herb",0.3
 "Matthiola",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Medicago","Medicago arabica_Medicago ciliaris_Medicago disciformis_Medicago doliata_Medicago laciniata_Medicago littoralis_Medicago lupulina_Medicago minima_Medicago murex_Medicago orbicularis_Medicago polymorpha_Medicago praecox_Medicago rigidula_Medicago rugosa_Medicago sativa_Medicago scutellata_Medicago truncatula_Medicago turbinata","Purple_Yellow",20402.7214747895,25.5579098674674,10.0472222222222,0.02346181688125,200.096666666667,35.6133979166667,"4_5_5_6",5.2778399040344,"4_herb_Forb_herb_Herb",0.212478228527657
+"Medicago","Medicago arabica_Medicago ciliaris_Medicago disciformis_Medicago doliata_Medicago laciniata_Medicago littoralis_Medicago lupulina_Medicago minima_Medicago murex_Medicago orbicularis_Medicago polymorpha_Medicago praecox_Medicago rigidula_Medicago rugosa_Medicago sativa_Medicago scutellata_Medicago truncatula_Medicago turbinata_Medicago varia","Purple_Yellow",20402.7214747895,25.5579098674674,10.0472222222222,0.02346181688125,200.096666666667,35.6133979166667,"4_5_5_6",5.2778399040344,"4_herb_Forb_herb_Herb",0.212478228527657
 "Medicago arabica","Medicago arabica","",675.585,32.76,NA,0.019618,175.9,NA,"4",3.42,"Herb",0.270555555555556
 "Medicago ciliaris","Medicago ciliaris","",NA,NA,NA,NA,NA,NA,"",10.025,"",NA
 "Medicago disciformis","Medicago disciformis","",NA,NA,NA,NA,NA,NA,"",3.6,"",NA
@@ -1204,10 +1201,10 @@
 "Medicago sativa nothosubsp. media","Medicago sativa","Purple",192.405949442593,23.9190160036232,9.42566666666667,0.024325074625,218.666666666667,40.15639375,"5_6",2.31467741935484,"Herb",0.162075471698113
 "Medicago sativa subsp. falcata","Medicago sativa","Purple",192.405949442593,23.9190160036232,9.42566666666667,0.024325074625,218.666666666667,40.15639375,"5_6",2.31467741935484,"Herb",0.162075471698113
 "Medicago sativa subsp. sativa","Medicago sativa","Purple",192.405949442593,23.9190160036232,9.42566666666667,0.024325074625,218.666666666667,40.15639375,"5_6",2.31467741935484,"Herb",0.162075471698113
-"Medicago sativa varia","Medicago sativa","Purple",192.405949442593,23.9190160036232,9.42566666666667,0.024325074625,218.666666666667,40.15639375,"5_6",2.31467741935484,"Herb",0.162075471698113
 "Medicago scutellata","Medicago scutellata","Yellow",NA,NA,NA,NA,NA,NA,"",20.06,"Herb",NA
 "Medicago truncatula","Medicago truncatula","",NA,NA,NA,NA,NA,NA,"",4.09285714285714,"Herb",NA
 "Medicago turbinata","Medicago turbinata","",NA,NA,NA,NA,NA,NA,"",6.1,"Herb",NA
+"Medicago varia","Medicago varia","",NA,NA,NA,NA,NA,NA,"",NA,"Herb",NA
 "Melampyrum","Melampyrum arvense","",450,28.814,NA,0.020034,176.584,NA,"6",14.0925,"Parasite",0.321875
 "Melampyrum arvense","Melampyrum arvense","",450,28.814,NA,0.020034,176.584,NA,"6",14.0925,"Parasite",0.321875
 "Melia azedarach","Melia azedarach","Purple",NA,NA,NA,NA,NA,NA,"9",340.198228083333,"Tree_woody",11.0903835841313
@@ -1286,14 +1283,13 @@
 "Nonea lutea","Nonea lutea","",NA,NA,NA,NA,NA,NA,"",NA,"Herb",NA
 "Nonea pallens",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Nonea pulla","Nonea pulla","",1603,23.202,NA,0.193344,146.924,NA,"5",NA,"Herb",0.325
-"Ochlopoa annua",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Odontites","Odontites vernus","",NA,NA,NA,NA,NA,NA,"5",0.15,"Herb",NA
 "Odontites jaubertianus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Odontites luteus subsp. lanceolatus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Odontites vernus","Odontites vernus","",NA,NA,NA,NA,NA,NA,"5",0.15,"Herb",NA
-"Odontites vernus salinus","Odontites vernus","",NA,NA,NA,NA,NA,NA,"5",0.15,"Herb",NA
 "Odontites vernus subsp. serotinus","Odontites vernus","",NA,NA,NA,NA,NA,NA,"5",0.15,"Herb",NA
 "Odontites vernus subsp. vernus","Odontites vernus","",NA,NA,NA,NA,NA,NA,"5",0.15,"Herb",NA
+"Odontites vulgaris subsp. vulgaris",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Oenanthe crocata","Oenanthe crocata","",15317,41.6,NA,0.3678,142,NA,"",3.46,"",0.8
 "Oenanthe fistulosa","Oenanthe fistulosa","",420.155,32.2585527133333,NA,0.0187933333333333,124.605714285714,NA,"6",6.65,"",0.45
 "Oenanthe pimpinelloides","Oenanthe pimpinelloides","",NA,NA,NA,NA,NA,NA,"",1.5225,"Herb",0.51
@@ -1857,7 +1853,7 @@
 "Taraxacum officinale","Taraxacum officinale","Yellow",3924.07029,22.427206362375,12.2453803666667,NA,174.6961272,24.8789524633333,"4_5",0.65024356,"Herb",0.2625
 "Taxus baccata","Taxus baccata","Yellow",51.3375,7.01832715030529,12.102,NA,267.166666666667,19.175,"",61.1539124,"Tree",14.7675
 "Teesdalia nudicaulis","Teesdalia nudicaulis","",104.480466666667,28.738674,NA,0.003921206,136.5,NA,"4",0.3075195,"Herb",0.145555555555556
-"Teloxys aristata","Dysphania aristata","",107.1149790075,16.9479778775,NA,0.006574186,NA,NA,"",NA,"Forb_herb",NA
+"Teloxys aristata",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Teucrium","Teucrium botrys_Teucrium chamaedrys_Teucrium polium_Teucrium scorodonia","",432.666666666667,26.2020793446853,9.7975,0.0337298008333333,272.904887638462,20.5261,"7",1.0699,"Forb_herb_Forb*_shrub_woody*_Herb_Herb*_shrub",0.196667989417989
 "Teucrium botrys","Teucrium botrys","",225,39.2,NA,0.006092,133.78,NA,"7",1.14,"Herb",0.19375
 "Teucrium chamaedrys","Teucrium chamaedrys","",134,15.6698743976923,9.7975,0.007624,306.434662915385,20.5261,"7",1.285,"Forb*_shrub_woody*",0.135142857142857
@@ -2058,9 +2054,9 @@
 "Vicia lathyroides","Vicia lathyroides","",184,25.8,NA,0.007140952,217,NA,"4",1.95,"Herb",0.11
 "Vicia lens",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Vicia lutea","Vicia lutea","Yellow",NA,NA,NA,NA,NA,NA,"6",31.1,"Climber",0.296875
+"Vicia lutea subsp. lutea","Vicia lutea","Yellow",NA,NA,NA,NA,NA,NA,"6",31.1,"Climber",0.296875
 "Vicia monantha","Vicia monantha","",NA,NA,NA,NA,NA,NA,"",37.9666666666667,"Climber",NA
 "Vicia narbonensis","Vicia narbonensis","",NA,NA,NA,NA,NA,NA,"5",148.941076923077,"Climber_herb",0.2118
-"Vicia nigra",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Vicia pannonica","Vicia pannonica","",NA,NA,NA,NA,NA,NA,"5",41.5333333333333,"Herb",0.45
 "Vicia peregrina","Vicia peregrina","",NA,NA,NA,NA,NA,NA,"",64.05,"Climber",NA
 "Vicia pisiformis","Vicia pisiformis","",NA,NA,NA,NA,NA,NA,"6",NA,"",1.5

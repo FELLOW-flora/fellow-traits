@@ -128,7 +128,7 @@ So far, we compiled `{r} sum(real_traits)` traits for `{r} nrow(traits)` taxa ga
 
 ```{r nabase}
 # database with best match
-par(mar = c(4, 8, 1, 1))
+par(mar = c(4, 8, 1, 1), cex = 0.9)
 barplot(
   sort(db_na),
   horiz = TRUE,
@@ -148,7 +148,7 @@ trait_db <- strsplit(names(trait_na), "_") |>
     ordered = TRUE
   )
 # database with best match
-par(mar = c(4, 8, 1, 1))
+par(mar = c(4, 8, 1, 1), cex = 0.9)
 boxplot(
   trait_na ~ trait_db,
   horizontal = TRUE,
@@ -271,7 +271,7 @@ knitr::kable(
 ## Comparison
 
 ### SLA
-There are three sources of information for Specific leaf area (SLA) : Hodgson et al. 2023 (in mm2/mg), GIFT (in cm2/g) and BIEN (in m2/kg = mm2/mg).
+There are four sources of information for Specific leaf area (SLA) : Hodgson et al. 2023 (in mm2/mg), GIFT (in cm2/g), BIEN (in m2/kg = mm2/mg), and Ladouceur et al. 2023 (in cm2/g).
 
 ```{r sla}
 # names(traits)[grep("SLA", names(traits))]
@@ -304,7 +304,7 @@ print(apply(is.na(sla), 2, sum))
 
 
 ### Plant height
-There are six sources of information for plant height.
+There are seven sources of information for plant height.
 
 ```{r height}
 #| fig-height: 5
@@ -347,7 +347,7 @@ print(apply(is.na(height), 2, sum))
 {{< pagebreak >}}
 
 ### Seed mass
-There are five sources of information for seed mass
+There are six sources of information for seed mass
 
 ```{r seed}
 #| fig-height: 5

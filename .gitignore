@@ -6,7 +6,7 @@
 # ignore dev file
 analyses/test*.R
 analyses/div*.R
-analyses/transform*.R
+analyses/issue*.R
 
 # taxref can be downloaded from https://inpn.mnhn.fr/docs-web/docs/download/454260
 # https://inpn.mnhn.fr/telechargement/referentielEspece/taxref/18.0/menu

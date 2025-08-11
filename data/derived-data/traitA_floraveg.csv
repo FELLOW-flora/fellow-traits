@@ -34,7 +34,6 @@
 "Aesculus hippocastanum","Aesculus hippocastanum",5.4,5.5,6.6,5.8,0,6.4,"Aesculus hippocastanum","6","Dyszoochory",23.9258333333333,10342.325
 "Aethusa cynapium","Aethusa cynapium",6.3,5.2,6.7,7.5,0,5.3,"Aethusa cynapium","2","Local non-specific dispersal",0.818333333333334,1.45201783333333
 "Aethusa cynapium subsp. cynapium","Aethusa cynapium",6.3,5.2,6.7,7.5,0,5.3,"Aethusa cynapium","2","Local non-specific dispersal",0.818333333333334,1.45201783333333
-"Agrimonia agrimonoides",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Agrimonia eupatoria","Agrimonia eupatoria",7.1,4.1,3.9,7.3,0.1,NA,"Agrimonia eupatoria","6","Epizoochory",0.659666666666667,15.0787308833333
 "Agropyron",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Agrostemma githago","Agrostemma githago",7.3,3.9,5,6.3,0,5.9,"Agrostemma githago","2","Local non-specific dispersal",0.627,12.6999583333333
@@ -131,7 +130,7 @@
 "Androsace elongata","Androsace elongata",8.7,2.8,2,6.5,0,6.7,"Androsace elongata","1","Local non-specific dispersal",0.045,0.3671
 "Androsace maxima","Androsace maxima",8,3.4,3.5,7,0.6,7.3,"Androsace maxima","1","Local non-specific dispersal",0.0795,1.28288888888889
 "Andryala integrifolia","Andryala integrifolia",7.7,3.3,NA,5.3,0,8,"Andryala integrifolia","5","Anemochory",0.375,0.148333333333333
-"Andryala laxiflora",NA,NA,NA,NA,NA,NA,NA,"Andryala laxiflora","5","Anemochory",NA,NA
+"Andryala rothia",NA,NA,NA,NA,NA,NA,NA,"Andryala laxiflora","5","Anemochory",NA,NA
 "Anemone coronaria","Anemone coronaria",7.3,4.7,4.3,6.3,0,8.3,"Anemone coronaria","1","Local non-specific dispersal",0.22,0.5
 "Anemone hortensis","Anemone hortensis",7.3,4.3,3.7,6,0,8.3,"Anemone hortensis","1","Local non-specific dispersal",0.235,1.4131
 "Anethum graveolens","Anethum graveolens",7.3,4.5,6.5,6,0,7.4,"Anethum graveolens","2","Local non-specific dispersal",0.81,1.668
@@ -180,6 +179,7 @@
 "Arctium lappa","Arctium lappa",NA,5.6,8.9,6.9,0.1,NA,"Arctium lappa","6","Epizoochory",1.38,12.16455
 "Arctium minus","Arctium minus",8.3,NA,7.8,7.2,0.1,5,"Arctium minus","6","Epizoochory",0.973,10.467019047619
 "Arctium tomentosum","Arctium tomentosum",7.8,5.3,8.8,8.2,0.2,5,"Arctium tomentosum","6","Epizoochory",1.005,11.8269
+"Aremonia agrimonoides agrimonoides","Aremonia agrimonoides",4,5.3,5.3,8.3,0,7,"Aremonia agrimonoides","3","Myrmecochory",0.181333333333333,NA
 "Arenaria hispanica",NA,NA,NA,NA,NA,NA,NA,"Arenaria hispanica","","Local non-specific dispersal",NA,NA
 "Arenaria leptoclados","Arenaria leptoclados",8.7,2.5,2.6,7,0,NA,"Arenaria leptoclados","1","Local non-specific dispersal",0.133888888888889,0.0393333333333333
 "Arenaria serpyllifolia","Arenaria serpyllifolia",8.3,3.5,4,6.7,0.1,5.2,"Arenaria serpyllifolia","1","Local non-specific dispersal",0.178,0.0923109848446968
@@ -224,14 +224,14 @@
 "Astragalus glycyphyllos","Astragalus glycyphyllos",6.5,NA,3.4,7.1,0,5.9,"Astragalus glycyphyllos","2","Local non-specific dispersal",0.65625,4.92501666666666
 "Astragalus hamosus","Astragalus hamosus",7.8,3.8,6,7.5,0.3,NA,"Astragalus hamosus","1","Local non-specific dispersal",0.215,3.15
 "Atocion armeria","Atocion armeria",7.3,4.4,2,5,0,6.9,"Atocion armeria","2","Local non-specific dispersal",0.405,0.129733333333333
-"Atriplex","Atriplex halimus_Atriplex hortensis_Atriplex littoralis_Atriplex oblongifolia_Atriplex patula_Atriplex prostrata_Atriplex sagittata_Atriplex tatarica",8.2125,5.24285714285714,6.95714285714286,7.025,2.275,7.08333333333333,"Atriplex halimus_Atriplex hortensis_Atriplex littoralis_Atriplex oblongifolia_Atriplex patula_Atriplex prostrata_Atriplex sagittata_Atriplex tatarica","2","Local non-specific dispersal",0.949,2.32872722222222
+"Atriplex","Atriplex calotheca_Atriplex halimus_Atriplex hortensis_Atriplex littoralis_Atriplex oblongifolia_Atriplex patula_Atriplex prostrata_Atriplex sagittata_Atriplex tatarica",8.3,5.3375,7.0875,7.02222222222222,2.13333333333333,6.92857142857143,"Atriplex calotheca_Atriplex halimus_Atriplex hortensis_Atriplex littoralis_Atriplex oblongifolia_Atriplex patula_Atriplex prostrata_Atriplex sagittata_Atriplex tatarica","2","Local non-specific dispersal",0.924666666666667,2.15128530864197
+"Atriplex calotheca","Atriplex calotheca",9,6,8,7,1,6,"Atriplex calotheca","2","Local non-specific dispersal",0.73,0.73175
 "Atriplex halimus","Atriplex halimus",8.3,6,6.3,7.3,6,10,"Atriplex halimus","2","Local non-specific dispersal",1.65,0.85
 "Atriplex hortensis","Atriplex hortensis",7.3,4.9,7.7,7,0.3,NA,"Atriplex hortensis","2","Local non-specific dispersal",1.349,2.6905
 "Atriplex littoralis","Atriplex littoralis",8.9,5.6,8.3,7,6.7,6,"Atriplex littoralis","2","Local non-specific dispersal",0.6525,1.72066666666666
 "Atriplex oblongifolia","Atriplex oblongifolia",8.6,4.6,6.2,6.8,0.8,6.8,"Atriplex oblongifolia","2","Local non-specific dispersal",0.685,4.2725
 "Atriplex patula","Atriplex patula",6.9,NA,NA,7,0.8,5.8,"Atriplex patula","2","Local non-specific dispersal",0.6545,1.80974444444444
 "Atriplex prostrata","Atriplex prostrata",8.2,6.6,7.2,7,2.1,NA,"Atriplex prostrata","2","Local non-specific dispersal",0.575,2.47140666666666
-"Atriplex prostrata calotheca","Atriplex prostrata",8.2,6.6,7.2,7,2.1,NA,"Atriplex prostrata","2","Local non-specific dispersal",0.575,2.47140666666666
 "Atriplex sagittata","Atriplex sagittata",8.6,5.3,6.8,6.8,0.2,6.8,"Atriplex sagittata","2","Local non-specific dispersal",1.475,3.022
 "Atriplex tatarica","Atriplex tatarica",8.9,3.7,6.2,7.3,1.3,7.1,"Atriplex tatarica","2","Local non-specific dispersal",0.551,1.793
 "Avena","Avena barbata_Avena fatua_Avena sativa_Avena sterilis_Avena strigosa",7.82,3.925,5.675,6.34,0.06,7.3,"Avena barbata_Avena fatua_Avena sativa_Avena sterilis_Avena sterilis subsp. ludoviciana_Avena strigosa","2","Local non-specific dispersal",0.766347222222222,25.0233461693169
@@ -538,7 +538,6 @@
 "Cota austriaca","Cota austriaca",7.7,3.6,5.3,8.3,0,6.9,"Cota austriaca","3","Myrmecochory",0.35,0.4274
 "Cota segetalis","Cota segetalis",7,3,2,5,0,8,"Cota segetalis","5","Anemochory",0.21,NA
 "Cota tinctoria","Cota tinctoria",7.8,3.3,4.2,6,0,6.1,"Cota tinctoria","3","Myrmecochory",0.4425,0.4201
-"Crambe abyssinica",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Crambe hispanica abyssinica","Crambe hispanica",8.3,6.3,6.7,7.5,3.5,9.7,"Crambe hispanica","4","Anemochory",0.57,5.3
 "Crassula tillaea","Crassula tillaea",8.2,NA,2.5,5,0,NA,"Crassula tillaea","6","Epizoochory",0.0341666666666667,0.01014
 "Crataegus","Crataegus laevigata_Crataegus monogyna_Crataegus rhipidophylla",6.5,5.06666666666667,4.9,6.25,0,5.7,"Crataegus laevigata_Crataegus monogyna_Crataegus rhipidophylla","6","Endozoochory",4.67028722600151,251.281626926543
@@ -638,7 +637,6 @@
 "Dryopteris","Dryopteris filix-mas",NA,NA,5.6,5.3,0,NA,"Dryopteris filix-mas","3","Anemochory",0.6875,NA
 "Dryopteris filix-mas","Dryopteris filix-mas",NA,NA,5.6,5.3,0,NA,"Dryopteris filix-mas","3","Anemochory",0.6875,NA
 "Dysphania ambrosioides","Dysphania ambrosioides",8,5.8,6,6.5,0,NA,"Dysphania ambrosioides","2","Local non-specific dispersal",0.6025,0.229366666666666
-"Dysphania aristata",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Ecballium elaterium","Ecballium elaterium",7.7,4.6,7.3,7.6,0.3,8.8,"Ecballium elaterium","6","Endozoochory",0.475,15.5133335
 "Echinaria capitata","Echinaria capitata",8.5,3,4,7.5,0,10,"Echinaria capitata","6","Epizoochory",0.1375,1.1
 "Echinochloa","Echinochloa colonum_Echinochloa crus-galli",7.05,5.7,7.85,7.3,0.15,8.8,"Echinochloa colona_Echinochloa crus-galli","6","Epizoochory",0.7,1.77723076923077
@@ -1063,7 +1061,6 @@
 "Lemna minor","Lemna minor",7,11.1,5.6,NA,0.6,NA,"Lemna minor","6","Epizoochory",0.007625,1
 "Lemna trisulca","Lemna trisulca",7.1,11.8,5.3,6.5,0.3,5.5,"Lemna trisulca","6","Epizoochory",0.011875,NA
 "Leontodon","Leontodon hirtus_Leontodon hispidus_Leontodon saxatilis",8.2,4.75,2.8,6.8,0.333333333333333,6.03333333333333,"Leontodon asperrimus_Leontodon hirtus_Leontodon hispidus_Leontodon saxatilis","5","Anemochory",0.210944444444444,1.72987622222004
-"Leontodon autumnale",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Leontodon hirtus","Leontodon hirtus",8.5,5,2,8,0,7.3,"Leontodon hirtus","5","Anemochory",0.185,NA
 "Leontodon hispidus","Leontodon hispidus",7.9,4.5,NA,NA,0,4.4,"Leontodon hispidus","5","Anemochory",0.288666666666667,1.16622088888235
 "Leontodon hispidus subsp. hispidus","Leontodon hispidus",7.9,4.5,NA,NA,0,4.4,"Leontodon asperrimus","5","Anemochory",NA,3.46
@@ -1204,10 +1201,10 @@
 "Medicago sativa nothosubsp. media","Medicago sativa_Medicago sativa aggr._Medicago suffruticosa",8,3.8,4.23333333333333,7.46666666666667,0.366666666666667,7.75,"Medicago x varia","2","Local non-specific dispersal",0.55,NA
 "Medicago sativa subsp. falcata","Medicago suffruticosa",8,3,3,8,0,9,"Medicago suffruticosa","6","Epizoochory",0.4,4
 "Medicago sativa subsp. sativa","Medicago sativa_Medicago sativa aggr._Medicago suffruticosa",8,3.8,4.23333333333333,7.46666666666667,0.366666666666667,7.75,"Medicago sativa_Medicago suffruticosa_Medicago x varia","2_6","Epizoochory_Local non-specific dispersal",0.497666666666667,3.1865
-"Medicago sativa varia","Medicago sativa_Medicago sativa aggr._Medicago suffruticosa",8,3.8,4.23333333333333,7.46666666666667,0.366666666666667,7.75,"Medicago sativa_Medicago suffruticosa_Medicago x varia","2_6","Epizoochory_Local non-specific dispersal",0.497666666666667,3.1865
 "Medicago scutellata","Medicago scutellata",7.7,5,6,6.7,0,NA,"Medicago scutellata","6","Epizoochory",0.1825,18.5
 "Medicago truncatula","Medicago truncatula",8,3,5,NA,2,9.5,"Medicago truncatula","6","Epizoochory",0.09,3.9
 "Medicago turbinata",NA,NA,NA,NA,NA,NA,NA,"Medicago turbinata","6","Epizoochory",0.09,7.35
+"Medicago varia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Melampyrum","Melampyrum arvense",7.1,3.8,3.5,8,0,6.4,"Melampyrum arvense","3","Myrmecochory",0.324,13.8242
 "Melampyrum arvense","Melampyrum arvense",7.1,3.8,3.5,8,0,6.4,"Melampyrum arvense","3","Myrmecochory",0.324,13.8242
 "Melia azedarach",NA,NA,NA,NA,NA,NA,NA,"Melia azedarach","6","Endozoochory",9.055,271.65
@@ -1286,14 +1283,13 @@
 "Nonea lutea","Nonea lutea",8,3,3,7,0,9,"Nonea lutea","3","Myrmecochory",0.265,NA
 "Nonea pallens","Nonea vesicaria",9,2,1,5,0,9,"Nonea pallens","3","Myrmecochory",0.27,NA
 "Nonea pulla","Nonea pulla",7.6,3.6,3.3,7.8,0,NA,"Nonea pulla","3","Myrmecochory",0.335333333333333,7.2830069
-"Ochlopoa annua","Ochlopoa annua aggr.",7,6,8,6,1,5,NA,NA,NA,NA,NA
-"Odontites","Odontites lanceolatus",8,3,2,7,0,6.5,"Odontites jaubertianus_Odontites lanceolatus_Odontites vernus","1_2","Local non-specific dispersal",0.300416666666667,0.206942857142857
+"Odontites","Odontites lanceolatus_Odontites vulgaris aggr.",7.4,4.1,3.45,6.6,0.35,6.05,"Odontites jaubertianus_Odontites lanceolatus_Odontites vernus_Odontites vulgaris_Odontites vulgaris aggr.","1_2","Local non-specific dispersal",0.277057291666667,0.229471428571428
 "Odontites jaubertianus",NA,NA,NA,NA,NA,NA,NA,"Odontites jaubertianus","","Local non-specific dispersal",NA,NA
 "Odontites luteus subsp. lanceolatus","Odontites lanceolatus",8,3,2,7,0,6.5,"Odontites lanceolatus","2","Local non-specific dispersal",0.335,NA
 "Odontites vernus",NA,NA,NA,NA,NA,NA,NA,"Odontites vernus","1","Local non-specific dispersal",0.265833333333333,0.206942857142857
-"Odontites vernus salinus",NA,NA,NA,NA,NA,NA,NA,"Odontites vernus","1","Local non-specific dispersal",0.265833333333333,0.206942857142857
 "Odontites vernus subsp. serotinus",NA,NA,NA,NA,NA,NA,NA,"Odontites vernus","1","Local non-specific dispersal",0.265833333333333,0.206942857142857
 "Odontites vernus subsp. vernus",NA,NA,NA,NA,NA,NA,NA,"Odontites vernus","1","Local non-specific dispersal",0.265833333333333,0.206942857142857
+"Odontites vulgaris subsp. vulgaris","Odontites vulgaris aggr.",6.8,5.2,4.9,6.2,0.7,5.6,"Odontites vulgaris_Odontites vulgaris aggr.","1","Local non-specific dispersal",0.253697916666667,0.252
 "Oenanthe crocata","Oenanthe crocata",7.6,8.5,5.3,NA,0.8,NA,"Oenanthe crocata","2","Local non-specific dispersal",0.7575,3.2034
 "Oenanthe fistulosa","Oenanthe fistulosa",7.1,8.6,5.1,7.1,0.3,NA,"Oenanthe fistulosa","2","Local non-specific dispersal",0.495,3.21795714285714
 "Oenanthe pimpinelloides","Oenanthe pimpinelloides",6.7,6,4,5.5,0.3,8.3,"Oenanthe pimpinelloides","2","Local non-specific dispersal",0.54,1.9964
@@ -2058,9 +2054,9 @@
 "Vicia lathyroides","Vicia lathyroides",7.9,3,NA,5,0,6.9,"Vicia lathyroides","1","Local non-specific dispersal",0.175666666666667,2.84833333333333
 "Vicia lens","Lens culinaris",7.8,4.2,5,7,0,NA,"Lens culinaris","2","Local non-specific dispersal",0.325,35
 "Vicia lutea","Vicia lutea",7.3,3.7,5,6.3,0.4,NA,"Vicia lutea","2","Local non-specific dispersal",0.36875,66.6468555555555
+"Vicia lutea subsp. lutea","Vicia lutea",7.3,3.7,5,6.3,0.4,NA,"Vicia lutea","2","Local non-specific dispersal",0.36875,66.6468555555555
 "Vicia monantha","Vicia monantha",8.7,NA,5.7,7.3,1.7,10,"Vicia monantha","2","Local non-specific dispersal",0.4,26.6
 "Vicia narbonensis","Vicia narbonensis",7.4,4.6,5.3,7.3,0.3,NA,"Vicia narbonensis","2","Local non-specific dispersal",0.43125,245.1
-"Vicia nigra",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Vicia pannonica","Vicia pannonica",7.4,3.8,5.2,6.5,0,NA,"Vicia pannonica","2","Local non-specific dispersal",0.49,36.8983333333333
 "Vicia peregrina","Vicia peregrina",8,3.3,5.3,7,0.5,NA,"Vicia peregrina","2","Local non-specific dispersal",0.408333333333333,41.7
 "Vicia pisiformis","Vicia pisiformis",6.5,4,3.2,8,0,6.5,"Vicia pisiformis","2","Local non-specific dispersal",1.48,43.3993333333333

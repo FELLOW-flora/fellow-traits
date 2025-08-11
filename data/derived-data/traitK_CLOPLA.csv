@@ -34,7 +34,6 @@
 "Aesculus hippocastanum","""aesculus hippocastanum l.""","",NA,NA,NA
 "Aethusa cynapium","""aethusa cynapium l. subsp. cynapium ""","",NA,NA,NA
 "Aethusa cynapium subsp. cynapium","""aethusa cynapium l. subsp. cynapium ""","",NA,NA,NA
-"Agrimonia agrimonoides",NA,NA,NA,NA,NA
 "Agrimonia eupatoria","""agrimonia eupatoria l.""","3",1,1,3
 "Agropyron",NA,NA,NA,NA,NA
 "Agrostemma githago","""agrostemma githago l.""","",NA,NA,NA
@@ -131,7 +130,7 @@
 "Androsace elongata","""androsace elongata l.""","",NA,NA,NA
 "Androsace maxima","""androsace maxima l.""","",NA,NA,NA
 "Andryala integrifolia",NA,NA,NA,NA,NA
-"Andryala laxiflora",NA,NA,NA,NA,NA
+"Andryala rothia",NA,NA,NA,NA,NA
 "Anemone coronaria",NA,NA,NA,NA,NA
 "Anemone hortensis",NA,NA,NA,NA,NA
 "Anethum graveolens","""anethum graveolens l.""","",NA,NA,NA
@@ -180,6 +179,7 @@
 "Arctium lappa","""arctium lappa l.""","",NA,NA,NA
 "Arctium minus","""arctium minus (hill) bernh.""","",NA,NA,NA
 "Arctium tomentosum","""arctium tomentosum mill.""","",NA,NA,NA
+"Aremonia agrimonoides agrimonoides","""aremonia agrimonoides (l.) dc.""","2",0.5,0.5,0.5
 "Arenaria hispanica",NA,NA,NA,NA,NA
 "Arenaria leptoclados","""arenaria leptoclados (rchb.) guss.""","",NA,NA,NA
 "Arenaria serpyllifolia","""arenaria serpyllifolia agg. ""","",NA,NA,NA
@@ -224,14 +224,14 @@
 "Astragalus glycyphyllos","""astragalus glycyphyllos l.""","",NA,NA,NA
 "Astragalus hamosus",NA,NA,NA,NA,NA
 "Atocion armeria","""atocion armeria (l.) raf.""","",NA,NA,NA
-"Atriplex","""atriplex hortensis l.""_""atriplex littoralis l.""_""atriplex oblongifolia waldst. et kit.""_""atriplex patula l.""_""atriplex prostrata dc.""_""atriplex sagittata borkh.""_""atriplex tatarica l.""","",NA,NA,NA
+"Atriplex","""atriplex calotheca (rafn) fr.""_""atriplex hortensis l.""_""atriplex littoralis l.""_""atriplex oblongifolia waldst. et kit.""_""atriplex patula l.""_""atriplex prostrata dc.""_""atriplex sagittata borkh.""_""atriplex tatarica l.""","",NA,NA,NA
+"Atriplex calotheca","""atriplex calotheca (rafn) fr.""","",NA,NA,NA
 "Atriplex halimus",NA,NA,NA,NA,NA
 "Atriplex hortensis","""atriplex hortensis l.""","",NA,NA,NA
 "Atriplex littoralis","""atriplex littoralis l.""","",NA,NA,NA
 "Atriplex oblongifolia","""atriplex oblongifolia waldst. et kit.""","",NA,NA,NA
 "Atriplex patula","""atriplex patula l.""","",NA,NA,NA
 "Atriplex prostrata","""atriplex prostrata dc.""","",NA,NA,NA
-"Atriplex prostrata calotheca","""atriplex prostrata dc.""","",NA,NA,NA
 "Atriplex sagittata","""atriplex sagittata borkh.""","",NA,NA,NA
 "Atriplex tatarica","""atriplex tatarica l.""","",NA,NA,NA
 "Avena","""avena fatua l.""_""avena sativa l.""_""avena strigosa schreb.""","4",6,6,0.5
@@ -538,7 +538,6 @@
 "Cota austriaca","""cota austriaca (jacq.) sch. bip.""","",NA,NA,NA
 "Cota segetalis",NA,NA,NA,NA,NA
 "Cota tinctoria","""cota tinctoria (l.) j. gay""","",NA,NA,NA
-"Crambe abyssinica",NA,NA,NA,NA,NA
 "Crambe hispanica abyssinica",NA,NA,NA,NA,NA
 "Crassula tillaea","""crassula tillaea lest.-garl.""","",NA,NA,NA
 "Crataegus","""crataegus laevigata (poir.) dc.""_""crataegus monogyna jacq.""","",NA,NA,NA
@@ -638,7 +637,6 @@
 "Dryopteris","""dryopteris filix-mas (l.) schott""","2",0.5,0.5,0.5
 "Dryopteris filix-mas","""dryopteris filix-mas (l.) schott""","2",0.5,0.5,0.5
 "Dysphania ambrosioides","""dysphania ambrosioides (l.) mosyakin et clemants""","",NA,NA,NA
-"Dysphania aristata",NA,NA,NA,NA,NA
 "Ecballium elaterium",NA,NA,NA,NA,NA
 "Echinaria capitata",NA,NA,NA,NA,NA
 "Echinochloa","""echinochloa crus-galli (l.) p. beauv.""","",NA,NA,NA
@@ -1063,7 +1061,6 @@
 "Lemna minor","""lemna minor l.""","7",13.5,13.5,NA
 "Lemna trisulca","""lemna trisulca l.""","7",12,12,NA
 "Leontodon","""leontodon hispidus l.""","3",1,1,2.3
-"Leontodon autumnale",NA,NA,NA,NA,NA
 "Leontodon hirtus",NA,NA,NA,NA,NA
 "Leontodon hispidus","""leontodon hispidus l.""","3",1,1,2.3
 "Leontodon hispidus subsp. hispidus","""leontodon hispidus l.""","3",1,1,2.3
@@ -1204,10 +1201,10 @@
 "Medicago sativa nothosubsp. media","""medicago sativa agg. ""","",NA,NA,NA
 "Medicago sativa subsp. falcata","""medicago sativa agg. ""","",NA,NA,NA
 "Medicago sativa subsp. sativa","""medicago sativa agg. ""","",NA,NA,NA
-"Medicago sativa varia","""medicago sativa agg. ""","",NA,NA,NA
 "Medicago scutellata",NA,NA,NA,NA,NA
 "Medicago truncatula",NA,NA,NA,NA,NA
 "Medicago turbinata",NA,NA,NA,NA,NA
+"Medicago varia",NA,NA,NA,NA,NA
 "Melampyrum","""melampyrum arvense l.""","",NA,NA,NA
 "Melampyrum arvense","""melampyrum arvense l.""","",NA,NA,NA
 "Melia azedarach",NA,NA,NA,NA,NA
@@ -1286,14 +1283,13 @@
 "Nonea lutea",NA,NA,NA,NA,NA
 "Nonea pallens",NA,NA,NA,NA,NA
 "Nonea pulla","""nonea pulla bernh.""","",NA,NA,NA
-"Ochlopoa annua",NA,NA,NA,NA,NA
 "Odontites","""odontites luteus (l.) clairv.""_""odontites vernus (bellardi) dumort.""","",NA,NA,NA
 "Odontites jaubertianus",NA,NA,NA,NA,NA
 "Odontites luteus subsp. lanceolatus","""odontites luteus (l.) clairv.""","",NA,NA,NA
 "Odontites vernus","""odontites vernus (bellardi) dumort.""","",NA,NA,NA
-"Odontites vernus salinus","""odontites vernus (bellardi) dumort.""","",NA,NA,NA
 "Odontites vernus subsp. serotinus","""odontites vernus (bellardi) dumort.""","",NA,NA,NA
 "Odontites vernus subsp. vernus","""odontites vernus (bellardi) dumort.""","",NA,NA,NA
+"Odontites vulgaris subsp. vulgaris",NA,NA,NA,NA,NA
 "Oenanthe crocata",NA,NA,NA,NA,NA
 "Oenanthe fistulosa","""oenanthe fistulosa l.""","6",6,6,26.5
 "Oenanthe pimpinelloides",NA,NA,NA,NA,NA
@@ -2058,9 +2054,9 @@
 "Vicia lathyroides","""vicia lathyroides l.""","",NA,NA,NA
 "Vicia lens",NA,NA,NA,NA,NA
 "Vicia lutea","""vicia lutea l.""","",NA,NA,NA
+"Vicia lutea subsp. lutea","""vicia lutea l.""","",NA,NA,NA
 "Vicia monantha",NA,NA,NA,NA,NA
 "Vicia narbonensis","""vicia narbonensis l.""","",NA,NA,NA
-"Vicia nigra",NA,NA,NA,NA,NA
 "Vicia pannonica","""vicia pannonica crantz""","",NA,NA,NA
 "Vicia peregrina",NA,NA,NA,NA,NA
 "Vicia pisiformis","""vicia pisiformis l.""","5",1,1,40

@@ -26,6 +26,8 @@ source(here::here("analyses", "01_get_specieslist.R"))
 
 # 2 Clean taxo with TaxRef and GBIF
 source(here::here("analyses", "02_clean_taxo.R"))
+# make list of taxonomic correction
+source(here::here("analyses", "extra_corrected_taxa.R"))
 
 # 3 Get traits (one script per database)
 # FloraVeg.eu

@@ -47,7 +47,7 @@ spclean <- spclean[!spclean %in% rmlist]
 # remove taxa that is defined coarser than family
 # Dicotyledones, ref 187223, is not in Taxref but in
 # https://taxref.mnhn.fr/taxref-web/taxa/187223
-rmClass <- c("Dicotyledonae", "Bryophyta")
+rmClass <- c("Dicotyledonae", "Bryophyta", "Angiospermae")
 spclean <- spclean[!spclean %in% rmClass]
 
 # harmonize the species names
@@ -155,7 +155,6 @@ fuzzy_verified <- read.csv(
 # make sure to have only missing species name
 fuzzy_verified <- fuzzy_verified[fuzzy_verified$original_taxa %in% no_taxref, ]
 
-
 # match on the accepted name first
 fuzzy_mtr <- match(fuzzy_verified$accepted_taxref, taxref$accepted_name)
 fuzzy_mtr2 <- match(fuzzy_verified$accepted_taxref, taxref$clean_name)
@@ -226,11 +225,12 @@ for (i in synkey) {
     gbif_full_name = di$data$scientificName,
     gbif_phylum = di$data$phylum,
     gbif_order = di$data$order,
-    gbif_family = di$data$family,
-    gbif_status = "SYNONYM"
+    gbif_family = di$data$family
   )
   syn_df <- rbind(syn_df, si_df)
 }
+# add status
+syn_df$gbif_status <- paste0(checkgbif$matchType[checkgbif$synonym], "_SYNONYM")
 
 # replace accepted synonyms
 gbif_df[checkgbif$synonym, ] <- syn_df
@@ -278,33 +278,27 @@ for (i in synkey) {
     gbif_phylum = di$data$phylum,
     gbif_order = di$data$order,
     gbif_family = di$data$family,
-    gbif_status = "SYNONYM"
+    gbif_status = "EXACT_SYNONYM"
   )
   syn_df <- rbind(syn_df, si_df)
 }
+gbif_add[addgbif$synonym, ] <- syn_df
 
-
-# replace value for the higher rank
-# check issue with higher rank
-# hrank <- rgbif::name_backbone(
-#   name = addgbif$verbatim_name[addgbif$matchType == "HIGHERRANK"],
-#   verbose = TRUE
-# )
-# # Vicia ciliatula is synonym of Vicia ciliatula or Vicia lutea; lutea seems better
-# validkey <- hrank$acceptedUsageKey[
-#   hrank$scientificName == "Vicia ciliata Schur"
-# ]
-# synhrbif <- rgbif::name_usage(key = validkey)
-# gbif_add[addgbif$matchType == "HIGHERRANK", ] <- data.frame(
-#   accepted_gbif = synhrbif$data$canonicalName,
-#   gbif_key = synhrbif$data$key,
-#   gbif_rank = synhrbif$data$rank,
-#   gbif_full_name = synhrbif$data$scientificName,
-#   gbif_phylum = synhrbif$data$phylum,
-#   gbif_order = synhrbif$data$order,
-#   gbif_family = synhrbif$data$family,
-#   gbif_status = "SYNONYM"
-# )
+# handle Vicia ciliata by hand (because GBIF automatically led to higher rank Vicia)
+err_Vicia <- which(miss %in% "Vicia ciliata")
+syn_Vicia <- rgbif::name_backbone(name = "Vicia ciliata Schur")
+cor_Vicia <- rgbif::name_usage(syn_Vicia$acceptedUsageKey)
+df_Vicia <- data.frame(
+  accepted_gbif = cor_Vicia$data$canonicalName,
+  gbif_key = cor_Vicia$data$key,
+  gbif_rank = cor_Vicia$data$rank,
+  gbif_full_name = cor_Vicia$data$scientificName,
+  gbif_phylum = cor_Vicia$data$phylum,
+  gbif_order = cor_Vicia$data$order,
+  gbif_family = cor_Vicia$data$family,
+  gbif_status = "FUZZY_SYNONYM"
+)
+gbif_add[err_Vicia, ] <- df_Vicia
 
 # check back in TaxRef
 madd <- match(tolower(gbif_add$accepted_gbif), tolower(taxref$clean_name))
@@ -347,6 +341,7 @@ all_df$full_name <- ifelse(
 conv_rank <- c(
   "ES" = "SPECIES",
   "FM" = "FAMILY",
+  "TR" = "TRIBE",
   "GN" = "GENUS",
   "SSES" = "SUBSPECIES",
   "VAR" = "VARIETY"
@@ -356,6 +351,9 @@ all_df$accepted_rank <- ifelse(
   all_df$gbif_rank,
   conv_rank[all_df$taxref_rank]
 )
+
+# rename status not found
+all_df$gbif_status <- gsub("NONE_NA", "NOT FOUND", all_df$gbif_status)
 
 # add database information
 which_db <- table(sp$clean_taxo, sp$database_ID)
@@ -396,21 +394,24 @@ write.csv(
 
 # might be good to give information back to data provider
 # about identified_misspelt_species, per dataset?
-length(sp$clean_taxo)
-sp$acc_taxo <- all_df$accepted_taxa[match(sp$clean_taxo, all_df$original_taxa)]
-misspelt <- sp[which(sp$acc_taxo != sp$clean_taxo | is.na(sp$clean_taxo)), ]
-names(misspelt) <- c(
-  "original_taxa",
-  "original_ID",
-  "database_ID",
-  "simplified_taxa",
-  "accepted_taxa"
-)
-write.csv(
-  misspelt,
-  here::here("data", "derived-data", "identified_misspelt_species.csv"),
-  row.names = FALSE
-)
+# see extra_corrected_taxa.R
+
+# length(sp$clean_taxo)
+# sp$acc_taxo <- all_df$accepted_taxa[match(sp$clean_taxo, all_df$original_taxa)]
+# misspelt <- sp[which(sp$acc_taxo != sp$clean_taxo | is.na(sp$clean_taxo)), ]
+# names(misspelt) <- c(
+#   "original_taxa",
+#   "original_ID",
+#   "database_ID",
+#   "simplified_taxa",
+#   "accepted_taxa"
+# )
+# write.csv(
+#   misspelt,
+#   here::here("data", "derived-data", "identified_misspelt_species.csv"),
+#   row.names = FALSE
+# )
+
 # 6. create a list of known synonyms ---------------------
 
 # from gbif

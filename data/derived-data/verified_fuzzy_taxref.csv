@@ -1,80 +1,57 @@
 ﻿original_taxa,accepted_taxref,sdist,verified
-Acalypha ostryifolia,NA,NA,FALSE
-Agrimonia agrimonoides,NA,NA,FALSE
-Alyssum minutum,NA,NA,FALSE
+Ailanthus altissimus,Ailanthus altissima,NA,FALSE
 Amaranthus powelii,Amaranthus powellii,0.0171930000000000,TRUE
-Anchusa puechii,NA,NA,FALSE
-Andryala laxiflora,NA,NA,FALSE
-Arenaria hispanica,NA,NA,FALSE
-Arisarum simorrhinum,NA,NA,FALSE
-Atriplex prostrata calotheca,NA,NA,FALSE
 Bidens tripartitus,Bidens tripartita,0.0555120000000000,TRUE
-Brassica carinata,NA,NA,FALSE
 Brassicaeae,Brassicaceae,NA,FALSE
 Bromus squarossus,Bromus squarrosus,0.0588480000000000,TRUE
-Centaurea argentea,NA,NA,FALSE
+Buniun bulbocastanum,Bunium bulbocastanum,NA,FALSE
 Centranthus calcitrapa,Centranthus calcitrapae,0.0142030000000000,TRUE
 Chaenorrhinum minus,Chaenorhinum minus,0.0171930000000000,TRUE
 Chaenorrhinum minus minus,Chaenorhinum minus minus,0.0130670000000000,TRUE
 Cirsium erisitales,Cirsium erisithales,0.0171930000000000,TRUE
 Colchicum autumnalis,Colchicum autumnale,NA,FALSE
-Corispermum nitidum,NA,NA,FALSE
 Cornonilla varia,Coronilla varia,0.0424100000000000,TRUE
-Cota austriaca,NA,NA,FALSE
-Crambe abyssinica,NA,NA,FALSE
-Crambe hispanica abyssinica,NA,NA,FALSE
 Crategus monogyna,Crataegus monogyna,0.0181480000000000,TRUE
 Crepis bienis,Crepis biennis,0.0233330000000000,TRUE
-Crepis neglecta,NA,NA,FALSE
-Crepis neglecta corymbosa,NA,NA,FALSE
 Cruciata laevipes opiz,Cruciata laevipes,0.0742420000000000,TRUE
 Cynoglosum officinale,Cynoglossum officinale,0.0148480000000000,TRUE
+Daucus carotta,Daucus carota,NA,FALSE
 Doricnium pethapillum,Dorycnium pentaphyllum,0.127885000000000,TRUE
-Dysphania aristata,NA,NA,FALSE
 Elytrigia campestre,Elytrigia campestris,NA,FALSE
 Epibolium angustifolium,Epilobium angustifolium,0.0142750000000000,TRUE
 Erigeron glabellus,Erigeron glabratus,0.108889000000000,TRUE
-Fumaria rostellata,NA,NA,FALSE
 Galactites tomentosa,Galactites tomentosus,0.0474440000000000,TRUE
+Geleopsis tetrahit,Galeopsis tetrahit,NA,FALSE
 Geranium pheum,Geranium phaeum,0.0217780000000000,TRUE
-Helianthus petiolaris canescens,NA,NA,FALSE
+Geranuim molle,Geranium molle,NA,FALSE
+Hdrocotyle sibthorpioides,Hydrocotyle sibthorpioides,NA,FALSE
 Helictochloa romero,Helictochloa,NA,FALSE
-Helleborus purpurascens,NA,NA,FALSE
-Helminthotheca comosa,NA,NA,FALSE
-Herniaria lusitanica,NA,NA,FALSE
 Hymenocarpos circinnata nummularius,Hymenocarpos circinnatus nummularius,0.0803250000000000,TRUE
 Hypericum linarifolium,Hypericum linariifolium,0.0439000000000000,TRUE
 Juncus effusum,Juncus effusus,0.0466670000000000,TRUE
 Knautia integrifola,Knautia integrifolia,0.0163330000000000,TRUE
+Knautia timeroyii,Knautia timeroyi,NA,FALSE
+Lactuca murralis,Lactuca muralis,NA,FALSE
+Lathyris tuberosus,Lathyrus tuberosus,NA,FALSE
 Lathyrus sativa,Lathyrus sativus,0.0626110000000000,TRUE
-Linaria amethystea,NA,NA,FALSE
-Linaria hirta,NA,NA,FALSE
+Lencanthemum vulgare,Leucanthemum vulgare,NA,FALSE
 Linaria latifolia,Licania latifolia,0.0594490000000000,TRUE
 Loncomelos narbonensis,Loncomelos narbonense,0.0452530000000000,TRUE
 Loncomelos pyrenaicus,Loncomelos pyrenaicum,0.0311110000000000,TRUE
-Medicago sativa varia,NA,NA,FALSE
 Melilotus alba,Melilotus albus,0.066889000000000,TRUE
-Ochlopoa annua,NA,NA,FALSE
 Odontites verna,Odontites vernus,0.0626110000000000,TRUE
-Odontites vernus salinus,NA,NA,FALSE
-Onobrychis alba,NA,NA,FALSE
 Onopordon,Onopordum,NA,TRUE
 Oreganum vulgare,Origanum vulgare,0.0412500000000000,TRUE
 Ornithogalum boucheanum,Ornithogalum bourgaeanum,0.0847950000000000,TRUE
-Ornithogalum muscari,NA,NA,FALSE
 Paspalum dilatum,Paspalum dilatatum,0.0362960000000000,TRUE
 Petrorhargia prolifera,Petrorhagia prolifera,0.108182000000000,TRUE
 Phytolacca dodecandra,Phytolacca decandra,0.074094000000000,TRUE
 Picris angustifolia,Iris angustifolia,0.0350880000000000,TRUE
-Plantago barbata monanthos,NA,NA,FALSE
 Podospermum picroides,Urospermum picroides,NA,FALSE
 Populus canescens,Populus x canescens,0.0343860000000000,TRUE
 Portulaca oleraceae,Portulaca oleracea,0.0171930000000000,TRUE
-Pulicaria arabica hispanica,NA,NA,FALSE
-Reseda lanceolata,NA,NA,FALSE
 Rorippa armoracioides,Rorippa x armoracioides,0.0284060000000000,TRUE
 Rubus idenus,Rubus idaeus,0.0544440000000000,TRUE
-Rumex confertus,NA,NA,FALSE
 Rumex thyrsiflorus,Rumex thyrsiflorus,0.0362960000000000,TRUE
 Schoedonorus arundinaceus,Schedonorus arundinaceus,NA,FALSE
 Schoedonorus pratensis,Schedonorus pratensis,NA,FALSE
@@ -83,32 +60,55 @@ Senecio jacobea,Senecio jacobaea,0.0421940000000000,TRUE
 Sheradia arvensis,Sherardia arvensis,0.0757950000000000,TRUE
 Silena gallica,Silene gallica,NA,FALSE
 Silene niceensis,Silene nicaeensis,0.0192160000000000,TRUE
-Silene stricta,NA,NA,FALSE
+Sonchus arvenses,Sonchus arvensis,NA,FALSE
 Sporobulus,Sporobolus,0.10163000000000,TRUE
 Taraxacum fhwigg,Taraxacum,NA,FALSE
-Teloxys aristata,NA,NA,FALSE
-Thesium dollineri,NA,NA,FALSE
 Thlapsi arvense,Thlaspi arvense,0.0217780000000000,TRUE
-Thymus spinulosus,NA,NA,FALSE
-Thymus striatus,NA,NA,FALSE
 Trifolium campestris,Trifolium campestre,0.0498600000000000,TRUE
-Trigonotis,NA,NA,FALSE
-Trigonotis peduncularis,NA,NA,FALSE
 Triticosecale,X triticosecale,0.0444440000000000,TRUE
 Triticosecale rimpaui,X triticosecale rimpaui,0.0289860000000000,TRUE
 Tyrmnus leucographus,Tyrimnus leucographus,0.0156350000000000,TRUE
 Urtica dioïca,Urtica dioica,0.0502560000000000,TRUE
-Valerianella multidentata,NA,NA,FALSE
-Vicia ciliata,Vicia ciliatula,NA,TRUE
+Vicia ciliata,Vicia ciliatula,NA,FALSE
 Vicia fabia,Vicia faba,0.0296970000000000,TRUE
 Viola kaitaibeliana,Viola kitaibeliana,0.117008000000000,TRUE
 Viola reichenbachiana,Viola reichenbachiana,0.0311110000000000,TRUE
 x Rimpaui,x Triticosecale rimpaui,NA,FALSE
-Knautia timeroyii,Knautia timeroyi,NA,FALSE
-Geleopsis tetrahit,Galeopsis tetrahit,NA,FALSE
-Hdrocotyle sibthorpioides,Hydrocotyle sibthorpioides,NA,FALSE
-Lathyris tuberosus,Lathyrus tuberosus,NA,FALSE
-Lencanthemum vulgare,Leucanthemum vulgare,NA,FALSE
-Geranuim molle,Geranium molle,NA,FALSE
-Buniun bulbocastanum,Bunium bulbocastanum,NA,FALSE
-Sonchus arvenses,Sonchus arvensis,NA,FALSE
+Vicia nigra,Vicia sativa nigra,NA,FALSE
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+

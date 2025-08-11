@@ -34,7 +34,6 @@
 "Aesculus hippocastanum",NA,NA,NA,NA,NA
 "Aethusa cynapium",NA,NA,NA,NA,NA
 "Aethusa cynapium subsp. cynapium",NA,NA,NA,NA,NA
-"Agrimonia agrimonoides",NA,NA,NA,NA,NA
 "Agrimonia eupatoria","Agrimonia eupatoria","Jaune","Autre",4,75
 "Agropyron",NA,NA,NA,NA,NA
 "Agrostemma githago","Agrostemma githago","","Autre",NA,60
@@ -131,7 +130,7 @@
 "Androsace elongata",NA,NA,NA,NA,NA
 "Androsace maxima",NA,NA,NA,NA,NA
 "Andryala integrifolia",NA,NA,NA,NA,NA
-"Andryala laxiflora",NA,NA,NA,NA,NA
+"Andryala rothia",NA,NA,NA,NA,NA
 "Anemone coronaria",NA,NA,NA,NA,NA
 "Anemone hortensis",NA,NA,NA,NA,NA
 "Anethum graveolens",NA,NA,NA,NA,NA
@@ -180,6 +179,7 @@
 "Arctium lappa","Arctium lappa","Rose","Autre",NA,100
 "Arctium minus","Arctium minus","Rose","Autre",4,100
 "Arctium tomentosum",NA,NA,NA,NA,NA
+"Aremonia agrimonoides agrimonoides",NA,NA,NA,NA,NA
 "Arenaria hispanica",NA,NA,NA,NA,NA
 "Arenaria leptoclados",NA,NA,NA,NA,NA
 "Arenaria serpyllifolia","Arenaria serpyllifolia","Blanc","Autre",NA,21.5
@@ -225,13 +225,13 @@
 "Astragalus hamosus",NA,NA,NA,NA,NA
 "Atocion armeria",NA,NA,NA,NA,NA
 "Atriplex",NA,NA,NA,NA,NA
+"Atriplex calotheca",NA,NA,NA,NA,NA
 "Atriplex halimus",NA,NA,NA,NA,NA
 "Atriplex hortensis",NA,NA,NA,NA,NA
 "Atriplex littoralis",NA,NA,NA,NA,NA
 "Atriplex oblongifolia",NA,NA,NA,NA,NA
 "Atriplex patula",NA,NA,NA,NA,NA
 "Atriplex prostrata",NA,NA,NA,NA,NA
-"Atriplex prostrata calotheca",NA,NA,NA,NA,NA
 "Atriplex sagittata",NA,NA,NA,NA,NA
 "Atriplex tatarica",NA,NA,NA,NA,NA
 "Avena","Avena","Vert","Graminées",NA,NA
@@ -538,7 +538,6 @@
 "Cota austriaca",NA,NA,NA,NA,NA
 "Cota segetalis",NA,NA,NA,NA,NA
 "Cota tinctoria",NA,NA,NA,NA,NA
-"Crambe abyssinica",NA,NA,NA,NA,NA
 "Crambe hispanica abyssinica",NA,NA,NA,NA,NA
 "Crassula tillaea",NA,NA,NA,NA,NA
 "Crataegus","Crataegus laevigata_Crataegus monogyna","Blanc","Autre_Ligneux",3,100
@@ -638,7 +637,6 @@
 "Dryopteris","Dryopteris filix-mas","Vert","Autre",4,60
 "Dryopteris filix-mas","Dryopteris filix-mas","Vert","Autre",4,60
 "Dysphania ambrosioides",NA,NA,NA,NA,NA
-"Dysphania aristata",NA,NA,NA,NA,NA
 "Ecballium elaterium",NA,NA,NA,NA,NA
 "Echinaria capitata",NA,NA,NA,NA,NA
 "Echinochloa",NA,NA,NA,NA,NA
@@ -1063,7 +1061,6 @@
 "Lemna minor","Lemna minor","","Autre",NA,5.5
 "Lemna trisulca",NA,NA,NA,NA,NA
 "Leontodon","Leontodon hispidus","Jaune","Autre",1.883358012,32.5
-"Leontodon autumnale",NA,NA,NA,NA,NA
 "Leontodon hirtus",NA,NA,NA,NA,NA
 "Leontodon hispidus","Leontodon hispidus","Jaune","Autre",1.883358012,32.5
 "Leontodon hispidus subsp. hispidus","Leontodon hispidus","Jaune","Autre",1.883358012,32.5
@@ -1204,10 +1201,10 @@
 "Medicago sativa nothosubsp. media","Medicago sativa sativa","Bleu","Légumineuses",2.614554965,50
 "Medicago sativa subsp. falcata","Medicago sativa sativa","Bleu","Légumineuses",2.614554965,50
 "Medicago sativa subsp. sativa","Medicago sativa sativa","Bleu","Légumineuses",2.614554965,50
-"Medicago sativa varia","Medicago sativa sativa","Bleu","Légumineuses",2.614554965,50
 "Medicago scutellata",NA,NA,NA,NA,NA
 "Medicago truncatula",NA,NA,NA,NA,NA
 "Medicago turbinata",NA,NA,NA,NA,NA
+"Medicago varia",NA,NA,NA,NA,NA
 "Melampyrum",NA,NA,NA,NA,NA
 "Melampyrum arvense",NA,NA,NA,NA,NA
 "Melia azedarach",NA,NA,NA,NA,NA
@@ -1286,14 +1283,13 @@
 "Nonea lutea",NA,NA,NA,NA,NA
 "Nonea pallens",NA,NA,NA,NA,NA
 "Nonea pulla",NA,NA,NA,NA,NA
-"Ochlopoa annua",NA,NA,NA,NA,NA
 "Odontites",NA,NA,NA,NA,NA
 "Odontites jaubertianus",NA,NA,NA,NA,NA
 "Odontites luteus subsp. lanceolatus",NA,NA,NA,NA,NA
 "Odontites vernus",NA,NA,NA,NA,NA
-"Odontites vernus salinus",NA,NA,NA,NA,NA
 "Odontites vernus subsp. serotinus",NA,NA,NA,NA,NA
 "Odontites vernus subsp. vernus",NA,NA,NA,NA,NA
+"Odontites vulgaris subsp. vulgaris",NA,NA,NA,NA,NA
 "Oenanthe crocata",NA,NA,NA,NA,NA
 "Oenanthe fistulosa","Oenanthe fistulosa","Blanc","Autre",6.055628646,65
 "Oenanthe pimpinelloides","Oenanthe pimpinelloides","Blanc","Autre",1.818453481,65
@@ -2058,9 +2054,9 @@
 "Vicia lathyroides",NA,NA,NA,NA,NA
 "Vicia lens",NA,NA,NA,NA,NA
 "Vicia lutea","Vicia lutea hirta","","Légumineuses",NA,50
+"Vicia lutea subsp. lutea","Vicia lutea hirta","","Légumineuses",NA,50
 "Vicia monantha",NA,NA,NA,NA,NA
 "Vicia narbonensis",NA,NA,NA,NA,NA
-"Vicia nigra",NA,NA,NA,NA,NA
 "Vicia pannonica","Vicia pannonica","Rose","Légumineuses",3,45
 "Vicia peregrina",NA,NA,NA,NA,NA
 "Vicia pisiformis",NA,NA,NA,NA,NA

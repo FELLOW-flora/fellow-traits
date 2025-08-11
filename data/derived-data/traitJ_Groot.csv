@@ -34,7 +34,6 @@
 "Aesculus hippocastanum","Aesculus hippocastanum",NA,0.742977159523809,468.585125,53.6966666666667,NA,NA,0.235996505,64,10.7966875,0.169583333333333,NA,18.0003539527778
 "Aethusa cynapium",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Aethusa cynapium subsp. cynapium",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Agrimonia agrimonoides",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Agrimonia eupatoria","Agrimonia eupatoria",3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Agropyron",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Agrostemma githago","Agrostemma githago",NA,NA,NA,NA,NA,NA,NA,0,NA,NA,NA,NA
@@ -131,7 +130,7 @@
 "Androsace elongata","Androsace occidentalis",NA,0.114871429,NA,NA,NA,NA,NA,NA,NA,0.407107843,NA,207.4558225
 "Androsace maxima","Androsace villosa",0.5,NA,NA,NA,NA,NA,NA,22.5,NA,NA,NA,NA
 "Andryala integrifolia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Andryala laxiflora",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Andryala rothia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Anemone coronaria",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Anemone hortensis",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Anethum graveolens",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -180,6 +179,7 @@
 "Arctium lappa","Arctium lappa",NA,1.64253147583333,NA,NA,NA,NA,0.782157676,95,NA,0.312863071,NA,13.1207919633333
 "Arctium minus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Arctium tomentosum","Arctium tomentosum",NA,1.6031319,NA,NA,NA,NA,0.800181653,NA,NA,0.384716157,NA,13.3482449253333
+"Aremonia agrimonoides agrimonoides","Aremonia agrimonoides",0.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Arenaria hispanica",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Arenaria leptoclados",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Arenaria serpyllifolia","Arenaria serpyllifolia",NA,0.207422972,423.7,31.988679245,0.2738,NA,0.183673469,NA,13.275,0.067,NA,627.505
@@ -225,13 +225,13 @@
 "Astragalus hamosus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Atocion armeria",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Atriplex","Atriplex halimus_Atriplex littoralis_Atriplex patula_Atriplex prostrata_Atriplex tatarica",NA,0.1807,433.5400871375,79.72,NA,NA,0.165244380104167,0,5.6,0.262341772,0.645,153.549483
+"Atriplex calotheca",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Atriplex halimus","Atriplex halimus",NA,NA,NA,NA,NA,NA,0.169395097,NA,NA,NA,0.54,NA
 "Atriplex hortensis",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Atriplex littoralis","Atriplex littoralis",NA,NA,420.648174275,NA,NA,NA,0.10759979575,0,NA,NA,NA,NA
 "Atriplex oblongifolia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Atriplex patula","Atriplex patula",NA,NA,446.432,79.72,NA,NA,0.282910177,NA,5.6,NA,NA,NA
 "Atriplex prostrata","Atriplex prostrata",NA,0.1807,NA,NA,NA,NA,0.101072450666667,NA,NA,0.262341772,NA,153.549483
-"Atriplex prostrata calotheca","Atriplex prostrata",NA,0.1807,NA,NA,NA,NA,0.101072450666667,NA,NA,0.262341772,NA,153.549483
 "Atriplex sagittata",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Atriplex tatarica","Atriplex tatarica",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0.75,NA
 "Avena","Avena barbata_Avena fatua_Avena sativa_Avena sterilis_Avena strigosa",0.5,0.4895,NA,NA,0.0779,NA,0.359328721526389,50,NA,0.052,NA,105.6205
@@ -538,7 +538,6 @@
 "Cota austriaca",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Cota segetalis",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Cota tinctoria","Anthemis tinctoria",NA,0.133533333,NA,NA,NA,NA,0.421221865,33,5.58614,0.409375,NA,173.3372372
-"Crambe abyssinica",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Crambe hispanica abyssinica",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Crassula tillaea",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Crataegus","Crataegus monogyna_Crataegus rhipidophylla",NA,0.431175,NA,NA,0.39683781,NA,0.301882948,34.6880208335,NA,0.700739281,0.73,10.08847613
@@ -638,7 +637,6 @@
 "Dryopteris","Dryopteris filix-mas",0.5,NA,NA,NA,NA,NA,NA,15,NA,NA,NA,NA
 "Dryopteris filix-mas","Dryopteris filix-mas",0.5,NA,NA,NA,NA,NA,NA,15,NA,NA,NA,NA
 "Dysphania ambrosioides",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Dysphania aristata",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Ecballium elaterium",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Echinaria capitata","Echinaria capitata",NA,NA,NA,NA,NA,NA,NA,20,NA,NA,NA,NA
 "Echinochloa","Echinochloa crus-galli",NA,NA,NA,NA,0.09,NA,0.2975,6.66666666666667,NA,0.14,NA,NA
@@ -1063,7 +1061,6 @@
 "Lemna minor",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Lemna trisulca",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Leontodon","Leontodon hispidus",2.3,0.2732841458125,420.51316794,44.7678512994286,0.1111554752,1.5513912854,0.41640884968,51.6666666666667,11.5378975398571,0.13446215256,NA,204.907294326111
-"Leontodon autumnale",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Leontodon hirtus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Leontodon hispidus","Leontodon hispidus",2.3,0.2732841458125,420.51316794,44.7678512994286,0.1111554752,1.5513912854,0.41640884968,51.6666666666667,11.5378975398571,0.13446215256,NA,204.907294326111
 "Leontodon hispidus subsp. hispidus","Leontodon hispidus",2.3,0.2732841458125,420.51316794,44.7678512994286,0.1111554752,1.5513912854,0.41640884968,51.6666666666667,11.5378975398571,0.13446215256,NA,204.907294326111
@@ -1201,13 +1198,13 @@
 "Medicago rigidula",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Medicago rugosa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Medicago sativa","Medicago sativa",NA,0.7221867588,421.736608390909,26,0.083775,NA,0.311931358695286,70.4571428571429,18.5082447436364,0.045597548,1.78,191.310591739818
-"Medicago sativa nothosubsp. media","Medicago varia",NA,0.321438888833333,478.04494876,24.180569268,NA,1.72674258665,0.414170069,NA,22.702837658,0.280330459833333,NA,78.096119225
-"Medicago sativa subsp. falcata","Medicago sativa_Medicago varia",NA,0.521812823816666,449.890778575455,25.090284634,0.083775,1.72674258665,0.363050713847643,70.4571428571429,20.6055412008182,0.162964003916666,1.78,134.703355482409
-"Medicago sativa subsp. sativa","Medicago sativa_Medicago varia",NA,0.521812823816666,449.890778575455,25.090284634,0.083775,1.72674258665,0.363050713847643,70.4571428571429,20.6055412008182,0.162964003916666,1.78,134.703355482409
-"Medicago sativa varia","Medicago sativa_Medicago varia",NA,0.521812823816666,449.890778575455,25.090284634,0.083775,1.72674258665,0.363050713847643,70.4571428571429,20.6055412008182,0.162964003916666,1.78,134.703355482409
+"Medicago sativa nothosubsp. media","Medicago sativa",NA,0.7221867588,421.736608390909,26,0.083775,NA,0.311931358695286,70.4571428571429,18.5082447436364,0.045597548,1.78,191.310591739818
+"Medicago sativa subsp. falcata","Medicago sativa",NA,0.7221867588,421.736608390909,26,0.083775,NA,0.311931358695286,70.4571428571429,18.5082447436364,0.045597548,1.78,191.310591739818
+"Medicago sativa subsp. sativa","Medicago sativa",NA,0.7221867588,421.736608390909,26,0.083775,NA,0.311931358695286,70.4571428571429,18.5082447436364,0.045597548,1.78,191.310591739818
 "Medicago scutellata",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Medicago truncatula",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Medicago turbinata",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Medicago varia","Medicago varia",NA,0.321438888833333,478.04494876,24.180569268,NA,1.72674258665,0.414170069,NA,22.702837658,0.280330459833333,NA,78.096119225
 "Melampyrum","Melampyrum cristatum",NA,NA,NA,NA,NA,NA,NA,0,NA,NA,NA,NA
 "Melampyrum arvense","Melampyrum cristatum",NA,NA,NA,NA,NA,NA,NA,0,NA,NA,NA,NA
 "Melia azedarach",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -1286,14 +1283,13 @@
 "Nonea lutea",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Nonea pallens",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Nonea pulla",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Ochlopoa annua",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Odontites",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Odontites","Odontites vulgaris",NA,NA,NA,NA,NA,NA,NA,0,NA,NA,NA,NA
 "Odontites jaubertianus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Odontites luteus subsp. lanceolatus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Odontites vernus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Odontites vernus salinus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Odontites vernus subsp. serotinus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Odontites vernus subsp. vernus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Odontites vulgaris subsp. vulgaris","Odontites vulgaris",NA,NA,NA,NA,NA,NA,NA,0,NA,NA,NA,NA
 "Oenanthe crocata",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Oenanthe fistulosa","Oenanthe fistulosa",26.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Oenanthe pimpinelloides",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
@@ -2058,9 +2054,9 @@
 "Vicia lathyroides",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Vicia lens","Lens culinaris",NA,0.634,NA,NA,NA,NA,0.448,60,NA,0.1175,NA,27.3795
 "Vicia lutea",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Vicia lutea subsp. lutea",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Vicia monantha",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Vicia narbonensis","Vicia narbonensis",NA,1.126,NA,NA,NA,NA,0.471,NA,NA,0.066,NA,15.928
-"Vicia nigra",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Vicia pannonica",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Vicia peregrina",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Vicia pisiformis","Vicia pisiformis",40,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
