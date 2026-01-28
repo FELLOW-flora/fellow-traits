@@ -11,11 +11,11 @@ devtools::load_all()
 
 # Load species list with taxonomy
 taxolist <- read.csv(
-  here::here("data", "derived-data", "species_short_list.csv")
+  here::here("data", "tropical-data", "species_short_list.csv")
 )
 # and synonyms
 synonyms <- read.csv(
-  here::here("data", "derived-data", "species_known_synonyms.csv")
+  here::here("data", "tropical-data", "species_known_synonyms.csv")
 )
 
 # set the folder with traits data
@@ -98,7 +98,7 @@ names(t3)[-1] <- paste(names(t3)[-1], "Lososova2023", sep = "_")
 # 5. Export -------------------------------------
 out <- cbind(
   "accepted_taxa" = taxolist$accepted_taxa,
-  #t1[, -1],
+  # t1[, -1],
   t2[, -1],
   t3[, -1]
   #t4[, -1]
@@ -106,7 +106,7 @@ out <- cbind(
 
 write.csv(
   out,
-  file = here::here("data", "derived-data", "traitA_floraveg.csv"),
+  file = here::here("data", "tropical-data", "traitA_floraveg.csv"),
   row.names = FALSE
 )
 # missing traits

@@ -10,7 +10,7 @@
 # if the script is not run from make.R, need to load home made functions (clean_species_list())
 devtools::load_all() # or source(here::here("R", "clean_taxo.R"))
 
-traitdir <- here::here("data", "derived-data")
+traitdir <- here::here("data", "tropical-data")
 filelist <- list.files(traitdir)
 traitfile <- grep("^trait", filelist, value = TRUE)
 
@@ -33,6 +33,6 @@ print(dim(traits)) #2027 taxa, 131 traits
 # 3. Export merged trait data ---------------------------
 write.csv(
   traits,
-  file = here::here("data", "derived-data", "merged_traits.csv"),
+  file = here::here("data", "tropical-data", "merged_traits.csv"),
   row.names = FALSE
 )

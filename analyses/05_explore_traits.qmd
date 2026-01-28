@@ -20,12 +20,12 @@ devtools::load_all()
 
 # Load species list with taxonomy
 traits <- read.csv(
-  here::here("data", "derived-data", "merged_traits.csv")
+  here::here("data", "tropical-data", "merged_traits.csv")
 )
 
 # Load species list with taxonomy
 taxolist <- read.csv(
-  here::here("data", "derived-data", "species_list_taxo.csv")
+  here::here("data", "tropical-data", "species_list_taxo.csv")
 )
 # taxolist$original_taxa[is.na(taxolist$accepted_taxa)]
 # remove NAs
@@ -33,7 +33,7 @@ taxolist <- taxolist[!is.na(taxolist$accepted_taxa), ]
 
 # Load short species list
 shortlist <- read.csv(
-  here::here("data", "derived-data", "species_short_list.csv")
+  here::here("data", "tropical-data", "species_short_list.csv")
 )
 ```
 
@@ -47,61 +47,6 @@ After cleaning and harmonization, there were `{r} nrow(shortlist)` unique taxa.
 table(shortlist$accepted_rank)
 ```
 
-{{< pagebreak >}}
-
-
-```{r}
-# get the database data.frame
-col_db <- grep("^in_", names(taxolist))
-db <- taxolist[, col_db]
-# merge per species (remove duplicates)
-dbpersp <- rowsum(db, group = taxolist$accepted_taxa)
-# select taxa in short_df (with complete taxonomic rank)
-dbpersp <- dbpersp[row.names(dbpersp) %in% shortlist$accepted_taxa, ]
-# transform as binary
-dbpersp[dbpersp > 1] <- 1
-# count the number of database per species
-nsp_db <- apply(dbpersp, 2, sum)
-# count the number of species per database
-ndb <- apply(dbpersp, 1, sum)
-
-# split species between specialists and generalists
-th_gen <- floor(length(col_db) / 2) # or max(ndb) / 2
-```
-
-
-Let's define:  
-*specialist*: a taxa that occurred only in a singe database  
-*generalist*: a taxa that is listed in 50% of the databases (`{r} th_gen+1` out of `{r} length(col_db)`)  
-
-```{r}
-#| fig-height: 6
-#| fig-width: 8
-
-sp_class <- cut(
-  ndb,
-  breaks = c(0, 1, th_gen, max(ndb)),
-  labels = c("specialist", "other", "generalist")
-)
-
-table(sp_class)
-sum_gen <- as.matrix(rowsum(dbpersp, sp_class))
-colnames(sum_gen) <- gsub("^in_", "", colnames(sum_gen))
-par(mar = c(4, 10, 1, 1))
-barplot(
-  sum_gen,
-  horiz = TRUE,
-  las = 1,
-  xlab = "Number of species",
-  col = RColorBrewer::brewer.pal(3, "Set3"),
-  cex.names = 0.8
-)
-legend(
-  "topright",
-  fill = RColorBrewer::brewer.pal(3, "Set3"),
-  legend = c("specialist", "other", "generalist")
-)
-```
 
 {{< pagebreak >}}
 
@@ -112,15 +57,15 @@ real_traits <- !grepl("original", names(traits)) &
   names(traits) != "accepted_taxa"
 
 # summary of NAs
-num_na <- apply(is.na(traits), 2, sum)
+num_na <- apply(!is.na(traits), 2, sum)
 
 db_na <- num_na[grep("original", names(num_na))]
 names(db_na) <- gsub("original_taxa_", "", names(db_na))
 
-trait_na <- apply(is.na(traits[, real_traits]), 2, sum)
+trait_na <- apply(!is.na(traits[, real_traits]), 2, sum)
 
 # species with lowest completness
-sp_na <- apply(is.na(traits[, real_traits]), 1, sum)
+sp_na <- apply(!is.na(traits[, real_traits]), 1, sum)
 ```
 
 
@@ -133,7 +78,7 @@ barplot(
   sort(db_na),
   horiz = TRUE,
   las = 1,
-  xlab = "Number of missing species"
+  xlab = "Number of species with records in the database"
 )
 ```
 
@@ -153,7 +98,7 @@ boxplot(
   trait_na ~ trait_db,
   horizontal = TRUE,
   las = 1,
-  xlab = "Number of missing traits values",
+  xlab = "Number of traits values",
   ylab = ""
 )
 ```
@@ -166,72 +111,28 @@ boxplot(
 
 # barplot(t(table(sp_na, taxolist$gbif_rank)), border = NA)
 df <- data.frame(
-  "cat" = cut(sp_na, breaks = seq(0, 120, by = 10), include.lowest = TRUE),
+  "cat" = cut(sp_na, breaks = seq(0, 100, by = 10), include.lowest = TRUE),
   "rank" = shortlist$accepted_rank
 )
 tdf <- table(df$rank, df$cat)
 par(mar = c(4, 4, 1, 1))
 barx <- barplot(
   tdf,
-  col = hcl.colors(5, "viridis"),
-  names = rep("", 12),
-  xlab = "Number of missing traits",
+  col = hcl.colors(nrow(tdf), "viridis"),
+  names = rep("", ncol(tdf)),
+  xlab = "Number of traits",
   ylab = "Number of species"
 )
 barax <- c(barx - mean(diff(barx) / 2), max(barx) + mean(diff(barx) / 2))
-axis(1, at = barax, seq(0, 120, by = 10))
+axis(1, at = barax, seq(0, 100, by = 10))
 legend(
-  "topleft",
+  "topright",
   legend = firstup(row.names(tdf)),
   fill = hcl.colors(5, "viridis")
 )
 ```
 
 
-```{r}
-#| fig-height: 3.8
-# table(traits$accepted_taxa == names(ndb))
-par(mar = c(4, 4, 1, 1))
-plot(
-  jitter(ndb),
-  sp_na,
-  xlab = "Number of datasets (jittered)",
-  ylab = "Number of missing traits"
-)
-abline(v = c(1.5, th_gen + 0.5), lwd = 2)
-segments(
-  c(par()$usr[1], 1.5, th_gen + 0.5),
-  par()$usr[3],
-  c(1.5, th_gen + 0.5, par()$usr[2]),
-  par()$usr[3],
-  col = RColorBrewer::brewer.pal(3, "Set3"),
-  lwd = 5,
-  xpd = NA
-)
-mtext(
-  at = c(0.5, th_gen * 1.5),
-  side = 1,
-  line = 0.5,
-  text = c("Specialists", "Generalists"),
-  xpd = NA
-)
-```
-
-
-{{< pagebreak >}}
-
-
-Taxa with no or limited trait information (N=`{r} sum(sp_na >=max(sp_na))`).
-```{r nodata}
-nodata <- traits$accepted_taxa[sp_na >= max(sp_na)]
-print(nodata)
-```
-
-*Open question:*  
-
-**How to deal with families taxa?**  
-
-**How to deal with missing trait values?** Trait imputation, discarding taxa, ...
 
 {{< pagebreak >}}
 
@@ -268,6 +169,16 @@ knitr::kable(
 
 {{< pagebreak >}}
 
+
+Taxa with no trait information (N=`{r} sum(sp_na==0)`).
+```{r nodata}
+nodata <- traits$accepted_taxa[sp_na == 0]
+print(nodata)
+```
+
+
+{{< pagebreak >}}
+
 ## Comparison
 
 ### SLA
@@ -287,7 +198,7 @@ pairs(sla, lower.panel = panel.smooth, upper.panel = panel.cor)
 
 Values are highly correlated, so we could imagine filling the missing values (using preferred data sources or averaging them).  
 
-**Number of NAs:**  
+**Number of SLA values:**  
 ```{r fillsla}
 sla$filled <- apply(sla, 1, mean, na.rm = TRUE)
 # sla$filled <- ifelse(
@@ -296,7 +207,7 @@ sla$filled <- apply(sla, 1, mean, na.rm = TRUE)
 #   sla$GIFT
 # )
 
-print(apply(is.na(sla), 2, sum))
+print(apply(!is.na(sla), 2, sum))
 ```
 
 
@@ -311,15 +222,7 @@ There are seven sources of information for plant height.
 
 # names(traits)[grep("height", names(traits))]
 
-# transform height in FlorealData
-traits$Plant.height_cm_FlorealData <- ifelse(
-  traits$Plant.height_cm_FlorealData >= 100,
-  NA,
-  traits$Plant.height_cm_FlorealData
-)
 height <- data.frame(
-  "SpVignes" = traits$Plant.height_cm_SPVignes / 100,
-  "FlorealData" = traits$Plant.height_cm_FlorealData / 100,
   "Ladouceur" = traits$Plant.height_cm_Ladouceur2019 / 100,
   "Lososova" = traits$Plant.height_m_Lososova2023,
   "BIEN" = traits$Plant.height_m_BIEN,
@@ -331,17 +234,14 @@ pairs(height, lower.panel = panel.smooth, upper.panel = panel.cor)
 ```
 
 
-SPVignes, FlorealData, and Ladouceur_2019 are limited to small plants (<1m) (no trees) *but FlorealData>100cm must be clean*.
-
-
-**Number of NAs:**  
+**Number of Plant height values:**  
 ```{r fillheight}
 # height$average <- apply(height, 1, mean, na.rm = TRUE)
 colfill <- sapply(apply(!is.na(height), 1, which), function(x) {
   ifelse(length(x) > 0, x[[1]], NA)
 })
 height$filled <- height[cbind(1:nrow(height), colfill)]
-print(apply(is.na(height), 2, sum))
+print(apply(!is.na(height), 2, sum))
 ```
 
 {{< pagebreak >}}
@@ -367,7 +267,7 @@ pairs(seed, lower.panel = panel.smooth, upper.panel = panel.cor, log = "xy") |>
 
 ```
 
-**Number of NAs:**  
+**Number of Seed mass values:**  
 ```{r fillseed}
 # sla$average <- apply(sla, 1, mean, na.rm = TRUE)
 colfill <- sapply(apply(!is.na(seed), 1, which), function(x) {
@@ -375,30 +275,6 @@ colfill <- sapply(apply(!is.na(seed), 1, which), function(x) {
 })
 seed$filled <- seed[cbind(1:nrow(seed), colfill)]
 
-print(apply(is.na(seed), 2, sum))
-```
-
-
-{{< pagebreak >}}
-
-### Flower colour
-There are five sources of information for flower colour, but it must be cleaned
-
-```{r color}
-# names(traits)[grep("col", names(traits))]
-color <- data.frame(
-  "Baseflor" = traits$Flower.color_Baseflor,
-  "BIEN" = traits$Flower.color_BIEN,
-  "GIFT" = traits$Flower.color_GIFT,
-  "FlorealData" = traits$Flower.color_FlorealData,
-  "YvozValPol" = traits$Flower.color_YvozValPol
-)
-print(apply(is.na(color), 2, sum))
-
-
-# removing unclear color patterns for genus
-baseflor <- color$Baseflor
-baseflor[grepl("_", baseflor)] <- NA
-table(baseflor)
+print(apply(!is.na(seed), 2, sum))
 ```
 

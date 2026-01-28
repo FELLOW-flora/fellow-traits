@@ -17,11 +17,11 @@ devtools::load_all()
 
 # Load species list
 taxolist <- read.csv(
-  here::here("data", "derived-data", "species_short_list.csv")
+  here::here("data", "tropical-data", "species_short_list.csv")
 )
 # and synonyms
 synonyms <- read.csv(
-  here::here("data", "derived-data", "species_known_synonyms.csv")
+  here::here("data", "tropical-data", "species_known_synonyms.csv")
 )
 # load metadata of traits (defining which traits are kept)
 meta <- readxl::read_xlsx(
@@ -77,45 +77,9 @@ out <- cbind(
 
 write.csv(
   out,
-  file = here::here("data", "derived-data", "traitI_TRYdb.csv"),
+  file = here::here("data", "tropical-data", "traitI_TRYdb.csv"),
   row.names = FALSE
 )
 
 # missing traits
 print(apply(is.na(t2), 2, sum))
-
-#
-#
-#
-# Get metadata
-# ecoflora$TraitUnit <- ifelse(
-#   ecoflora$UnitName == "",
-#   ecoflora$TraitName,
-#   paste(ecoflora$TraitName, ecoflora$UnitName, sep = "_")
-# )
-# ef_meta <- table(ecoflora$TraitUnit) |>
-#   as.data.frame()
-# ef_meta$db <- "Ecoflora"
-
-# biolflor$TraitUnit <- ifelse(
-#   biolflor$UnitName == "",
-#   biolflor$TraitName,
-#   paste(biolflor$TraitName, biolflor$UnitName, sep = "_")
-# )
-# bf_meta <- table(biolflor$TraitUnit) |> as.data.frame()
-# bf_meta$db <- "Biolflor"
-# trait_meta <- rbind(ef_meta, bf_meta)
-# names(trait_meta) <- c("Trait", "N", "db")
-# trait_meta <- trait_meta[trait_meta$Trait != "", ]
-# trait_meta <- trait_meta[order(trait_meta$db, trait_meta$Trait), ]
-# write.csv(
-#   trait_meta,
-#   here::here(
-#     "data",
-#     "raw-data",
-#     "traits",
-#     "TRY",
-#     "TRY_downloaded_metadata.csv"
-#   ),
-#   row.names = FALSE
-# )

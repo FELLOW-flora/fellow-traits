@@ -18,15 +18,13 @@ devtools::load_all() # or source(here::here("R", "clean_taxo.R"))
 
 # Load species list with taxonomy
 taxolist <- read.csv(
-  here::here("data", "derived-data", "species_short_list.csv")
+  here::here("data", "tropical-data", "species_short_list.csv")
 )
 
 # and synonyms
-synonyms <- read.csv(here::here(
-  "data",
-  "derived-data",
-  "species_known_synonyms.csv"
-))
+synonyms <- read.csv(
+  here::here("data", "tropical-data", "species_known_synonyms.csv")
+)
 
 # load metadata of traits (defining which traits are kept)
 meta <- readxl::read_xlsx(
@@ -76,7 +74,7 @@ names(out)[-1] <- paste(names(out)[-1], "GIFT", sep = "_")
 # 2. Export trait data ---------------------------
 write.csv(
   out,
-  file = here::here("data", "derived-data", "traitG_GIFT.csv"),
+  file = here::here("data", "tropical-data", "traitG_GIFT.csv"),
   row.names = FALSE
 )
 
