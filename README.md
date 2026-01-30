@@ -29,7 +29,7 @@ source("make.R")
 An exploratory analysis is carried out in the file [analysis/05_explore_traits.pdf](https://github.com/FELLOW-flora/fellow-traits/blob/main/analyses/05_explore_traits.pdf).
 
 
-## Methodological choices
+## Methodological choice
 
 1. The taxonomic backbone is [TaxRef v18.0](https://inpn.mnhn.fr/telechargement/referentielEspece/taxref/18.0/menu), completed with [GBIF](https://www.gbif.org/dataset/d7dddbf4-2cf0-4f39-9b2a-bb099caae36c) (based on Catalogue of Life). The taxonomic description of all taxa listed in Fellow are in [derived_data/species_list_taxo.csv](https://github.com/FELLOW-flora/fellow-traits/blob/main/data/derived-data/species_list_taxo.csv)
 2. A list of known synonyms was built from TaxRef and GBIF. We removed ambiguous synonyms, e.g. one synonym refers to a single accepted name only; and loops, e.g. an accepted name can not be a synonym.
