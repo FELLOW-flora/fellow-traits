@@ -26,8 +26,9 @@ source(here::here("analyses", "01_get_specieslist.R"))
 
 # 2 Clean taxo with TaxRef and GBIF
 source(here::here("analyses", "02_clean_taxo.R"))
-# make list of taxonomic correction
-source(here::here("analyses", "extra_corrected_taxa.R"))
+
+# make list of taxonomic correction to be shared with data provider
+# source(here::here("analyses", "extra_corrected_taxa.R"))
 
 # 3 Get traits (one script per database)
 # FloraVeg.eu
@@ -38,8 +39,8 @@ source(here::here("analyses", "03b_get_traits_baseflor.R"))
 source(here::here("analyses", "03c_get_traits_privatedb.R"))
 # BIEN
 source(here::here("analyses", "03d_get_traits_BIEN.R"))
-# D3
-source(here::here("analyses", "03e_get_traits_Dcube.R"))
+# D3 - not needed anymore
+# source(here::here("analyses", "03e_get_traits_Dcube.R"))
 # Hodgson 2023
 source(here::here("analyses", "03f_get_traits_Hodgson2023.R"))
 # GIFT (takes longer to compute)
@@ -48,8 +49,8 @@ source(here::here("analyses", "03g_get_traits_GIFT.R"))
 source(here::here("analyses", "03h_get_traits_FlorealData.R"))
 # TRYdb
 source(here::here("analyses", "03i_get_traits_TRYdb.R"))
-# Groot
-source(here::here("analyses", "03j_get_traits_Groot.R"))
+# Groot - not needed anymore
+# source(here::here("analyses", "03j_get_traits_Groot.R"))
 # CLO-PLA
 source(here::here("analyses", "03k_get_traits_CLOPLA.R"))
 # Ladouceur 2019

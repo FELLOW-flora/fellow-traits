@@ -47,7 +47,7 @@ t1 <- extract_trait_taxalist(
   meta_trait = meta[meta$database %in% "YvozValPol", ],
   taxalist = taxolist$accepted_taxa,
   synonyms = synonyms
-) # 53.97 %
+) # 50.25 %
 names(t1)[-1] <- paste(names(t1)[-1], "YvozValPol", sep = "_")
 
 
@@ -62,7 +62,7 @@ t2 <- extract_trait_taxalist(
   meta_trait = meta[meta$database %in% "SPVignes", ],
   taxalist = taxolist$accepted_taxa,
   synonyms = synonyms
-) # 8.39 %
+) # 8.07 %
 names(t2)[-1] <- paste(names(t2)[-1], "SPVignes", sep = "_")
 
 
@@ -81,7 +81,7 @@ t3 <- extract_trait_taxalist(
   meta_trait = meta[meta$database %in% "ATVinedivers", ],
   taxalist = taxolist$accepted_taxa,
   synonyms = synonyms
-) # 18.5 %
+) # 17.26 %
 names(t3)[-1] <- paste(names(t3)[-1], "ATVinedivers", sep = "_")
 
 

@@ -30,6 +30,7 @@ clean_taxo <- function(x) {
   x <- gsub(" sp$", "", x)
   x <- gsub(" cf$", "", x)
   x <- gsub(" f$", "", x)
+  x <- gsub(" gr$", "", x)
   x <- gsub(" gpe$", "", x)
   x <- gsub(" sp$", "", x)
   x <- gsub(" spp$", "", x)
@@ -46,6 +47,7 @@ clean_taxo <- function(x) {
   x <- gsub(" var ", " ", x)
   x <- gsub(" sl$", "", x)
   x <- gsub(" l$", "", x)
+  x <- gsub(" s$", "", x)
   x <- gsub(" $", "", x)
   x <- gsub("  ", " ", x)
   # if author name (detected by years), remove them

@@ -38,7 +38,8 @@ rmlist <- c(
   "Unknown monocot",
   "Moribund dicot",
   "Moribund grass",
-  "Cereal"
+  "Cereal",
+  "Espã¨ce non identifiã©e"
 )
 
 spclean <- spclean[!spclean %in% rmlist]
@@ -47,13 +48,20 @@ spclean <- spclean[!spclean %in% rmlist]
 # remove taxa that is defined coarser than family
 # Dicotyledones, ref 187223, is not in Taxref but in
 # https://taxref.mnhn.fr/taxref-web/taxa/187223
-rmClass <- c("Dicotyledonae", "Bryophyta", "Angiospermae")
+rmClass <- c(
+  "Dicotyledonae",
+  "Bryophyta",
+  "Angiospermae",
+  "Filicophytes",
+  "Dicotyledones vraies",
+  "Tracheophytes"
+)
 spclean <- spclean[!spclean %in% rmClass]
 
 # harmonize the species names
 spclean <- sort(unique(spclean))
 print(paste("Number of unique taxa:", length(spclean)))
-# 2396
+# 2822
 
 # 2. get accepted name from Taxref --------------
 # could use rtaxref to use the online API but takes too long and unstable
@@ -72,7 +80,7 @@ taxref$accepted_name <- ifelse(accepted, taxref$clean_name, NA)
 mtr <- match(spclean, taxref$accepted_name)
 # else match on all taxref
 mtr2 <- match(spclean, taxref$clean_name)
-# table(is.na(mtr), is.na(mtr2)) # 1987 exact, 283 synonyms, 126 not found
+# table(is.na(mtr), is.na(mtr2)) # 2275 exact, 398 synonyms, 149 not found
 mtr <- ifelse(is.na(mtr), mtr2, mtr)
 
 # for synonyms, make sure to get the accepted information
@@ -100,10 +108,7 @@ df <- df[!is.na(df$accepted_taxref), ]
 # focus on taxa not found
 no_taxref <- spclean[is.na(mtr)]
 print(paste("Taxa with no exact match in Taxref:", length(no_taxref)))
-# 124 taxa
-
-# to check taxref synonyms:
-# taxref[which(taxref$clean_name == "Elymus repens"),]
+# 149 taxa
 
 # try fuzzy match with stringdist package and Jaro-Winkler distance
 # even if TRY use the Levenshtein distance (number of edits)
@@ -188,11 +193,23 @@ full_df <- rbind(df, fuzzy_df)
 
 
 # 3. add accepted name from GBIF --------------
-checkgbif <- rgbif::name_backbone_checklist(full_df$taxref_full_name)
-# table(checkgbif$status, checkgbif$matchType, useNA = "ifany") # 5 are missing
-# three missing species in GBIF : "Magnoliidae"           "Cardueae"              "Rhizogemma staphylina"
-# full_df$taxref_full_name[is.na(checkgbif$status)]
-# full_df$taxref_full_name[checkgbif$matchType == "HIGHERRANK"]
+# error with the full dataset ...
+# checkgbif <- rgbif::name_backbone_checklist(full_df$taxref_full_name)
+# timeout was reached [api.gbif]
+# split the dataset in 1000 or do it by hand ...
+gbif_list <- list()
+for (i in 1:ceiling(length(full_df$taxref_full_name) / 1000)) {
+  minx <- (i - 1) * 1000 + 1
+  maxx <- min(c(i * 1000, length(full_df$taxref_full_name)))
+  #fmt: skip
+  gbif_list[[i]] <- rgbif::name_backbone_checklist(full_df$taxref_full_name[minx:maxx])
+  if (!"synonym" %in% names(gbif_list[[i]])) {
+    gbif_list[[i]]$synonym <- NA
+  }
+}
+# not sure why 2nd is missing synonym column
+gbif_list[[2]]$synonym <- NA
+checkgbif <- do.call(rbind, gbif_list)
 
 # simplify and select gbif information
 gbif_df <- data.frame(
@@ -207,11 +224,6 @@ gbif_df <- data.frame(
 )
 
 # look for the accepted name of synonyms
-# table(
-#   checkgbif$acceptedUsageKey != checkgbif$usageKey,
-#   checkgbif$status,
-#   useNA = "ifany"
-# )
 checkgbif$synonym <- checkgbif$status %in% "SYNONYM"
 synkey <- checkgbif$acceptedUsageKey[checkgbif$synonym]
 
@@ -242,12 +254,15 @@ full_df <- cbind(full_df, gbif_df)
 # 4. deal with missing taxa from Taxref --------------
 # focus on taxa not found in TaxRef
 miss <- spclean[!spclean %in% full_df$original_taxa]
-print(paste("Taxa not found in Taxref:", length(miss))) # 55 taxa
+print(paste("Taxa not found in Taxref:", length(miss))) # 63 taxa
 
 addgbif <- rgbif::name_backbone_checklist(miss, strict = TRUE)
 # strict = TRUE else weird match
-table(addgbif$status, addgbif$matchType, useNA = "ifany") # 4 not found
+table(addgbif$status, addgbif$matchType, useNA = "ifany") # 8 not found
+
+
 # miss[is.na(addgbif$status)]
+# write.csv(miss[is.na(addgbif$status)], "data/miss_26022026.csv")
 # two genus: Anisantha bromus, Ornithogalum muscari, Picris helminthotheca, Festuca schedonorus
 #
 # keep only the EXACT match
@@ -270,8 +285,14 @@ synkey <- addgbif$acceptedUsageKey[addgbif$synonym]
 syn_df <- c()
 for (i in synkey) {
   di <- rgbif::name_usage(key = i)
+  # sometimes canonicalName disapear, i = 10081211
+  can <- ifelse(
+    "canonicalName" %in% names(di$data),
+    di$data$canonicalName,
+    di$data$scientificName
+  )
   si_df <- data.frame(
-    accepted_gbif = di$data$canonicalName,
+    accepted_gbif = can,
     gbif_key = di$data$key,
     gbif_rank = di$data$rank,
     gbif_full_name = di$data$scientificName,
@@ -380,7 +401,7 @@ short_df <- all_df[, c("accepted_taxa", "full_name", "accepted_rank")]
 short_df <- short_df[!duplicated(short_df), ]
 short_df <- short_df[complete.cases(short_df), ]
 short_df <- short_df[order(short_df$accepted_taxa), ]
-dim(short_df) # remain 2113 taxa
+dim(short_df) # remain 2416 taxa
 write.csv(
   short_df,
   here::here("data", "derived-data", "species_short_list.csv"),
@@ -421,8 +442,14 @@ for (i in 1:nrow(all_df)) {
   if (!is.na(all_df$gbif_key[i])) {
     ti <- rgbif::name_usage(key = all_df$gbif_key[i], data = "synonyms")$data
     if (nrow(ti) > 0) {
+      # sometimes canonicalName disapear, i = 10081211
+      can <- ifelse(
+        "canonicalName" %in% names(ti),
+        ti$canonicalName,
+        ti$scientificName
+      )
       synlist[[i]] = data.frame(
-        "synonym_taxa" = ti$canonicalName,
+        "synonym_taxa" = can,
         "synonym_full_name" = ti$scientificName,
         "accepted_taxa" = all_df$accepted_taxa[i]
       )
@@ -478,7 +505,7 @@ syn_df <- syn_df[!syn_df$synonym_taxa %in% rm_syn, ]
 # remove duplicated lines
 syn_df <- syn_df[!duplicated(syn_df[, c("synonym_taxa", "accepted_taxa")]), ]
 
-dim(syn_df) #49184 synonyms
+dim(syn_df) #26531 synonyms
 write.csv(
   syn_df,
   file = "data/derived-data/species_known_synonyms.csv",

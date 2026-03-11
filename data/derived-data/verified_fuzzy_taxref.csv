@@ -1,114 +1,93 @@
-﻿original_taxa,accepted_taxref,sdist,verified
-Ailanthus altissimus,Ailanthus altissima,NA,FALSE
-Amaranthus powelii,Amaranthus powellii,0.0171930000000000,TRUE
-Bidens tripartitus,Bidens tripartita,0.0555120000000000,TRUE
-Brassicaeae,Brassicaceae,NA,FALSE
-Bromus squarossus,Bromus squarrosus,0.0588480000000000,TRUE
-Buniun bulbocastanum,Bunium bulbocastanum,NA,FALSE
-Centranthus calcitrapa,Centranthus calcitrapae,0.0142030000000000,TRUE
-Chaenorrhinum minus,Chaenorhinum minus,0.0171930000000000,TRUE
-Chaenorrhinum minus minus,Chaenorhinum minus minus,0.0130670000000000,TRUE
-Cirsium erisitales,Cirsium erisithales,0.0171930000000000,TRUE
-Colchicum autumnalis,Colchicum autumnale,NA,FALSE
-Cornonilla varia,Coronilla varia,0.0424100000000000,TRUE
-Crategus monogyna,Crataegus monogyna,0.0181480000000000,TRUE
-Crepis bienis,Crepis biennis,0.0233330000000000,TRUE
-Cruciata laevipes opiz,Cruciata laevipes,0.0742420000000000,TRUE
-Cynoglosum officinale,Cynoglossum officinale,0.0148480000000000,TRUE
-Daucus carotta,Daucus carota,NA,FALSE
-Doricnium pethapillum,Dorycnium pentaphyllum,0.127885000000000,TRUE
-Elytrigia campestre,Elytrigia campestris,NA,FALSE
-Epibolium angustifolium,Epilobium angustifolium,0.0142750000000000,TRUE
-Erigeron glabellus,Erigeron glabratus,0.108889000000000,TRUE
-Galactites tomentosa,Galactites tomentosus,0.0474440000000000,TRUE
-Geleopsis tetrahit,Galeopsis tetrahit,NA,FALSE
-Geranium pheum,Geranium phaeum,0.0217780000000000,TRUE
-Geranuim molle,Geranium molle,NA,FALSE
-Hdrocotyle sibthorpioides,Hydrocotyle sibthorpioides,NA,FALSE
-Helictochloa romero,Helictochloa,NA,FALSE
-Hymenocarpos circinnata nummularius,Hymenocarpos circinnatus nummularius,0.0803250000000000,TRUE
-Hypericum linarifolium,Hypericum linariifolium,0.0439000000000000,TRUE
-Juncus effusum,Juncus effusus,0.0466670000000000,TRUE
-Knautia integrifola,Knautia integrifolia,0.0163330000000000,TRUE
-Knautia timeroyii,Knautia timeroyi,NA,FALSE
-Lactuca murralis,Lactuca muralis,NA,FALSE
-Lathyris tuberosus,Lathyrus tuberosus,NA,FALSE
-Lathyrus sativa,Lathyrus sativus,0.0626110000000000,TRUE
-Lencanthemum vulgare,Leucanthemum vulgare,NA,FALSE
-Linaria latifolia,Licania latifolia,0.0594490000000000,TRUE
-Loncomelos narbonensis,Loncomelos narbonense,0.0452530000000000,TRUE
-Loncomelos pyrenaicus,Loncomelos pyrenaicum,0.0311110000000000,TRUE
-Melilotus alba,Melilotus albus,0.066889000000000,TRUE
-Odontites verna,Odontites vernus,0.0626110000000000,TRUE
-Onopordon,Onopordum,NA,TRUE
-Oreganum vulgare,Origanum vulgare,0.0412500000000000,TRUE
-Ornithogalum boucheanum,Ornithogalum bourgaeanum,0.0847950000000000,TRUE
-Paspalum dilatum,Paspalum dilatatum,0.0362960000000000,TRUE
-Petrorhargia prolifera,Petrorhagia prolifera,0.108182000000000,TRUE
-Phytolacca dodecandra,Phytolacca decandra,0.074094000000000,TRUE
-Picris angustifolia,Iris angustifolia,0.0350880000000000,TRUE
-Podospermum picroides,Urospermum picroides,NA,FALSE
-Populus canescens,Populus x canescens,0.0343860000000000,TRUE
-Portulaca oleraceae,Portulaca oleracea,0.0171930000000000,TRUE
-Rorippa armoracioides,Rorippa x armoracioides,0.0284060000000000,TRUE
-Rubus idenus,Rubus idaeus,0.0544440000000000,TRUE
-Rumex thyrsiflorus,Rumex thyrsiflorus,0.0362960000000000,TRUE
-Schoedonorus arundinaceus,Schedonorus arundinaceus,NA,FALSE
-Schoedonorus pratensis,Schedonorus pratensis,NA,FALSE
-Scirpus silvaticus,Scirpus sylvaticus,0.0843360000000000,TRUE
-Senecio jacobea,Senecio jacobaea,0.0421940000000000,TRUE
-Sheradia arvensis,Sherardia arvensis,0.0757950000000000,TRUE
-Silena gallica,Silene gallica,NA,FALSE
-Silene niceensis,Silene nicaeensis,0.0192160000000000,TRUE
-Sonchus arvenses,Sonchus arvensis,NA,FALSE
-Sporobulus,Sporobolus,0.10163000000000,TRUE
-Taraxacum fhwigg,Taraxacum,NA,FALSE
-Thlapsi arvense,Thlaspi arvense,0.0217780000000000,TRUE
-Trifolium campestris,Trifolium campestre,0.0498600000000000,TRUE
-Triticosecale,X triticosecale,0.0444440000000000,TRUE
-Triticosecale rimpaui,X triticosecale rimpaui,0.0289860000000000,TRUE
-Tyrmnus leucographus,Tyrimnus leucographus,0.0156350000000000,TRUE
-Urtica dioïca,Urtica dioica,0.0502560000000000,TRUE
-Vicia ciliata,Vicia ciliatula,NA,FALSE
-Vicia fabia,Vicia faba,0.0296970000000000,TRUE
-Viola kaitaibeliana,Viola kitaibeliana,0.117008000000000,TRUE
-Viola reichenbachiana,Viola reichenbachiana,0.0311110000000000,TRUE
-x Rimpaui,x Triticosecale rimpaui,NA,FALSE
-Vicia nigra,Vicia sativa nigra,NA,FALSE
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-,,,
-
+﻿original_taxa,accepted_taxref,verified
+Ailanthus altissimus,Ailanthus altissima,FALSE
+Amaranthus powelii,Amaranthus powellii,TRUE
+Bidens tripartitus,Bidens tripartita,TRUE
+Brassicaeae,Brassicaceae,FALSE
+Bromus squarossus,Bromus squarrosus,TRUE
+Buniun bulbocastanum,Bunium bulbocastanum,FALSE
+Capsella bursa pastoris,Capsella bursa-pastoris,FALSE
+Centaurea jacea grandiflora x jacea jacea,Centaurea thuillieri,FALSE
+Centaurea jacea grandiflora x jacea nigra,Centaurea thuillieri,FALSE
+Centranthus calcitrapa,Centranthus calcitrapae,TRUE
+Chaenorrhinum minus,Chaenorhinum minus,TRUE
+Chaenorrhinum minus minus,Chaenorhinum minus minus,TRUE
+Chenopodium album x rubrum,Chenopodium album,FALSE
+Chepodium polyspermum,Chenopodium polyspermum,FALSE
+Cirsium erisitales,Cirsium erisithales,TRUE
+Colchicum autumnalis,Colchicum autumnale,FALSE
+Cornonilla varia,Coronilla varia,TRUE
+Crategus monogyna,Crataegus monogyna,TRUE
+Crepis bienis,Crepis biennis,TRUE
+Cruciata laevipes opiz,Cruciata laevipes,TRUE
+Cynoglosum officinale,Cynoglossum officinale,TRUE
+Cyperus egagrostis,Cyperus eragrostis,FALSE
+Dactylis glomerata glomerata x glomerata lobata,Dactylis glomerata glomerata,FALSE
+Daucus carotta,Daucus carota,FALSE
+Dipsacum fullonum,Dipsacus fullonum,FALSE
+Doricnium pethapillum,Dorycnium pentaphyllum,TRUE
+Echinochloa crus galli,Echinochloa crus-galli,FALSE
+Elytrigia campestre,Elytrigia campestris,FALSE
+Epibolium angustifolium,Epilobium angustifolium,TRUE
+Erigeron glabellus,Erigeron glabratus,TRUE
+Festuca arundinacea arundinacea x multiflorum,Schedonorus arundinaceus subsp. arundinaceus ,FALSE
+Galactites tomentosa,Galactites tomentosus,TRUE
+Geleopsis tetrahit,Galeopsis tetrahit,FALSE
+Geranium pheum,Geranium phaeum,TRUE
+Geranuim molle,Geranium molle,FALSE
+Glyzirrhyza glabra,Glycyrrhiza glabra,FALSE
+Hdrocotyle sibthorpioides,Hydrocotyle sibthorpioides,FALSE
+Helictochloa romero,Helictochloa,FALSE
+Hymenocarpos circinnata nummularius,Hymenocarpos circinnatus nummularius,TRUE
+Hypericum linarifolium,Hypericum linariifolium,TRUE
+Juncus effusum,Juncus effusus,TRUE
+Knautia integrifola,Knautia integrifolia,TRUE
+Knautia timeroyii,Knautia timeroyi,FALSE
+Lactuca murralis,Lactuca muralis,FALSE
+Lathyris tuberosus,Lathyrus tuberosus,FALSE
+Lathyrus sativa,Lathyrus sativus,TRUE
+Lencanthemum vulgare,Leucanthemum vulgare,FALSE
+Linaria latifolia,Licania latifolia,TRUE
+Loncomelos narbonensis,Loncomelos narbonense,TRUE
+Loncomelos pyrenaicus,Loncomelos pyrenaicum,TRUE
+Matricaria maritima maritima x inodorum,Tripleurospermum maritimum x inodorum,FALSE
+Melilotus alba,Melilotus albus,TRUE
+Odontites verna,Odontites vernus,TRUE
+Onopordon,Onopordum,TRUE
+Oreganum vulgare,Origanum vulgare,TRUE
+Ornithogalum boucheanum,Ornithogalum bourgaeanum,TRUE
+Paspalum dilatum,Paspalum dilatatum,TRUE
+Petrorhargia prolifera,Petrorhagia prolifera,TRUE
+Phytolacca dodecandra,Phytolacca decandra,TRUE
+Picris angustifolia,Iris angustifolia,TRUE
+Podospermum picroides,Urospermum picroides,FALSE
+Populus canescens,Populus x canescens,TRUE
+Portulaca oleraceae,Portulaca oleracea,TRUE
+Rorippa armoracioides,Rorippa x armoracioides,TRUE
+Rubus idenus,Rubus idaeus,TRUE
+Rumex thyrsiflorus,Rumex thyrsiflorus,TRUE
+Scandix pecten veneris,Scandix pecten-veneris,FALSE
+Schoedonorus arundinaceus,Schedonorus arundinaceus,FALSE
+Schoedonorus pratensis,Schedonorus pratensis,FALSE
+Scirpus silvaticus,Scirpus sylvaticus,TRUE
+Senecio jacobea,Senecio jacobaea,TRUE
+Sheradia arvensis,Sherardia arvensis,TRUE
+Silena gallica,Silene gallica,FALSE
+Silene niceensis,Silene nicaeensis,TRUE
+Sonchus arvenses,Sonchus arvensis,FALSE
+Sporobulus,Sporobolus,TRUE
+Sylibum marianum,Silybum marianum,FALSE
+Sysimbrium irio,Sisymbrium irio,FALSE
+Taraxacum fhwigg,Taraxacum,FALSE
+Thlapsi arvense,Thlaspi arvense,TRUE
+Trifolium campestris,Trifolium campestre,TRUE
+Triticosecale,X triticosecale,TRUE
+Triticosecale rimpaui,X triticosecale rimpaui,TRUE
+Tyrmnus leucographus,Tyrimnus leucographus,TRUE
+Urtica dioïca,Urtica dioica,TRUE
+Veronica anagallis acuatica,Veronica anagallis-aquatica,FALSE
+Vicia ciliata,Vicia ciliatula,FALSE
+Vicia fabia,Vicia faba,TRUE
+Vicia nigra,Vicia sativa nigra,FALSE
+Viola kaitaibeliana,Viola kitaibeliana,TRUE
+Viola reichenbachiana,Viola reichenbachiana,TRUE
+x Rimpaui,x Triticosecale rimpaui,FALSE

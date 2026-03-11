@@ -1,6 +1,8 @@
 # Get trait information from D3: Dispersal and Diaspore Database
 # DOI: 10.1016/j.ppees.2013.02.001
-#
+# ------------------------------------------------------------
+# DATABASE NOT NEEDED ANYMORE --------------------------------
+# ------------------------------------------------------------
 # input:
 #    species list in species_short_list.csv
 #    synonyms list in species_known_synonyms.csv

@@ -1,4 +1,8 @@
 # Get trait information from https://groot-database.github.io/GRooT/
+# ------------------------------------------------------------
+# DATABASE NOT NEEDED ANYMORE --------------------------------
+# ------------------------------------------------------------
+
 # input:
 #    species list in species_short_list.csv
 #    synonyms list in species_known_synonyms.csv

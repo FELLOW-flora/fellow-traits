@@ -45,7 +45,7 @@ t1 <- extract_trait_taxalist(
   long = TRUE,
   trait_label = "TraitName",
   trait_value = "StdValue"
-) # 51.16 %
+) # 51.74 %
 names(t1)[-1] <- paste(names(t1)[-1], "Ecoflora", sep = "_")
 
 # 2. traits from Biolflor -------------------------------------
@@ -65,7 +65,7 @@ t2 <- extract_trait_taxalist(
   long = TRUE,
   trait_label = "TraitName",
   trait_value = "StdValue"
-) # 67.83 %
+) # 69.04 %
 names(t2)[-1] <- paste(names(t2)[-1], "Biolflor", sep = "_")
 
 
@@ -82,7 +82,7 @@ write.csv(
 )
 
 # missing traits
-print(apply(is.na(t2), 2, sum))
+print(apply(is.na(out), 2, sum))
 
 #
 #

@@ -65,14 +65,14 @@ nsp_db <- apply(dbpersp, 2, sum)
 # count the number of species per database
 ndb <- apply(dbpersp, 1, sum)
 
-# split species between specialists and generalists
+# split species between rare and common
 th_gen <- floor(length(col_db) / 2) # or max(ndb) / 2
 ```
 
 
 Let's define:  
-*specialist*: a taxa that occurred only in a singe database  
-*generalist*: a taxa that is listed in 50% of the databases (`{r} th_gen+1` out of `{r} length(col_db)`)  
+*rare*: a taxa that occurred only in a singe database  
+*common*: a taxa that is listed in 50% of the databases (`{r} th_gen+1` out of `{r} length(col_db)`)  
 
 ```{r}
 #| fig-height: 6
@@ -81,7 +81,7 @@ Let's define:
 sp_class <- cut(
   ndb,
   breaks = c(0, 1, th_gen, max(ndb)),
-  labels = c("specialist", "other", "generalist")
+  labels = c("rare", "other", "common")
 )
 
 table(sp_class)
@@ -99,7 +99,7 @@ barplot(
 legend(
   "topright",
   fill = RColorBrewer::brewer.pal(3, "Set3"),
-  legend = c("specialist", "other", "generalist")
+  legend = c("rare", "other", "common")
 )
 ```
 
@@ -173,8 +173,8 @@ tdf <- table(df$rank, df$cat)
 par(mar = c(4, 4, 1, 1))
 barx <- barplot(
   tdf,
-  col = hcl.colors(5, "viridis"),
-  names = rep("", 12),
+  col = hcl.colors(nrow(tdf), "viridis"),
+  names = rep("", ncol(tdf)),
   xlab = "Number of missing traits",
   ylab = "Number of species"
 )
@@ -183,18 +183,20 @@ axis(1, at = barax, seq(0, 120, by = 10))
 legend(
   "topleft",
   legend = firstup(row.names(tdf)),
-  fill = hcl.colors(5, "viridis")
+  fill = hcl.colors(nrow(tdf), "viridis")
 )
 ```
 
 
 ```{r}
 #| fig-height: 3.8
-# table(traits$accepted_taxa == names(ndb))
+rm_dup <- !duplicated(traits$accepted_taxa)
+# table(traits$accepted_taxa[rm_dup] == names(ndb))
+
 par(mar = c(4, 4, 1, 1))
 plot(
   jitter(ndb),
-  sp_na,
+  sp_na[rm_dup],
   xlab = "Number of datasets (jittered)",
   ylab = "Number of missing traits"
 )
@@ -212,7 +214,7 @@ mtext(
   at = c(0.5, th_gen * 1.5),
   side = 1,
   line = 0.5,
-  text = c("Specialists", "Generalists"),
+  text = c("rare", "common"),
   xpd = NA
 )
 ```
@@ -231,7 +233,7 @@ print(nodata)
 
 **How to deal with families taxa?**  
 
-**How to deal with missing trait values?** Trait imputation, discarding taxa, ...
+**How to deal with missing trait values?** 
 
 {{< pagebreak >}}
 
@@ -268,46 +270,71 @@ knitr::kable(
 
 {{< pagebreak >}}
 
-## Comparison
+## Comparison and merge
 
 ### SLA
-There are four sources of information for Specific leaf area (SLA) : Hodgson et al. 2023 (in mm2/mg), GIFT (in cm2/g), BIEN (in m2/kg = mm2/mg), and Ladouceur et al. 2023 (in cm2/g).
+
+There are four sources of information for Specific leaf area (SLA) : Hodgson et al. 2023 (in mm2/mg), Ladouceur et al. 2019 (in cm2/g), GIFT (in cm2/g), and BIEN (in m2/kg = mm2/mg).
+
+To merge and fill the SLA values (in m2/kg), we used by order of preference:  
+
+- Hodgson et al. 2023
+- Ladouceur et al. 2019
+- GIFT
+- BIEN
+
 
 ```{r sla}
 # names(traits)[grep("SLA", names(traits))]
 sla <- data.frame(
   "Hodgson" = traits$SLA.mm2.mg.1_Hodgson2023,
+  "Ladouceur" = traits$SLA_cm2.g.1_Ladouceur2019 / 10,
   "GIFT" = traits$SLA_cm2.g.1_GIFT / 10,
-  "BIEN" = traits$SLA_m2.kg.1_BIEN,
-  "Ladouceur" = traits$SLA_cm2.g.1_Ladouceur2019 / 10
+  "BIEN" = traits$SLA_m2.kg.1_BIEN
+)
+
+sla$filled <- ifelse(
+  is.na(sla$Hodgson),
+  ifelse(
+    is.na(sla$Ladouceur),
+    ifelse(is.na(sla$GIFT), sla$BIEN, sla$GIFT),
+    sla$Ladouceur
+  ),
+  sla$Hodgson
 )
 
 pairs(sla, lower.panel = panel.smooth, upper.panel = panel.cor)
 ```
 
-Values are highly correlated, so we could imagine filling the missing values (using preferred data sources or averaging them).  
-
 **Number of NAs:**  
 ```{r fillsla}
-sla$filled <- apply(sla, 1, mean, na.rm = TRUE)
-# sla$filled <- ifelse(
-#   is.na(sla$GIFT),
-#   ifelse(is.na(sla$BIEN), sla$Hodgson, sla$BIEN),
-#   sla$GIFT
-# )
-
 print(apply(is.na(sla), 2, sum))
 ```
+
+
+Values are highly correlated, but values from *Ladouceur et al. 2023* are only weakly correlated to other data sources (r<0.65) maybe due to different measuring protocol (?).
 
 
 {{< pagebreak >}}
 
 
 ### Plant height
-There are seven sources of information for plant height.
+
+There are seven sources of information for plant height. SPVignes, FlorealData, and Ladouceur_2019 are limited to small plants (<1m) (no trees) *and FlorealData>100cm must be clean*.  
+
+To merge and fill the plant height values (in m), we used by order of preference:  
+
+- Lososova et al. 2023
+- Ladouceur et al. 2019
+- GIFT
+- BIEN
+- FlorealData
+- Ecoflora
+- SpVignes
+
 
 ```{r height}
-#| fig-height: 5
+#| fig-height: 4
 
 # names(traits)[grep("height", names(traits))]
 
@@ -318,36 +345,62 @@ traits$Plant.height_cm_FlorealData <- ifelse(
   traits$Plant.height_cm_FlorealData
 )
 height <- data.frame(
-  "SpVignes" = traits$Plant.height_cm_SPVignes / 100,
-  "FlorealData" = traits$Plant.height_cm_FlorealData / 100,
-  "Ladouceur" = traits$Plant.height_cm_Ladouceur2019 / 100,
   "Lososova" = traits$Plant.height_m_Lososova2023,
-  "BIEN" = traits$Plant.height_m_BIEN,
+  "Ladouceur" = traits$Plant.height_cm_Ladouceur2019 / 100,
   "GIFT" = traits$Plant.height_mean_m_GIFT,
-  "Ecoflora" = traits$Plant.height_m_Ecoflora
+  "BIEN" = traits$Plant.height_m_BIEN,
+  "FlorealData" = traits$Plant.height_cm_FlorealData / 100,
+  "Ecoflora" = traits$Plant.height_m_Ecoflora,
+  "SpVignes" = traits$Plant.height_cm_SPVignes / 100
+)
+
+height$filled <- ifelse(
+  is.na(height$Lososova),
+  ifelse(
+    is.na(height$Ladouceur),
+    ifelse(
+      is.na(height$GIFT),
+      ifelse(
+        is.na(height$BIEN),
+        ifelse(
+          is.na(height$FlorealData),
+          ifelse(
+            is.na(height$Ecoflora),
+            height$SpVignes,
+            height$Ecoflora
+          ),
+          height$FlorealData
+        ),
+        height$BIEN
+      ),
+      height$GIFT
+    ),
+    height$Ladouceur
+  ),
+  height$Lososova
 )
 
 pairs(height, lower.panel = panel.smooth, upper.panel = panel.cor)
 ```
 
 
-SPVignes, FlorealData, and Ladouceur_2019 are limited to small plants (<1m) (no trees) *but FlorealData>100cm must be clean*.
-
 
 **Number of NAs:**  
 ```{r fillheight}
-# height$average <- apply(height, 1, mean, na.rm = TRUE)
-colfill <- sapply(apply(!is.na(height), 1, which), function(x) {
-  ifelse(length(x) > 0, x[[1]], NA)
-})
-height$filled <- height[cbind(1:nrow(height), colfill)]
 print(apply(is.na(height), 2, sum))
 ```
 
 {{< pagebreak >}}
 
 ### Seed mass
-There are six sources of information for seed mass
+There are six sources of information for seed mass. To merge and fill the seed mass plant height values (in mg), we used by order of preference:  
+
+- Lososova et al. 2023
+- Ladouceur et al. 2019
+- GIFT
+- BIEN
+- Ecoflora
+- Biolflor
 
 ```{r seed}
 #| fig-height: 5
@@ -355,12 +408,35 @@ There are six sources of information for seed mass
 
 seed <- data.frame(
   "Lososova" = traits$Seed.mass_mg_Lososova2023,
-  "BIEN" = traits$Seed.mass_mg_BIEN,
+  "Ladouceur" = traits$Seed.mass_mg_Ladouceur2019,
   "GIFT" = traits$Seed.mass_g_GIFT * 1000,
+  "BIEN" = traits$Seed.mass_mg_BIEN,
   "Ecoflora" = traits$Seed.mass_mg_Ecoflora,
-  "Biolflor" = traits$Seed.mass_mg_Biolflor,
-  "Ladouceur" = traits$Seed.mass_g_Ladouceur2019
+  "Biolflor" = traits$Seed.mass_mg_Biolflor
 )
+
+seed$filled <- ifelse(
+  is.na(seed$Lososova),
+  ifelse(
+    is.na(seed$Ladouceur),
+    ifelse(
+      is.na(seed$GIFT),
+      ifelse(
+        is.na(seed$BIEN),
+        ifelse(
+          is.na(seed$Ecoflora),
+          seed$Biolflor,
+          seed$Ecoflora
+        ),
+        seed$BIEN
+      ),
+      seed$GIFT
+    ),
+    seed$Ladouceur
+  ),
+  seed$Lososova
+)
+
 
 pairs(seed, lower.panel = panel.smooth, upper.panel = panel.cor, log = "xy") |>
   suppressWarnings()
@@ -369,14 +445,9 @@ pairs(seed, lower.panel = panel.smooth, upper.panel = panel.cor, log = "xy") |>
 
 **Number of NAs:**  
 ```{r fillseed}
-# sla$average <- apply(sla, 1, mean, na.rm = TRUE)
-colfill <- sapply(apply(!is.na(seed), 1, which), function(x) {
-  ifelse(length(x) > 0, x[[1]], NA)
-})
-seed$filled <- seed[cbind(1:nrow(seed), colfill)]
-
 print(apply(is.na(seed), 2, sum))
 ```
+
 
 
 {{< pagebreak >}}

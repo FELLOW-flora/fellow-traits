@@ -42,7 +42,7 @@ out <- extract_trait_taxalist(
   meta_trait = meta[meta$database %in% "CLO-PLA", ],
   taxalist = taxolist$accepted_taxa,
   synonyms = synonyms
-) # 64.23 %
+) # 64.36 %
 names(out)[-1] <- paste(names(out)[-1], "CLOPLA", sep = "_")
 
 

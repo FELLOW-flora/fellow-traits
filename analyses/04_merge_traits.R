@@ -27,7 +27,7 @@ traits[traits == ""] <- NA
 #remove empty traits
 traits <- traits[, apply(is.na(traits), 2, sum) < nrow(traits)]
 
-print(dim(traits)) #2027 taxa, 131 traits
+print(dim(traits)) # 2416 taxa, 110 traits
 
 
 # 3. Export merged trait data ---------------------------
@@ -36,3 +36,5 @@ write.csv(
   file = here::here("data", "derived-data", "merged_traits.csv"),
   row.names = FALSE
 )
+
+# 4. Simplify trait data -------------------------------

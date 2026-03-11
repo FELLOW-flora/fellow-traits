@@ -66,7 +66,7 @@ out <- extract_trait_taxalist(
   long = TRUE,
   trait_label = "trait_lab",
   trait_value = "trait_value"
-) # 82.19 %
+) # 77.07 %
 names(out)[-1] <- paste(names(out)[-1], "BIEN", sep = "_")
 
 # 3. Export -------------------------------------

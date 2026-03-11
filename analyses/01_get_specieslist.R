@@ -115,7 +115,6 @@ fenay <- readxl::read_xlsx(
 )
 # only EPPO in original files
 # the file was completed from https://gd.eppo.int/
-
 df9 <- data.frame(
   "taxa" = fenay$PrefName,
   "original_ID" = fenay$EPPO,
@@ -227,7 +226,7 @@ df18 <- data.frame(
   "database_ID" = "FR_ANN_37"
 )
 
-#ANN_37
+#ANN_45
 ann_45 <- readxl::read_xlsx(
   here::here(spfolder, "FR_ANN_45_species_list.xlsx")
 )
@@ -274,7 +273,7 @@ ann_vine <- readxl::read_xlsx(
 df23 <- data.frame(
   "taxa" = ann_vine$Name,
   "original_ID" = NA,
-  "database_ID" = "FR_ALL_500_ENI"
+  "database_ID" = "FR_ANN_500_ENI"
 )
 
 #Vine_ALPES
@@ -297,14 +296,44 @@ df25 <- data.frame(
   "database_ID" = "UK_ANN_Boundary_Margin_Verge"
 )
 
-#UK_ANN_Boundary_Margin_Verge
-be_ann <- readxl::read_xlsx(
-  here::here(spfolder, "BE_ANN_EXPLORE_species_list.xlsx")
+#BE_ANN_EXPLORE_specieslist.csv
+be_ann <- read.csv2(
+  here::here(spfolder, "BE_ANN_EXPLORE_specieslist.csv")
 )
 df26 <- data.frame(
-  "taxa" = be_ann$Species_name,
-  "original_ID" = be_ann$EPPO_code,
+  "taxa" = be_ann$original_taxa,
+  "original_ID" = be_ann$original_ID,
   "database_ID" = "BE_ANN_EXPLORE"
+)
+
+#FR_ALL_500_ENI_Species_list.xlsx
+fr_eni <- readxl::read_xlsx(
+  here::here(spfolder, "FR_ALL_500_ENI_Species_list.xlsx")
+)
+df27 <- data.frame(
+  "taxa" = fr_eni$`Species name`,
+  "original_ID" = NA,
+  "database_ID" = "FR_ALL_500_ENI"
+)
+
+#DE_temporal_specieslist.xlsx
+de_ts <- readxl::read_xlsx(
+  here::here(spfolder, "DE_temporal_specieslist.xlsx")
+)
+df28 <- data.frame(
+  "taxa" = de_ts$accepted_taxa,
+  "original_ID" = NA,
+  "database_ID" = "DE_temporal"
+)
+
+#ES_temporal_specieslist.xlsx
+es_ts <- readxl::read_xlsx(
+  here::here(spfolder, "ES_temporal_specieslist.xlsx")
+)
+df29 <- data.frame(
+  "taxa" = es_ts$taxa,
+  "original_ID" = NA,
+  "database_ID" = "ES_temporal"
 )
 
 ## merge species list ------------------
@@ -334,7 +363,10 @@ fulldf <- rbind(
   df23,
   df24,
   df25,
-  df26
+  df26,
+  df27,
+  df28,
+  df29
 )
 
 write.csv(

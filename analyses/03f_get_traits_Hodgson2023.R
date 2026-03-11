@@ -47,7 +47,7 @@ out <- extract_trait_taxalist(
   meta_trait = meta[meta$database %in% "Hodgson2023", ],
   taxalist = taxolist$accepted_taxa,
   synonyms = synonyms
-) # 46.23 %
+) # 44.25 %
 names(out)[-1] <- paste(names(out)[-1], "Hodgson2023", sep = "_")
 
 

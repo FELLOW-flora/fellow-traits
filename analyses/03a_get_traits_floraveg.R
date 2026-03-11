@@ -31,18 +31,19 @@ meta <- readxl::read_xlsx(
 # B. what should we do with missing species? fuzzy match? look for gbif synonyms?
 
 # 1. Disturbance from Midolo ----------------------
-# midolo <- readxl::read_xlsx(
-#   here::here(traitfolder, "disturbance_indicator_values_Midolo_2023.xlsx")
-# )
+midolo <- readxl::read_xlsx(
+  here::here(traitfolder, "disturbance_indicator_values_Midolo_2023.xlsx")
+)
 
-# t1 <- extract_trait_taxalist(
-#   trait_df = midolo,
-#   trait_sp = "species",
-#   meta_trait = meta[meta$database %in% "Midolo2023", ],
-#   taxalist = taxolist$accepted_taxa,
-#   synonyms = synonyms
-# ) # 86.34 %
-# names(t1)[-1] <- paste(names(t1)[-1], "Midolo2023", sep = "_")
+
+names(t1)[-1] <- paste(names(t1)[-1], "Midolo2023", sep = "_")
+t1 <- extract_trait_taxalist(
+  trait_df = midolo,
+  trait_sp = "species",
+  meta_trait = meta[meta$database %in% "Midolo2023", ],
+  taxalist = taxolist$accepted_taxa,
+  synonyms = synonyms
+) # 84.98 %
 
 # 2. Ellenberg from Tichy --------------------
 tichy <- readxl::read_xlsx(
@@ -63,7 +64,7 @@ t2 <- extract_trait_taxalist(
   meta_trait = meta[meta$database %in% "Tichy2022", ],
   taxalist = taxolist$accepted_taxa,
   synonyms = synonyms
-) # 89.79 %
+) # 89.11 %
 names(t2)[-1] <- paste(names(t2)[-1], "Tichy2022", sep = "_")
 
 # 3. seed dispersal from Losova -----------------
@@ -78,7 +79,7 @@ t3 <- extract_trait_taxalist(
   meta_trait = meta[meta$database %in% "Lososova2023", ],
   taxalist = taxolist$accepted_taxa,
   synonyms = synonyms
-) # 94.33 %
+) # 93.92 %
 names(t3)[-1] <- paste(names(t3)[-1], "Lososova2023", sep = "_")
 
 # 4. life form from Dfevojan -----------------
@@ -98,7 +99,7 @@ names(t3)[-1] <- paste(names(t3)[-1], "Lososova2023", sep = "_")
 # 5. Export -------------------------------------
 out <- cbind(
   "accepted_taxa" = taxolist$accepted_taxa,
-  #t1[, -1],
+  t1[, -1],
   t2[, -1],
   t3[, -1]
   #t4[, -1]
