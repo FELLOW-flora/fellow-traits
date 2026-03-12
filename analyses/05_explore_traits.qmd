@@ -293,15 +293,7 @@ sla <- data.frame(
   "BIEN" = traits$SLA_m2.kg.1_BIEN
 )
 
-sla$filled <- ifelse(
-  is.na(sla$Hodgson),
-  ifelse(
-    is.na(sla$Ladouceur),
-    ifelse(is.na(sla$GIFT), sla$BIEN, sla$GIFT),
-    sla$Ladouceur
-  ),
-  sla$Hodgson
-)
+sla$filled <- apply(sla, 1, function(x) x[!is.na(x)][1])
 
 pairs(sla, lower.panel = panel.smooth, upper.panel = panel.cor)
 ```
@@ -354,31 +346,7 @@ height <- data.frame(
   "SpVignes" = traits$Plant.height_cm_SPVignes / 100
 )
 
-height$filled <- ifelse(
-  is.na(height$Lososova),
-  ifelse(
-    is.na(height$Ladouceur),
-    ifelse(
-      is.na(height$GIFT),
-      ifelse(
-        is.na(height$BIEN),
-        ifelse(
-          is.na(height$FlorealData),
-          ifelse(
-            is.na(height$Ecoflora),
-            height$SpVignes,
-            height$Ecoflora
-          ),
-          height$FlorealData
-        ),
-        height$BIEN
-      ),
-      height$GIFT
-    ),
-    height$Ladouceur
-  ),
-  height$Lososova
-)
+height$filled <- apply(height, 1, function(x) x[!is.na(x)][1])
 
 pairs(height, lower.panel = panel.smooth, upper.panel = panel.cor)
 ```
@@ -415,27 +383,7 @@ seed <- data.frame(
   "Biolflor" = traits$Seed.mass_mg_Biolflor
 )
 
-seed$filled <- ifelse(
-  is.na(seed$Lososova),
-  ifelse(
-    is.na(seed$Ladouceur),
-    ifelse(
-      is.na(seed$GIFT),
-      ifelse(
-        is.na(seed$BIEN),
-        ifelse(
-          is.na(seed$Ecoflora),
-          seed$Biolflor,
-          seed$Ecoflora
-        ),
-        seed$BIEN
-      ),
-      seed$GIFT
-    ),
-    seed$Ladouceur
-  ),
-  seed$Lososova
-)
+seed$filled <- apply(seed, 1, function(x) x[!is.na(x)][1])
 
 
 pairs(seed, lower.panel = panel.smooth, upper.panel = panel.cor, log = "xy") |>
@@ -453,7 +401,7 @@ print(apply(is.na(seed), 2, sum))
 {{< pagebreak >}}
 
 ### Flower colour
-There are five sources of information for flower colour, but it must be cleaned
+There are five sources of information for flower colour, but it must be cleaned before colors can be merged.
 
 ```{r color}
 # names(traits)[grep("col", names(traits))]
@@ -466,6 +414,17 @@ color <- data.frame(
 )
 print(apply(is.na(color), 2, sum))
 
+# removing unclear color patterns for genus
+bien <- color$BIEN
+bien[grepl("_", bien)] <- NA
+# table(bien)
+
+# removing unclear color patterns for genus
+FlorealData <- color$FlorealData
+FlorealData[grepl("_", FlorealData)] <- NA
+# table(FlorealData)
+
+table(bien, FlorealData)
 
 # removing unclear color patterns for genus
 baseflor <- color$Baseflor
@@ -473,3 +432,107 @@ baseflor[grepl("_", baseflor)] <- NA
 table(baseflor)
 ```
 
+
+{{< pagebreak >}}
+
+### Dispersal mode
+There are three sources of information for dispersal mode, but it must be harmonized before they can be merged.
+
+```{r dispersal}
+# names(traits)[grep("Dispersal", names(traits))]
+dispersal <- data.frame(
+  "Lososova2023" = traits$Dispersal.mode_Lososova2023,
+  "GIFT_1" = traits$Dispersal.mode_1_GIFT,
+  "GIFT_2" = traits$Dispersal.mode_2_GIFT,
+  "Baseflor" = traits$Dispersal.mode_Baseflor
+)
+print(apply(is.na(dispersal), 2, sum))
+
+dispersal$Lososova2023[grepl("_", dispersal$Lososova2023)] <- NA
+dispersal$Baseflor[grepl("_", dispersal$Baseflor)] <- NA
+dispersal$GIFT_1[grepl("_", dispersal$GIFT_1)] <- NA
+dispersal$GIFT_2[grepl("_", dispersal$GIFT_2)] <- NA
+
+# table("Lososova2023" = dispersal$Lososova2023, "Baseflor" = dispersal$Baseflor)
+# table("Lososova2023" = dispersal$Lososova2023, "GIFT" = dispersal$GIFT_2)
+# table("Baseflor" = dispersal$Baseflor, "GIFT" = dispersal$GIFT_2)
+table("Lososova2023" = dispersal$Lososova2023)
+table("GIFT" = dispersal$GIFT_2)
+table("Baseflor" = dispersal$Baseflor)
+```
+
+
+{{< pagebreak >}}
+
+### Inflorescence
+
+There are two sources of information for inflorescence. GIFT database considers 11 categories, while Baseflor considers 39 categories. So the categories must be harmonized before merging.
+
+```{r inflore}
+#  names(traits)[grep("Inflorescence", names(traits))]
+inflore <- data.frame(
+  "GIFT" = traits$Inflorescence_GIFT,
+  "Baseflor" = traits$Inflorescence_Baseflor
+)
+print(apply(is.na(inflore), 2, sum))
+
+inflore$GIFT[grepl("_", inflore$GIFT)] <- NA
+inflore$Baseflor[grepl("_", inflore$Baseflor)] <- NA
+
+# table("GIFT" = inflore$GIFT, "Baseflor" = inflore$Baseflor, useNA = "ifany")
+table("GIFT" = inflore$GIFT)
+table("Baseflor" = inflore$Baseflor)
+```
+
+
+{{< pagebreak >}}
+
+### Lifecycle
+
+There are two sources of information for lifecycle. The categories are quite coherent among GIFT and Hodgson2023 if `Herb.peren` and `Woody.peren` are merged into `Perennial`.
+
+```{r lifecycle}
+# names(traits)[grep("Lifecycle", names(traits))]
+lifecycle <- data.frame(
+  "Hodgson2023" = traits$Lifecycle_Hodgson2023,
+  "GIFT" = traits$Lifecycle_GIFT
+)
+print(apply(is.na(lifecycle), 2, sum))
+
+# simplify genus categories
+lifecycle$GIFT[grepl("_", lifecycle$GIFT)] <- NA
+lifecycle$Hodgson2023[grepl("_", lifecycle$Hodgson2023)] <- NA
+
+table(
+  "Hodgson2023" = lifecycle$Hodgson2023,
+  "GIFT" = lifecycle$GIFT,
+  useNA = "ifany"
+)
+```
+
+
+### Clonal index
+
+There are two sources of information for clonal index (Ladouceur 2019 and CLOPLA) but most of them are incomplete. The information seems coherent among the two databases. The order of preference is Ladouceur 2019 then CLOPLA.
+
+```{r clonal}
+# names(traits)[grep("Clonal", names(traits))]
+clonal <- data.frame(
+  "Ladouceur2019" = traits$Clonal.index_Ladouceur2019,
+  "CLOPLA" = traits$Clonal.index_CLOPLA
+)
+clonal$filled <- apply(clonal, 1, function(x) x[!is.na(x)][1])
+print(apply(is.na(clonal), 2, sum))
+
+# simplify genus categories
+clonal$Ladouceur2019[grepl("_", clonal$Ladouceur2019)] <- NA
+clonal$CLOPLA[grepl("_", clonal$CLOPLA)] <- NA
+
+table(
+  "Ladouceur2019" = clonal$Ladouceur2019,
+  "CLOPLA" = clonal$CLOPLA,
+  useNA = "ifany"
+)
+
+# table("filled" = clonal$filled)
+```

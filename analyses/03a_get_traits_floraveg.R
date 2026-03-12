@@ -35,8 +35,6 @@ midolo <- readxl::read_xlsx(
   here::here(traitfolder, "disturbance_indicator_values_Midolo_2023.xlsx")
 )
 
-
-names(t1)[-1] <- paste(names(t1)[-1], "Midolo2023", sep = "_")
 t1 <- extract_trait_taxalist(
   trait_df = midolo,
   trait_sp = "species",
@@ -44,6 +42,7 @@ t1 <- extract_trait_taxalist(
   taxalist = taxolist$accepted_taxa,
   synonyms = synonyms
 ) # 84.98 %
+names(t1)[-1] <- paste(names(t1)[-1], "Midolo2023", sep = "_")
 
 # 2. Ellenberg from Tichy --------------------
 tichy <- readxl::read_xlsx(

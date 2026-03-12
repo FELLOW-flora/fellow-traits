@@ -7,6 +7,16 @@ paste_unique <- function(x) {
   paste(sort(unique(tolower(x))), collapse = "_")
 }
 
+get_last <- function(x, split = "_") {
+  sapply(strsplit(x, split = split), function(i) i[length(i)])
+}
+
+get_notlast <- function(x, split = "_") {
+  sapply(strsplit(x, split = split), function(i) {
+    paste(i[-length(i)], collapse = split)
+  })
+}
+
 panel.cor <- function(x, y, digits = 2, prefix = "", cex.cor, ...) {
   #usr <- par("usr")
   usr <- par()$usr
