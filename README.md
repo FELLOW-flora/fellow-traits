@@ -16,7 +16,7 @@ This repository is structured as follow:
 The analysis is divided in four sequential steps:  
 
 1. combine survey's species lists into a 'fellow' species list
-2. clean species name using TaxRef and GBIF and evaluate possible synonyms
+2. clean species name using WFO Plant list and evaluate possible synonyms
 3. extract trait values for the species of interest (one file per trait database)
 4. merge extracted trait databases into a single 'fellow' trait database   
 
@@ -31,8 +31,9 @@ An exploratory analysis is carried out in the file [analysis/05_explore_traits.p
 
 ## Methodological choice
 
-1. The taxonomic backbone is [TaxRef v18.0](https://inpn.mnhn.fr/telechargement/referentielEspece/taxref/18.0/menu), completed with [GBIF](https://www.gbif.org/dataset/d7dddbf4-2cf0-4f39-9b2a-bb099caae36c) (based on Catalogue of Life). The taxonomic description of all taxa listed in Fellow are in [derived_data/species_list_taxo.csv](https://github.com/FELLOW-flora/fellow-traits/blob/main/data/derived-data/species_list_taxo.csv)
-2. A list of known synonyms was built from TaxRef and GBIF. We removed ambiguous synonyms, e.g. one synonym refers to a single accepted name only; and loops, e.g. an accepted name can not be a synonym.
+1. The taxonomic backbone is [World Flora Online (WFO)](https://www.worldfloraonline.org/downloadData) Plant List December 2025 (DOI
+[10.5281/zenodo.18007552](https://doi.org/10.5281/zenodo.18007552)). The taxonomic description of all taxa listed in Fellow are in [derived_data/species_list_taxo.csv](https://github.com/FELLOW-flora/fellow-traits/blob/main/data/derived-data/species_list_taxo.csv)
+2. A list of known synonyms was built from WFO. We removed ambiguous synonyms, e.g. one synonym refers to a single accepted name only; and loops, e.g. an accepted name can not be a synonym.
 3. For taxa with multiple matches in the trait database, we take the average values for numerical traits, and concatenate the different categories for categorical traits.
 4. For genus with no trait information, we aggregate values of species that are listed in the taxa list.  
 
