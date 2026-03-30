@@ -50,15 +50,31 @@ spclean <- spclean[!spclean %in% rmlist]
 # remove taxa that is defined coarser than family
 # Dicotyledones, ref 187223, is not in Taxref but in
 # https://taxref.mnhn.fr/taxref-web/taxa/187223
+# Do we keep families: e.g. Brassicaeae?
+
 rmClass <- c(
   "Dicotyledonae",
   "Bryophyta",
   "Angiospermae",
   "Filicophytes",
   "Dicotyledones vraies",
-  "Tracheophytes"
+  "Tracheophytes",
+  "Tracheophyta"
 )
 spclean <- spclean[!spclean %in% rmClass]
+
+rmAnimal <- c(
+  "Ephippiger perforatus"
+)
+spclean <- spclean[!spclean %in% rmAnimal]
+
+rmGenusGenus <- c(
+  "Anisantha bromus", 
+  "Festuca schedonorus", 
+  "Ornithogalum muscari",
+  "Picris helminthotheca" 
+)
+spclean <- spclean[!spclean %in% rmGenusGenus]
 
 # harmonize the species names
 spclean <- sort(unique(spclean))
@@ -84,13 +100,14 @@ WFO_file <- here::here(
 WFO_data <- data.table::fread(WFO_file, encoding = "UTF-8")
 # WorldFlora::WFO.remember(WFO_file)
 
-sub <- sample(1:length(spclean), size = 50)
-df_all <- WFO.match(spclean[sub], WFO.data = WFO_data, verbose = FALSE)
-# write.csv(
-#   df_all,
-#   here::here("data", "derived-data", "wfo_all.csv"),
-#   row.names = FALSE
-# )
+# sub for testing only
+# sub <- sample(1:length(spclean), size = 50)
+df_all <- WFO.match(spclean, WFO.data = WFO_data, verbose = FALSE)
+write.csv(
+  df_all,
+  here::here("data", "derived-data", "wfo_all.csv"),
+  row.names = FALSE
+)
 
 df_one <- WFO.one(df_all, verbose = FALSE)
 
@@ -110,11 +127,11 @@ df <- data.frame(
   )
 )
 
-# write.csv(
-#   df,
-#   here::here("data", "derived-data", "wfo_one.csv"),
-#   row.names = FALSE
-# )
+write.csv(
+  df,
+  here::here("data", "derived-data", "wfo_one.csv"),
+  row.names = FALSE
+)
 
 # focus on taxa not found
 no_wfo <- spclean[is.na(df$accepted_wfo)]
@@ -122,7 +139,7 @@ print(paste("Taxa with no match in WFO:", length(no_wfo)))
 # 149 taxa
 
 fuzzycheck <- df[df$wfo_match != "MATCH", ]
-keep <- get_binomial(fuzzycheck$original_taxa) ==
+keep <- get_binomial(fuzzycheck$original_taxa) !=
   get_binomial(fuzzycheck$accepted_wfo)
 
 write.csv(
@@ -130,17 +147,15 @@ write.csv(
   file = here::here("data", "derived-data", "fuzzy_wfo.csv"),
   row.names = FALSE
 )
+
 # verify and complete the file fuzzy_taxref.csv
 # and rename it as verified_fuzzy_taxref.csv
-
 # add previous information
 # fuzzy_verified <- read.csv(
 #   here::here("data", "derived-data", "verified_fuzzy_taxref.csv")
 # )
 
-#
-
-# 5. merge all and export ----------------------------------
+# 3. merge all and export ----------------------------------
 # show missing taxa in WFO
 cat(
   "Missing taxa: ",
@@ -182,7 +197,7 @@ write.csv(
   row.names = FALSE
 )
 
-# 6. create a list of known synonyms ---------------------
+# 4. create a list of known synonyms ---------------------
 
 # synlist <- WFO.synonyms(df$wfo_taxonID[1], WFO.data = WFO_data, verbose = FALSE)
 # by hand is much faster

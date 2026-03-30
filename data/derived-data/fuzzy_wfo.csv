@@ -1,0 +1,135 @@
+﻿original_taxa,accepted_wfo,wfo_taxonID,wfo_rank,wfo_authorship,wfo_family,wfo_genus,wfo_status,wfo_match,verified
+Abutilon teophrasti,Abutilon theophrasti,wfo-0000512325,species,Medik.,Malvaceae,Abutilon,Accepted,FUZZY,0
+Ailanthus altissimus,Ailanthus altissima,wfo-0000524599,species,(Mill.) Swingle,Simaroubaceae,Ailanthus,Accepted,FUZZY,0
+Allium porrum porrum,Allium ampeloprasum,wfo-0000755607,species,L.,Amaryllidaceae,Allium,Accepted,FUZZY,0
+Amaranthus powelii,Amaranthus powellii,wfo-0000530428,species,S.Watson,Amaranthaceae,Amaranthus,Accepted,FUZZY,1
+Anagallis arvensis caerulea,Lysimachia loeflingii,wfo-1000030378,species,F.J.Jiménez & M.Talavera,Primulaceae,Lysimachia,Accepted,FUZZY,0
+Anagallis arvensis foemina,Lysimachia arvensis,wfo-0000744184,species,(L.) U.Manns & Anderb.,Primulaceae,Lysimachia,Accepted,FUZZY,0
+Arthonia arthonioides,Tolpis lagopoda,wfo-0000085910,species,C.Sm. ex Link,Asteraceae,Tolpis,Accepted,FUZZY,0
+Bidens bipinnatus,Bidens bipinnata,wfo-0000028784,species,L.,Asteraceae,Bidens,Accepted,FUZZY,0
+Bidens tripartitus,Bidens tripartita,wfo-0000068428,species,L.,Asteraceae,Bidens,Accepted,FUZZY,1
+Brassicaeae,Brassiceae,wfo-4100004711,tribe,DC.,Brassicaceae,,Accepted,FUZZY,0
+Bromus squarossus,Bromus squarrosus,wfo-0000856539,species,L.,Poaceae,Bromus,Accepted,FUZZY,1
+Bryonia dioica dioica,Bryonia alba,wfo-0000572927,species,L.,Cucurbitaceae,Bryonia,Accepted,FUZZY,0
+Buniun bulbocastanum,Bunium bulbocastanum,wfo-0000574803,species,L.,Apiaceae,Bunium,Accepted,FUZZY,0
+Capsella bursa pastoris,Capsella bursa-pastoris,wfo-0000585589,species,Medik.,Brassicaceae,Capsella,Accepted,FUZZY,0
+Cardaminopsis arenosa arenosa,Arabidopsis arenosa subsp. arenosa,wfo-0001285545,subspecies,Lawalrée,Brassicaceae,Arabidopsis,Accepted,FUZZY,0
+Centranthus calcitrapa,Valeriana calcitrapae,wfo-0000425385,species,L.,Caprifoliaceae,Valeriana,Accepted,FUZZY,0
+Chaenomeles x superba,Chaenomeles × superba,wfo-0000990806,species,(Frahm) Rehder,Rosaceae,Chaenomeles,Accepted,FUZZY,0
+Chaenorrhinum minus,Chaenorhinum minus,wfo-0000598753,species,(L.) Lange,Plantaginaceae,Chaenorhinum,Accepted,FUZZY,1
+Chaenorrhinum minus minus,Chaenorhinum minus,wfo-0000598753,species,(L.) Lange,Plantaginaceae,Chaenorhinum,Accepted,FUZZY,0
+Chepodium polyspermum,Lipandra polysperma,wfo-0001302716,species,"(L.) S.Fuentes, Uotila & Borsch",Chenopodiaceae,Lipandra,Accepted,FUZZY,0
+Cirsium erisitales,Cirsium erisithales,wfo-0000013488,species,(Jacq.) Scop.,Asteraceae,Cirsium,Accepted,FUZZY,1
+Colchicum autumnalis,Colchicum autumnale,wfo-0000763824,species,L.,Colchicaceae,Colchicum,Accepted,FUZZY,0
+Cornonilla varia,Coronilla varia,wfo-0000213691,species,L.,Fabaceae,Coronilla,Accepted,FUZZY,1
+Corrigiola littoralis,Corrigiola litoralis,wfo-0001291438,species,L.,Caryophyllaceae,Corrigiola,Accepted,FUZZY,0
+Crataegus x subsphaerica,Crataegus kyrtostyla var. domicensis,wfo-0001409387,variety,(Hrabětová) K.I.Chr.,Rosaceae,Crataegus,Accepted,FUZZY,0
+Crategus monogyna,Crataegus monogyna,wfo-0001009785,species,Jacq.,Rosaceae,Crataegus,Accepted,FUZZY,1
+Crepis bienis,Crepis biennis,wfo-0000106204,species,L.,Asteraceae,Crepis,Accepted,FUZZY,1
+Cynoglosum officinale,Cynoglossum officinale,wfo-0000634152,species,L.,Boraginaceae,Cynoglossum,Accepted,FUZZY,1
+Cyperus egagrostis,Cyperus eragrostis,wfo-0000372740,species,Lam.,Cyperaceae,Cyperus,Accepted,FUZZY,0
+Daucus carotta,Daucus carota,wfo-0000638442,species,L.,Apiaceae,Daucus,Accepted,FUZZY,0
+Dipsacum fullonum,Dipsacus fullonum,wfo-0000651022,species,L.,Caprifoliaceae,Dipsacus,Accepted,FUZZY,0
+Doricnium pethapillum,Lotus dorycnium,wfo-0000209346,species,L.,Fabaceae,Lotus,Accepted,FUZZY,0
+Echinochloa colonum,Echinochloa colona,wfo-0000865220,species,(L.) Link,Poaceae,Echinochloa,Accepted,FUZZY,0
+Echinochloa crus galli,Echinochloa crus-galli,wfo-0000865236,species,(L.) P.Beauv.,Poaceae,Echinochloa,Accepted,FUZZY,0
+Elytrigia campestre,Elymus pungens subsp. campestris,wfo-0001364467,subspecies,(Godr. & Gren.) Melderis,Poaceae,Elymus,Accepted,FUZZY,0
+Elytrigia campestris x repens,Elymus pungens subsp. campestris,wfo-0001364467,subspecies,(Godr. & Gren.) Melderis,Poaceae,Elymus,Accepted,FUZZY,0
+Elytrigia intermedia intermedia,Thinopyrum intermedium,wfo-0000903619,species,(Host) Barkworth & D.R.Dewey,Poaceae,Thinopyrum,Accepted,FUZZY,0
+Elytrigia intermedia trichophora,Thinopyrum intermedium,wfo-0000903619,species,(Host) Barkworth & D.R.Dewey,Poaceae,Thinopyrum,Accepted,FUZZY,0
+Elytrigia repens repens,Elymus repens,wfo-0000866643,species,(L.) Gould,Poaceae,Elymus,Accepted,FUZZY,0
+Epibolium angustifolium,Epilobium angustifolium,wfo-0000668750,species,L.,Onagraceae,Epilobium,Accepted,FUZZY,1
+Epilobium x intersitum,Epilobium × intersitum,wfo-0000669240,species,Hausskn.,Onagraceae,Epilobium,Accepted,FUZZY,0
+Erophila verna verna,Draba verna,wfo-0000656282,species,L.,Brassicaceae,Draba,Accepted,FUZZY,0
+Erysimum cheiri,Erysimum × cheiri,wfo-0000678594,species,(L.) Crantz,Brassicaceae,Erysimum,Accepted,FUZZY,0
+Festuca arundinacea arundinacea,Festuca rubra,wfo-0000871854,species,L.,Poaceae,Festuca,Accepted,FUZZY,0
+Festuca arundinacea arundinacea x multiflorum,Festuca rubra,wfo-0000871854,species,L.,Poaceae,Festuca,Accepted,FUZZY,0
+Festuca rubra rubra,Festuca nevadensis,wfo-0000871127,species,(Hack.) Markgr.-Dann.,Poaceae,Festuca,Accepted,FUZZY,0
+Ficaria verna ficariiformis,Ranunculus ficaria,wfo-0000460581,species,L.,Ranunculaceae,Ranunculus,Accepted,FUZZY,0
+Fragaria x ananassa,Fragaria × ananassa,wfo-0001005541,species,(Duchesne ex Weston) Duchesne ex Rozier,Rosaceae,Fragaria,Accepted,FUZZY,0
+Fumaria gaillardoti,Fumaria gaillardotii,wfo-0000693232,species,Boiss.,Papaveraceae,Fumaria,Accepted,FUZZY,0
+Galium aparine spurium,Galium spurium,wfo-0000970236,species,L.,Rubiaceae,Galium,Accepted,FUZZY,0
+Galium palustre elongatum,Galium elongatum,wfo-0000968894,species,C.Presl,Rubiaceae,Galium,Accepted,FUZZY,0
+Geleopsis tetrahit,Galeopsis tetrahit,wfo-0000968061,species,L.,Lamiaceae,Galeopsis,Accepted,FUZZY,0
+Geranium pheum,Geranium phaeum,wfo-0000701052,species,L.,Geraniaceae,Geranium,Accepted,FUZZY,1
+Glyzirrhyza glabra,Glycyrrhiza glabra,wfo-0000212813,species,L.,Fabaceae,Glycyrrhiza,Accepted,FUZZY,0
+Hdrocotyle sibthorpioides,Hydrocotyle sibthorpioides,wfo-0000726583,species,Lam.,Araliaceae,Hydrocotyle,Accepted,FUZZY,0
+Helictochloa romero,Helictochloa,wfo-4000017242,genus,Romero Zarco,Poaceae,Helictochloa,Accepted,FUZZY,0
+Hymenocarpos circinnata nummularius,Anthyllis circinnata,wfo-0000538748,species,(L.) D.D.Sokoloff,Fabaceae,Anthyllis,Accepted,FUZZY,0
+Hypericum linarifolium,Hypericum linariifolium,wfo-0000727869,species,Vahl,Hypericaceae,Hypericum,Accepted,FUZZY,1
+Hypochoeris radicata,Hypochaeris radicata,wfo-0000074809,species,L.,Asteraceae,Hypochaeris,Accepted,FUZZY,0
+Juncus bufonius minutulus,Juncus minutulus,wfo-0000776914,species,(Albert & Jahand.) Prain,Juncaceae,Juncus,Accepted,FUZZY,0
+Juncus effusum,Juncus effusus,wfo-0000776350,species,L.,Juncaceae,Juncus,Accepted,FUZZY,1
+Knautia integrifola,Knautia integrifolia,wfo-0000745451,species,(L.) Bertol.,Caprifoliaceae,Knautia,Accepted,FUZZY,1
+Knautia timeroyii,Knautia arvensis,wfo-0000356720,species,(L.) Coult.,Caprifoliaceae,Knautia,Accepted,FUZZY,0
+Lactuca murralis,Lactuca muralis,wfo-0000013840,species,(L.) Fresen.,Asteraceae,Lactuca,Unchecked,FUZZY,0
+Lathyris tuberosus,Lathyrus tuberosus,wfo-0000213826,species,L.,Fabaceae,Lathyrus,Accepted,FUZZY,0
+Lathyrus sativa,Lathyrus sativus,wfo-0000212703,species,L.,Fabaceae,Lathyrus,Accepted,FUZZY,1
+Lencanthemum vulgare,Leucanthemum vulgare,wfo-0000036932,species,Lam.,Asteraceae,Leucanthemum,Accepted,FUZZY,0
+Leontodon autumnale,Scorzoneroides autumnalis,wfo-0000022256,species,(L.) Moench,Asteraceae,Scorzoneroides,Accepted,FUZZY,0
+Leontodon taraxacoides hispidus,Taraxacum taraxacoides,wfo-0000008241,species,(Hoppe & Hornsch.) Willk.,Asteraceae,Taraxacum,Accepted,FUZZY,0
+Leontodon taraxacoides taraxacoides,Taraxacum taraxacoides,wfo-0000008241,species,(Hoppe & Hornsch.) Willk.,Asteraceae,Taraxacum,Accepted,FUZZY,0
+Linum usitatissimum angustifolium,Linum bienne,wfo-0000363872,species,Mill.,Linaceae,Linum,Accepted,FUZZY,0
+Loncomelos narbonensis,Loncomelos narbonense,wfo-0000678643,species,(L.) Raf.,Asparagaceae,Loncomelos,Accepted,FUZZY,1
+Loncomelos pyrenaicus,Loncomelos pyrenaicum,wfo-0000687118,species,(L.) L.D.Hrouda,Asparagaceae,Loncomelos,Accepted,FUZZY,1
+Lotus corniculatus tenuifolius,Lotus tenuis,wfo-0001053826,species,Waldst. & Kit. ex Willd.,Fabaceae,Lotus,Accepted,FUZZY,0
+Matricaria maritima maritima x inodorum,Tripleurospermum maritimum,wfo-0000063085,species,(L.) W.D.J.Koch,Asteraceae,Tripleurospermum,Accepted,FUZZY,0
+Mentha x piperita,Mentha × piperita,wfo-0000241184,species,L.,Lamiaceae,Mentha,Accepted,FUZZY,0
+Mentha x villosa,Mentha × villosa,wfo-0000241572,species,Huds.,Lamiaceae,Mentha,Accepted,FUZZY,0
+Minuartia hybrida tenuifolia,Sabulina tenuifolia subsp. hybrida,wfo-1200115314,subspecies,(Vill.) Dillenb.,Caryophyllaceae,Sabulina,Accepted,FUZZY,0
+Odontites verna,Odontites vernus,wfo-0001136632,species,(Bellardi) Dumort.,Orobanchaceae,Odontites,Accepted,FUZZY,1
+Onopordon,Onopordum,wfo-4000026888,genus,L.,Asteraceae,Onopordum,Accepted,FUZZY,1
+Oreganum vulgare,Origanum vulgare,wfo-0000260765,species,L.,Lamiaceae,Origanum,Accepted,FUZZY,1
+Oxybasis rubra,Oxybasis,wfo-4000027538,genus,Kar. & Kir.,Chenopodiaceae,Oxybasis,Accepted,FUZZY,0
+Papaver x hungaricum,Papaver × strigosum,wfo-0000480973,species,(Boenn.) Schur,Papaveraceae,Papaver,Accepted,FUZZY,0
+Paspalum dilatum,Paspalum dilatatum,wfo-0000887560,species,Poir.,Poaceae,Paspalum,Accepted,FUZZY,1
+Petrorhargia prolifera,Petrorhagia prolifera,wfo-0000395423,species,(L.) P.W.Ball & Heywood,Caryophyllaceae,Petrorhagia,Accepted,FUZZY,1
+Pisum sativum arvense,Lathyrus oleraceus,wfo-0000214337,species,Lam.,Fabaceae,Lathyrus,Accepted,FUZZY,0
+Pisum sativum sativum,Lathyrus oleraceus,wfo-0000214337,species,Lam.,Fabaceae,Lathyrus,Accepted,FUZZY,0
+Podospermum picroides,Urospermum picroides,wfo-0000024742,species,(L.) Scop. ex F.W.Schmidt,Asteraceae,Urospermum,Accepted,FUZZY,0
+Populus canescens,Populus × canescens,wfo-0000928145,species,(Aiton) Sm.,Salicaceae,Populus,Accepted,FUZZY,1
+Populus x canadensis,Populus × canadensis,wfo-0000930752,species,Moench,Salicaceae,Populus,Accepted,FUZZY,0
+Portulaca oleraceae,Portulaca oleracea,wfo-0000484425,species,L.,Portulacaceae,Portulaca,Accepted,FUZZY,1
+Rheum x hybridum,Rheum × hybridum,wfo-0000404461,species,Murray,Polygonaceae,Rheum,Accepted,FUZZY,0
+Rorippa armoracioides,Rorippa × armoracioides,wfo-0000399580,species,(Tausch) Fuss,Brassicaceae,Rorippa,Accepted,FUZZY,1
+Rumex x pratensis,Rumex × pratensis,wfo-0000404048,species,Mert. & W.D.J.Koch,Polygonaceae,Rumex,Accepted,FUZZY,0
+Salix x fragilis,Salix × fragilis,wfo-0000928470,species,L.,Salicaceae,Salix,Accepted,FUZZY,0
+Sanguisorba minor verrucosa,Sanguisorba verrucosa,wfo-0001007748,species,(Link ex G.Don) Ces.,Rosaceae,Sanguisorba,Accepted,FUZZY,0
+Scandix pecten veneris,Scandix pecten-veneris,wfo-0000434334,species,L.,Apiaceae,Scandix,Accepted,FUZZY,0
+Schedonorus arundinaceus arundinaceus,Lolium arundinaceum,wfo-0000878351,species,(Schreb.) Darbysh.,Poaceae,Lolium,Accepted,FUZZY,0
+Schedonorus pratensis pratensis,Lolium pratense,wfo-0000878460,species,(Huds.) Darbysh.,Poaceae,Lolium,Accepted,FUZZY,0
+Schoedonorus arundinaceus,Lolium arundinaceum,wfo-0000878351,species,(Schreb.) Darbysh.,Poaceae,Lolium,Accepted,FUZZY,0
+Schoedonorus pratensis,Lolium pratense,wfo-0000878460,species,(Huds.) Darbysh.,Poaceae,Lolium,Accepted,FUZZY,0
+Scirpus silvaticus,Scirpus sylvaticus,wfo-0000546234,species,L.,Cyperaceae,Scirpus,Accepted,FUZZY,1
+Selinum carvifolia,Selinum carvifolium,wfo-0000434414,species,(L.) L.,Apiaceae,Selinum,Accepted,FUZZY,0
+Senecio jacobea,Jacobaea vulgaris,wfo-0000031875,species,Gaertn.,Asteraceae,Jacobaea,Accepted,FUZZY,0
+Sheradia arvensis,Sherardia arvensis,wfo-0000309707,species,L.,Rubiaceae,Sherardia,Accepted,FUZZY,1
+Silena gallica,Silene gallica,wfo-0000440573,species,L.,Caryophyllaceae,Silene,Accepted,FUZZY,0
+Silene niceensis,Silene nicaeensis,wfo-0000440672,species,All.,Caryophyllaceae,Silene,Accepted,FUZZY,0
+Sinapis arvensis arvensis,Mutarda arvensis,wfo-1000044269,species,(L.) D.A.German,Brassicaceae,Mutarda,Accepted,FUZZY,0
+Sixalix atropurpurea maritima,Scabiosa atropurpurea,wfo-0000500186,species,L.,Caprifoliaceae,Scabiosa,Accepted,FUZZY,0
+Solanum nigrum nigrum,Solanum americanum,wfo-0001025878,species,Mill.,Solanaceae,Solanum,Accepted,FUZZY,0
+Solanum nigrum villosum,Solanum villosum,wfo-0001032383,species,Mill.,Solanaceae,Solanum,Accepted,FUZZY,0
+Sonchus arvenses,Sonchus arvensis,wfo-0000092611,species,L.,Asteraceae,Sonchus,Accepted,FUZZY,0
+Sporobulus,Sporobolus,wfo-4000036182,genus,R.Br.,Poaceae,Sporobolus,Accepted,FUZZY,1
+Sylibum marianum,Silybum marianum,wfo-0000014591,species,(L.) Gaertn.,Asteraceae,Silybum,Accepted,FUZZY,0
+Sysimbrium irio,Sisymbrium irio,wfo-0000431928,species,L.,Brassicaceae,Sisymbrium,Accepted,FUZZY,0
+Taraxacum fhwigg,Taraxacum,wfo-4000037583,genus,F.H.Wigg.,Asteraceae,Taraxacum,Accepted,FUZZY,0
+Thlapsi arvense,Thlaspi arvense,wfo-0000410873,species,L.,Brassicaceae,Thlaspi,Accepted,FUZZY,1
+Trifolium campestris,Trifolium campestre,wfo-0000212979,species,Schreb.,Fabaceae,Trifolium,Accepted,FUZZY,1
+Trifolium vesiculosum,Trifolium vessiculosum,wfo-0000214014,species,Savi,Fabaceae,Trifolium,Accepted,FUZZY,0
+Tyrmnus leucographus,Tyrimnus leucographus,wfo-0000000838,species,Cass.,Asteraceae,Tyrimnus,Accepted,FUZZY,0
+Urtica dioïca,Urtica dioica,wfo-0000416616,species,L.,Urticaceae,Urtica,Accepted,FUZZY,1
+Vaccaria hispanica hispanica,Gypsophila vaccaria,wfo-0000713816,species,(L.) Sm.,Caryophyllaceae,Gypsophila,Accepted,FUZZY,0
+Valerianella coronata pumila,Valeriana pumila,wfo-0000426998,species,(L.) Willd.,Caprifoliaceae,Valeriana,Accepted,FUZZY,0
+Valerianella dentata rimosa,Valeriana rimosa,wfo-0001423348,species,(Bastard) Christenh. & Byng,Caprifoliaceae,Valeriana,Accepted,FUZZY,0
+Valerianella locusta carinata,Valeriana carinata,wfo-0001423367,species,(Loisel.) Christenh. & Byng,Caprifoliaceae,Valeriana,Accepted,FUZZY,0
+Veronica anagallis acuatica,Veronica anagallis-aquatica,wfo-0000419633,species,L.,Plantaginaceae,Veronica,Accepted,FUZZY,0
+Vicia fabia,Vicia faba,wfo-0000212739,species,L.,Fabaceae,Vicia,Accepted,FUZZY,1
+Viola kaitaibeliana,Viola kitaibeliana,wfo-0000424301,species,Schult.,Violaceae,Viola,Accepted,FUZZY,1
+Vulpia myuros longiaristata,Festuca myuros,wfo-0000871095,species,L.,Poaceae,Festuca,Accepted,FUZZY,0
+Vulpia myuros myuros,Festuca myuros,wfo-0000871095,species,L.,Poaceae,Festuca,Accepted,FUZZY,0
+Vulpia myuros sciuroides,Festuca myuros,wfo-0000871095,species,L.,Poaceae,Festuca,Accepted,FUZZY,0
+x Hesperotropsis leylandii,× Hesperotropsis × leylandii,wfo-0001333418,species,(A.B.Jacks. & Dallim.) Garland & Gerry Moore,Cupressaceae,Hesperotropsis,Accepted,FUZZY,0
+Xanthium echinatum italicum,Xanthium strumarium,wfo-0000082132,species,L.,Asteraceae,Xanthium,Accepted,FUZZY,0
+Xanthium orientale orientale,Xanthium strumarium subsp. strumarium,wfo-0000046646,subspecies,,Asteraceae,Xanthium,Accepted,FUZZY,0
