@@ -9,6 +9,7 @@ fellow-traits.Rproj
 analyses/test*.R
 analyses/div*.R
 analyses/issue*.R
+analyses/old*.R
 
 # taxref can be downloaded from https://inpn.mnhn.fr/docs-web/docs/download/454260
 # https://inpn.mnhn.fr/telechargement/referentielEspece/taxref/18.0/menu
@@ -44,6 +45,9 @@ data/raw-data/traits/old_Metatraits.xlsx
 data/raw-data/traits/traits fellow.xlsx
 
 data/raw-data/traits/TRY
+
+data/derived-data/fuzzy_wfo_verified.csv
+data/derived-data/miss_wfo.csv
 
 # air
 air.toml

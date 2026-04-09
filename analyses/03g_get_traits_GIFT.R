@@ -70,7 +70,7 @@ out <- extract_trait_taxalist(
   meta_trait = meta[meta$database %in% "GIFT", ],
   taxalist = taxolist$accepted_taxa,
   synonyms = synonyms
-) # 94.37 %
+) # 93.69 %
 names(out)[-1] <- paste(names(out)[-1], "GIFT", sep = "_")
 
 # 2. Export trait data ---------------------------

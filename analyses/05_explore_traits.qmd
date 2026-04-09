@@ -44,7 +44,7 @@ We compiled the species lists from `{r} sum(grepl("^in_", names(taxolist)))`  da
 After cleaning and harmonization, there were `{r} nrow(shortlist)` unique taxa.
 
 ```{r}
-table(shortlist$accepted_rank)
+table(shortlist$wfo_rank)
 ```
 
 {{< pagebreak >}}
@@ -165,9 +165,10 @@ boxplot(
 # hist(sp_na, xlab = "Number of missing traits", ylab = "Number of species")
 
 # barplot(t(table(sp_na, taxolist$gbif_rank)), border = NA)
+bks <- seq(0, ceiling(max(sp_na) / 10) * 10, by = 10)
 df <- data.frame(
-  "cat" = cut(sp_na, breaks = seq(0, 120, by = 10), include.lowest = TRUE),
-  "rank" = shortlist$accepted_rank
+  "cat" = cut(sp_na, breaks = bks, include.lowest = TRUE),
+  "rank" = shortlist$wfo_rank
 )
 tdf <- table(df$rank, df$cat)
 par(mar = c(4, 4, 1, 1))
@@ -179,7 +180,7 @@ barx <- barplot(
   ylab = "Number of species"
 )
 barax <- c(barx - mean(diff(barx) / 2), max(barx) + mean(diff(barx) / 2))
-axis(1, at = barax, seq(0, 120, by = 10))
+axis(1, at = barax, bks)
 legend(
   "topleft",
   legend = firstup(row.names(tdf)),
@@ -287,10 +288,10 @@ To merge and fill the SLA values (in m2/kg), we used by order of preference:
 ```{r sla}
 # names(traits)[grep("SLA", names(traits))]
 sla <- data.frame(
-  "Hodgson" = traits$SLA.mm2.mg.1_Hodgson2023,
+  "Hodgson" = traits$SLA_mm2.mg.1_Hodgson2023,
   "Ladouceur" = traits$SLA_cm2.g.1_Ladouceur2019 / 10,
-  "GIFT" = traits$SLA_cm2.g.1_GIFT / 10,
-  "BIEN" = traits$SLA_m2.kg.1_BIEN
+  "GIFT" = traits$SLA_cm2.g.1_GIFT / 10 #,
+  #"BIEN" = traits$SLA_m2.kg.1_BIEN
 )
 
 sla$filled <- apply(sla, 1, function(x) x[!is.na(x)][1])
@@ -340,7 +341,7 @@ height <- data.frame(
   "Lososova" = traits$Plant.height_m_Lososova2023,
   "Ladouceur" = traits$Plant.height_cm_Ladouceur2019 / 100,
   "GIFT" = traits$Plant.height_mean_m_GIFT,
-  "BIEN" = traits$Plant.height_m_BIEN,
+  #"BIEN" = traits$Plant.height_m_BIEN,
   "FlorealData" = traits$Plant.height_cm_FlorealData / 100,
   "Ecoflora" = traits$Plant.height_m_Ecoflora,
   "SpVignes" = traits$Plant.height_cm_SPVignes / 100
@@ -378,7 +379,7 @@ seed <- data.frame(
   "Lososova" = traits$Seed.mass_mg_Lososova2023,
   "Ladouceur" = traits$Seed.mass_mg_Ladouceur2019,
   "GIFT" = traits$Seed.mass_g_GIFT * 1000,
-  "BIEN" = traits$Seed.mass_mg_BIEN,
+  #"BIEN" = traits$Seed.mass_mg_BIEN,
   "Ecoflora" = traits$Seed.mass_mg_Ecoflora,
   "Biolflor" = traits$Seed.mass_mg_Biolflor
 )
@@ -407,7 +408,7 @@ There are five sources of information for flower colour, but it must be cleaned 
 # names(traits)[grep("col", names(traits))]
 color <- data.frame(
   "Baseflor" = traits$Flower.color_Baseflor,
-  "BIEN" = traits$Flower.color_BIEN,
+  #"BIEN" = traits$Flower.color_BIEN,
   "GIFT" = traits$Flower.color_GIFT,
   "FlorealData" = traits$Flower.color_FlorealData,
   "YvozValPol" = traits$Flower.color_YvozValPol
@@ -415,8 +416,8 @@ color <- data.frame(
 print(apply(is.na(color), 2, sum))
 
 # removing unclear color patterns for genus
-bien <- color$BIEN
-bien[grepl("_", bien)] <- NA
+# bien <- color$BIEN
+# bien[grepl("_", bien)] <- NA
 # table(bien)
 
 # removing unclear color patterns for genus
@@ -424,7 +425,7 @@ FlorealData <- color$FlorealData
 FlorealData[grepl("_", FlorealData)] <- NA
 # table(FlorealData)
 
-table(bien, FlorealData)
+# table(bien, FlorealData)
 
 # removing unclear color patterns for genus
 baseflor <- color$Baseflor

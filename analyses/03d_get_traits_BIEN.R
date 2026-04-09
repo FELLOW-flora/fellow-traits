@@ -9,10 +9,12 @@
 # check out documentations:
 # https://cran.r-project.org/web/packages/BIEN/index.html
 # https://cran.r-project.org/web/packages/BIEN/vignettes/BIEN_tutorial.html
+# make sure to install last version: pak::pkg_install("bmaitner/RBIEN")
 
 # 0. Load packages, data, set parameters ----------------------
 # if the script is not run from make.R, need to load home made functions (clean_species_list())
-devtools::load_all() # or source(here::here("R", "clean_taxo.R"))
+library(BIEN)
+devtools::load_all()
 
 # Load species list with taxonomy
 taxolist <- read.csv(
@@ -28,12 +30,17 @@ meta <- readxl::read_xlsx(
 
 # 1. Download the BIEN database ----------------------
 # only keep species or sub-species level
-keep <- taxolist$accepted_rank %in% c("SPECIES", "SUBSPECIES", "VARIETY")
+keep <- taxolist$wfo_rank %in% c("species", "subspecies", "variety")
 sp <- unique(taxolist$accepted_taxa[keep])
 bien_db <- BIEN::BIEN_trait_species(sp)
+# to be saved in case of server error.
+# plus it would be cool if we get citation information
+# citation_info <- BIEN_metadata_citation(trait.dataframe = bien_db,
+#                                         bibtex_file = file.path(temp_dir,"selaginella_selaginoides.bib"),
+#                                       acknowledgement_file = file.path(temp_dir,"selaginella_selaginoides.txt"))
+
 # takes a bit of time to run, but ok... 35 page of records
 dim(bien_db) # 344629     13
-
 
 # 2. Calculate average per trait and per species -----
 # one issue with multiple units

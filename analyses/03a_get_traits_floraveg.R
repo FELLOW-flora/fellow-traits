@@ -41,7 +41,7 @@ t1 <- extract_trait_taxalist(
   meta_trait = meta[meta$database %in% "Midolo2023", ],
   taxalist = taxolist$accepted_taxa,
   synonyms = synonyms
-) # 84.98 %
+) # 79.9 %
 names(t1)[-1] <- paste(names(t1)[-1], "Midolo2023", sep = "_")
 
 # 2. Ellenberg from Tichy --------------------
@@ -63,7 +63,7 @@ t2 <- extract_trait_taxalist(
   meta_trait = meta[meta$database %in% "Tichy2022", ],
   taxalist = taxolist$accepted_taxa,
   synonyms = synonyms
-) # 89.11 %
+) # 84.31 %
 names(t2)[-1] <- paste(names(t2)[-1], "Tichy2022", sep = "_")
 
 # 3. seed dispersal from Losova -----------------
@@ -78,7 +78,7 @@ t3 <- extract_trait_taxalist(
   meta_trait = meta[meta$database %in% "Lososova2023", ],
   taxalist = taxolist$accepted_taxa,
   synonyms = synonyms
-) # 93.92 %
+) # 91.99 %
 names(t3)[-1] <- paste(names(t3)[-1], "Lososova2023", sep = "_")
 
 # 4. life form from Dfevojan -----------------

@@ -27,7 +27,7 @@ traits[traits == ""] <- NA
 #remove empty traits
 traits <- traits[, apply(is.na(traits), 2, sum) < nrow(traits)]
 
-print(dim(traits)) # 2416 taxa, 110 traits
+print(dim(traits)) # 2476 taxa, 100 traits
 
 
 # 3. Export merged trait data ---------------------------
@@ -50,8 +50,8 @@ taxolist <- read.csv(
   here::here("data", "derived-data", "species_list_taxo.csv")
 )
 mt <- match(traits$accepted_taxa, taxolist$accepted_taxa)
-istaxref <- !is.na(taxolist$accepted_taxref[mt])
-db <- data.frame("taxa" = ifelse(istaxref, "TAXREF", "GBIF"))
+istaxref <- taxolist$wfo_status[mt]
+db <- data.frame("taxa" = paste0("WFO_", taxolist$wfo_status[mt]))
 
 # along all traits
 trdb <- get_last(names(traits))
@@ -87,7 +87,7 @@ height <- data.frame(
   "Lososova2023" = traits$Plant.height_m_Lososova2023,
   "Ladouceur2019" = traits$Plant.height_cm_Ladouceur2019 / 100,
   "GIFT" = traits$Plant.height_mean_m_GIFT,
-  "BIEN" = traits$Plant.height_m_BIEN,
+  #"BIEN" = traits$Plant.height_m_BIEN,
   "FlorealData" = traits$Plant.height_cm_FlorealData / 100,
   "Ecoflora" = traits$Plant.height_m_Ecoflora,
   "SPVignes" = traits$Plant.height_cm_SPVignes / 100
@@ -109,10 +109,10 @@ taxo$Plant.height_m <- ifelse(
 
 # SLA values
 sla <- data.frame(
-  "Hodgson2023" = traits[, "SLA.mm2.mg-1_Hodgson2023"],
+  "Hodgson2023" = traits[, "SLA_mm2.mg-1_Hodgson2023"],
   "Ladouceur2019" = traits[, "SLA_cm2.g-1_Ladouceur2019"] / 10,
-  "GIFT" = traits[, "SLA_cm2.g-1_GIFT"] / 10,
-  "BIEN" = traits[, "SLA_m2.kg-1_BIEN"]
+  "GIFT" = traits[, "SLA_cm2.g-1_GIFT"] / 10
+  #"BIEN" = traits[, "SLA_m2.kg-1_BIEN"]
 )
 
 values$SLA_m2.kg.1 <- apply(sla, 1, function(x) x[!is.na(x)][1])
@@ -134,7 +134,7 @@ seed <- data.frame(
   "Lososova2023" = traits$Seed.mass_mg_Lososova2023,
   "Ladouceur2019" = traits$Seed.mass_mg_Ladouceur2019,
   "GIFT" = traits$Seed.mass_g_GIFT * 1000,
-  "BIEN" = traits$Seed.mass_mg_BIEN,
+  #"BIEN" = traits$Seed.mass_mg_BIEN,
   "Ecoflora" = traits$Seed.mass_mg_Ecoflora,
   "Biolflor" = traits$Seed.mass_mg_Biolflor
 )
@@ -211,14 +211,14 @@ names(info)[1] <- "trait"
 info$trait <- names(values)[ordC][-1]
 
 #fmt: skip
-info[info$trait == "Plant.height_m", "database"] <- "Lososova2023, Ladouceur2019, GIFT, BIEN, FlorealData, Ecoflora, SPVignes"
+info[info$trait == "Plant.height_m", "database"] <- "Lososova2023, Ladouceur2019, GIFT, FlorealData, Ecoflora, SPVignes" # BIEN
 #fmt: skip
 info[info$trait == "SLA_m2.kg.1",] <- meta[meta$new.name %in% "SLA_m2.kg-1", c(3, 1, 4:8)]
 info[info$trait == "SLA_m2.kg-1", "trait"] <- "SLA_m2.kg.1"
 #fmt: skip
-info[info$trait == "SLA_m2.kg.1", "database"] <- "Hodgson2023, Ladouceur2019, GIFT, BIEN"
+info[info$trait == "SLA_m2.kg.1", "database"] <- "Hodgson2023, Ladouceur2019, GIFT" # BIEN
 #fmt: skip
-info[info$trait == "Seed.mass_mg", "database"] <- "Lososova2023, Ladouceur2019, GIFT, BIEN, Ecoflora, Biolflor"
+info[info$trait == "Seed.mass_mg", "database"] <- "Lososova2023, Ladouceur2019, GIFT, Ecoflora, Biolflor" # BIEN
 
 #fmt: skip
 info[info$trait == "Clonal.index", "database"] <- "Ladouceur2019, CLOPLA"

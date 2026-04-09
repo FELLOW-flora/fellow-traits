@@ -45,7 +45,7 @@ t1 <- extract_trait_taxalist(
   long = TRUE,
   trait_label = "TraitName",
   trait_value = "StdValue"
-) # 51.74 %
+) # 50.67 %
 names(t1)[-1] <- paste(names(t1)[-1], "Ecoflora", sep = "_")
 
 # 2. traits from Biolflor -------------------------------------
@@ -65,7 +65,7 @@ t2 <- extract_trait_taxalist(
   long = TRUE,
   trait_label = "TraitName",
   trait_value = "StdValue"
-) # 69.04 %
+) # 67.17 %
 names(t2)[-1] <- paste(names(t2)[-1], "Biolflor", sep = "_")
 
 

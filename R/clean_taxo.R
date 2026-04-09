@@ -49,6 +49,7 @@ clean_taxo <- function(x) {
   x <- gsub(" l$", "", x)
   x <- gsub(" s$", "", x)
   x <- gsub(" $", "", x)
+  x <- gsub(" ", " ", x)
   x <- gsub("  ", " ", x)
   # if author name (detected by years), remove them
   if (any(grepl("[1-9]", x))) {
@@ -120,7 +121,7 @@ clean_species_list <- function(x, iter = TRUE) {
     out_x <- x
     new_x <- clean_taxo(x)
     change <- new_x != out_x
-    if (any(change)) {
+    if (any(change, na.rm = TRUE)) {
       # in TRUE to handle NAs
       out_x[change %in% TRUE] <- clean_species_list(new_x[change %in% TRUE])
     }

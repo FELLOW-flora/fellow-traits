@@ -17,6 +17,24 @@ get_notlast <- function(x, split = "_") {
   })
 }
 
+getid <- function(x, ref, th = 0.6) {
+  if (length(x) > 0) {
+    y <- ref[x]
+    out <- unique(y)
+    if (length(out) > 1) {
+      ty <- table(y)
+      out <- ifelse(
+        any(prop.table(ty) > th),
+        names(ty)[prop.table(ty) > th],
+        NA
+      )
+    }
+  } else {
+    out <- NA
+  }
+  return(out)
+}
+
 panel.cor <- function(x, y, digits = 2, prefix = "", cex.cor, ...) {
   #usr <- par("usr")
   usr <- par()$usr

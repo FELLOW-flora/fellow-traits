@@ -47,7 +47,7 @@ which_taxa <- function(i, ref, binomial = TRUE, genus = FALSE, n_max = 10) {
   out <- which(ref %in% i)
   # if none, binomial match (no subspecies)
   if (length(out) == 0 & binomial) {
-    out <- which(get_binomial(ref) %in% get_binomial(i))
+    out <- which(ref %in% get_binomial(i))
   }
   # if none, match genus
   if (length(out) == 0 & get_genus(i) == i & genus) {

@@ -23,42 +23,29 @@ sp$clean_taxo <- clean_species_list(sp$taxa)
 m1 <- match(sp$clean_taxo, taxolist$original_taxa)
 sp$accepted_taxa <- taxolist$accepted_taxa[m1]
 
-notTR <- taxolist$taxref_status[m1] %in% "NOT FOUND"
+# notTR <- taxolist$wfo_status[m1] %in% "NOT FOUND"
+# sp$accepted_taxa[is.na(sp$accepted_taxa)] <- "NA"
 different <- clean_species_list(sp$accepted_taxa) != sp$clean_taxo
 # get the misspelt information
-misspelt <- sp[which(different | is.na(m1) | notTR), ]
+misspelt <- sp[which(different | is.na(m1)), ] #| notTR
 misspelt <- misspelt[!is.na(misspelt$taxa), ]
 
 m2 <- match(misspelt$clean_taxo, taxolist$original_taxa)
 
-# summary for Taxref
-misspelt$in_taxref <- taxolist$taxref_status[m2]
-misspelt$in_taxref[is.na(misspelt$in_taxref)] <- "NOT FOUND"
-# table(misspelt$in_taxref, useNA = "ifany")
+# summary for WFO
+misspelt$in_WFO <- taxolist$wfo_status[m2]
+misspelt$in_WFO[is.na(misspelt$in_WFO)] <- "NOT FOUND"
+table(misspelt$in_WFO, useNA = "ifany")
 
-misspelt$accepted_taxref <- taxolist$accepted_taxref[m2]
+misspelt$match <- taxolist$wfo_match[m2]
+misspelt$match[is.na(misspelt$match)] <- "NOT FOUND"
+table(misspelt$match, useNA = "ifany")
 
-# get original information from GBIF
-ingbif <- rgbif::name_backbone_checklist(misspelt$clean_taxo, strict = TRUE)
-misspelt$in_gbif <- ifelse(
-  is.na(ingbif$species),
-  gsub("ACCEPTED", "TAXREF", taxolist$gbif_status[m2]),
-  paste0("EXACT_", ingbif$status)
-)
-misspelt$in_gbif <- gsub("HIGHERRANK_TAXREF", "HIGHERRANK", misspelt$in_gbif)
-misspelt$in_gbif[is.na(misspelt$in_gbif)] <- "NOT FOUND"
-# add TOO COARSE for accepted and NA
+misspelt$accepted_wfo <- taxolist$accepted_wfo[m2]
 
-misspelt$accepted_gbif <- ifelse(
-  is.na(ingbif$species),
-  taxolist$accepted_gbif[m2],
-  ingbif$species
-)
-
-misspelt$in_gbif[is.na(ingbif$species)]
 
 names(misspelt)[c(1, 4)] <- c("original_taxa", "simplified_taxa")
-
+# View(misspelt)
 write.csv(
   misspelt,
   here::here("data", "derived-data", "corrected_taxa.csv"),
